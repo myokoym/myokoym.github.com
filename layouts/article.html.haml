@@ -1,0 +1,20 @@
+%article.article.autopagerize_page_element
+  %h1.date
+    %a{href: entry_path(entry)}= entry.date
+
+  - if article.actual?
+    %h1{id: article.id}
+      %a{href: article_path(article)}= article.title
+
+  = article
+
+.nav
+  .prev
+    - if prev_article = article.prev
+      %link{href: article_path(prev_article), rel: :prev}
+
+  .next
+    - if next_article = article.next
+      %link{href: article_path(next_article), rel: :next}
+
+.autopagerize_insert_before
