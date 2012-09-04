@@ -1,7 +1,7 @@
 #!/usr/bin/env ruby
 # coding: utf-8
 
-url         'http://retter.example.com/'
+url         'http://myokoym.github.com/blog/'
 title       'my_letter'
 description 'my_letter'
 author      'myokoym'
