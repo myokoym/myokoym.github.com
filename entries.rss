@@ -1,4 +1,104 @@
-<?xml version="1.0" encoding="UTF-8"?><rdf:RDF xmlns="http://purl.org/rss/1.0/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="xmlns:content=&quot;http://purl.org/rss/1.0/modules/content/" xml:lang="ja"><channel rdf:about="http://myokoym.github.com/"><title>my_letter</title><link>http://myokoym.github.com/</link><dc:date>2012-09-06</dc:date><description>my_letter</description><items><rdf:Seq><rdf:li rdf:resource="http://myokoym.github.com/entries/20120906/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20120905/a2.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20120905/a1.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20120905/a0.html"/></rdf:Seq></items></channel><item about="http://myokoym.github.com/entries/20120906/a0.html"><title>平成二十四年九月六日</title><description>前略
+<?xml version="1.0" encoding="UTF-8"?><rdf:RDF xmlns="http://purl.org/rss/1.0/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="xmlns:content=&quot;http://purl.org/rss/1.0/modules/content/" xml:lang="ja"><channel rdf:about="http://myokoym.github.com/"><title>my_letter</title><link>http://myokoym.github.com/</link><dc:date>2012-09-08</dc:date><description>my_letter</description><items><rdf:Seq><rdf:li rdf:resource="http://myokoym.github.com/entries/20120908/a1.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20120908/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20120906/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20120905/a2.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20120905/a1.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20120905/a0.html"/></rdf:Seq></items></channel><item about="http://myokoym.github.com/entries/20120908/a1.html"><title>功利主義と多数決</title><description>case 1
+
+Aさん:  80 happiness
+Bさん:  80 happiness
+Cさん:  80 happiness
+
+case 2
+
+Aさん: 100 happiness
+Bさん: 100 happiness
+Cさん:   0 happiness
+
+elected
+
+功利主義: case1
+(単純な)多数決: case2
+</description><content:encoded><![CDATA[<h2>case 1</h2>
+<ul>
+<li>Aさん:  80 happiness</li>
+<li>Bさん:  80 happiness</li>
+<li>Cさん:  80 happiness</li>
+</ul>
+<h2>case 2</h2>
+<ul>
+<li>Aさん: 100 happiness</li>
+<li>Bさん: 100 happiness</li>
+<li>Cさん:   0 happiness</li>
+</ul>
+<h2>elected</h2>
+<ul>
+<li>功利主義: case1</li>
+<li>(単純な)多数決: case2</li>
+</ul>]]></content:encoded><dc:date>2012-09-08</dc:date><link>http://myokoym.github.com/entries/20120908/a1.html</link><author>myokoym</author></item><item about="http://myokoym.github.com/entries/20120908/a0.html"><title>bundle exec rake で TypeError</title><description>RubyGemsの開発中に起こった怖い話。
+
+bundle gem gem名
+
+
+で生成したプロジェクトで、Rakeの標準タスクにRSpecを設定して
+
+bundle exec rake
+
+
+を実行すると、TypeErrorが発生。 
+メッセージには、
+
+ClassName is not a class
+
+
+とある。クラスなのにクラスじゃないって？
+単に
+
+rake
+
+
+や、
+
+rspec spe...</description><content:encoded><![CDATA[<p>RubyGemsの開発中に起こった怖い話。</p>
+<div class="highlight">
+<pre>bundle gem gem名
+</pre>
+</div>
+<p>で生成したプロジェクトで、Rakeの標準タスクにRSpecを設定して</p>
+<div class="highlight">
+<pre>bundle exec rake
+</pre>
+</div>
+<p>を実行すると、TypeErrorが発生。 </p>
+<p>メッセージには、</p>
+<div class="highlight">
+<pre>ClassName is not a class
+</pre>
+</div>
+<p>とある。クラスなのにクラスじゃないって？</p>
+<p>単に</p>
+<div class="highlight">
+<pre>rake
+</pre>
+</div>
+<p>や、</p>
+<div class="highlight">
+<pre>rspec spec
+</pre>
+</div>
+<p>だとエラーは出ない。</p>
+<p>＊</p>
+<p>＊</p>
+<p>＊</p>
+<p>ひと通り悩んだ後、libディレクトリを検索すると、デフォルトでgem名のモジュールが定義されているのを発見。確かに、バージョン番号を上げるときに見た記憶がある。</p>
+<p>そして、TypeErrorとなったクラスはgem名と同じ名前だった…。</p>
+<p>bundle exec すると、クラスの前にモジュールがロードされていて、名前衝突してしまったというのが今回のオチ。</p>
+<p>GitHubを見渡しても、gem名と同じ名前のクラスがあるgemは見当たらなかった。
+どうやらRubyGems開発のお作法のようだ。</p>
+<h3>教訓</h3>
+<ul>
+<li>gem名と同じ名前のクラスは作らない。</li>
+<li>作るにしても、gem名モジュールの中にする。</li>
+<li>基本的に、クラスやモジュールはgem名モジュールの中に作る。</li>
+<li>gem名モジュールの名前を変えるだなんて とんでもない！</li>
+</ul>
+<hr>
+]]></content:encoded><dc:date>2012-09-08</dc:date><link>http://myokoym.github.com/entries/20120908/a0.html</link><author>myokoym</author></item><item about="http://myokoym.github.com/entries/20120906/a0.html"><title>平成二十四年九月六日</title><description>前略
 今日は久しぶりにスーパーへ行きました。
 何やら黒いものが固めて置いてあったので寄って見ると、
 今日は黒の日
