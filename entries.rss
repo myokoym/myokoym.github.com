@@ -1,4 +1,246 @@
-<?xml version="1.0" encoding="UTF-8"?><rdf:RDF xmlns="http://purl.org/rss/1.0/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="xmlns:content=&quot;http://purl.org/rss/1.0/modules/content/" xml:lang="ja"><channel rdf:about="http://myokoym.github.com/"><title>my_letter</title><link>http://myokoym.github.com/</link><dc:date>2012-09-20</dc:date><description>my_letter</description><items><rdf:Seq><rdf:li rdf:resource="http://myokoym.github.com/entries/20120920/a1.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20120920/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20120908/a1.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20120908/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20120906/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20120905/a2.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20120905/a1.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20120905/a0.html"/></rdf:Seq></items></channel><item about="http://myokoym.github.com/entries/20120920/a1.html"><title>信条の見つけかた</title><description>
+<?xml version="1.0" encoding="UTF-8"?><rdf:RDF xmlns="http://purl.org/rss/1.0/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="xmlns:content=&quot;http://purl.org/rss/1.0/modules/content/" xml:lang="ja"><channel rdf:about="http://myokoym.github.com/"><title>my_letter</title><link>http://myokoym.github.com/</link><dc:date>2012-09-22</dc:date><description>my_letter</description><items><rdf:Seq><rdf:li rdf:resource="http://myokoym.github.com/entries/20120922/a2.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20120922/a1.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20120922/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20120920/a1.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20120920/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20120908/a1.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20120908/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20120906/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20120905/a2.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20120905/a1.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20120905/a0.html"/></rdf:Seq></items></channel><item about="http://myokoym.github.com/entries/20120922/a2.html"><title>長いパイプの改行</title><description>
+1-A. 改行しない
+1-B. 改行してインデントする
+1-C. 改行してインデントしない
+
+1-A. 改行しない
+
+処理1 | 処理2 | 処理3 | 処理4
+
+
+1-B. 改行してインデントする
+
+処理1 |
+  処理2 |
+  処理3 |
+  処理4
+
+
+1-C. 改行してインデントしない
+
+処理1 |
+処理2 |
+処理3 |
+処理4
+
+
+2. パイプの位置
+改行した場合のパイプの位置につ...</description><content:encoded><![CDATA[<ul>
+<li>1-A. 改行しない</li>
+<li>1-B. 改行してインデントする</li>
+<li>1-C. 改行してインデントしない</li>
+</ul>
+<h3>1-A. 改行しない</h3>
+<div class="highlight">
+<pre>処理1 | 処理2 | 処理3 | 処理4
+</pre>
+</div>
+<h3>1-B. 改行してインデントする</h3>
+<div class="highlight">
+<pre>処理1 |
+  処理2 |
+  処理3 |
+  処理4
+</pre>
+</div>
+<h3>1-C. 改行してインデントしない</h3>
+<div class="highlight">
+<pre>処理1 |
+処理2 |
+処理3 |
+処理4
+</pre>
+</div>
+<h2>2. パイプの位置</h2>
+<p>改行した場合のパイプの位置について。</p>
+<ul>
+<li>2-A. 合わせる</li>
+<li>2-B. 合わせない</li>
+</ul>
+<h3>2-A. 合わせる</h3>
+<div class="highlight">
+<pre>var=$(
+  処理1  |
+  処理10 |
+  処理11
+)
+</pre>
+</div>
+<h3>2-B. 合わせない</h3>
+<div class="highlight">
+<pre>var=$(
+  処理1 |
+  処理10 |
+  処理11
+)
+</pre>
+</div>
+<h2>私見</h2>
+<h3>1. 改行</h3>
+<ul>
+<li>40文字までならA。</li>
+<li>それ以上はBかC。どちらかというとB。</li>
+<li>変数への代入ならCか。</li>
+</ul>
+<h3>2. パイプの位置</h3>
+<ul>
+<li>パイプの位置は合わせなくていいと思っている。
+
+<ul>
+<li>差が開きすぎるとパイプが見えなくなるため。</li>
+</ul>
+</li>
+</ul>]]></content:encoded><dc:date>2012-09-22</dc:date><link>http://myokoym.github.com/entries/20120922/a2.html</link><author>myokoym</author></item><item about="http://myokoym.github.com/entries/20120922/a1.html"><title>case文のインデント</title><description>指針
+case 文の使用方法 - UNIX &amp;amp; Linux コマンド・シェルスクリプト リファレンス:
+http://shellscript.sunone.me/case.html
+選択肢
+case文のスタイルはいろいろな選択肢がある。
+特にシェルスクリプトではセミコロンが付く分、選択肢が多い。
+
+パターンと処理の間を改行するか
+処理とセミコロンの間を改行するか
+case宣言とパターンの間...</description><content:encoded><![CDATA[<h2>指針</h2>
+<p>case 文の使用方法 - UNIX &amp; Linux コマンド・シェルスクリプト リファレンス:
+<a href="http://shellscript.sunone.me/case.html">http://shellscript.sunone.me/case.html</a></p>
+<h2>選択肢</h2>
+<p>case文のスタイルはいろいろな選択肢がある。
+特にシェルスクリプトではセミコロンが付く分、選択肢が多い。</p>
+<ol>
+<li>パターンと処理の間を改行するか</li>
+<li>処理とセミコロンの間を改行するか</li>
+<li>case宣言とパターンの間をインデントするか</li>
+</ol>
+<h2>1. パターンと処理の間を改行するか</h2>
+<h3>1-A</h3>
+<div class="highlight">
+<pre>case 値 in
+  パターン1 ) 処理1 ;;
+  パターン2 ) 処理2 ;;
+  パターン3 ) 処理3 ;;
+  …
+  パターンn ) 処理n ;;
+esac
+</pre>
+</div>
+<h3>1-B</h3>
+<div class="highlight">
+<pre>case 値 in
+  パターン1 )
+    処理1 ;;
+  パターン2 )
+    処理2 ;;
+  パターン3 )
+    処理3 ;;
+  …
+  パターンn )
+    処理n ;;
+esac
+</pre>
+</div>
+<h2>2. 処理とセミコロンの間を改行するか</h2>
+<h3>2-A</h3>
+<div class="highlight">
+<pre>case 値 in
+  パターン1 )
+    処理1 ;;
+  パターン2 )
+    処理2 ;;
+  パターン3 )
+    処理3 ;;
+  …
+  パターンn )
+    処理n ;;
+esac
+</pre>
+</div>
+<h3>2-B</h3>
+<div class="highlight">
+<pre>case 値 in
+  パターン1 )
+    処理1
+    ;;
+  パターン2 )
+    処理2
+    ;;
+  パターン3 )
+    処理3
+    ;;
+  …
+  パターンn )
+    処理n
+    ;;
+esac
+</pre>
+</div>
+<h2>3. case宣言とパターンの間をインデントするか</h2>
+<h3>3-A</h3>
+<div class="highlight">
+<pre>case 値 in
+  パターン1 )
+    処理1
+    ;;
+  パターン2 )
+    処理2
+    ;;
+  パターン3 )
+    処理3
+    ;;
+  …
+  パターンn )
+    処理n
+    ;;
+esac
+</pre>
+</div>
+<h3>3-B</h3>
+<div class="highlight">
+<pre>case 値 in
+パターン1 )
+  処理1
+  ;;
+パターン2 )
+  処理2
+  ;;
+パターン3 )
+  処理3
+  ;;
+…
+パターンn )
+  処理n
+  ;;
+esac
+</pre>
+</div>
+<h2>私見</h2>
+<ul>
+<li>個人的には1-B、2-B、3-Bが好み。</li>
+<li>1-A〜2-Aまではセミコロン忘れが怖い。</li>
+<li>1-A〜3-Aまでは、4タブ以上だと横に長くなってしまう。
+
+<ul>
+<li>ただ、2タブなら3-Aでもいいと思っている。</li>
+</ul>
+</li>
+</ul>
+]]></content:encoded><dc:date>2012-09-22</dc:date><link>http://myokoym.github.com/entries/20120922/a1.html</link><author>myokoym</author></item><item about="http://myokoym.github.com/entries/20120922/a0.html"><title>シェルスクリプトのコーディングスタイル</title><description>指針
+全ての項目に共感できたので、自分で決められるときはこのスタイルを使うようにしている。
+シェルスクリプト Tips - UNIX &amp;amp; Linux コマンド・シェルスクリプト リファレンス:
+http://shellscript.sunone.me/tips.html#tips-1
+課題
+
+case文のインデント
+長いパイプの改行
+
+</description><content:encoded><![CDATA[<h2>指針</h2>
+<p>全ての項目に共感できたので、自分で決められるときはこのスタイルを使うようにしている。</p>
+<p>シェルスクリプト Tips - UNIX &amp; Linux コマンド・シェルスクリプト リファレンス:
+<a href="http://shellscript.sunone.me/tips.html#tips-1">http://shellscript.sunone.me/tips.html#tips-1</a></p>
+<h2>課題</h2>
+<ul>
+<li>case文のインデント</li>
+<li>長いパイプの改行</li>
+</ul>
+]]></content:encoded><dc:date>2012-09-22</dc:date><link>http://myokoym.github.com/entries/20120922/a0.html</link><author>myokoym</author></item><item about="http://myokoym.github.com/entries/20120920/a1.html"><title>信条の見つけかた</title><description>
 どんな時に怒るか
 何をしてもいいとき何をするか
 米澤穂信を読む
