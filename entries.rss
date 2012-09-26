@@ -1,4 +1,32 @@
-<?xml version="1.0" encoding="UTF-8"?><rdf:RDF xmlns="http://purl.org/rss/1.0/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="xmlns:content=&quot;http://purl.org/rss/1.0/modules/content/" xml:lang="ja"><channel rdf:about="http://myokoym.github.com/"><title>my_letter</title><link>http://myokoym.github.com/</link><dc:date>2012-09-24</dc:date><description>my_letter</description><items><rdf:Seq><rdf:li rdf:resource="http://myokoym.github.com/entries/20120924/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20120922/a2.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20120922/a1.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20120922/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20120920/a1.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20120920/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20120908/a1.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20120908/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20120906/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20120905/a2.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20120905/a1.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20120905/a0.html"/></rdf:Seq></items></channel><item about="http://myokoym.github.com/entries/20120924/a0.html"><title>zsh導入 - kshとbash、zshの比較</title><description>職場ではksh、家ではbashを使っていたわたしですが、ついにbashに代えてzshを導入することにしました。
+<?xml version="1.0" encoding="UTF-8"?><rdf:RDF xmlns="http://purl.org/rss/1.0/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="xmlns:content=&quot;http://purl.org/rss/1.0/modules/content/" xml:lang="ja"><channel rdf:about="http://myokoym.github.com/"><title>my_letter</title><link>http://myokoym.github.com/</link><dc:date>2012-09-26</dc:date><description>my_letter</description><items><rdf:Seq><rdf:li rdf:resource="http://myokoym.github.com/entries/20120926/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20120924/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20120922/a2.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20120922/a1.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20120922/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20120920/a1.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20120920/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20120908/a1.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20120908/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20120906/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20120905/a2.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20120905/a1.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20120905/a0.html"/></rdf:Seq></items></channel><item about="http://myokoym.github.com/entries/20120926/a0.html"><title>SlideShareのURLのつくられかた</title><description>2012/09/26現在、以下の手順で作られているようです。
+試行錯誤の結果なので、違うパターンがあるかもしれません。
+
+原材料はタイトル
+半角英数字以外をすべて取り除く（単語間の半角スペースは残す）
+半角英字をすべて小文字にする
+半角スペースがあった場合、ハイフンを挟む
+4.の時点で長さが0の場合、"ss"を付ける（ブラウザのみ？）
+5.の時点で同じURLのスライドが存在した場合、後ろにハイフン...</description><content:encoded><![CDATA[<p>2012/09/26現在、以下の手順で作られているようです。
+試行錯誤の結果なので、違うパターンがあるかもしれません。</p>
+<ol>
+<li>原材料はタイトル</li>
+<li>半角英数字以外をすべて取り除く（単語間の半角スペースは残す）</li>
+<li>半角英字をすべて小文字にする</li>
+<li>半角スペースがあった場合、ハイフンを挟む</li>
+<li>4.の時点で長さが0の場合、"ss"を付ける（ブラウザのみ？）</li>
+<li>5.の時点で同じURLのスライドが存在した場合、後ろにハイフンとIDを付ける</li>
+</ol>
+<p>Rubyで書くとこんな感じです。</p>
+<script src="https://gist.github.com/3788426.js"> </script><p>ただ、開発者らしき方によると、URLのルールは</p>
+<blockquote>
+<p>There's no "formula."</p>
+</blockquote>
+<p>だそうなので、いつか変わるかもしれません。</p>
+<h2>refs</h2>
+<p>How can I make a slideshare's URL match its title?
+<a href="https://getsatisfaction.com/slideshare/topics/how_can_i_make_a_slideshares_url_match_its_title">https://getsatisfaction.com/slideshare/topics/how_can_i_make_a_slideshares_url_match_its_title</a></p>
+<p>SlideShare » Developer Documentation
+<a href="http://www.slideshare.net/developers/documentation#edit_slideshow">http://www.slideshare.net/developers/documentation#edit_slideshow</a></p>]]></content:encoded><dc:date>2012-09-26</dc:date><link>http://myokoym.github.com/entries/20120926/a0.html</link><author>myokoym</author></item><item about="http://myokoym.github.com/entries/20120924/a0.html"><title>zsh導入 - kshとbash、zshの比較</title><description>職場ではksh、家ではbashを使っていたわたしですが、ついにbashに代えてzshを導入することにしました。
 導入の決め手
 
 端末間の履歴共有
