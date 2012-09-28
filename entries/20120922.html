@@ -62,19 +62,16 @@
 </ol>
 <h2>1. パターンと処理の間を改行するか</h2>
 <h3>1-A</h3>
-<div class="highlight">
-<pre>case 値 in
+<div class="highlight"><pre>case 値 in
   パターン1 ) 処理1 ;;
   パターン2 ) 処理2 ;;
   パターン3 ) 処理3 ;;
   …
   パターンn ) 処理n ;;
 esac
-</pre>
-</div>
+</pre></div>
 <h3>1-B</h3>
-<div class="highlight">
-<pre>case 値 in
+<div class="highlight"><pre>case 値 in
   パターン1 )
     処理1 ;;
   パターン2 )
@@ -85,12 +82,10 @@ esac
   パターンn )
     処理n ;;
 esac
-</pre>
-</div>
+</pre></div>
 <h2>2. 処理とセミコロンの間を改行するか</h2>
 <h3>2-A</h3>
-<div class="highlight">
-<pre>case 値 in
+<div class="highlight"><pre>case 値 in
   パターン1 )
     処理1 ;;
   パターン2 )
@@ -101,11 +96,9 @@ esac
   パターンn )
     処理n ;;
 esac
-</pre>
-</div>
+</pre></div>
 <h3>2-B</h3>
-<div class="highlight">
-<pre>case 値 in
+<div class="highlight"><pre>case 値 in
   パターン1 )
     処理1
     ;;
@@ -120,12 +113,10 @@ esac
     処理n
     ;;
 esac
-</pre>
-</div>
+</pre></div>
 <h2>3. case宣言とパターンの間をインデントするか</h2>
 <h3>3-A</h3>
-<div class="highlight">
-<pre>case 値 in
+<div class="highlight"><pre>case 値 in
   パターン1 )
     処理1
     ;;
@@ -140,11 +131,9 @@ esac
     処理n
     ;;
 esac
-</pre>
-</div>
+</pre></div>
 <h3>3-B</h3>
-<div class="highlight">
-<pre>case 値 in
+<div class="highlight"><pre>case 値 in
 パターン1 )
   処理1
   ;;
@@ -159,8 +148,7 @@ esac
   処理n
   ;;
 esac
-</pre>
-</div>
+</pre></div>
 <h2>私見</h2>
 <ul>
 <li>個人的には1-B、2-B、3-Bが好み。</li>
@@ -181,26 +169,20 @@ esac
 <li>1-C. 改行してインデントしない</li>
 </ul>
 <h3>1-A. 改行しない</h3>
-<div class="highlight">
-<pre>処理1 | 処理2 | 処理3 | 処理4
-</pre>
-</div>
+<div class="highlight"><pre>処理1 | 処理2 | 処理3 | 処理4
+</pre></div>
 <h3>1-B. 改行してインデントする</h3>
-<div class="highlight">
-<pre>処理1 |
+<div class="highlight"><pre>処理1 |
   処理2 |
   処理3 |
   処理4
-</pre>
-</div>
+</pre></div>
 <h3>1-C. 改行してインデントしない</h3>
-<div class="highlight">
-<pre>処理1 |
+<div class="highlight"><pre>処理1 |
 処理2 |
 処理3 |
 処理4
-</pre>
-</div>
+</pre></div>
 <h2>2. パイプの位置</h2>
 <p>改行した場合のパイプの位置について。</p>
 <ul>
@@ -208,23 +190,19 @@ esac
 <li>2-B. 合わせない</li>
 </ul>
 <h3>2-A. 合わせる</h3>
-<div class="highlight">
-<pre>var=$(
+<div class="highlight"><pre>var=$(
   処理1  |
   処理10 |
   処理11
 )
-</pre>
-</div>
+</pre></div>
 <h3>2-B. 合わせない</h3>
-<div class="highlight">
-<pre>var=$(
+<div class="highlight"><pre>var=$(
   処理1 |
   処理10 |
   処理11
 )
-</pre>
-</div>
+</pre></div>
 <h2>私見</h2>
 <h3>1. 改行</h3>
 <ul>
@@ -258,6 +236,9 @@ esac
 <div class="recent-entries">
 <ul>
 <li>
+<a href="../entries/20120928/a0.html">非オープンソースの悲哀</a>
+</li>
+<li>
 <a href="../entries/20120926/a0.html">SlideShareのURLのつくられかた</a>
 </li>
 <li>
@@ -283,9 +264,6 @@ esac
 </li>
 <li>
 <a href="../entries/20120908/a1.html">功利主義と多数決</a>
-</li>
-<li>
-<a href="../entries/20120906/a0.html">平成二十四年九月六日</a>
 </li>
 </ul>
 <div class="archives">

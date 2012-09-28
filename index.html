@@ -33,6 +33,16 @@
 <div id="content">
 <div class="autopagerize_page_element" id="entries">
 <article class="article"><h1 class="date">
+<a href="./entries/20120928.html">2012-09-28</a>
+</h1>
+<h1 id="a0">
+<a href="./entries/20120928/a0.html">非オープンソースの悲哀</a>
+</h1>
+<p>好きだったソフトウェアがアップデートで別人のように変わってしまった。</p>
+<p>数ヶ月前にもこんなことがあった。</p>
+<p>オープンソースではないので、自分の手でどうにかすることはできない。</p>
+<p>いまだに前のバージョンを探し続けている。</p>
+</article><article class="article"><h1 class="date">
 <a href="./entries/20120926.html">2012-09-26</a>
 </h1>
 <h1 id="a0">
@@ -113,22 +123,16 @@
 </ul>
 <h2>Ubuntuへの導入</h2>
 <h3>インストール</h3>
-<div class="highlight">
-<pre>sudo aptitude install zsh
-</pre>
-</div>
+<div class="highlight"><pre>sudo aptitude install zsh
+</pre></div>
 <p>または</p>
-<div class="highlight">
-<pre>sudo apt-get install zsh
-</pre>
-</div>
+<div class="highlight"><pre>sudo apt-get install zsh
+</pre></div>
 <h3>デフォルトのシェルに設定</h3>
 <p>chshコマンドを実行したユーザーのデフォルトのシェルに設定されます。</p>
-<div class="highlight">
-<pre>chsh -s /bin/zsh
+<div class="highlight"><pre>chsh -s /bin/zsh
 (パスワードを聞かれたら、ユーザーのパスワードを入力)
-</pre>
-</div>
+</pre></div>
 <p>初回起動時、初期設定の画面が出ますが、後で編集可能なのでqで終了して大丈夫です。</p>
 <h3>zshの設定</h3>
 <p>zshの設定は、主にホームディレクトリの.zshrcファイルに記述します。このあたりはbashと同様です。zshでググると設定例がたくさん見つかります。ありがたく使わせてもらいましょう。</p>
@@ -167,19 +171,16 @@
 </ol>
 <h2>1. パターンと処理の間を改行するか</h2>
 <h3>1-A</h3>
-<div class="highlight">
-<pre>case 値 in
+<div class="highlight"><pre>case 値 in
   パターン1 ) 処理1 ;;
   パターン2 ) 処理2 ;;
   パターン3 ) 処理3 ;;
   …
   パターンn ) 処理n ;;
 esac
-</pre>
-</div>
+</pre></div>
 <h3>1-B</h3>
-<div class="highlight">
-<pre>case 値 in
+<div class="highlight"><pre>case 値 in
   パターン1 )
     処理1 ;;
   パターン2 )
@@ -190,12 +191,10 @@ esac
   パターンn )
     処理n ;;
 esac
-</pre>
-</div>
+</pre></div>
 <h2>2. 処理とセミコロンの間を改行するか</h2>
 <h3>2-A</h3>
-<div class="highlight">
-<pre>case 値 in
+<div class="highlight"><pre>case 値 in
   パターン1 )
     処理1 ;;
   パターン2 )
@@ -206,11 +205,9 @@ esac
   パターンn )
     処理n ;;
 esac
-</pre>
-</div>
+</pre></div>
 <h3>2-B</h3>
-<div class="highlight">
-<pre>case 値 in
+<div class="highlight"><pre>case 値 in
   パターン1 )
     処理1
     ;;
@@ -225,12 +222,10 @@ esac
     処理n
     ;;
 esac
-</pre>
-</div>
+</pre></div>
 <h2>3. case宣言とパターンの間をインデントするか</h2>
 <h3>3-A</h3>
-<div class="highlight">
-<pre>case 値 in
+<div class="highlight"><pre>case 値 in
   パターン1 )
     処理1
     ;;
@@ -245,11 +240,9 @@ esac
     処理n
     ;;
 esac
-</pre>
-</div>
+</pre></div>
 <h3>3-B</h3>
-<div class="highlight">
-<pre>case 値 in
+<div class="highlight"><pre>case 値 in
 パターン1 )
   処理1
   ;;
@@ -264,8 +257,7 @@ esac
   処理n
   ;;
 esac
-</pre>
-</div>
+</pre></div>
 <h2>私見</h2>
 <ul>
 <li>個人的には1-B、2-B、3-Bが好み。</li>
@@ -286,26 +278,20 @@ esac
 <li>1-C. 改行してインデントしない</li>
 </ul>
 <h3>1-A. 改行しない</h3>
-<div class="highlight">
-<pre>処理1 | 処理2 | 処理3 | 処理4
-</pre>
-</div>
+<div class="highlight"><pre>処理1 | 処理2 | 処理3 | 処理4
+</pre></div>
 <h3>1-B. 改行してインデントする</h3>
-<div class="highlight">
-<pre>処理1 |
+<div class="highlight"><pre>処理1 |
   処理2 |
   処理3 |
   処理4
-</pre>
-</div>
+</pre></div>
 <h3>1-C. 改行してインデントしない</h3>
-<div class="highlight">
-<pre>処理1 |
+<div class="highlight"><pre>処理1 |
 処理2 |
 処理3 |
 処理4
-</pre>
-</div>
+</pre></div>
 <h2>2. パイプの位置</h2>
 <p>改行した場合のパイプの位置について。</p>
 <ul>
@@ -313,23 +299,19 @@ esac
 <li>2-B. 合わせない</li>
 </ul>
 <h3>2-A. 合わせる</h3>
-<div class="highlight">
-<pre>var=$(
+<div class="highlight"><pre>var=$(
   処理1  |
   処理10 |
   処理11
 )
-</pre>
-</div>
+</pre></div>
 <h3>2-B. 合わせない</h3>
-<div class="highlight">
-<pre>var=$(
+<div class="highlight"><pre>var=$(
   処理1 |
   処理10 |
   処理11
 )
-</pre>
-</div>
+</pre></div>
 <h2>私見</h2>
 <h3>1. 改行</h3>
 <ul>
@@ -398,78 +380,9 @@ esac
 <li>∀を見る</li>
 </ul>
 <p>and more.</p>
-</article><article class="article"><h1 class="date">
-<a href="./entries/20120908.html">2012-09-08</a>
-</h1>
-<h1 id="a0">
-<a href="./entries/20120908/a0.html">bundle exec rake で TypeError</a>
-</h1>
-<p>RubyGemsの開発中に起こった怖い話。</p>
-<div class="highlight">
-<pre>bundle gem gem名
-</pre>
-</div>
-<p>で生成したプロジェクトで、Rakeの標準タスクにRSpecを設定して</p>
-<div class="highlight">
-<pre>bundle exec rake
-</pre>
-</div>
-<p>を実行すると、TypeErrorが発生。 </p>
-<p>メッセージには、</p>
-<div class="highlight">
-<pre>ClassName is not a class
-</pre>
-</div>
-<p>とある。クラスなのにクラスじゃないって？</p>
-<p>単に</p>
-<div class="highlight">
-<pre>rake
-</pre>
-</div>
-<p>や、</p>
-<div class="highlight">
-<pre>rspec spec
-</pre>
-</div>
-<p>だとエラーは出ない。</p>
-<p>＊</p>
-<p>＊</p>
-<p>＊</p>
-<p>ひと通り悩んだ後、libディレクトリを検索すると、デフォルトでgem名のモジュールが定義されているのを発見。確かに、バージョン番号を上げるときに見た記憶がある。</p>
-<p>そして、TypeErrorとなったクラスはgem名と同じ名前だった…。</p>
-<p>bundle exec すると、クラスの前にモジュールがロードされていて、名前衝突してしまったというのが今回のオチ。</p>
-<p>GitHubを見渡しても、gem名と同じ名前のクラスがあるgemは見当たらなかった。
-どうやらRubyGems開発のお作法のようだ。</p>
-<h3>教訓</h3>
-<ul>
-<li>gem名と同じ名前のクラスは作らない。</li>
-<li>作るにしても、gem名モジュールの中にする。</li>
-<li>基本的に、クラスやモジュールはgem名モジュールの中に作る。</li>
-<li>gem名モジュールの名前を変えるだなんて とんでもない！</li>
-</ul>
-<hr>
-<h1 id="a1">
-<a href="./entries/20120908/a1.html">功利主義と多数決</a>
-</h1>
-<h2>case 1</h2>
-<ul>
-<li>Aさん:  80 happiness</li>
-<li>Bさん:  80 happiness</li>
-<li>Cさん:  80 happiness</li>
-</ul>
-<h2>case 2</h2>
-<ul>
-<li>Aさん: 100 happiness</li>
-<li>Bさん: 100 happiness</li>
-<li>Cさん:   0 happiness</li>
-</ul>
-<h2>elected</h2>
-<ul>
-<li>功利主義: case1</li>
-<li>(単純な)多数決: case2</li>
-</ul></article><div class="nav">
+</article><div class="nav">
 <div class="next">
-<link href="./entries/20120906.html" rel="next">
+<link href="./entries/20120908.html" rel="next">
 </div>
 </div>
 <div class="autopagerize_insert_before"></div>
@@ -482,6 +395,9 @@ esac
 <h3>Recent entries</h3>
 <div class="recent-entries">
 <ul>
+<li>
+<a href="./entries/20120928/a0.html">非オープンソースの悲哀</a>
+</li>
 <li>
 <a href="./entries/20120926/a0.html">SlideShareのURLのつくられかた</a>
 </li>
@@ -508,9 +424,6 @@ esac
 </li>
 <li>
 <a href="./entries/20120908/a1.html">功利主義と多数決</a>
-</li>
-<li>
-<a href="./entries/20120906/a0.html">平成二十四年九月六日</a>
 </li>
 </ul>
 <div class="archives">

@@ -1,4 +1,10 @@
-<?xml version="1.0" encoding="UTF-8"?><rdf:RDF xmlns="http://purl.org/rss/1.0/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="xmlns:content=&quot;http://purl.org/rss/1.0/modules/content/" xml:lang="ja"><channel rdf:about="http://myokoym.github.com/"><title>my_letter</title><link>http://myokoym.github.com/</link><dc:date>2012-09-26</dc:date><description>my_letter</description><items><rdf:Seq><rdf:li rdf:resource="http://myokoym.github.com/entries/20120926/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20120924/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20120922/a2.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20120922/a1.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20120922/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20120920/a1.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20120920/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20120908/a1.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20120908/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20120906/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20120905/a2.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20120905/a1.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20120905/a0.html"/></rdf:Seq></items></channel><item about="http://myokoym.github.com/entries/20120926/a0.html"><title>SlideShareのURLのつくられかた</title><description>2012/09/26現在、以下の手順で作られているようです。
+<?xml version="1.0" encoding="UTF-8"?><rdf:RDF xmlns="http://purl.org/rss/1.0/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xml:lang="ja"><channel rdf:about="http://myokoym.github.com/"><title>my_letter</title><link>http://myokoym.github.com/</link><dc:date>2012-09-28</dc:date><description>my_letter</description><items><rdf:Seq><rdf:li rdf:resource="http://myokoym.github.com/entries/20120928/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20120926/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20120924/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20120922/a2.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20120922/a1.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20120922/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20120920/a1.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20120920/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20120908/a1.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20120908/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20120906/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20120905/a2.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20120905/a1.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20120905/a0.html"/></rdf:Seq></items></channel><item about="http://myokoym.github.com/entries/20120928/a0.html"><title>非オープンソースの悲哀</title><description>好きだったソフトウェアがアップデートで別人のように変わってしまった。
+数ヶ月前にもこんなことがあった。
+オープンソースではないので、自分の手でどうにかすることはできない。
+いまだに前のバージョンを探し続けている。</description><content:encoded><![CDATA[<p>好きだったソフトウェアがアップデートで別人のように変わってしまった。</p>
+<p>数ヶ月前にもこんなことがあった。</p>
+<p>オープンソースではないので、自分の手でどうにかすることはできない。</p>
+<p>いまだに前のバージョンを探し続けている。</p>]]></content:encoded><dc:date>2012-09-28</dc:date><link>http://myokoym.github.com/entries/20120928/a0.html</link><author>myokoym</author></item><item about="http://myokoym.github.com/entries/20120926/a0.html"><title>SlideShareのURLのつくられかた</title><description>2012/09/26現在、以下の手順で作られているようです。
 試行錯誤の結果なので、違うパターンがあるかもしれません。
 
 原材料はタイトル
@@ -86,22 +92,16 @@ bashで端末を複数枚開くと、historyコマンドで参照できる履歴
 </ul>
 <h2>Ubuntuへの導入</h2>
 <h3>インストール</h3>
-<div class="highlight">
-<pre>sudo aptitude install zsh
-</pre>
-</div>
+<div class="highlight"><pre>sudo aptitude install zsh
+</pre></div>
 <p>または</p>
-<div class="highlight">
-<pre>sudo apt-get install zsh
-</pre>
-</div>
+<div class="highlight"><pre>sudo apt-get install zsh
+</pre></div>
 <h3>デフォルトのシェルに設定</h3>
 <p>chshコマンドを実行したユーザーのデフォルトのシェルに設定されます。</p>
-<div class="highlight">
-<pre>chsh -s /bin/zsh
+<div class="highlight"><pre>chsh -s /bin/zsh
 (パスワードを聞かれたら、ユーザーのパスワードを入力)
-</pre>
-</div>
+</pre></div>
 <p>初回起動時、初期設定の画面が出ますが、後で編集可能なのでqで終了して大丈夫です。</p>
 <h3>zshの設定</h3>
 <p>zshの設定は、主にホームディレクトリの.zshrcファイルに記述します。このあたりはbashと同様です。zshでググると設定例がたくさん見つかります。ありがたく使わせてもらいましょう。</p>
@@ -114,53 +114,43 @@ bashで端末を複数枚開くと、historyコマンドで参照できる履歴
 1-C. 改行してインデントしない
 
 1-A. 改行しない
-
 処理1 | 処理2 | 処理3 | 処理4
 
-
 1-B. 改行してインデントする
-
 処理1 |
   処理2 |
   処理3 |
   処理4
 
-
 1-C. 改行してインデントしない
-
 処理1 |
 処理2 |
 処理3 |
 処理4
 
-
 2. パイプの位置
-改行した場合のパイプの位置につ...</description><content:encoded><![CDATA[<ul>
+改行した場合のパイプの位置について。
+
+2...</description><content:encoded><![CDATA[<ul>
 <li>1-A. 改行しない</li>
 <li>1-B. 改行してインデントする</li>
 <li>1-C. 改行してインデントしない</li>
 </ul>
 <h3>1-A. 改行しない</h3>
-<div class="highlight">
-<pre>処理1 | 処理2 | 処理3 | 処理4
-</pre>
-</div>
+<div class="highlight"><pre>処理1 | 処理2 | 処理3 | 処理4
+</pre></div>
 <h3>1-B. 改行してインデントする</h3>
-<div class="highlight">
-<pre>処理1 |
+<div class="highlight"><pre>処理1 |
   処理2 |
   処理3 |
   処理4
-</pre>
-</div>
+</pre></div>
 <h3>1-C. 改行してインデントしない</h3>
-<div class="highlight">
-<pre>処理1 |
+<div class="highlight"><pre>処理1 |
 処理2 |
 処理3 |
 処理4
-</pre>
-</div>
+</pre></div>
 <h2>2. パイプの位置</h2>
 <p>改行した場合のパイプの位置について。</p>
 <ul>
@@ -168,23 +158,19 @@ bashで端末を複数枚開くと、historyコマンドで参照できる履歴
 <li>2-B. 合わせない</li>
 </ul>
 <h3>2-A. 合わせる</h3>
-<div class="highlight">
-<pre>var=$(
+<div class="highlight"><pre>var=$(
   処理1  |
   処理10 |
   処理11
 )
-</pre>
-</div>
+</pre></div>
 <h3>2-B. 合わせない</h3>
-<div class="highlight">
-<pre>var=$(
+<div class="highlight"><pre>var=$(
   処理1 |
   処理10 |
   処理11
 )
-</pre>
-</div>
+</pre></div>
 <h2>私見</h2>
 <h3>1. 改行</h3>
 <ul>
@@ -222,19 +208,16 @@ case宣言とパターンの間...</description><content:encoded><![CDATA[<h2>�
 </ol>
 <h2>1. パターンと処理の間を改行するか</h2>
 <h3>1-A</h3>
-<div class="highlight">
-<pre>case 値 in
+<div class="highlight"><pre>case 値 in
   パターン1 ) 処理1 ;;
   パターン2 ) 処理2 ;;
   パターン3 ) 処理3 ;;
   …
   パターンn ) 処理n ;;
 esac
-</pre>
-</div>
+</pre></div>
 <h3>1-B</h3>
-<div class="highlight">
-<pre>case 値 in
+<div class="highlight"><pre>case 値 in
   パターン1 )
     処理1 ;;
   パターン2 )
@@ -245,12 +228,10 @@ esac
   パターンn )
     処理n ;;
 esac
-</pre>
-</div>
+</pre></div>
 <h2>2. 処理とセミコロンの間を改行するか</h2>
 <h3>2-A</h3>
-<div class="highlight">
-<pre>case 値 in
+<div class="highlight"><pre>case 値 in
   パターン1 )
     処理1 ;;
   パターン2 )
@@ -261,11 +242,9 @@ esac
   パターンn )
     処理n ;;
 esac
-</pre>
-</div>
+</pre></div>
 <h3>2-B</h3>
-<div class="highlight">
-<pre>case 値 in
+<div class="highlight"><pre>case 値 in
   パターン1 )
     処理1
     ;;
@@ -280,12 +259,10 @@ esac
     処理n
     ;;
 esac
-</pre>
-</div>
+</pre></div>
 <h2>3. case宣言とパターンの間をインデントするか</h2>
 <h3>3-A</h3>
-<div class="highlight">
-<pre>case 値 in
+<div class="highlight"><pre>case 値 in
   パターン1 )
     処理1
     ;;
@@ -300,11 +277,9 @@ esac
     処理n
     ;;
 esac
-</pre>
-</div>
+</pre></div>
 <h3>3-B</h3>
-<div class="highlight">
-<pre>case 値 in
+<div class="highlight"><pre>case 値 in
 パターン1 )
   処理1
   ;;
@@ -319,8 +294,7 @@ esac
   処理n
   ;;
 esac
-</pre>
-</div>
+</pre></div>
 <h2>私見</h2>
 <ul>
 <li>個人的には1-B、2-B、3-Bが好み。</li>
@@ -467,56 +441,39 @@ elected
 <li>功利主義: case1</li>
 <li>(単純な)多数決: case2</li>
 </ul>]]></content:encoded><dc:date>2012-09-08</dc:date><link>http://myokoym.github.com/entries/20120908/a1.html</link><author>myokoym</author></item><item about="http://myokoym.github.com/entries/20120908/a0.html"><title>bundle exec rake で TypeError</title><description>RubyGemsの開発中に起こった怖い話。
-
 bundle gem gem名
 
-
 で生成したプロジェクトで、Rakeの標準タスクにRSpecを設定して
-
 bundle exec rake
-
 
 を実行すると、TypeErrorが発生。 
 メッセージには、
-
 ClassName is not a class
-
 
 とある。クラスなのにクラスじゃないって？
 単に
-
 rake
 
-
 や、
+rspec spec
 
-rspec spe...</description><content:encoded><![CDATA[<p>RubyGemsの開発中に起こった怖い話。</p>
-<div class="highlight">
-<pre>bundle gem gem名
-</pre>
-</div>
+だとエラーは...</description><content:encoded><![CDATA[<p>RubyGemsの開発中に起こった怖い話。</p>
+<div class="highlight"><pre>bundle gem gem名
+</pre></div>
 <p>で生成したプロジェクトで、Rakeの標準タスクにRSpecを設定して</p>
-<div class="highlight">
-<pre>bundle exec rake
-</pre>
-</div>
+<div class="highlight"><pre>bundle exec rake
+</pre></div>
 <p>を実行すると、TypeErrorが発生。 </p>
 <p>メッセージには、</p>
-<div class="highlight">
-<pre>ClassName is not a class
-</pre>
-</div>
+<div class="highlight"><pre>ClassName is not a class
+</pre></div>
 <p>とある。クラスなのにクラスじゃないって？</p>
 <p>単に</p>
-<div class="highlight">
-<pre>rake
-</pre>
-</div>
+<div class="highlight"><pre>rake
+</pre></div>
 <p>や、</p>
-<div class="highlight">
-<pre>rspec spec
-</pre>
-</div>
+<div class="highlight"><pre>rspec spec
+</pre></div>
 <p>だとエラーは出ない。</p>
 <p>＊</p>
 <p>＊</p>
