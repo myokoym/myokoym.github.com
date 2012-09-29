@@ -1,4 +1,47 @@
-<?xml version="1.0" encoding="UTF-8"?><rdf:RDF xmlns="http://purl.org/rss/1.0/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xml:lang="ja"><channel rdf:about="http://myokoym.github.com/"><title>my_letter</title><link>http://myokoym.github.com/</link><dc:date>2012-09-28</dc:date><description>my_letter</description><items><rdf:Seq><rdf:li rdf:resource="http://myokoym.github.com/entries/20120928/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20120926/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20120924/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20120922/a2.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20120922/a1.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20120922/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20120920/a1.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20120920/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20120908/a1.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20120908/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20120906/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20120905/a2.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20120905/a1.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20120905/a0.html"/></rdf:Seq></items></channel><item about="http://myokoym.github.com/entries/20120928/a0.html"><title>非オープンソースの悲哀</title><description>好きだったソフトウェアがアップデートで別人のように変わってしまった。
+<?xml version="1.0" encoding="UTF-8"?><rdf:RDF xmlns="http://purl.org/rss/1.0/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xml:lang="ja"><channel rdf:about="http://myokoym.github.com/"><title>my_letter</title><link>http://myokoym.github.com/</link><dc:date>2012-09-29</dc:date><description>my_letter</description><items><rdf:Seq><rdf:li rdf:resource="http://myokoym.github.com/entries/20120929/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20120928/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20120926/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20120924/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20120922/a2.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20120922/a1.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20120922/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20120920/a1.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20120920/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20120908/a1.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20120908/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20120906/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20120905/a2.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20120905/a1.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20120905/a0.html"/></rdf:Seq></items></channel><item about="http://myokoym.github.com/entries/20120929/a0.html"><title>わたし流カップ麺の食べ方 - 乾物トッピングのすすめ</title><description>ひとり暮らしの味方、カップ麺。
+早い、安い、楽ちんと三拍子揃った食べ物です。
+ただ、現代を生きる者としては、やっぱり栄養が気になりますよね。
+そこで、カップ麺の利点はそのままに、栄養価を高める方法を考えました。
+たどり着いたのが、乾物のトッピングです。
+乾物
+
+乾物（かんぶつ）は、保存性や食味の向上を目的として水分を抜き乾燥させた食品のことである。
+(乾物 - Wikipedia)
+
+やはり保存性...</description><content:encoded><![CDATA[<p>ひとり暮らしの味方、カップ麺。</p>
+<p>早い、安い、楽ちんと三拍子揃った食べ物です。</p>
+<p>ただ、現代を生きる者としては、やっぱり栄養が気になりますよね。</p>
+<p>そこで、カップ麺の利点はそのままに、栄養価を高める方法を考えました。</p>
+<p>たどり着いたのが、乾物のトッピングです。</p>
+<h2>乾物</h2>
+<blockquote>
+<p>乾物（かんぶつ）は、保存性や食味の向上を目的として水分を抜き乾燥させた食品のことである。
+(乾物 - Wikipedia)</p>
+</blockquote>
+<p>やはり保存性が高いのは、買いだめが利くので便利です。大抵のものは水で戻すだけで調理が済むので、カップ麺と相性バツグンですね。</p>
+<h2>トッピングの種類</h2>
+<p>スープの味によって合う合わないがあります。
+ここは好みですが、わたしルールを挙げておきます。</p>
+<h3>万能</h3>
+<ul>
+<li>乾燥わかめ</li>
+</ul>
+<h3>醤油系</h3>
+<ul>
+<li>かつおぶし</li>
+</ul>
+<h3>味噌系</h3>
+<ul>
+<li>すりごま（白）</li>
+</ul>
+<p>乾燥わかめは値上がりが続いており、スーパーから国産モノが消えたりしていますが、ネット通販なら手に入ります。わかめは何に入れても合いますし、栄養価も高いのでおすすめです。すりごまは、擂った後の状態で売っているのを買います。かつおぶしは言うまでもありません。</p>
+<h3>ポイント</h3>
+<p>味のついた乾物を入れる場合、付属の調味料を少なめにすることで、バランスが保てます。さらに、スープが飲みやすくなるので、おすすめです。</p>
+<h2>今後の展望</h2>
+<p>ググっていたら、よさげな乾物専門店を見つけました。</p>
+<p>乾物を食べよう！「徳永乾物ネットショップ」
+<a href="http://www.tokukan.com/index.htm">http://www.tokukan.com/index.htm</a></p>
+<p>まるごと煮干し、焼き玉ねぎ、元気ごまなど、心躍る響きの商品が見やすいホームページに並んでいました。早速、注文してみたいと思います。</p>]]></content:encoded><dc:date>2012-09-29</dc:date><link>http://myokoym.github.com/entries/20120929/a0.html</link><author>myokoym</author></item><item about="http://myokoym.github.com/entries/20120928/a0.html"><title>非オープンソースの悲哀</title><description>好きだったソフトウェアがアップデートで別人のように変わってしまった。
 数ヶ月前にもこんなことがあった。
 オープンソースではないので、自分の手でどうにかすることはできない。
 いまだに前のバージョンを探し続けている。</description><content:encoded><![CDATA[<p>好きだったソフトウェアがアップデートで別人のように変わってしまった。</p>
