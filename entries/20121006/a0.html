@@ -1,7 +1,7 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html>
 <head>
-<title>bundle exec rake で TypeError - my_letter</title>
+<title>日本語の文章を音節で分割して音数を数えるプログラム - my_letter</title>
 <meta charset="utf-8" content="text/html; charset=UTF-8" http-equiv="Content-Type">
 <meta content="myokoym" name="author">
 <link href="../../favicon.png" rel="icon" type="image/png">
@@ -32,45 +32,22 @@
 </ul></nav></header><div id="page">
 <div id="content">
 <article class="article autopagerize_page_element"><h1 class="date">
-<a href="../../entries/20120908.html">2012-09-08</a>
+<a href="../../entries/20121006.html">2012-10-06</a>
 </h1>
 <h1 id="a0">
-<a href="../../entries/20120908/a0.html">bundle exec rake で TypeError</a>
+<a href="../../entries/20121006/a0.html">日本語の文章を音節で分割して音数を数えるプログラム</a>
 </h1>
-<p>RubyGemsの開発中に起こった怖い話。</p>
-<div class="highlight"><pre>bundle gem gem名
-</pre></div>
-<p>で生成したプロジェクトで、Rakeの標準タスクにRSpecを設定して</p>
-<div class="highlight"><pre>bundle exec rake
-</pre></div>
-<p>を実行すると、TypeErrorが発生。 </p>
-<p>メッセージには、</p>
-<div class="highlight"><pre>ClassName is not a class
-</pre></div>
-<p>とある。クラスなのにクラスじゃないって？</p>
-<p>単に</p>
-<div class="highlight"><pre>rake
-</pre></div>
-<p>や、</p>
-<div class="highlight"><pre>rspec spec
-</pre></div>
-<p>だとエラーは出ない。</p>
-<p>＊</p>
-<p>＊</p>
-<p>＊</p>
-<p>ひと通り悩んだ後、libディレクトリを検索すると、デフォルトでgem名のモジュールが定義されているのを発見。確かに、バージョン番号を上げるときに見た記憶がある。</p>
-<p>そして、TypeErrorとなったクラスはgem名と同じ名前だった…。</p>
-<p>bundle exec すると、クラスの前にモジュールがロードされていて、名前衝突してしまったというのが今回のオチ。</p>
-<p>GitHubを見渡しても、gem名と同じ名前のクラスがあるgemは見当たらなかった。
-どうやらRubyGems開発のお作法のようだ。</p>
-<h3>教訓</h3>
-<ul>
-<li>gem名と同じ名前のクラスは作らない。</li>
-<li>作るにしても、gem名モジュールの中にする。</li>
-<li>基本的に、クラスやモジュールはgem名モジュールの中に作る。</li>
-<li>gem名モジュールの名前を変えるだなんて とんでもない！</li>
-</ul>
-<hr></article><div id="comments">
+<p>日本語の音節はわかりやすく、かな１文字が１音になります。
+例外として、小さい「ゃ」「ゅ」「ょ」は数えません。</p>
+<blockquote>
+<p>日本語の音数に関する質問です。 「今日」の「ょ」や「赤ちゃん」の「ゃ」などは、... - Yahoo!知恵袋
+<a href="http://detail.chiebukuro.yahoo.co.jp/qa/question_detail/q1376602573">http://detail.chiebukuro.yahoo.co.jp/qa/question_detail/q1376602573</a></p>
+</blockquote>
+<p>いちいち指を折って数えるのに疲れたので勢いで書きました。</p>
+<script src="https://gist.github.com/3845114.js"> </script><p>MeCabで形態素解析した後、読みの部分から音節の文字以外を抜いて数えてます。</p>
+<p>使ってみるとけっこう便利でした。類似ライブラリが見つからなかったので、gem化する予定です。</p>
+<p>ライセンスとか名前空間とかどうしよう。</p>
+</article><div id="comments">
 <div id="disqus_thread">
   <script type="text/javascript">
     //<![CDATA[
@@ -86,10 +63,9 @@
 </div>
 <div class="nav">
 <div class="prev">
-<link href="../../entries/20120920/a1.html" rel="prev">
 </div>
 <div class="next">
-<link href="../../entries/20120908/a1.html" rel="next">
+<link href="../../entries/20120929/a0.html" rel="next">
 </div>
 </div>
 <div class="autopagerize_insert_before"></div>
