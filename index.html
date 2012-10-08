@@ -33,6 +33,21 @@
 <div id="content">
 <div class="autopagerize_page_element" id="entries">
 <article class="article"><h1 class="date">
+<a href="./entries/20121009.html">2012-10-09</a>
+</h1>
+<h1 id="a0">
+<a href="./entries/20121009/a0.html">日本語の音節を数えるWebアプリつくった</a>
+</h1>
+<p><a href="http://myokoym.net/onsetsu/">http://myokoym.net/onsetsu/</a></p>
+<p>弱点は叙々苑です。</p>
+<ul>
+<li>辞書に載っていない語句だと、「々」が0音になってしまう</li>
+<li>サーバーのMeCabはIPA辞書を使っており、残念ながら叙々苑は載っていない</li>
+</ul>
+<p>小さい「ぁぃぅぇぉ」の扱いは微妙なのですが、今は数えてません。</p>
+<p>ソースコードはこちら。</p>
+<p><a href="https://github.com/myokoym/onsetsu">https://github.com/myokoym/onsetsu</a></p>
+</article><article class="article"><h1 class="date">
 <a href="./entries/20121006.html">2012-10-06</a>
 </h1>
 <h1 id="a0">
@@ -125,80 +140,9 @@
 <a href="https://getsatisfaction.com/slideshare/topics/how_can_i_make_a_slideshares_url_match_its_title">https://getsatisfaction.com/slideshare/topics/how_can_i_make_a_slideshares_url_match_its_title</a></p>
 <p>SlideShare » Developer Documentation
 <a href="http://www.slideshare.net/developers/documentation#edit_slideshow">http://www.slideshare.net/developers/documentation#edit_slideshow</a></p>
-</article><article class="article"><h1 class="date">
-<a href="./entries/20120924.html">2012-09-24</a>
-</h1>
-<h1 id="a0">
-<a href="./entries/20120924/a0.html">zsh導入 - kshとbash、zshの比較</a>
-</h1>
-<p>職場ではksh、家ではbashを使っていたわたしですが、ついにbashに代えてzshを導入することにしました。</p>
-<h2>導入の決め手</h2>
-<ol>
-<li>端末間の履歴共有</li>
-<li>コマンドオプションの補完機能</li>
-</ol>
-<h3>1. 端末間の履歴共有</h3>
-<h4>bashとzsh</h4>
-<ul>
-<li>bashで端末を複数枚開くと、historyコマンドで参照できる履歴が端末ごとに別々になってしまう
-
-<ul>
-<li>普段、screen(byobu)で複数の端末をいっぺんに使っているので、履歴が共有されないと不便</li>
-<li>zshなら、設定で複数端末間の履歴を共有できる</li>
-</ul>
-</li>
-</ul>
-<h4>bashとksh</h4>
-<ul>
-<li>ちなみに、kshはデフォルトで複数端末間の履歴が共有される
-
-<ul>
-<li>サーバー作業だと、別の人の履歴が割り込んできて不便なことも</li>
-<li>サーバーのシェルなら、むしろ履歴共有しないbashが適当かも</li>
-</ul>
-</li>
-</ul>
-<h3>2. コマンドオプションの補完機能</h3>
-<h4>ksh</h4>
-<ul>
-<li>タブを押すとタブが挿入される。</li>
-<li>タブを押すとタブが挿入される。</li>
-<li>大事なことなので２回言いました</li>
-</ul>
-<h4>bash</h4>
-<ul>
-<li>タブを押すとディレクトリ補完が可能</li>
-<li>タブを押すとコマンド名の補完が可能</li>
-<li>コマンドのオプションまでは補完してくれない</li>
-</ul>
-<h4>zsh</h4>
-<ul>
-<li>タブを押すとディレクトリ補完が可能</li>
-<li>タブを押すとコマンド名の補完が可能</li>
-<li>コマンドを入力してからタブを押すと、オプションまで補完してくれる</li>
-</ul>
-<h2>Ubuntuへの導入</h2>
-<h3>インストール</h3>
-<div class="highlight"><pre>sudo aptitude install zsh
-</pre></div>
-<p>または</p>
-<div class="highlight"><pre>sudo apt-get install zsh
-</pre></div>
-<h3>デフォルトのシェルに設定</h3>
-<p>chshコマンドを実行したユーザーのデフォルトのシェルに設定されます。</p>
-<div class="highlight"><pre>chsh -s /bin/zsh
-(パスワードを聞かれたら、ユーザーのパスワードを入力)
-</pre></div>
-<p>初回起動時、初期設定の画面が出ますが、後で編集可能なのでqで終了して大丈夫です。</p>
-<h3>zshの設定</h3>
-<p>zshの設定は、主にホームディレクトリの.zshrcファイルに記述します。このあたりはbashと同様です。zshでググると設定例がたくさん見つかります。ありがたく使わせてもらいましょう。</p>
-<h4>my設定</h4>
-<script src="https://gist.github.com/3772040.js"> </script><h2>参考</h2>
-<p>2006-05-17 - はてな技術発表会日記
-<a href="http://hatena.g.hatena.ne.jp/hatenatech/20060517">http://hatena.g.hatena.ne.jp/hatenatech/20060517</a></p>
 </article><div class="nav">
 <div class="next">
-<link href="./entries/20120922.html" rel="next">
+<link href="./entries/20120924.html" rel="next">
 </div>
 </div>
 <div class="autopagerize_insert_before"></div>
@@ -211,6 +155,9 @@
 <h3>Recent entries</h3>
 <div class="recent-entries">
 <ul>
+<li>
+<a href="./entries/20121009/a0.html">日本語の音節を数えるWebアプリつくった</a>
+</li>
 <li>
 <a href="./entries/20121006/a0.html">日本語の文章を音節で分割して音数を数えるプログラム</a>
 </li>
@@ -225,15 +172,6 @@
 </li>
 <li>
 <a href="./entries/20120924/a0.html">zsh導入 - kshとbash、zshの比較</a>
-</li>
-<li>
-<a href="./entries/20120922/a0.html">シェルスクリプトのコーディングスタイル</a>
-</li>
-<li>
-<a href="./entries/20120922/a1.html">case文のインデント</a>
-</li>
-<li>
-<a href="./entries/20120922/a2.html">長いパイプの改行</a>
 </li>
 </ul>
 <div class="archives">

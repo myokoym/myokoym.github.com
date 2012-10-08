@@ -1,7 +1,7 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html>
 <head>
-<title>日本語の文章を音節で分割して音数を数えるプログラム - my_letter</title>
+<title>日本語の音節を数えるWebアプリつくった - my_letter</title>
 <meta charset="utf-8" content="text/html; charset=UTF-8" http-equiv="Content-Type">
 <meta content="myokoym" name="author">
 <link href="../../favicon.png" rel="icon" type="image/png">
@@ -32,21 +32,20 @@
 </ul></nav></header><div id="page">
 <div id="content">
 <article class="article autopagerize_page_element"><h1 class="date">
-<a href="../../entries/20121006.html">2012-10-06</a>
+<a href="../../entries/20121009.html">2012-10-09</a>
 </h1>
 <h1 id="a0">
-<a href="../../entries/20121006/a0.html">日本語の文章を音節で分割して音数を数えるプログラム</a>
+<a href="../../entries/20121009/a0.html">日本語の音節を数えるWebアプリつくった</a>
 </h1>
-<p>日本語の音節はわかりやすく、かな１文字が１音になります。
-例外として、小さい「ゃ」「ゅ」「ょ」は数えません。</p>
-<blockquote>
-<p>日本語の音数に関する質問です。 「今日」の「ょ」や「赤ちゃん」の「ゃ」などは、... - Yahoo!知恵袋
-<a href="http://detail.chiebukuro.yahoo.co.jp/qa/question_detail/q1376602573">http://detail.chiebukuro.yahoo.co.jp/qa/question_detail/q1376602573</a></p>
-</blockquote>
-<p>いちいち指を折って数えるのに疲れたので勢いで書きました。</p>
-<script src="https://gist.github.com/3845114.js"> </script><p>MeCabで形態素解析した後、読みの部分から音節の文字以外を抜いて数えてます。</p>
-<p>使ってみるとけっこう便利でした。類似ライブラリが見つからなかったので、gem化する予定です。</p>
-<p>ライセンスとか名前空間とかどうしよう。</p>
+<p><a href="http://myokoym.net/onsetsu/">http://myokoym.net/onsetsu/</a></p>
+<p>弱点は叙々苑です。</p>
+<ul>
+<li>辞書に載っていない語句だと、「々」が0音になってしまう</li>
+<li>サーバーのMeCabはIPA辞書を使っており、残念ながら叙々苑は載っていない</li>
+</ul>
+<p>小さい「ぁぃぅぇぉ」の扱いは微妙なのですが、今は数えてません。</p>
+<p>ソースコードはこちら。</p>
+<p><a href="https://github.com/myokoym/onsetsu">https://github.com/myokoym/onsetsu</a></p>
 </article><div id="comments">
 <div id="disqus_thread">
   <script type="text/javascript">
@@ -63,10 +62,9 @@
 </div>
 <div class="nav">
 <div class="prev">
-<link href="../../entries/20121009/a0.html" rel="prev">
 </div>
 <div class="next">
-<link href="../../entries/20120929/a0.html" rel="next">
+<link href="../../entries/20121006/a0.html" rel="next">
 </div>
 </div>
 <div class="autopagerize_insert_before"></div>
