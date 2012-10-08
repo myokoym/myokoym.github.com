@@ -1,7 +1,7 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html>
 <head>
-<title>日本語の音節を数えるWebアプリつくった - my_letter</title>
+<title>日本語のモーラ（拍）を数えるWebアプリつくった - my_letter</title>
 <meta charset="utf-8" content="text/html; charset=UTF-8" http-equiv="Content-Type">
 <meta content="myokoym" name="author">
 <link href="../../favicon.png" rel="icon" type="image/png">
@@ -35,18 +35,20 @@
 <a href="../../entries/20121009.html">2012-10-09</a>
 </h1>
 <h1 id="a0">
-<a href="../../entries/20121009/a0.html">日本語の音節を数えるWebアプリつくった</a>
+<a href="../../entries/20121009/a0.html">日本語のモーラ（拍）を数えるWebアプリつくった</a>
 </h1>
-<p><a href="http://myokoym.net/onsetsu/">http://myokoym.net/onsetsu/</a></p>
-<p>単語ごとに辞書を参照して音数を数えるため、「明日」は「あした」で固定です。文脈によって「あす」と読むなどの高度なことはできません。</p>
+<p><a href="http://myokoym.net/mora/">http://myokoym.net/mora/</a></p>
+<p>単語ごとに辞書から読みを引いて数えるため、「明日」は「あした」で固定です。文脈によって「あす」と読むなどの高度なことはできません。</p>
 <p>もうひとつの弱点は叙々苑です。</p>
 <ul>
-<li>辞書に載っていない語句だと、「々」が0音になってしまう</li>
+<li>辞書に載っていない語句だと、「々」が0拍になってしまう</li>
 <li>サーバーのMeCabはIPA辞書を使っており、残念ながら叙々苑は載っていない</li>
 </ul>
-<p>小さい「ぁぃぅぇぉ」の扱いは微妙なのですが、今は数えてません。</p>
+<p>小さい「ぁぃぅぇぉ」の扱いは微妙ですが、今は数えてません。</p>
 <p>ソースコードはこちら。</p>
-<p><a href="https://github.com/myokoym/onsetsu">https://github.com/myokoym/onsetsu</a></p>
+<p><a href="https://github.com/myokoym/mora">https://github.com/myokoym/mora</a></p>
+<p>※拍(Mora)が正しいです。今まで音節(Syllable)だと思って作っていたので、いろいろ修正します。</p>
+<p><a href="http://sp.cis.iwate-u.ac.jp/sp/lessonj/doc/moraj.html">http://sp.cis.iwate-u.ac.jp/sp/lessonj/doc/moraj.html</a></p>
 </article><div id="comments">
 <div id="disqus_thread">
   <script type="text/javascript">
@@ -78,7 +80,7 @@
 <div class="recent-entries">
 <ul>
 <li>
-<a href="../../entries/20121009/a0.html">日本語の音節を数えるWebアプリつくった</a>
+<a href="../../entries/20121009/a0.html">日本語のモーラ（拍）を数えるWebアプリつくった</a>
 </li>
 <li>
 <a href="../../entries/20121006/a0.html">日本語の文章を音節で分割して音数を数えるプログラム</a>
