@@ -1,7 +1,7 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html>
 <head>
-<title>2012-09-26 - my_letter</title>
+<title>2012-11-23 - my_letter</title>
 <meta charset="utf-8" content="text/html; charset=UTF-8" http-equiv="Content-Type">
 <meta content="myokoym" name="author">
 <link href="../favicon.png" rel="icon" type="image/png">
@@ -32,38 +32,64 @@
 </ul></nav></header><div id="page">
 <div id="content">
 <article class="article autopagerize_page_element"><h1 class="date">
-<a href="../entries/20120926.html">2012-09-26</a>
+<a href="../entries/20121123.html">2012-11-23</a>
 </h1>
 <h1 id="a0">
-<a href="../entries/20120926/a0.html">SlideShareのURLのつくられかた</a>
+<a href="../entries/20121123/a0.html">コマンドラインのemacsモードを使いたくない理由</a>
 </h1>
-<p>2012/09/26現在、以下の手順で作られているようです。
-試行錯誤の結果なので、違うパターンがあるかもしれません。</p>
-<ol>
-<li>原材料はタイトル</li>
-<li>半角英数字以外をすべて取り除く（単語間の半角スペースは残す）</li>
-<li>半角英字をすべて小文字にする</li>
-<li>半角スペースがあった場合、ハイフンを挟む</li>
-<li>4.の時点で長さが0の場合、"ss"を付ける（ブラウザのみ？）</li>
-<li>5.の時点で同じURLのスライドが存在した場合、後ろにハイフンとIDを付ける</li>
-</ol>
-<p>Rubyで書くとこんな感じです。</p>
-<script src="https://gist.github.com/3788426.js"> </script><p>ただ、開発者らしき方によると、URLのルールは</p>
-<blockquote>
-<p>There's no "formula."</p>
-</blockquote>
-<p>だそうなので、いつか変わるかもしれません。</p>
-<h2>refs</h2>
-<p>How can I make a slideshare's URL match its title?
-<a href="https://getsatisfaction.com/slideshare/topics/how_can_i_make_a_slideshares_url_match_its_title">https://getsatisfaction.com/slideshare/topics/how_can_i_make_a_slideshares_url_match_its_title</a></p>
-<p>SlideShare » Developer Documentation
-<a href="http://www.slideshare.net/developers/documentation#edit_slideshow">http://www.slideshare.net/developers/documentation#edit_slideshow</a></p>
+<h2>1. C-hがC-jに近い</h2>
+<ul>
+<li>C-jはEnterキーコードに割り当てられていることが多い
+
+<ul>
+<li>1文字削除しようとして誤実行とか笑えない</li>
+</ul>
+</li>
+</ul>
+<h2>2. C-nがC-mとC-jに近い</h2>
+<ul>
+<li>C-mもEnterキーコードに割り当てられていることが多い
+
+<ul>
+<li>ヒストリ移動しようとして誤実行とか笑えない</li>
+</ul>
+</li>
+</ul>
+<h2>3. C-pがC-oに近い</h2>
+<ul>
+<li>C-oもEnterキーコードに割り当てられていることが多い
+
+<ul>
+<li>ヒストリ移動しようとして誤実行とか笑えない</li>
+</ul>
+</li>
+</ul>
+<h2>4. C-dを押しすぎるとログアウトされる</h2>
+<ul>
+<li>C-dで端末からログアウトされることが多い
+
+<ul>
+<li>1文字削除しようとしてログアウトとか笑える</li>
+</ul>
+</li>
+</ul>
+<h2>A. 対策</h2>
+<ul>
+<li>C-hはC-g気味に押す</li>
+<li>C-nとC-pを使わずにC-rを使う</li>
+<li>C-dは連打しない。C-kなどを使う</li>
+<li>echo "set -o vi" &gt;&gt;~/.*shrc</li>
+</ul>
+<h2>R. 参考</h2>
+<h3>emacsモードとviモードの解説</h3>
+<p><a href="http://www.hpc.cs.ehime-u.ac.jp/%7Eaman/linux/bash/command_line.html#2.2_vi_mode">http://www.hpc.cs.ehime-u.ac.jp/~aman/linux/bash/command_line.html#2.2_vi_mode</a></p>
+<h3>制御コード表（ctrl列を参照）</h3>
+<p><a href="http://ash.jp/code/ctrltbl.htm">http://ash.jp/code/ctrltbl.htm</a></p>
 </article><div class="nav">
 <div class="prev">
-<link href="../entries/20120928.html" rel="prev">
 </div>
 <div class="next">
-<link href="../entries/20120924.html" rel="next">
+<link href="../entries/20121009.html" rel="next">
 </div>
 </div>
 <div class="autopagerize_insert_before"></div>

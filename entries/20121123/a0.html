@@ -1,7 +1,7 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html>
 <head>
-<title>信条の見つけかた - my_letter</title>
+<title>コマンドラインのemacsモードを使いたくない理由 - my_letter</title>
 <meta charset="utf-8" content="text/html; charset=UTF-8" http-equiv="Content-Type">
 <meta content="myokoym" name="author">
 <link href="../../favicon.png" rel="icon" type="image/png">
@@ -32,18 +32,59 @@
 </ul></nav></header><div id="page">
 <div id="content">
 <article class="article autopagerize_page_element"><h1 class="date">
-<a href="../../entries/20120920.html">2012-09-20</a>
+<a href="../../entries/20121123.html">2012-11-23</a>
 </h1>
-<h1 id="a1">
-<a href="../../entries/20120920/a1.html">信条の見つけかた</a>
+<h1 id="a0">
+<a href="../../entries/20121123/a0.html">コマンドラインのemacsモードを使いたくない理由</a>
 </h1>
+<h2>1. C-hがC-jに近い</h2>
 <ul>
-<li>どんな時に怒るか</li>
-<li>何をしてもいいとき何をするか</li>
-<li>米澤穂信を読む</li>
-<li>∀を見る</li>
+<li>C-jはEnterキーコードに割り当てられていることが多い
+
+<ul>
+<li>1文字削除しようとして誤実行とか笑えない</li>
 </ul>
-<p>and more.</p>
+</li>
+</ul>
+<h2>2. C-nがC-mとC-jに近い</h2>
+<ul>
+<li>C-mもEnterキーコードに割り当てられていることが多い
+
+<ul>
+<li>ヒストリ移動しようとして誤実行とか笑えない</li>
+</ul>
+</li>
+</ul>
+<h2>3. C-pがC-oに近い</h2>
+<ul>
+<li>C-oもEnterキーコードに割り当てられていることが多い
+
+<ul>
+<li>ヒストリ移動しようとして誤実行とか笑えない</li>
+</ul>
+</li>
+</ul>
+<h2>4. C-dを押しすぎるとログアウトされる</h2>
+<ul>
+<li>C-dで端末からログアウトされることが多い
+
+<ul>
+<li>1文字削除しようとしてログアウトとか笑える</li>
+</ul>
+</li>
+</ul>
+<h2>A. 対策</h2>
+<ul>
+<li>C-hはC-g気味に押す</li>
+<li>C-nとC-pを使わずにC-rを使う</li>
+<li>C-dは連打しない。C-kなどを使う</li>
+<li>echo "set -o vi" &gt;&gt;~/.*shrc</li>
+</ul>
+<h2>R. 参考</h2>
+<h3>emacsモードとviモードの解説</h3>
+<p><a href="http://www.hpc.cs.ehime-u.ac.jp/%7Eaman/linux/bash/command_line.html#2.2_vi_mode">http://www.hpc.cs.ehime-u.ac.jp/~aman/linux/bash/command_line.html#2.2_vi_mode</a></p>
+<h3>制御コード表（ctrl列を参照）</h3>
+<p><a href="http://ash.jp/code/ctrltbl.htm">http://ash.jp/code/ctrltbl.htm</a></p>
 </article><div id="comments">
 <div id="disqus_thread">
   <script type="text/javascript">
@@ -60,10 +101,9 @@
 </div>
 <div class="nav">
 <div class="prev">
-<link href="../../entries/20120920/a0.html" rel="prev">
 </div>
 <div class="next">
-<link href="../../entries/20120908/a0.html" rel="next">
+<link href="../../entries/20121009/a0.html" rel="next">
 </div>
 </div>
 <div class="autopagerize_insert_before"></div>
