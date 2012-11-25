@@ -1,4 +1,94 @@
-<?xml version="1.0" encoding="UTF-8"?><rdf:RDF xmlns="http://purl.org/rss/1.0/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xml:lang="ja"><channel rdf:about="http://myokoym.github.com/"><title>my_letter</title><link>http://myokoym.github.com/</link><dc:date>2012-11-23</dc:date><description>my_letter</description><items><rdf:Seq><rdf:li rdf:resource="http://myokoym.github.com/entries/20121123/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20121009/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20121006/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20120929/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20120928/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20120926/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20120924/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20120922/a2.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20120922/a1.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20120922/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20120920/a1.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20120920/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20120908/a1.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20120908/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20120906/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20120905/a2.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20120905/a1.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20120905/a0.html"/></rdf:Seq></items></channel><item about="http://myokoym.github.com/entries/20121123/a0.html"><title>コマンドラインのemacsモードを使いたくない理由</title><description>1. C-hがC-jに近い
+<?xml version="1.0" encoding="UTF-8"?><rdf:RDF xmlns="http://purl.org/rss/1.0/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xml:lang="ja"><channel rdf:about="http://myokoym.github.com/"><title>my_letter</title><link>http://myokoym.github.com/</link><dc:date>2012-11-25</dc:date><description>my_letter</description><items><rdf:Seq><rdf:li rdf:resource="http://myokoym.github.com/entries/20121125/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20121123/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20121009/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20121006/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20120929/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20120928/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20120926/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20120924/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20120922/a2.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20120922/a1.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20120922/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20120920/a1.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20120920/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20120908/a1.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20120908/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20120906/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20120905/a2.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20120905/a1.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20120905/a0.html"/></rdf:Seq></items></channel><item about="http://myokoym.github.com/entries/20121125/a0.html"><title>文字列とバイト列（16進数）を相互変換するWebアプリつくった</title><description>MOJIHEX - The Converter of Character and Hex
+http://myokoym.net/mojihex/
+使用例
+
+
+char -&amp;gt; byte (UTF-8)
+
+
+あ -&amp;gt; e38182
+あいう -&amp;gt; e38182 e38184 e38186
+
+
+
+char -&amp;gt; byte (Shift_JIS)
+
+
+あ -&amp;gt; 82a0
+
+
+
+...</description><content:encoded><![CDATA[<p>MOJIHEX - The Converter of Character and Hex</p>
+<p><a href="http://myokoym.net/mojihex/">http://myokoym.net/mojihex/</a></p>
+<h2>使用例</h2>
+<ul>
+<li>
+<p>char -&gt; byte (UTF-8)</p>
+
+<ul>
+<li>あ -&gt; e38182</li>
+<li>あいう -&gt; e38182 e38184 e38186</li>
+</ul>
+</li>
+<li>
+<p>char -&gt; byte (Shift_JIS)</p>
+
+<ul>
+<li>あ -&gt; 82a0</li>
+</ul>
+</li>
+<li>
+<p>char -&gt; byte (CP930)</p>
+
+<ul>
+<li>あ -&gt; 0e44810f</li>
+</ul>
+</li>
+<li>
+<p>byte -&gt; char (UTF-8)</p>
+
+<ul>
+<li>e38182 e38184 e38186 -&gt; あいう</li>
+</ul>
+</li>
+</ul>
+<h2>使える文字コード</h2>
+<p>以下の文字コードを選択できます。</p>
+<ul>
+<li>UTF-8</li>
+<li>Shift_JIS</li>
+<li>EUC-JP</li>
+<li>CP930(EBCDIC)</li>
+<li>UTF-16BE</li>
+</ul>
+<p>HTTP-GETにも対応しており、上記以外の文字コードも使用可能です。</p>
+<ul>
+<li>RubyのEncoding::Converterクラスで使用可能な文字コード</li>
+<li>サーバーのiconvで使用可能な文字コード
+
+<ul>
+<li><a href="http://myokoym.net/mojihex/iconv.html">http://myokoym.net/mojihex/iconv.html</a></li>
+</ul>
+</li>
+</ul>
+<h2>内部的な話</h2>
+<ol>
+<li>まずはEncoding::Converterで変換しようとします。</li>
+<li>指定された文字コードが使用できなかった場合、iconvをrequireしてIconv.convで変換します。
+
+<ul>
+<li>iconvライブラリの使用は非推奨らしいのですが、CP930(EBCDIC)を使いたいので仕方なく</li>
+</ul>
+</li>
+<li>iconvにも定義されていない文字コードだった場合、エラーになります。</li>
+</ol>
+<h2>参考</h2>
+<p>class Encoding::Converter
+<a href="http://doc.ruby-lang.org/ja/1.9.3/class/Encoding=3a=3aConverter.html">http://doc.ruby-lang.org/ja/1.9.3/class/Encoding=3a=3aConverter.html</a></p>
+<p>library iconv
+<a href="http://doc.ruby-lang.org/ja/1.9.3/library/iconv.html">http://doc.ruby-lang.org/ja/1.9.3/library/iconv.html</a></p>
+<p>GitHub - myokoym/mojihex
+<a href="https://github.com/myokoym/mojihex">https://github.com/myokoym/mojihex</a></p>]]></content:encoded><dc:date>2012-11-25</dc:date><link>http://myokoym.github.com/entries/20121125/a0.html</link><author>myokoym</author></item><item about="http://myokoym.github.com/entries/20121123/a0.html"><title>コマンドラインのemacsモードを使いたくない理由</title><description>1. C-hがC-jに近い
 
 C-jはEnterキーコードに割り当てられていることが多い
 

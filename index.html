@@ -33,6 +33,83 @@
 <div id="content">
 <div class="autopagerize_page_element" id="entries">
 <article class="article"><h1 class="date">
+<a href="./entries/20121125.html">2012-11-25</a>
+</h1>
+<h1 id="a0">
+<a href="./entries/20121125/a0.html">文字列とバイト列（16進数）を相互変換するWebアプリつくった</a>
+</h1>
+<p>MOJIHEX - The Converter of Character and Hex</p>
+<p><a href="http://myokoym.net/mojihex/">http://myokoym.net/mojihex/</a></p>
+<h2>使用例</h2>
+<ul>
+<li>
+<p>char -&gt; byte (UTF-8)</p>
+
+<ul>
+<li>あ -&gt; e38182</li>
+<li>あいう -&gt; e38182 e38184 e38186</li>
+</ul>
+</li>
+<li>
+<p>char -&gt; byte (Shift_JIS)</p>
+
+<ul>
+<li>あ -&gt; 82a0</li>
+</ul>
+</li>
+<li>
+<p>char -&gt; byte (CP930)</p>
+
+<ul>
+<li>あ -&gt; 0e44810f</li>
+</ul>
+</li>
+<li>
+<p>byte -&gt; char (UTF-8)</p>
+
+<ul>
+<li>e38182 e38184 e38186 -&gt; あいう</li>
+</ul>
+</li>
+</ul>
+<h2>使える文字コード</h2>
+<p>以下の文字コードを選択できます。</p>
+<ul>
+<li>UTF-8</li>
+<li>Shift_JIS</li>
+<li>EUC-JP</li>
+<li>CP930(EBCDIC)</li>
+<li>UTF-16BE</li>
+</ul>
+<p>HTTP-GETにも対応しており、上記以外の文字コードも使用可能です。</p>
+<ul>
+<li>RubyのEncoding::Converterクラスで使用可能な文字コード</li>
+<li>サーバーのiconvで使用可能な文字コード
+
+<ul>
+<li><a href="http://myokoym.net/mojihex/iconv.html">http://myokoym.net/mojihex/iconv.html</a></li>
+</ul>
+</li>
+</ul>
+<h2>内部的な話</h2>
+<ol>
+<li>まずはEncoding::Converterで変換しようとします。</li>
+<li>指定された文字コードが使用できなかった場合、iconvをrequireしてIconv.convで変換します。
+
+<ul>
+<li>iconvライブラリの使用は非推奨らしいのですが、CP930(EBCDIC)を使いたいので仕方なく</li>
+</ul>
+</li>
+<li>iconvにも定義されていない文字コードだった場合、エラーになります。</li>
+</ol>
+<h2>参考</h2>
+<p>class Encoding::Converter
+<a href="http://doc.ruby-lang.org/ja/1.9.3/class/Encoding=3a=3aConverter.html">http://doc.ruby-lang.org/ja/1.9.3/class/Encoding=3a=3aConverter.html</a></p>
+<p>library iconv
+<a href="http://doc.ruby-lang.org/ja/1.9.3/library/iconv.html">http://doc.ruby-lang.org/ja/1.9.3/library/iconv.html</a></p>
+<p>GitHub - myokoym/mojihex
+<a href="https://github.com/myokoym/mojihex">https://github.com/myokoym/mojihex</a></p>
+</article><article class="article"><h1 class="date">
 <a href="./entries/20121123.html">2012-11-23</a>
 </h1>
 <h1 id="a0">
@@ -161,19 +238,9 @@
 <p>乾物を食べよう！「徳永乾物ネットショップ」
 <a href="http://www.tokukan.com/index.htm">http://www.tokukan.com/index.htm</a></p>
 <p>まるごと煮干し、焼き玉ねぎ、元気ごまなど、心躍る響きの商品が見やすいホームページに並んでいました。早速、注文してみたいと思います。</p>
-</article><article class="article"><h1 class="date">
-<a href="./entries/20120928.html">2012-09-28</a>
-</h1>
-<h1 id="a0">
-<a href="./entries/20120928/a0.html">非オープンソースの悲哀</a>
-</h1>
-<p>好きだったソフトウェアがアップデートで別人のように変わってしまった。</p>
-<p>数ヶ月前にもこんなことがあった。</p>
-<p>オープンソースではないので、自分の手でどうにかすることはできない。</p>
-<p>いまだに前のバージョンを探し続けている。</p>
 </article><div class="nav">
 <div class="next">
-<link href="./entries/20120926.html" rel="next">
+<link href="./entries/20120928.html" rel="next">
 </div>
 </div>
 <div class="autopagerize_insert_before"></div>
@@ -186,6 +253,9 @@
 <h3>Recent entries</h3>
 <div class="recent-entries">
 <ul>
+<li>
+<a href="./entries/20121125/a0.html">文字列とバイト列（16進数）を相互変換するWebアプリつくった</a>
+</li>
 <li>
 <a href="./entries/20121123/a0.html">コマンドラインのemacsモードを使いたくない理由</a>
 </li>
@@ -200,9 +270,6 @@
 </li>
 <li>
 <a href="./entries/20120928/a0.html">非オープンソースの悲哀</a>
-</li>
-<li>
-<a href="./entries/20120926/a0.html">SlideShareのURLのつくられかた</a>
 </li>
 </ul>
 <div class="archives">

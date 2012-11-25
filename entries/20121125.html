@@ -1,7 +1,7 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html>
 <head>
-<title>2012-09-26 - my_letter</title>
+<title>2012-11-25 - my_letter</title>
 <meta charset="utf-8" content="text/html; charset=UTF-8" http-equiv="Content-Type">
 <meta content="myokoym" name="author">
 <link href="../favicon.png" rel="icon" type="image/png">
@@ -32,38 +32,87 @@
 </ul></nav></header><div id="page">
 <div id="content">
 <article class="article autopagerize_page_element"><h1 class="date">
-<a href="../entries/20120926.html">2012-09-26</a>
+<a href="../entries/20121125.html">2012-11-25</a>
 </h1>
 <h1 id="a0">
-<a href="../entries/20120926/a0.html">SlideShareのURLのつくられかた</a>
+<a href="../entries/20121125/a0.html">文字列とバイト列（16進数）を相互変換するWebアプリつくった</a>
 </h1>
-<p>2012/09/26現在、以下の手順で作られているようです。
-試行錯誤の結果なので、違うパターンがあるかもしれません。</p>
+<p>MOJIHEX - The Converter of Character and Hex</p>
+<p><a href="http://myokoym.net/mojihex/">http://myokoym.net/mojihex/</a></p>
+<h2>使用例</h2>
+<ul>
+<li>
+<p>char -&gt; byte (UTF-8)</p>
+
+<ul>
+<li>あ -&gt; e38182</li>
+<li>あいう -&gt; e38182 e38184 e38186</li>
+</ul>
+</li>
+<li>
+<p>char -&gt; byte (Shift_JIS)</p>
+
+<ul>
+<li>あ -&gt; 82a0</li>
+</ul>
+</li>
+<li>
+<p>char -&gt; byte (CP930)</p>
+
+<ul>
+<li>あ -&gt; 0e44810f</li>
+</ul>
+</li>
+<li>
+<p>byte -&gt; char (UTF-8)</p>
+
+<ul>
+<li>e38182 e38184 e38186 -&gt; あいう</li>
+</ul>
+</li>
+</ul>
+<h2>使える文字コード</h2>
+<p>以下の文字コードを選択できます。</p>
+<ul>
+<li>UTF-8</li>
+<li>Shift_JIS</li>
+<li>EUC-JP</li>
+<li>CP930(EBCDIC)</li>
+<li>UTF-16BE</li>
+</ul>
+<p>HTTP-GETにも対応しており、上記以外の文字コードも使用可能です。</p>
+<ul>
+<li>RubyのEncoding::Converterクラスで使用可能な文字コード</li>
+<li>サーバーのiconvで使用可能な文字コード
+
+<ul>
+<li><a href="http://myokoym.net/mojihex/iconv.html">http://myokoym.net/mojihex/iconv.html</a></li>
+</ul>
+</li>
+</ul>
+<h2>内部的な話</h2>
 <ol>
-<li>原材料はタイトル</li>
-<li>半角英数字以外をすべて取り除く（単語間の半角スペースは残す）</li>
-<li>半角英字をすべて小文字にする</li>
-<li>半角スペースがあった場合、ハイフンを挟む</li>
-<li>4.の時点で長さが0の場合、"ss"を付ける（ブラウザのみ？）</li>
-<li>5.の時点で同じURLのスライドが存在した場合、後ろにハイフンとIDを付ける</li>
+<li>まずはEncoding::Converterで変換しようとします。</li>
+<li>指定された文字コードが使用できなかった場合、iconvをrequireしてIconv.convで変換します。
+
+<ul>
+<li>iconvライブラリの使用は非推奨らしいのですが、CP930(EBCDIC)を使いたいので仕方なく</li>
+</ul>
+</li>
+<li>iconvにも定義されていない文字コードだった場合、エラーになります。</li>
 </ol>
-<p>Rubyで書くとこんな感じです。</p>
-<script src="https://gist.github.com/3788426.js"> </script><p>ただ、開発者らしき方によると、URLのルールは</p>
-<blockquote>
-<p>There's no "formula."</p>
-</blockquote>
-<p>だそうなので、いつか変わるかもしれません。</p>
-<h2>refs</h2>
-<p>How can I make a slideshare's URL match its title?
-<a href="https://getsatisfaction.com/slideshare/topics/how_can_i_make_a_slideshares_url_match_its_title">https://getsatisfaction.com/slideshare/topics/how_can_i_make_a_slideshares_url_match_its_title</a></p>
-<p>SlideShare » Developer Documentation
-<a href="http://www.slideshare.net/developers/documentation#edit_slideshow">http://www.slideshare.net/developers/documentation#edit_slideshow</a></p>
+<h2>参考</h2>
+<p>class Encoding::Converter
+<a href="http://doc.ruby-lang.org/ja/1.9.3/class/Encoding=3a=3aConverter.html">http://doc.ruby-lang.org/ja/1.9.3/class/Encoding=3a=3aConverter.html</a></p>
+<p>library iconv
+<a href="http://doc.ruby-lang.org/ja/1.9.3/library/iconv.html">http://doc.ruby-lang.org/ja/1.9.3/library/iconv.html</a></p>
+<p>GitHub - myokoym/mojihex
+<a href="https://github.com/myokoym/mojihex">https://github.com/myokoym/mojihex</a></p>
 </article><div class="nav">
 <div class="prev">
-<link href="../entries/20120928.html" rel="prev">
 </div>
 <div class="next">
-<link href="../entries/20120924.html" rel="next">
+<link href="../entries/20121123.html" rel="next">
 </div>
 </div>
 <div class="autopagerize_insert_before"></div>

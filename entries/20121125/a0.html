@@ -1,7 +1,7 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html>
 <head>
-<title>夜ふかしメモ - my_letter</title>
+<title>文字列とバイト列（16進数）を相互変換するWebアプリつくった - my_letter</title>
 <meta charset="utf-8" content="text/html; charset=UTF-8" http-equiv="Content-Type">
 <meta content="myokoym" name="author">
 <link href="../../favicon.png" rel="icon" type="image/png">
@@ -32,48 +32,83 @@
 </ul></nav></header><div id="page">
 <div id="content">
 <article class="article autopagerize_page_element"><h1 class="date">
-<a href="../../entries/20120905.html">2012-09-05</a>
+<a href="../../entries/20121125.html">2012-11-25</a>
 </h1>
-<h1 id="a1">
-<a href="../../entries/20120905/a1.html">夜ふかしメモ</a>
+<h1 id="a0">
+<a href="../../entries/20121125/a0.html">文字列とバイト列（16進数）を相互変換するWebアプリつくった</a>
 </h1>
-<h4>先々週</h4>
-<ul>
-<li>50℃は熱い</li>
-<li>お笑いとは</li>
-</ul>
-<h4>先週</h4>
+<p>MOJIHEX - The Converter of Character and Hex</p>
+<p><a href="http://myokoym.net/mojihex/">http://myokoym.net/mojihex/</a></p>
+<h2>使用例</h2>
 <ul>
 <li>
-<p>方言</p>
+<p>char -&gt; byte (UTF-8)</p>
 
 <ul>
-<li>甲州弁</li>
-<li>広島弁</li>
-<li>ジェラシー</li>
+<li>あ -&gt; e38182</li>
+<li>あいう -&gt; e38182 e38184 e38186</li>
 </ul>
 </li>
 <li>
-<p>BGM</p>
+<p>char -&gt; byte (Shift_JIS)</p>
 
 <ul>
-<li>化物語</li>
-<li>ガンダム</li>
+<li>あ -&gt; 82a0</li>
 </ul>
 </li>
 <li>
-<p>名前</p>
+<p>char -&gt; byte (CP930)</p>
 
 <ul>
-<li>批判せず比較するという姿勢に○</li>
-<li>和子</li>
-<li>恵子</li>
-<li>美</li>
-<li>愛</li>
+<li>あ -&gt; 0e44810f</li>
+</ul>
+</li>
+<li>
+<p>byte -&gt; char (UTF-8)</p>
+
+<ul>
+<li>e38182 e38184 e38186 -&gt; あいう</li>
 </ul>
 </li>
 </ul>
-<hr></article><div id="comments">
+<h2>使える文字コード</h2>
+<p>以下の文字コードを選択できます。</p>
+<ul>
+<li>UTF-8</li>
+<li>Shift_JIS</li>
+<li>EUC-JP</li>
+<li>CP930(EBCDIC)</li>
+<li>UTF-16BE</li>
+</ul>
+<p>HTTP-GETにも対応しており、上記以外の文字コードも使用可能です。</p>
+<ul>
+<li>RubyのEncoding::Converterクラスで使用可能な文字コード</li>
+<li>サーバーのiconvで使用可能な文字コード
+
+<ul>
+<li><a href="http://myokoym.net/mojihex/iconv.html">http://myokoym.net/mojihex/iconv.html</a></li>
+</ul>
+</li>
+</ul>
+<h2>内部的な話</h2>
+<ol>
+<li>まずはEncoding::Converterで変換しようとします。</li>
+<li>指定された文字コードが使用できなかった場合、iconvをrequireしてIconv.convで変換します。
+
+<ul>
+<li>iconvライブラリの使用は非推奨らしいのですが、CP930(EBCDIC)を使いたいので仕方なく</li>
+</ul>
+</li>
+<li>iconvにも定義されていない文字コードだった場合、エラーになります。</li>
+</ol>
+<h2>参考</h2>
+<p>class Encoding::Converter
+<a href="http://doc.ruby-lang.org/ja/1.9.3/class/Encoding=3a=3aConverter.html">http://doc.ruby-lang.org/ja/1.9.3/class/Encoding=3a=3aConverter.html</a></p>
+<p>library iconv
+<a href="http://doc.ruby-lang.org/ja/1.9.3/library/iconv.html">http://doc.ruby-lang.org/ja/1.9.3/library/iconv.html</a></p>
+<p>GitHub - myokoym/mojihex
+<a href="https://github.com/myokoym/mojihex">https://github.com/myokoym/mojihex</a></p>
+</article><div id="comments">
 <div id="disqus_thread">
   <script type="text/javascript">
     //<![CDATA[
@@ -89,10 +124,9 @@
 </div>
 <div class="nav">
 <div class="prev">
-<link href="../../entries/20120905/a0.html" rel="prev">
 </div>
 <div class="next">
-<link href="../../entries/20120905/a2.html" rel="next">
+<link href="../../entries/20121123/a0.html" rel="next">
 </div>
 </div>
 <div class="autopagerize_insert_before"></div>
