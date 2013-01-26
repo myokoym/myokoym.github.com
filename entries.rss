@@ -147,14 +147,14 @@ C-oもEnterキーコードに割り当てられていることが多い
 </ul>
 </li>
 </ul>
-<h2>A. 対策</h2>
+<h2>対策</h2>
 <ul>
 <li>C-hはC-g気味に押す</li>
 <li>C-nとC-pを使わずにC-rを使う</li>
 <li>C-dは連打しない。C-kなどを使う</li>
 <li>echo "set -o vi" &gt;&gt;~/.*shrc</li>
 </ul>
-<h2>R. 参考</h2>
+<h2>参考</h2>
 <h3>emacsモードとviモードの解説</h3>
 <p><a href="http://www.hpc.cs.ehime-u.ac.jp/%7Eaman/linux/bash/command_line.html#2.2_vi_mode">http://www.hpc.cs.ehime-u.ac.jp/~aman/linux/bash/command_line.html#2.2_vi_mode</a></p>
 <h3>制御コード表（ctrl列を参照）</h3>
