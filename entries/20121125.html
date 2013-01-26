@@ -92,7 +92,7 @@
 </ul>
 <h2>内部的な話</h2>
 <ol>
-<li>まずはEncoding::Converterで変換しようとします。</li>
+<li>まずはString#encodeで変換しようとします。</li>
 <li>指定された文字コードが使用できなかった場合、iconvをrequireしてIconv.convで変換します。
 
 <ul>
@@ -102,6 +102,8 @@
 <li>iconvにも定義されていない文字コードだった場合、エラーになります。</li>
 </ol>
 <h2>参考</h2>
+<p>instance method String#encode
+<a href="http://doc.ruby-lang.org/ja/1.9.3/method/String/i/encode.html">http://doc.ruby-lang.org/ja/1.9.3/method/String/i/encode.html</a></p>
 <p>class Encoding::Converter
 <a href="http://doc.ruby-lang.org/ja/1.9.3/class/Encoding=3a=3aConverter.html">http://doc.ruby-lang.org/ja/1.9.3/class/Encoding=3a=3aConverter.html</a></p>
 <p>library iconv
