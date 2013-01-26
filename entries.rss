@@ -1,4 +1,78 @@
-<?xml version="1.0" encoding="UTF-8"?><rdf:RDF xmlns="http://purl.org/rss/1.0/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xml:lang="ja"><channel rdf:about="http://myokoym.github.com/"><title>my_letter</title><link>http://myokoym.github.com/</link><dc:date>2012-11-25</dc:date><description>my_letter</description><items><rdf:Seq><rdf:li rdf:resource="http://myokoym.github.com/entries/20121125/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20121123/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20121009/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20121006/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20120929/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20120928/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20120926/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20120924/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20120922/a2.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20120922/a1.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20120922/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20120920/a1.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20120920/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20120908/a1.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20120908/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20120906/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20120905/a2.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20120905/a1.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20120905/a0.html"/></rdf:Seq></items></channel><item about="http://myokoym.github.com/entries/20121125/a0.html"><title>文字列とバイト列（16進数）を相互変換するWebアプリつくった</title><description>MOJIHEX - The Converter of Character and Hex
+<?xml version="1.0" encoding="UTF-8"?><rdf:RDF xmlns="http://purl.org/rss/1.0/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xml:lang="ja"><channel rdf:about="http://myokoym.github.com/"><title>my_letter</title><link>http://myokoym.github.com/</link><dc:date>2013-01-27</dc:date><description>my_letter</description><items><rdf:Seq><rdf:li rdf:resource="http://myokoym.github.com/entries/20130127/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20121125/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20121123/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20121009/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20121006/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20120929/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20120928/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20120926/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20120924/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20120922/a2.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20120922/a1.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20120922/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20120920/a1.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20120920/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20120908/a1.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20120908/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20120906/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20120905/a2.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20120905/a1.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20120905/a0.html"/></rdf:Seq></items></channel><item about="http://myokoym.github.com/entries/20130127/a0.html"><title>文字列に通番を付けて殖やすツールを作成中</title><description>Text amplifier - テキスト増幅器
+http://myokoym.net/textamp/
+例1 hoge001〜hoge100をつくる
+
+volume: 100
+linefeed: ON
+increment: ON
+
+
+sign: #（任意）
+start: 1
+digit: 3
+
+
+template: OFF
+
+
+結果
+hoge001〜hoge100ができます。
+
+例2 ゲッターと...</description><content:encoded><![CDATA[<p>Text amplifier - テキスト増幅器</p>
+<p><a href="http://myokoym.net/textamp/">http://myokoym.net/textamp/</a></p>
+<h2>例1 hoge001〜hoge100をつくる</h2>
+<ul>
+<li>volume: 100</li>
+<li>linefeed: ON</li>
+<li>increment: ON
+
+<ul>
+<li>sign: #（任意）</li>
+<li>start: 1</li>
+<li>digit: 3</li>
+</ul>
+</li>
+<li>template: OFF</li>
+</ul>
+<p><img src="/images/textamp_20130127_01.jpg" alt="textamp_20130127_01"></p>
+<h3>結果</h3>
+<p>hoge001〜hoge100ができます。</p>
+<p><img src="/images/textamp_20130127_02.jpg" alt="textamp_20130127_02"></p>
+<h2>例2 ゲッターとセッターをつくる</h2>
+<ul>
+<li>volume: 3（3組の場合）</li>
+<li>linefeed: ON</li>
+<li>increment: OFF</li>
+<li>template: ON
+
+<ul>
+<li>sign: xxx（任意）</li>
+<li>parts: hoge huga piyo（改行区切り）</li>
+</ul>
+</li>
+</ul>
+<p><img src="/images/textamp_20130127_03.jpg" alt="textamp_20130127_03"></p>
+<h3>結果</h3>
+<p>ゲッターとセッターができます。</p>
+<p><img src="/images/textamp_20130127_04.jpg" alt="textamp_20130127_04"></p>
+<h2>HTTP-GETに対応</h2>
+<p>フォームの入力内容は保存していないので消えてしまいます。</p>
+<p>その代わりにHTTP-GETに対応しているので、パラメータをいじれば手軽に微修正が可能です。</p>
+<h2>TODO</h2>
+<ul>
+<li>デザインをもっとわかりやすくしたい。
+
+<ul>
+<li>CSS書くとか</li>
+</ul>
+</li>
+<li>操作性をよくしたい。
+
+<ul>
+<li>JavaScript書くとか</li>
+</ul>
+</li>
+</ul>]]></content:encoded><dc:date>2013-01-27</dc:date><link>http://myokoym.github.com/entries/20130127/a0.html</link><author>myokoym</author></item><item about="http://myokoym.github.com/entries/20121125/a0.html"><title>文字列とバイト列（16進数）を相互変換するWebアプリつくった</title><description>MOJIHEX - The Converter of Character and Hex
 http://myokoym.net/mojihex/
 使用例
 
