@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><rdf:RDF xmlns="http://purl.org/rss/1.0/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xml:lang="ja"><channel rdf:about="http://myokoym.github.com/"><title>my_letter</title><link>http://myokoym.github.com/</link><dc:date>2013-02-23</dc:date><description>my_letter</description><items><rdf:Seq><rdf:li rdf:resource="http://myokoym.github.com/entries/20130223/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130216/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130127/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20121125/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20121123/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20121009/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20121006/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20120929/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20120928/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20120926/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20120924/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20120922/a2.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20120922/a1.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20120922/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20120920/a1.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20120920/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20120908/a1.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20120908/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20120906/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20120905/a2.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20120905/a1.html"/></rdf:Seq></items></channel><item about="http://myokoym.github.com/entries/20130223/a0.html"><title>kshのコマンドライン入力補完</title><description>入力補完に「タブが使えない」kshですが、別の方法で補完が可能です。
-viモード（set -o vi）と、emacsモード（set -o emacs）で方法が違います。
+viモード（set -o vi）と、emacsモード（set -o emacs）でキーバインドが違います。
 viモード
 kshはviモードがデフォルトのことが多いです。
 候補表示
@@ -10,8 +10,8 @@ Esc =
 補完
 Esc \
 
-「Esc」を入力した直後に「\」（バックスラッシュまたは半角円記...</description><content:encoded><![CDATA[<p>入力補完に「タブが使えない」kshですが、別の方法で補完が可能です。</p>
-<p>viモード（set -o vi）と、emacsモード（set -o emacs）で方法が違います。</p>
+「Esc」を入力した直後に「\」（バックスラッシュまたは...</description><content:encoded><![CDATA[<p>入力補完に「タブが使えない」kshですが、別の方法で補完が可能です。</p>
+<p>viモード（set -o vi）と、emacsモード（set -o emacs）でキーバインドが違います。</p>
 <h2>viモード</h2>
 <p>kshはviモードがデフォルトのことが多いです。</p>
 <h3>候補表示</h3>
