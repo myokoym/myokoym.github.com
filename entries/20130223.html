@@ -1,7 +1,7 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html>
 <head>
-<title>2012-09-26 - my_letter</title>
+<title>2013-02-23 - my_letter</title>
 <meta charset="utf-8" content="text/html; charset=UTF-8" http-equiv="Content-Type">
 <meta content="myokoym" name="author">
 <link href="../favicon.png" rel="icon" type="image/png">
@@ -32,38 +32,67 @@
 </ul></nav></header><div id="page">
 <div id="content">
 <article class="article autopagerize_page_element"><h1 class="date">
-<a href="../entries/20120926.html">2012-09-26</a>
+<a href="../entries/20130223.html">2013-02-23</a>
 </h1>
 <h1 id="a0">
-<a href="../entries/20120926/a0.html">SlideShareのURLのつくられかた</a>
+<a href="../entries/20130223/a0.html">kshのコマンドライン入力補完</a>
 </h1>
-<p>2012/09/26現在、以下の手順で作られているようです。
-試行錯誤の結果なので、違うパターンがあるかもしれません。</p>
-<ol>
-<li>原材料はタイトル</li>
-<li>半角英数字以外をすべて取り除く（単語間の半角スペースは残す）</li>
-<li>半角英字をすべて小文字にする</li>
-<li>半角スペースがあった場合、ハイフンを挟む</li>
-<li>4.の時点で長さが0の場合、"ss"を付ける（ブラウザのみ？）</li>
-<li>5.の時点で同じURLのスライドが存在した場合、後ろにハイフンとIDを付ける</li>
-</ol>
-<p>Rubyで書くとこんな感じです。</p>
-<script src="https://gist.github.com/3788426.js"> </script><p>ただ、開発者らしき方によると、URLのルールは</p>
-<blockquote>
-<p>There's no "formula."</p>
-</blockquote>
-<p>だそうなので、いつか変わるかもしれません。</p>
-<h2>refs</h2>
-<p>How can I make a slideshare's URL match its title?
-<a href="https://getsatisfaction.com/slideshare/topics/how_can_i_make_a_slideshares_url_match_its_title">https://getsatisfaction.com/slideshare/topics/how_can_i_make_a_slideshares_url_match_its_title</a></p>
-<p>SlideShare » Developer Documentation
-<a href="http://www.slideshare.net/developers/documentation#edit_slideshow">http://www.slideshare.net/developers/documentation#edit_slideshow</a></p>
+<p>入力補完に「タブが使えない」kshですが、別の方法で補完が可能です。</p>
+<h2>viモード</h2>
+<p>kshはviモードがデフォルトのことが多いです。</p>
+<h3>候補表示</h3>
+<p>Esc = </p>
+<ul>
+<li>「Esc」を入力した直後に「=」（イコール）を入力する</li>
+</ul>
+<h3>補完</h3>
+<p>Esc \</p>
+<ul>
+<li>「Esc」を入力した直後に「\」（バックスラッシュまたは半角円記号）を入力する</li>
+</ul>
+<h2>emacsモード</h2>
+<p>bashやreadlineなどでデフォルトのemacsモードです。</p>
+<h3>候補表示</h3>
+<p>Esc = </p>
+<ul>
+<li>「Esc」を入力した直後に「=」（イコール）を入力する
+
+<ul>
+<li>viモードと同じ</li>
+</ul>
+</li>
+</ul>
+<h3>補完</h3>
+<p>Esc Esc</p>
+<ul>
+<li>「Esc」を2回入力する
+
+<ul>
+<li>viモードと違う</li>
+<li>viモードより押しやすい</li>
+</ul>
+</li>
+</ul>
+<h2>参考</h2>
+<h3>Escキーが押しづらいときの対策</h3>
+<p>Escキーが押しづらい場合やEscキーがない場合、コントロールキーコードで代用できます。</p>
+<p>C-[</p>
+<ul>
+<li>
+<p>「Ctrl」キーを押しながら「[」キーを押すと、OSはEscキーが押されたと思い込みます。</p>
+
+<ul>
+<li>制御コード表（ctrl列を参照） <a href="http://ash.jp/code/ctrltbl.htm">http://ash.jp/code/ctrltbl.htm</a>
+</li>
+</ul>
+</li>
+</ul>
+<p>ちなみに世の中には2種類のVimmerがいて、押しやすいキーにEscを割り当てる人と、C-[を使う人に分かれています。私は後者です。</p>
 </article><div class="nav">
 <div class="prev">
-<link href="../entries/20120928.html" rel="prev">
 </div>
 <div class="next">
-<link href="../entries/20120924.html" rel="next">
+<link href="../entries/20130216.html" rel="next">
 </div>
 </div>
 <div class="autopagerize_insert_before"></div>

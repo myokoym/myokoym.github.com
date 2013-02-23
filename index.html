@@ -33,6 +33,63 @@
 <div id="content">
 <div class="autopagerize_page_element" id="entries">
 <article class="article"><h1 class="date">
+<a href="./entries/20130223.html">2013-02-23</a>
+</h1>
+<h1 id="a0">
+<a href="./entries/20130223/a0.html">kshのコマンドライン入力補完</a>
+</h1>
+<p>入力補完に「タブが使えない」kshですが、別の方法で補完が可能です。</p>
+<h2>viモード</h2>
+<p>kshはviモードがデフォルトのことが多いです。</p>
+<h3>候補表示</h3>
+<p>Esc = </p>
+<ul>
+<li>「Esc」を入力した直後に「=」（イコール）を入力する</li>
+</ul>
+<h3>補完</h3>
+<p>Esc \</p>
+<ul>
+<li>「Esc」を入力した直後に「\」（バックスラッシュまたは半角円記号）を入力する</li>
+</ul>
+<h2>emacsモード</h2>
+<p>bashやreadlineなどでデフォルトのemacsモードです。</p>
+<h3>候補表示</h3>
+<p>Esc = </p>
+<ul>
+<li>「Esc」を入力した直後に「=」（イコール）を入力する
+
+<ul>
+<li>viモードと同じ</li>
+</ul>
+</li>
+</ul>
+<h3>補完</h3>
+<p>Esc Esc</p>
+<ul>
+<li>「Esc」を2回入力する
+
+<ul>
+<li>viモードと違う</li>
+<li>viモードより押しやすい</li>
+</ul>
+</li>
+</ul>
+<h2>参考</h2>
+<h3>Escキーが押しづらいときの対策</h3>
+<p>Escキーが押しづらい場合やEscキーがない場合、コントロールキーコードで代用できます。</p>
+<p>C-[</p>
+<ul>
+<li>
+<p>「Ctrl」キーを押しながら「[」キーを押すと、OSはEscキーが押されたと思い込みます。</p>
+
+<ul>
+<li>制御コード表（ctrl列を参照） <a href="http://ash.jp/code/ctrltbl.htm">http://ash.jp/code/ctrltbl.htm</a>
+</li>
+</ul>
+</li>
+</ul>
+<p>ちなみに世の中には2種類のVimmerがいて、押しやすいキーにEscを割り当てる人と、C-[を使う人に分かれています。私は後者です。</p>
+</article><article class="article"><h1 class="date">
 <a href="./entries/20130216.html">2013-02-16</a>
 </h1>
 <h1 id="a0">
@@ -242,33 +299,9 @@
 <p><a href="http://www.hpc.cs.ehime-u.ac.jp/%7Eaman/linux/bash/command_line.html#2.2_vi_mode">http://www.hpc.cs.ehime-u.ac.jp/~aman/linux/bash/command_line.html#2.2_vi_mode</a></p>
 <h3>制御コード表（ctrl列を参照）</h3>
 <p><a href="http://ash.jp/code/ctrltbl.htm">http://ash.jp/code/ctrltbl.htm</a></p>
-</article><article class="article"><h1 class="date">
-<a href="./entries/20121009.html">2012-10-09</a>
-</h1>
-<h1 id="a0">
-<a href="./entries/20121009/a0.html">日本語のモーラ（拍）を数えるWebアプリつくった</a>
-</h1>
-<p>拍数え - モーラ（拍）計算機</p>
-<p><a href="http://myokoym.net/mora/">http://myokoym.net/mora/</a></p>
-<p>単語ごとに辞書から読みを引いて数えるため、「明日」は「あした」で固定です。文脈によって「あす」と読むなどの高度なことはできません。</p>
-<p>もうひとつの弱点は叙々苑です。</p>
-<ul>
-<li>辞書に載っていない語句だと、「々」が0拍になってしまう</li>
-<li>サーバーのMeCabはIPA辞書を使っており、残念ながら叙々苑は載っていない</li>
-</ul>
-<p>小さい「ぁぃぅぇぉ」の扱いは微妙ですが、今は数えてません。</p>
-<p>ソースコードはこちら。</p>
-<ul>
-<li><p>Webページ
-<a href="https://github.com/myokoym/mora-web">https://github.com/myokoym/mora-web</a></p></li>
-<li><p>ライブラリ（RubyGems）
-<a href="https://github.com/myokoym/mecab-mora">https://github.com/myokoym/mecab-mora</a></p></li>
-</ul>
-<p>※拍(Mora)が正しいです。今まで音節(Syllable)だと思って作っていたので、いろいろ修正します。</p>
-<p><a href="http://sp.cis.iwate-u.ac.jp/sp/lessonj/doc/moraj.html">http://sp.cis.iwate-u.ac.jp/sp/lessonj/doc/moraj.html</a></p>
 </article><div class="nav">
 <div class="next">
-<link href="./entries/20121006.html" rel="next">
+<link href="./entries/20121009.html" rel="next">
 </div>
 </div>
 <div class="autopagerize_insert_before"></div>
@@ -281,6 +314,9 @@
 <h3>Recent entries</h3>
 <div class="recent-entries">
 <ul>
+<li>
+<a href="./entries/20130223/a0.html">kshのコマンドライン入力補完</a>
+</li>
 <li>
 <a href="./entries/20130216/a0.html">~/.rbenv/plugins/ruby-buildにゴミが残っていたせいで~/ruby-buildの更新がrbenvに反映されなかった件</a>
 </li>
@@ -295,9 +331,6 @@
 </li>
 <li>
 <a href="./entries/20121009/a0.html">日本語のモーラ（拍）を数えるWebアプリつくった</a>
-</li>
-<li>
-<a href="./entries/20121006/a0.html">日本語の文章を音節で分割して音数を数えるプログラム</a>
 </li>
 </ul>
 <div class="archives">

@@ -1,4 +1,68 @@
-<?xml version="1.0" encoding="UTF-8"?><rdf:RDF xmlns="http://purl.org/rss/1.0/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xml:lang="ja"><channel rdf:about="http://myokoym.github.com/"><title>my_letter</title><link>http://myokoym.github.com/</link><dc:date>2013-02-16</dc:date><description>my_letter</description><items><rdf:Seq><rdf:li rdf:resource="http://myokoym.github.com/entries/20130216/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130127/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20121125/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20121123/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20121009/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20121006/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20120929/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20120928/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20120926/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20120924/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20120922/a2.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20120922/a1.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20120922/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20120920/a1.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20120920/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20120908/a1.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20120908/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20120906/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20120905/a2.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20120905/a1.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20120905/a0.html"/></rdf:Seq></items></channel><item about="http://myokoym.github.com/entries/20130216/a0.html"><title>~/.rbenv/plugins/ruby-buildにゴミが残っていたせいで~/ruby-buildの更新がrbenvに反映されなかった件</title><description>ホームディレクトリのruby-buildを何度更新してもrbenvに反映されなくてなんでやねんと思っていたら、rbenvのプラグインディレクトリにもruby-buildがいて、そちらに優先権があったみたいでした。
+<?xml version="1.0" encoding="UTF-8"?><rdf:RDF xmlns="http://purl.org/rss/1.0/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xml:lang="ja"><channel rdf:about="http://myokoym.github.com/"><title>my_letter</title><link>http://myokoym.github.com/</link><dc:date>2013-02-23</dc:date><description>my_letter</description><items><rdf:Seq><rdf:li rdf:resource="http://myokoym.github.com/entries/20130223/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130216/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130127/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20121125/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20121123/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20121009/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20121006/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20120929/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20120928/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20120926/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20120924/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20120922/a2.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20120922/a1.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20120922/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20120920/a1.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20120920/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20120908/a1.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20120908/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20120906/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20120905/a2.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20120905/a1.html"/></rdf:Seq></items></channel><item about="http://myokoym.github.com/entries/20130223/a0.html"><title>kshのコマンドライン入力補完</title><description>入力補完に「タブが使えない」kshですが、別の方法で補完が可能です。
+viモード
+kshはviモードがデフォルトのことが多いです。
+候補表示
+Esc = 
+
+「Esc」を入力した直後に「=」（イコール）を入力する
+
+補完
+Esc \
+
+「Esc」を入力した直後に「\」（バックスラッシュまたは半角円記号）を入力する
+
+emacsモード
+bashやreadlineなどでデフォルトのemacsモードです...</description><content:encoded><![CDATA[<p>入力補完に「タブが使えない」kshですが、別の方法で補完が可能です。</p>
+<h2>viモード</h2>
+<p>kshはviモードがデフォルトのことが多いです。</p>
+<h3>候補表示</h3>
+<p>Esc = </p>
+<ul>
+<li>「Esc」を入力した直後に「=」（イコール）を入力する</li>
+</ul>
+<h3>補完</h3>
+<p>Esc \</p>
+<ul>
+<li>「Esc」を入力した直後に「\」（バックスラッシュまたは半角円記号）を入力する</li>
+</ul>
+<h2>emacsモード</h2>
+<p>bashやreadlineなどでデフォルトのemacsモードです。</p>
+<h3>候補表示</h3>
+<p>Esc = </p>
+<ul>
+<li>「Esc」を入力した直後に「=」（イコール）を入力する
+
+<ul>
+<li>viモードと同じ</li>
+</ul>
+</li>
+</ul>
+<h3>補完</h3>
+<p>Esc Esc</p>
+<ul>
+<li>「Esc」を2回入力する
+
+<ul>
+<li>viモードと違う</li>
+<li>viモードより押しやすい</li>
+</ul>
+</li>
+</ul>
+<h2>参考</h2>
+<h3>Escキーが押しづらいときの対策</h3>
+<p>Escキーが押しづらい場合やEscキーがない場合、コントロールキーコードで代用できます。</p>
+<p>C-[</p>
+<ul>
+<li>
+<p>「Ctrl」キーを押しながら「[」キーを押すと、OSはEscキーが押されたと思い込みます。</p>
+
+<ul>
+<li>制御コード表（ctrl列を参照） <a href="http://ash.jp/code/ctrltbl.htm">http://ash.jp/code/ctrltbl.htm</a>
+</li>
+</ul>
+</li>
+</ul>
+<p>ちなみに世の中には2種類のVimmerがいて、押しやすいキーにEscを割り当てる人と、C-[を使う人に分かれています。私は後者です。</p>]]></content:encoded><dc:date>2013-02-23</dc:date><link>http://myokoym.github.com/entries/20130223/a0.html</link><author>myokoym</author></item><item about="http://myokoym.github.com/entries/20130216/a0.html"><title>~/.rbenv/plugins/ruby-buildにゴミが残っていたせいで~/ruby-buildの更新がrbenvに反映されなかった件</title><description>ホームディレクトリのruby-buildを何度更新してもrbenvに反映されなくてなんでやねんと思っていたら、rbenvのプラグインディレクトリにもruby-buildがいて、そちらに優先権があったみたいでした。
 どっちか消そう。</description><content:encoded><![CDATA[<p>ホームディレクトリのruby-buildを何度更新してもrbenvに反映されなくてなんでやねんと思っていたら、rbenvのプラグインディレクトリにもruby-buildがいて、そちらに優先権があったみたいでした。</p>
 <p>どっちか消そう。</p>]]></content:encoded><dc:date>2013-02-16</dc:date><link>http://myokoym.github.com/entries/20130216/a0.html</link><author>myokoym</author></item><item about="http://myokoym.github.com/entries/20130127/a0.html"><title>文字列に通番を付けて殖やすツールを作成中</title><description>Text amplifier - テキスト増幅器
 http://myokoym.net/textamp/
@@ -927,8 +991,4 @@ BGM
 </li>
 </ul>
 <hr>
-]]></content:encoded><dc:date>2012-09-05</dc:date><link>http://myokoym.github.com/entries/20120905/a1.html</link><author>myokoym</author></item><item about="http://myokoym.github.com/entries/20120905/a0.html"><title>my first letter</title><description>My first letter is one liner. The end. Bye.
-
-</description><content:encoded><![CDATA[<p>My first letter is one liner. The end. Bye.</p>
-<hr>
-]]></content:encoded><dc:date>2012-09-05</dc:date><link>http://myokoym.github.com/entries/20120905/a0.html</link><author>myokoym</author></item></rdf:RDF>
+]]></content:encoded><dc:date>2012-09-05</dc:date><link>http://myokoym.github.com/entries/20120905/a1.html</link><author>myokoym</author></item></rdf:RDF>

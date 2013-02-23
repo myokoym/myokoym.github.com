@@ -1,7 +1,7 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html>
 <head>
-<title>case文のインデント - my_letter</title>
+<title>kshのコマンドライン入力補完 - my_letter</title>
 <meta charset="utf-8" content="text/html; charset=UTF-8" http-equiv="Content-Type">
 <meta content="myokoym" name="author">
 <link href="../../favicon.png" rel="icon" type="image/png">
@@ -32,122 +32,63 @@
 </ul></nav></header><div id="page">
 <div id="content">
 <article class="article autopagerize_page_element"><h1 class="date">
-<a href="../../entries/20120922.html">2012-09-22</a>
+<a href="../../entries/20130223.html">2013-02-23</a>
 </h1>
-<h1 id="a1">
-<a href="../../entries/20120922/a1.html">case文のインデント</a>
+<h1 id="a0">
+<a href="../../entries/20130223/a0.html">kshのコマンドライン入力補完</a>
 </h1>
-<h2>指針</h2>
-<p>case 文の使用方法 - UNIX &amp; Linux コマンド・シェルスクリプト リファレンス:
-<a href="http://shellscript.sunone.me/case.html">http://shellscript.sunone.me/case.html</a></p>
-<h2>選択肢</h2>
-<p>case文のスタイルはいろいろな選択肢がある。
-特にシェルスクリプトではセミコロンが付く分、選択肢が多い。</p>
-<ol>
-<li>パターンと処理の間を改行するか</li>
-<li>処理とセミコロンの間を改行するか</li>
-<li>case宣言とパターンの間をインデントするか</li>
-</ol>
-<h2>1. パターンと処理の間を改行するか</h2>
-<h3>1-A</h3>
-<div class="highlight"><pre>case 値 in
-  パターン1 ) 処理1 ;;
-  パターン2 ) 処理2 ;;
-  パターン3 ) 処理3 ;;
-  …
-  パターンn ) 処理n ;;
-esac
-</pre></div>
-<h3>1-B</h3>
-<div class="highlight"><pre>case 値 in
-  パターン1 )
-    処理1 ;;
-  パターン2 )
-    処理2 ;;
-  パターン3 )
-    処理3 ;;
-  …
-  パターンn )
-    処理n ;;
-esac
-</pre></div>
-<h2>2. 処理とセミコロンの間を改行するか</h2>
-<h3>2-A</h3>
-<div class="highlight"><pre>case 値 in
-  パターン1 )
-    処理1 ;;
-  パターン2 )
-    処理2 ;;
-  パターン3 )
-    処理3 ;;
-  …
-  パターンn )
-    処理n ;;
-esac
-</pre></div>
-<h3>2-B</h3>
-<div class="highlight"><pre>case 値 in
-  パターン1 )
-    処理1
-    ;;
-  パターン2 )
-    処理2
-    ;;
-  パターン3 )
-    処理3
-    ;;
-  …
-  パターンn )
-    処理n
-    ;;
-esac
-</pre></div>
-<h2>3. case宣言とパターンの間をインデントするか</h2>
-<h3>3-A</h3>
-<div class="highlight"><pre>case 値 in
-  パターン1 )
-    処理1
-    ;;
-  パターン2 )
-    処理2
-    ;;
-  パターン3 )
-    処理3
-    ;;
-  …
-  パターンn )
-    処理n
-    ;;
-esac
-</pre></div>
-<h3>3-B</h3>
-<div class="highlight"><pre>case 値 in
-パターン1 )
-  処理1
-  ;;
-パターン2 )
-  処理2
-  ;;
-パターン3 )
-  処理3
-  ;;
-…
-パターンn )
-  処理n
-  ;;
-esac
-</pre></div>
-<h2>私見</h2>
+<p>入力補完に「タブが使えない」kshですが、別の方法で補完が可能です。</p>
+<h2>viモード</h2>
+<p>kshはviモードがデフォルトのことが多いです。</p>
+<h3>候補表示</h3>
+<p>Esc = </p>
 <ul>
-<li>個人的には1-B、2-B、3-Bが好み。</li>
-<li>1-A〜2-Aまではセミコロン忘れが怖い。</li>
-<li>1-A〜3-Aまでは、4タブ以上だと横に長くなってしまう。
+<li>「Esc」を入力した直後に「=」（イコール）を入力する</li>
+</ul>
+<h3>補完</h3>
+<p>Esc \</p>
+<ul>
+<li>「Esc」を入力した直後に「\」（バックスラッシュまたは半角円記号）を入力する</li>
+</ul>
+<h2>emacsモード</h2>
+<p>bashやreadlineなどでデフォルトのemacsモードです。</p>
+<h3>候補表示</h3>
+<p>Esc = </p>
+<ul>
+<li>「Esc」を入力した直後に「=」（イコール）を入力する
 
 <ul>
-<li>ただ、2タブなら3-Aでもいいと思っている。</li>
+<li>viモードと同じ</li>
 </ul>
 </li>
-</ul></article><div id="comments">
+</ul>
+<h3>補完</h3>
+<p>Esc Esc</p>
+<ul>
+<li>「Esc」を2回入力する
+
+<ul>
+<li>viモードと違う</li>
+<li>viモードより押しやすい</li>
+</ul>
+</li>
+</ul>
+<h2>参考</h2>
+<h3>Escキーが押しづらいときの対策</h3>
+<p>Escキーが押しづらい場合やEscキーがない場合、コントロールキーコードで代用できます。</p>
+<p>C-[</p>
+<ul>
+<li>
+<p>「Ctrl」キーを押しながら「[」キーを押すと、OSはEscキーが押されたと思い込みます。</p>
+
+<ul>
+<li>制御コード表（ctrl列を参照） <a href="http://ash.jp/code/ctrltbl.htm">http://ash.jp/code/ctrltbl.htm</a>
+</li>
+</ul>
+</li>
+</ul>
+<p>ちなみに世の中には2種類のVimmerがいて、押しやすいキーにEscを割り当てる人と、C-[を使う人に分かれています。私は後者です。</p>
+</article><div id="comments">
 <div id="disqus_thread">
   <script type="text/javascript">
     //<![CDATA[
@@ -163,10 +104,9 @@ esac
 </div>
 <div class="nav">
 <div class="prev">
-<link href="../../entries/20120922/a0.html" rel="prev">
 </div>
 <div class="next">
-<link href="../../entries/20120922/a2.html" rel="next">
+<link href="../../entries/20130216/a0.html" rel="next">
 </div>
 </div>
 <div class="autopagerize_insert_before"></div>
