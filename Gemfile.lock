@@ -27,7 +27,7 @@ GEM
     posix-spawn (0.3.6)
     pygments.rb (0.2.13)
       rubypython (~> 0.5.3)
-    rack (1.4.1)
+    rack (1.4.5)
     redcarpet (2.1.1)
     retter (0.2.3)
       activesupport (>= 3.2.5)
