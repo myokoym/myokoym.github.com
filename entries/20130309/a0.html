@@ -1,7 +1,7 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html>
 <head>
-<title>SlideShareのURLのつくられかた - my_letter</title>
+<title>『SQL　ゼロからはじめるデータベース操作』を読んだメモ - my_letter</title>
 <meta charset="utf-8" content="text/html; charset=UTF-8" http-equiv="Content-Type">
 <meta content="myokoym" name="author">
 <link href="../../favicon.png" rel="icon" type="image/png">
@@ -32,32 +32,52 @@
 </ul></nav></header><div id="page">
 <div id="content">
 <article class="article autopagerize_page_element"><h1 class="date">
-<a href="../../entries/20120926.html">2012-09-26</a>
+<a href="../../entries/20130309.html">2013-03-09</a>
 </h1>
 <h1 id="a0">
-<a href="../../entries/20120926/a0.html">SlideShareのURLのつくられかた</a>
+<a href="../../entries/20130309/a0.html">『SQL　ゼロからはじめるデータベース操作』を読んだメモ</a>
 </h1>
-<p>2012/09/26現在、以下の手順で作られているようです。
-試行錯誤の結果なので、違うパターンがあるかもしれません。</p>
+<p>SQLの知識は、基本情報レベルの基礎と、業務で断片的に調べただけだったので、遅ればせながらちゃんとした入門書を読みました。</p>
+<p>『SQL　ゼロからはじめるデータベース操作』サポートページ
+<br><a href="http://www.geocities.jp/mickindex/database/db_support_prg_sql.html">http://www.geocities.jp/mickindex/database/db_support_prg_sql.html</a></p>
+<h2>COUNT関数 と NULL</h2>
+<ul>
+<li>COUNT(*) は、全ての行の件数</li>
+<li>COUNT(column) は、columnがNULLのレコードを除いた件数</li>
+</ul>
+<h2>AVG関数 と NULL</h2>
+<ul>
+<li>AVG関数はNULLのレコードを除いた平均値</li>
+</ul>
+<h2>句ごとの実行順</h2>
+<p>これによって別名が使えたり使えなかったりする。</p>
 <ol>
-<li>原材料はタイトル</li>
-<li>半角英数字以外をすべて取り除く（単語間の半角スペースは残す）</li>
-<li>半角英字をすべて小文字にする</li>
-<li>半角スペースがあった場合、ハイフンを挟む</li>
-<li>4.の時点で長さが0の場合、"ss"を付ける（ブラウザのみ？）</li>
-<li>5.の時点で同じURLのスライドが存在した場合、後ろにハイフンとIDを付ける</li>
+<li>FROM</li>
+<li>WHERE</li>
+<li>GROUP BY</li>
+<li>HAVING</li>
+<li>SELECT</li>
+<li>ORDER BY</li>
 </ol>
-<p>Rubyで書くとこんな感じです。</p>
-<script src="https://gist.github.com/3788426.js"> </script><p>ただ、開発者らしき方によると、URLのルールは</p>
+<h2>INSERT … SELECT</h2>
+<p>INSERT … SELECT文を使えば、テーブル同士でデータを受け渡せる。</p>
+<ul>
+<li>同じテーブル内の行を複製することもできる</li>
+<li>キー重複に注意</li>
+</ul>
+<h2>ビュー</h2>
+<p>ビューは、データではなくSELECT文を保持する。</p>
+<h2>スカラ・サブクエリ</h2>
+<ul>
+<li>値をひとつだけ返すサブクエリ</li>
+<li>WHERE句で、比較演算の右辺として使える</li>
+</ul>
+<h2>IN句とサブクエリ</h2>
+<p>値のリストを返すサブクエリは、IN句に記述できる。</p>
+<h2>格言</h2>
 <blockquote>
-<p>There's no "formula."</p>
+<p>結合の古い書き方や方言は、自分で使ってはならない。でも読めるようにはしておこう。</p>
 </blockquote>
-<p>だそうなので、いつか変わるかもしれません。</p>
-<h2>refs</h2>
-<p>How can I make a slideshare's URL match its title?
-<a href="https://getsatisfaction.com/slideshare/topics/how_can_i_make_a_slideshares_url_match_its_title">https://getsatisfaction.com/slideshare/topics/how_can_i_make_a_slideshares_url_match_its_title</a></p>
-<p>SlideShare » Developer Documentation
-<a href="http://www.slideshare.net/developers/documentation#edit_slideshow">http://www.slideshare.net/developers/documentation#edit_slideshow</a></p>
 </article><div id="comments">
 <div id="disqus_thread">
   <script type="text/javascript">
@@ -74,10 +94,9 @@
 </div>
 <div class="nav">
 <div class="prev">
-<link href="../../entries/20120928/a0.html" rel="prev">
 </div>
 <div class="next">
-<link href="../../entries/20120924/a0.html" rel="next">
+<link href="../../entries/20130302/a0.html" rel="next">
 </div>
 </div>
 <div class="autopagerize_insert_before"></div>

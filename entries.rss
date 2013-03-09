@@ -1,4 +1,50 @@
-<?xml version="1.0" encoding="UTF-8"?><rdf:RDF xmlns="http://purl.org/rss/1.0/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xml:lang="ja"><channel rdf:about="http://myokoym.github.com/"><title>my_letter</title><link>http://myokoym.github.com/</link><dc:date>2013-03-02</dc:date><description>my_letter</description><items><rdf:Seq><rdf:li rdf:resource="http://myokoym.github.com/entries/20130302/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130223/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130216/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130127/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20121125/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20121123/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20121009/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20121006/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20120929/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20120928/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20120926/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20120924/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20120922/a2.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20120922/a1.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20120922/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20120920/a1.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20120920/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20120908/a1.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20120908/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20120906/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20120905/a2.html"/></rdf:Seq></items></channel><item about="http://myokoym.github.com/entries/20130302/a0.html"><title>Ruby 2.0.0 で classic スタイルの sinatra (1.3.4) が動かなかった件</title><description>sinatraのバージョンを1.3.4から1.3.5に上げたら動きました。
+<?xml version="1.0" encoding="UTF-8"?><rdf:RDF xmlns="http://purl.org/rss/1.0/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xml:lang="ja"><channel rdf:about="http://myokoym.github.com/"><title>my_letter</title><link>http://myokoym.github.com/</link><dc:date>2013-03-09</dc:date><description>my_letter</description><items><rdf:Seq><rdf:li rdf:resource="http://myokoym.github.com/entries/20130309/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130302/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130223/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130216/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130127/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20121125/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20121123/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20121009/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20121006/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20120929/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20120928/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20120926/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20120924/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20120922/a2.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20120922/a1.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20120922/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20120920/a1.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20120920/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20120908/a1.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20120908/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20120906/a0.html"/></rdf:Seq></items></channel><item about="http://myokoym.github.com/entries/20130309/a0.html"><title>『SQL　ゼロからはじめるデータベース操作』を読んだメモ</title><description>SQLの知識は、基本情報レベルの基礎と、業務で断片的に調べただけだったので、遅ればせながらちゃんとした入門書を読みました。
+『SQL　ゼロからはじめるデータベース操作』サポートページ
+http://www.geocities.jp/mickindex/database/db_support_prg_sql.html
+COUNT関数 と NULL
+
+COUNT(*) は、全ての行の件数
+COUNT(...</description><content:encoded><![CDATA[<p>SQLの知識は、基本情報レベルの基礎と、業務で断片的に調べただけだったので、遅ればせながらちゃんとした入門書を読みました。</p>
+<p>『SQL　ゼロからはじめるデータベース操作』サポートページ
+<br><a href="http://www.geocities.jp/mickindex/database/db_support_prg_sql.html">http://www.geocities.jp/mickindex/database/db_support_prg_sql.html</a></p>
+<h2>COUNT関数 と NULL</h2>
+<ul>
+<li>COUNT(*) は、全ての行の件数</li>
+<li>COUNT(column) は、columnがNULLのレコードを除いた件数</li>
+</ul>
+<h2>AVG関数 と NULL</h2>
+<ul>
+<li>AVG関数はNULLのレコードを除いた平均値</li>
+</ul>
+<h2>句ごとの実行順</h2>
+<p>これによって別名が使えたり使えなかったりする。</p>
+<ol>
+<li>FROM</li>
+<li>WHERE</li>
+<li>GROUP BY</li>
+<li>HAVING</li>
+<li>SELECT</li>
+<li>ORDER BY</li>
+</ol>
+<h2>INSERT … SELECT</h2>
+<p>INSERT … SELECT文を使えば、テーブル同士でデータを受け渡せる。</p>
+<ul>
+<li>同じテーブル内の行を複製することもできる</li>
+<li>キー重複に注意</li>
+</ul>
+<h2>ビュー</h2>
+<p>ビューは、データではなくSELECT文を保持する。</p>
+<h2>スカラ・サブクエリ</h2>
+<ul>
+<li>値をひとつだけ返すサブクエリ</li>
+<li>WHERE句で、比較演算の右辺として使える</li>
+</ul>
+<h2>IN句とサブクエリ</h2>
+<p>値のリストを返すサブクエリは、IN句に記述できる。</p>
+<h2>格言</h2>
+<blockquote>
+<p>結合の古い書き方や方言は、自分で使ってはならない。でも読めるようにはしておこう。</p>
+</blockquote>]]></content:encoded><dc:date>2013-03-09</dc:date><link>http://myokoym.github.com/entries/20130309/a0.html</link><author>myokoym</author></item><item about="http://myokoym.github.com/entries/20130302/a0.html"><title>Ruby 2.0.0 で classic スタイルの sinatra (1.3.4) が動かなかった件</title><description>sinatraのバージョンを1.3.4から1.3.5に上げたら動きました。
 Rubyというより、RubyGemsが2.0に上がったからかも。
 
 Rubyist Magazine - Sinatra 再入門、 Padrino / Rack / その先の何か
@@ -912,18 +958,4 @@ http://www.daiei.co.jp/food/seas...</description><content:encoded><![CDATA[<p>�
 <p>それに便乗して食の歳時記に載せてしまったのが、我らがダイエーというわけです。</p>
 <p>黒の食材を使った料理で、黒い人に負けない健康な体を。</p>
 <p>草々</p>
-<p><a href="http://www.daiei.co.jp/food/seasonal/201009_2_kuro.html">http://www.daiei.co.jp/food/seasonal/201009_2_kuro.html</a></p>]]></content:encoded><dc:date>2012-09-06</dc:date><link>http://myokoym.github.com/entries/20120906/a0.html</link><author>myokoym</author></item><item about="http://myokoym.github.com/entries/20120905/a2.html"><title>平成二十四年九月五日</title><description>前略
-もう九月だというのに暑い日が続いています。
-北海道の夏は一週間しかないと言っていたのは一体誰だったでしょう。
-ただ、今夜は幾分涼しくなるようですので、
-窓を開けたまま寝ると風邪を引いてしまうかもしれません。
-ところで、明日は雨が降るそうです。
-そろそろ折れた傘を使うのは止めた方がいいと思いますよ。
-草々</description><content:encoded><![CDATA[<p>前略</p>
-<p>もう九月だというのに暑い日が続いています。</p>
-<p>北海道の夏は一週間しかないと言っていたのは一体誰だったでしょう。</p>
-<p>ただ、今夜は幾分涼しくなるようですので、</p>
-<p>窓を開けたまま寝ると風邪を引いてしまうかもしれません。</p>
-<p>ところで、明日は雨が降るそうです。</p>
-<p>そろそろ折れた傘を使うのは止めた方がいいと思いますよ。</p>
-<p>草々</p>]]></content:encoded><dc:date>2012-09-05</dc:date><link>http://myokoym.github.com/entries/20120905/a2.html</link><author>myokoym</author></item></rdf:RDF>
+<p><a href="http://www.daiei.co.jp/food/seasonal/201009_2_kuro.html">http://www.daiei.co.jp/food/seasonal/201009_2_kuro.html</a></p>]]></content:encoded><dc:date>2012-09-06</dc:date><link>http://myokoym.github.com/entries/20120906/a0.html</link><author>myokoym</author></item></rdf:RDF>
