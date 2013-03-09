@@ -36,7 +36,7 @@ COUNT(c...</description><content:encoded><![CDATA[<p>SQLの知識は、基本情
 <p>ビューは、データではなくSELECT文を保持する。</p>
 <h2>スカラ・サブクエリ</h2>
 <ul>
-<li>値をひとつだけ返すサブクエリ</li>
+<li>スカラ・サブクエリとは、値をひとつだけ返すサブクエリ</li>
 <li>WHERE句で、比較演算の右辺として使える</li>
 </ul>
 <h2>IN句とサブクエリ</h2>
