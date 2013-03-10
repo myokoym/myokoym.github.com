@@ -1,4 +1,20 @@
-<?xml version="1.0" encoding="UTF-8"?><rdf:RDF xmlns="http://purl.org/rss/1.0/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xml:lang="ja"><channel rdf:about="http://myokoym.github.com/"><title>my_letter</title><link>http://myokoym.github.com/</link><dc:date>2013-03-09</dc:date><description>my_letter</description><items><rdf:Seq><rdf:li rdf:resource="http://myokoym.github.com/entries/20130309/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130302/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130223/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130216/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130127/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20121125/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20121123/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20121009/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20121006/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20120929/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20120928/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20120926/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20120924/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20120922/a2.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20120922/a1.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20120922/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20120920/a1.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20120920/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20120908/a1.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20120908/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20120906/a0.html"/></rdf:Seq></items></channel><item about="http://myokoym.github.com/entries/20130309/a0.html"><title>『SQL　ゼロからはじめるデータベース操作』を読んだメモ</title><description>SQLの知識は、基本情報レベルの基礎と、業務で断片的に調べただけだったので、遅ればせながらちゃんとした入門書を読みました。
+<?xml version="1.0" encoding="UTF-8"?><rdf:RDF xmlns="http://purl.org/rss/1.0/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xml:lang="ja"><channel rdf:about="http://myokoym.github.com/"><title>my_letter</title><link>http://myokoym.github.com/</link><dc:date>2013-03-10</dc:date><description>my_letter</description><items><rdf:Seq><rdf:li rdf:resource="http://myokoym.github.com/entries/20130310/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130309/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130302/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130223/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130216/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130127/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20121125/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20121123/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20121009/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20121006/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20120929/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20120928/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20120926/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20120924/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20120922/a2.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20120922/a1.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20120922/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20120920/a1.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20120920/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20120908/a1.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20120908/a0.html"/></rdf:Seq></items></channel><item about="http://myokoym.github.com/entries/20130310/a0.html"><title>とある文字列をジェネレートするRubyスクリプト</title><description>画像描画ライブラリには、 Firefox や Rabbit などで使われている cairo の Ruby バインディングである rcairo を使っています。 
+フォントはIPAex明朝とIPAexゴシックを使っているので、動かすときは以下からインストールしてください。
+http://ossipedia.ipa.go.jp/ipafont/ipaexfont/download.html
+グラデーシ...</description><content:encoded><![CDATA[<p>画像描画ライブラリには、 Firefox や Rabbit などで使われている cairo の Ruby バインディングである rcairo を使っています。 </p>
+<p>フォントはIPAex明朝とIPAexゴシックを使っているので、動かすときは以下からインストールしてください。
+<br><a href="http://ossipedia.ipa.go.jp/ipafont/ipaexfont/download.html">http://ossipedia.ipa.go.jp/ipafont/ipaexfont/download.html</a></p>
+<p>グラデーションの向きなどは調査中です。。</p>
+<h2>成果物</h2>
+<p><img src="/images/toaru-image-20130310.png" alt="toaru-image-20130310"></p>
+<h2>ソースコード</h2>
+<script src="https://gist.github.com/myokoym/5128655.js"></script><h2>参考</h2>
+<p>Rubyist Magazine - cairo: 2 次元画像描画ライブラリ
+<br><a href="http://jp.rubyist.net/magazine/?0019-cairo">http://jp.rubyist.net/magazine/?0019-cairo</a></p>
+<p>rcairo 事始め - takihiro日記
+<br><a href="http://d.hatena.ne.jp/takihiro/20100331/1269992290">http://d.hatena.ne.jp/takihiro/20100331/1269992290</a></p>
+<p>rcairo reference manual
+<br><a href="http://cairo.rubyforge.org/doc/">http://cairo.rubyforge.org/doc/</a></p>]]></content:encoded><dc:date>2013-03-10</dc:date><link>http://myokoym.github.com/entries/20130310/a0.html</link><author>myokoym</author></item><item about="http://myokoym.github.com/entries/20130309/a0.html"><title>『SQL　ゼロからはじめるデータベース操作』を読んだメモ</title><description>SQLの知識は、基本情報レベルの基礎と、業務で断片的に調べただけだったので、遅ればせながらちゃんとした入門書を読みました。
 『SQL　ゼロからはじめるデータベース操作』サポートページ
 http://www.geocities.jp/mickindex/database/db_support_prg_sql.html
 COUNT関数 と NULL
@@ -940,22 +956,4 @@ rspec spec
 <li>gem名モジュールの名前を変えるだなんて とんでもない！</li>
 </ul>
 <hr>
-]]></content:encoded><dc:date>2012-09-08</dc:date><link>http://myokoym.github.com/entries/20120908/a0.html</link><author>myokoym</author></item><item about="http://myokoym.github.com/entries/20120906/a0.html"><title>平成二十四年九月六日</title><description>前略
-今日は久しぶりにスーパーへ行きました。
-何やら黒いものが固めて置いてあったので寄って見ると、
-今日は黒の日
-と書いてありました。
-W先生に訊くと、京都墨染工業協同組合が制定した行事とのこと。
-それに便乗して食の歳時記に載せてしまったのが、我らがダイエーというわけです。
-黒の食材を使った料理で、黒い人に負けない健康な体を。
-草々
-http://www.daiei.co.jp/food/seas...</description><content:encoded><![CDATA[<p>前略</p>
-<p>今日は久しぶりにスーパーへ行きました。</p>
-<p>何やら黒いものが固めて置いてあったので寄って見ると、</p>
-<p>今日は黒の日</p>
-<p>と書いてありました。</p>
-<p>W先生に訊くと、京都墨染工業協同組合が制定した行事とのこと。</p>
-<p>それに便乗して食の歳時記に載せてしまったのが、我らがダイエーというわけです。</p>
-<p>黒の食材を使った料理で、黒い人に負けない健康な体を。</p>
-<p>草々</p>
-<p><a href="http://www.daiei.co.jp/food/seasonal/201009_2_kuro.html">http://www.daiei.co.jp/food/seasonal/201009_2_kuro.html</a></p>]]></content:encoded><dc:date>2012-09-06</dc:date><link>http://myokoym.github.com/entries/20120906/a0.html</link><author>myokoym</author></item></rdf:RDF>
+]]></content:encoded><dc:date>2012-09-08</dc:date><link>http://myokoym.github.com/entries/20120908/a0.html</link><author>myokoym</author></item></rdf:RDF>

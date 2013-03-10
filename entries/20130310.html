@@ -1,7 +1,7 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html>
 <head>
-<title>2013-01-27 - my_letter</title>
+<title>2013-03-10 - my_letter</title>
 <meta charset="utf-8" content="text/html; charset=UTF-8" http-equiv="Content-Type">
 <meta content="myokoym" name="author">
 <link href="../favicon.png" rel="icon" type="image/png">
@@ -32,80 +32,30 @@
 </ul></nav></header><div id="page">
 <div id="content">
 <article class="article autopagerize_page_element"><h1 class="date">
-<a href="../entries/20130127.html">2013-01-27</a>
+<a href="../entries/20130310.html">2013-03-10</a>
 </h1>
 <h1 id="a0">
-<a href="../entries/20130127/a0.html">文字列に通番を付けて殖やすツールを作成中</a>
+<a href="../entries/20130310/a0.html">とある文字列をジェネレートするRubyスクリプト</a>
 </h1>
-<p>Text amplifier - テキスト増幅器</p>
-<p><a href="http://myokoym.net/textamp/">http://myokoym.net/textamp/</a></p>
-<h2>例1 hoge001〜hoge100をつくる</h2>
-<ul>
-<li>volume: 100</li>
-<li>linefeed: ON</li>
-<li>increment: ON
-
-<ul>
-<li>sign: #（任意）</li>
-<li>start: 1</li>
-<li>digit: 3</li>
-</ul>
-</li>
-<li>template: OFF</li>
-</ul>
-<p><img src="../images/textamp_20130127_01.jpg" alt="textamp_20130127_01"></p>
-<h3>結果</h3>
-<p>hoge001〜hoge100ができます。</p>
-<p><img src="../images/textamp_20130127_02.jpg" alt="textamp_20130127_02"></p>
-<h2>例2 ゲッターとセッターをつくる</h2>
-<p>通番以外にも、部分的に置換する機能があります。</p>
-<ul>
-<li>volume: 3（3組の場合）</li>
-<li>linefeed: ON</li>
-<li>increment: OFF</li>
-<li>template: ON
-
-<ul>
-<li>sign: xxx（任意）</li>
-<li>parts: hoge huga piyo（改行区切り）</li>
-</ul>
-</li>
-</ul>
-<p><img src="../images/textamp_20130127_03.jpg" alt="textamp_20130127_03"></p>
-<h3>結果</h3>
-<p>ゲッターとセッターができます。</p>
-<p><img src="../images/textamp_20130127_04.jpg" alt="textamp_20130127_04"></p>
-<h2>HTTP-GETに対応</h2>
-<h3>微修正したいとき</h3>
-<ul>
-<li>フォームの入力内容は保存していないので消えてしまいます。</li>
-<li>その代わりにHTTP-GETに対応しているので、パラメータをいじれば手軽に微修正が可能です。</li>
-</ul>
-<h3>フォームのドロップダウンが足りないとき</h3>
-<ul>
-<li>volumeはフォームでは100までしかありませんが、HTTP-GETなら101個以上に殖やすことが可能です。</li>
-<li>signやstart、digitも同様です。</li>
-</ul>
-<h2>TODO</h2>
-<ul>
-<li>デザインをもっとわかりやすくしたい。
-
-<ul>
-<li>CSS書くとか</li>
-</ul>
-</li>
-<li>操作性をよくしたい。
-
-<ul>
-<li>JavaScript書くとか</li>
-</ul>
-</li>
-</ul></article><div class="nav">
+<p>画像描画ライブラリには、 Firefox や Rabbit などで使われている cairo の Ruby バインディングである rcairo を使っています。 </p>
+<p>フォントはIPAex明朝とIPAexゴシックを使っているので、動かすときは以下からインストールしてください。
+<br><a href="http://ossipedia.ipa.go.jp/ipafont/ipaexfont/download.html">http://ossipedia.ipa.go.jp/ipafont/ipaexfont/download.html</a></p>
+<p>グラデーションの向きなどは調査中です。。</p>
+<h2>成果物</h2>
+<p><img src="../images/toaru-image-20130310.png" alt="toaru-image-20130310"></p>
+<h2>ソースコード</h2>
+<script src="https://gist.github.com/myokoym/5128655.js"></script><h2>参考</h2>
+<p>Rubyist Magazine - cairo: 2 次元画像描画ライブラリ
+<br><a href="http://jp.rubyist.net/magazine/?0019-cairo">http://jp.rubyist.net/magazine/?0019-cairo</a></p>
+<p>rcairo 事始め - takihiro日記
+<br><a href="http://d.hatena.ne.jp/takihiro/20100331/1269992290">http://d.hatena.ne.jp/takihiro/20100331/1269992290</a></p>
+<p>rcairo reference manual
+<br><a href="http://cairo.rubyforge.org/doc/">http://cairo.rubyforge.org/doc/</a></p>
+</article><div class="nav">
 <div class="prev">
-<link href="../entries/20130216.html" rel="prev">
 </div>
 <div class="next">
-<link href="../entries/20121125.html" rel="next">
+<link href="../entries/20130309.html" rel="next">
 </div>
 </div>
 <div class="autopagerize_insert_before"></div>
