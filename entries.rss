@@ -1,4 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?><rdf:RDF xmlns="http://purl.org/rss/1.0/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xml:lang="ja"><channel rdf:about="http://myokoym.github.com/"><title>my_letter</title><link>http://myokoym.github.com/</link><dc:date>2013-03-10</dc:date><description>my_letter</description><items><rdf:Seq><rdf:li rdf:resource="http://myokoym.github.com/entries/20130310/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130309/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130302/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130223/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130216/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130127/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20121125/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20121123/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20121009/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20121006/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20120929/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20120928/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20120926/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20120924/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20120922/a2.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20120922/a1.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20120922/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20120920/a1.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20120920/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20120908/a1.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20120908/a0.html"/></rdf:Seq></items></channel><item about="http://myokoym.github.com/entries/20130310/a0.html"><title>とある文字列の画像をジェネレートするRubyスクリプト</title><description>画像描画ライブラリには、 Firefox や Rabbit などで使われている cairo の Ruby バインディングである rcairo を使っています。 
+<?xml version="1.0" encoding="UTF-8"?><rdf:RDF xmlns="http://purl.org/rss/1.0/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xml:lang="ja"><channel rdf:about="http://myokoym.github.com/"><title>my_letter</title><link>http://myokoym.github.com/</link><dc:date>2013-03-12</dc:date><description>my_letter</description><items><rdf:Seq><rdf:li rdf:resource="http://myokoym.github.com/entries/20130312/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130310/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130309/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130302/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130223/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130216/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130127/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20121125/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20121123/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20121009/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20121006/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20120929/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20120928/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20120926/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20120924/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20120922/a2.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20120922/a1.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20120922/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20120920/a1.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20120920/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20120908/a1.html"/></rdf:Seq></items></channel><item about="http://myokoym.github.com/entries/20130312/a0.html"><title>rcairo で虹を描いてみた</title><description>
+</description><content:encoded><![CDATA[<p><img src="/images/niji-20130312.png" alt="niji-20130312"></p>
+<script src="https://gist.github.com/myokoym/5143259.js"></script>]]></content:encoded><dc:date>2013-03-12</dc:date><link>http://myokoym.github.com/entries/20130312/a0.html</link><author>myokoym</author></item><item about="http://myokoym.github.com/entries/20130310/a0.html"><title>とある文字列の画像をジェネレートするRubyスクリプト</title><description>画像描画ライブラリには、 Firefox や Rabbit などで使われている cairo の Ruby バインディングである rcairo を使っています。 
 フォントはIPAex明朝とIPAexゴシックを使っているので、動かすときは以下からインストールしてください。
 http://ossipedia.ipa.go.jp/ipafont/ipaexfont/download.html
 グラデーシ...</description><content:encoded><![CDATA[<p>画像描画ライブラリには、 Firefox や Rabbit などで使われている cairo の Ruby バインディングである rcairo を使っています。 </p>
@@ -905,55 +907,4 @@ elected
 <ul>
 <li>功利主義: case1</li>
 <li>(単純な)多数決: case2</li>
-</ul>]]></content:encoded><dc:date>2012-09-08</dc:date><link>http://myokoym.github.com/entries/20120908/a1.html</link><author>myokoym</author></item><item about="http://myokoym.github.com/entries/20120908/a0.html"><title>bundle exec rake で TypeError</title><description>RubyGemsの開発中に起こった怖い話。
-bundle gem gem名
-
-で生成したプロジェクトで、Rakeの標準タスクにRSpecを設定して
-bundle exec rake
-
-を実行すると、TypeErrorが発生。 
-メッセージには、
-ClassName is not a class
-
-とある。クラスなのにクラスじゃないって？
-単に
-rake
-
-や、
-rspec spec
-
-だとエラーは...</description><content:encoded><![CDATA[<p>RubyGemsの開発中に起こった怖い話。</p>
-<div class="highlight"><pre>bundle gem gem名
-</pre></div>
-<p>で生成したプロジェクトで、Rakeの標準タスクにRSpecを設定して</p>
-<div class="highlight"><pre>bundle exec rake
-</pre></div>
-<p>を実行すると、TypeErrorが発生。 </p>
-<p>メッセージには、</p>
-<div class="highlight"><pre>ClassName is not a class
-</pre></div>
-<p>とある。クラスなのにクラスじゃないって？</p>
-<p>単に</p>
-<div class="highlight"><pre>rake
-</pre></div>
-<p>や、</p>
-<div class="highlight"><pre>rspec spec
-</pre></div>
-<p>だとエラーは出ない。</p>
-<p>＊</p>
-<p>＊</p>
-<p>＊</p>
-<p>ひと通り悩んだ後、libディレクトリを検索すると、デフォルトでgem名のモジュールが定義されているのを発見。確かに、バージョン番号を上げるときに見た記憶がある。</p>
-<p>そして、TypeErrorとなったクラスはgem名と同じ名前だった…。</p>
-<p>bundle exec すると、クラスの前にモジュールがロードされていて、名前衝突してしまったというのが今回のオチ。</p>
-<p>GitHubを見渡しても、gem名と同じ名前のクラスがあるgemは見当たらなかった。
-どうやらRubyGems開発のお作法のようだ。</p>
-<h3>教訓</h3>
-<ul>
-<li>gem名と同じ名前のクラスは作らない。</li>
-<li>作るにしても、gem名モジュールの中にする。</li>
-<li>基本的に、クラスやモジュールはgem名モジュールの中に作る。</li>
-<li>gem名モジュールの名前を変えるだなんて とんでもない！</li>
-</ul>
-<hr>
-]]></content:encoded><dc:date>2012-09-08</dc:date><link>http://myokoym.github.com/entries/20120908/a0.html</link><author>myokoym</author></item></rdf:RDF>
+</ul>]]></content:encoded><dc:date>2012-09-08</dc:date><link>http://myokoym.github.com/entries/20120908/a1.html</link><author>myokoym</author></item></rdf:RDF>
