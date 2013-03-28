@@ -7,9 +7,9 @@ GObject Introspection 版
 背景色が明るすぎず、目にやさしい感じでよさげです。 
 
 
-C バインディング
+C オリジナル
 
-GI版と比べて、見た目はほとんど変...</description><content:encoded><![CDATA[<p><a href="https://github.com/ruby-gnome2/ruby-gnome2/blob/master/goocanvas/sample/units-demo.rb">https://github.com/ruby-gnome2/ruby-gnome2/blob/master/goocanvas/sample/units-demo.rb</a></p>
+GI版と比べて、見た目はほとんど変わり...</description><content:encoded><![CDATA[<p><a href="https://github.com/ruby-gnome2/ruby-gnome2/blob/master/goocanvas/sample/units-demo.rb">https://github.com/ruby-gnome2/ruby-gnome2/blob/master/goocanvas/sample/units-demo.rb</a></p>
 <h2>旧サンプル</h2>
 <p><img src="/images/units-demo-old-20130328_01.png" alt="units-demo-old-20130328_01"></p>
 <h2>GObject Introspection 版</h2>
@@ -18,7 +18,7 @@ GI版と比べて、見た目はほとんど変...</description><content:encoded
 <li>背景色が明るすぎず、目にやさしい感じでよさげです。 </li>
 </ul>
 <p><img src="/images/units-demo-gi-20130328_02.png" alt="units-demo-gi-20130328_02"></p>
-<h2>C バインディング</h2>
+<h2>C オリジナル</h2>
 <ul>
 <li>GI版と比べて、見た目はほとんど変わりません。</li>
 <li>両方とも動かしてみましたが、よさげです。</li>
