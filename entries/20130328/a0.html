@@ -1,7 +1,7 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html>
 <head>
-<title>とある文字列の画像をジェネレートするRubyスクリプト - my_letter</title>
+<title>Ruby-Gnome2/GooCanvasのサンプル比較 - units-demo - my_letter</title>
 <meta charset="utf-8" content="text/html; charset=UTF-8" http-equiv="Content-Type">
 <meta content="myokoym" name="author">
 <link href="../../favicon.png" rel="icon" type="image/png">
@@ -32,25 +32,36 @@
 </ul></nav></header><div id="page">
 <div id="content">
 <article class="article autopagerize_page_element"><h1 class="date">
-<a href="../../entries/20130310.html">2013-03-10</a>
+<a href="../../entries/20130328.html">2013-03-28</a>
 </h1>
 <h1 id="a0">
-<a href="../../entries/20130310/a0.html">とある文字列の画像をジェネレートするRubyスクリプト</a>
+<a href="../../entries/20130328/a0.html">Ruby-Gnome2/GooCanvasのサンプル比較 - units-demo</a>
 </h1>
-<p>画像描画ライブラリには、 Firefox や Rabbit などで使われている cairo の Ruby バインディングである rcairo を使っています。 </p>
-<p>フォントはIPAex明朝とIPAexゴシックを使っているので、動かすときは以下からインストールしてください。
-<br><a href="http://ossipedia.ipa.go.jp/ipafont/ipaexfont/download.html">http://ossipedia.ipa.go.jp/ipafont/ipaexfont/download.html</a></p>
-<p>グラデーションの向きなどは調査中です。。</p>
-<h2>生成物</h2>
-<p><img src="../../images/toaru-image-20130310.png" alt="toaru-image-20130310"></p>
-<h2>ソースコード</h2>
-<script src="https://gist.github.com/myokoym/5128655.js"></script><h2>参考</h2>
-<p>Rubyist Magazine - cairo: 2 次元画像描画ライブラリ
-<br><a href="http://jp.rubyist.net/magazine/?0019-cairo">http://jp.rubyist.net/magazine/?0019-cairo</a></p>
-<p>rcairo 事始め - takihiro日記
-<br><a href="http://d.hatena.ne.jp/takihiro/20100331/1269992290">http://d.hatena.ne.jp/takihiro/20100331/1269992290</a></p>
-<p>rcairo reference manual
-<br><a href="http://cairo.rubyforge.org/doc/">http://cairo.rubyforge.org/doc/</a></p>
+<p><a href="https://github.com/ruby-gnome2/ruby-gnome2/blob/master/goocanvas/sample/units-demo.rb">https://github.com/ruby-gnome2/ruby-gnome2/blob/master/goocanvas/sample/units-demo.rb</a></p>
+<h2>旧サンプル</h2>
+<p><img src="../../images/units-demo-old-20130328_01.png" alt="units-demo-old-20130328_01"></p>
+<h2>GObject Introspection 版</h2>
+<ul>
+<li>スピンボタンのデザインがGitっぽくなってます。</li>
+<li>背景色が明るすぎず、落ち着いた感じでよさげです。 </li>
+</ul>
+<p><img src="../../images/units-demo-gi-20130328_02.png" alt="units-demo-gi-20130328_02"></p>
+<h2>C バインディング</h2>
+<ul>
+<li>GI版と比べて、見た目はほとんど変わりません。</li>
+<li>両方とも動かしてみましたが、よさげです。</li>
+<li>お花が咲いています。
+
+<ul>
+<li>GI版にお花が咲いていないのは、私がなまけたためです。</li>
+<li>気が向いたら咲かせます。</li>
+<li>どなたか咲かせてくださるとありがたいです。（年齢不問）</li>
+<li>ただ、この実装はどうなのだろう。。。</li>
+</ul>
+</li>
+</ul>
+<p><a href="https://git.gnome.org/browse/goocanvas/tree/demo/units-demo.c">https://git.gnome.org/browse/goocanvas/tree/demo/units-demo.c</a></p>
+<p><img src="../../images/units-demo-c-20130328_03.png" alt="units-demo-c-20130328_03"></p>
 </article><div id="comments">
 <div id="disqus_thread">
   <script type="text/javascript">
@@ -67,10 +78,9 @@
 </div>
 <div class="nav">
 <div class="prev">
-<link href="../../entries/20130312/a0.html" rel="prev">
 </div>
 <div class="next">
-<link href="../../entries/20130309/a0.html" rel="next">
+<link href="../../entries/20130312/a0.html" rel="next">
 </div>
 </div>
 <div class="autopagerize_insert_before"></div>

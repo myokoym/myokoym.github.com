@@ -33,6 +33,37 @@
 <div id="content">
 <div class="autopagerize_page_element" id="entries">
 <article class="article"><h1 class="date">
+<a href="./entries/20130328.html">2013-03-28</a>
+</h1>
+<h1 id="a0">
+<a href="./entries/20130328/a0.html">Ruby-Gnome2/GooCanvasのサンプル比較 - units-demo</a>
+</h1>
+<p><a href="https://github.com/ruby-gnome2/ruby-gnome2/blob/master/goocanvas/sample/units-demo.rb">https://github.com/ruby-gnome2/ruby-gnome2/blob/master/goocanvas/sample/units-demo.rb</a></p>
+<h2>旧サンプル</h2>
+<p><img src="./images/units-demo-old-20130328_01.png" alt="units-demo-old-20130328_01"></p>
+<h2>GObject Introspection 版</h2>
+<ul>
+<li>スピンボタンのデザインがGitっぽくなってます。</li>
+<li>背景色が明るすぎず、落ち着いた感じでよさげです。 </li>
+</ul>
+<p><img src="./images/units-demo-gi-20130328_02.png" alt="units-demo-gi-20130328_02"></p>
+<h2>C バインディング</h2>
+<ul>
+<li>GI版と比べて、見た目はほとんど変わりません。</li>
+<li>両方とも動かしてみましたが、よさげです。</li>
+<li>お花が咲いています。
+
+<ul>
+<li>GI版にお花が咲いていないのは、私がなまけたためです。</li>
+<li>気が向いたら咲かせます。</li>
+<li>どなたか咲かせてくださるとありがたいです。（年齢不問）</li>
+<li>ただ、この実装はどうなのだろう。。。</li>
+</ul>
+</li>
+</ul>
+<p><a href="https://git.gnome.org/browse/goocanvas/tree/demo/units-demo.c">https://git.gnome.org/browse/goocanvas/tree/demo/units-demo.c</a></p>
+<p><img src="./images/units-demo-c-20130328_03.png" alt="units-demo-c-20130328_03"></p>
+</article><article class="article"><h1 class="date">
 <a href="./entries/20130312.html">2013-03-12</a>
 </h1>
 <h1 id="a0">
@@ -119,67 +150,9 @@
 <p>Rubyist Magazine - Sinatra 再入門、 Padrino / Rack / その先の何か
 <br><a href="http://jp.rubyist.net/magazine/?0036-SinatraReintroduction">http://jp.rubyist.net/magazine/?0036-SinatraReintroduction</a></p>
 </blockquote>
-</article><article class="article"><h1 class="date">
-<a href="./entries/20130223.html">2013-02-23</a>
-</h1>
-<h1 id="a0">
-<a href="./entries/20130223/a0.html">kshのコマンドライン入力補完</a>
-</h1>
-<p>入力補完に「タブが使えない」kshですが、別の方法で補完が可能です。</p>
-<p>viモード（set -o vi）と、emacsモード（set -o emacs）でキーバインドが違います。</p>
-<h2>viモード</h2>
-<p>kshはviモードがデフォルトのことが多いです。</p>
-<h3>候補表示</h3>
-<p>Esc = </p>
-<ul>
-<li>「Esc」を入力した直後に「=」（イコール）を入力する</li>
-</ul>
-<h3>補完</h3>
-<p>Esc \</p>
-<ul>
-<li>「Esc」を入力した直後に「\」（バックスラッシュまたは半角円記号）を入力する</li>
-</ul>
-<h2>emacsモード</h2>
-<p>bashやreadlineなどでデフォルトのemacsモードです。</p>
-<h3>候補表示</h3>
-<p>Esc = </p>
-<ul>
-<li>「Esc」を入力した直後に「=」（イコール）を入力する
-
-<ul>
-<li>viモードと同じ</li>
-</ul>
-</li>
-</ul>
-<h3>補完</h3>
-<p>Esc Esc</p>
-<ul>
-<li>「Esc」を2回入力する
-
-<ul>
-<li>viモードと違う</li>
-<li>viモードより押しやすい</li>
-</ul>
-</li>
-</ul>
-<h2>参考</h2>
-<h3>Escキーが押しづらいときの対策</h3>
-<p>Escキーが押しづらい場合、コントロールキーで代用できます。</p>
-<p>C-[</p>
-<ul>
-<li>
-<p>「Ctrl」キーを押しながら「[」キーを押すと、OSはEscキーが押されたと思い込みます。</p>
-
-<ul>
-<li>制御コード表（ctrl列を参照） <a href="http://ash.jp/code/ctrltbl.htm">http://ash.jp/code/ctrltbl.htm</a>
-</li>
-</ul>
-</li>
-</ul>
-<p>ちなみに世の中には2種類のVimmerがいて、押しやすいキーにEscを割り当てる人と、C-[を使う人に分かれています。私は後者です。</p>
 </article><div class="nav">
 <div class="next">
-<link href="./entries/20130216.html" rel="next">
+<link href="./entries/20130223.html" rel="next">
 </div>
 </div>
 <div class="autopagerize_insert_before"></div>
@@ -192,6 +165,9 @@
 <h3>Recent entries</h3>
 <div class="recent-entries">
 <ul>
+<li>
+<a href="./entries/20130328/a0.html">Ruby-Gnome2/GooCanvasのサンプル比較 - units-demo</a>
+</li>
 <li>
 <a href="./entries/20130312/a0.html">rcairo で虹を描いてみた</a>
 </li>
@@ -206,9 +182,6 @@
 </li>
 <li>
 <a href="./entries/20130223/a0.html">kshのコマンドライン入力補完</a>
-</li>
-<li>
-<a href="./entries/20130216/a0.html">~/.rbenv/plugins/ruby-buildにゴミが残っていたせいで~/ruby-buildの更新がrbenvに反映されなかった件</a>
 </li>
 </ul>
 <div class="archives">

@@ -1,4 +1,39 @@
-<?xml version="1.0" encoding="UTF-8"?><rdf:RDF xmlns="http://purl.org/rss/1.0/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xml:lang="ja"><channel rdf:about="http://myokoym.github.com/"><title>my_letter</title><link>http://myokoym.github.com/</link><dc:date>2013-03-12</dc:date><description>my_letter</description><items><rdf:Seq><rdf:li rdf:resource="http://myokoym.github.com/entries/20130312/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130310/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130309/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130302/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130223/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130216/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130127/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20121125/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20121123/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20121009/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20121006/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20120929/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20120928/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20120926/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20120924/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20120922/a2.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20120922/a1.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20120922/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20120920/a1.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20120920/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20120908/a1.html"/></rdf:Seq></items></channel><item about="http://myokoym.github.com/entries/20130312/a0.html"><title>rcairo で虹を描いてみた</title><description>放射グラデーション (Cairo::RadialPatternクラス) を使ってみました。
+<?xml version="1.0" encoding="UTF-8"?><rdf:RDF xmlns="http://purl.org/rss/1.0/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xml:lang="ja"><channel rdf:about="http://myokoym.github.com/"><title>my_letter</title><link>http://myokoym.github.com/</link><dc:date>2013-03-28</dc:date><description>my_letter</description><items><rdf:Seq><rdf:li rdf:resource="http://myokoym.github.com/entries/20130328/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130312/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130310/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130309/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130302/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130223/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130216/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130127/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20121125/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20121123/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20121009/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20121006/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20120929/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20120928/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20120926/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20120924/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20120922/a2.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20120922/a1.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20120922/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20120920/a1.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20120920/a0.html"/></rdf:Seq></items></channel><item about="http://myokoym.github.com/entries/20130328/a0.html"><title>Ruby-Gnome2/GooCanvasのサンプル比較 - units-demo</title><description>https://github.com/ruby-gnome2/ruby-gnome2/blob/master/goocanvas/sample/units-demo.rb
+旧サンプル
+
+GObject Introspection 版
+
+スピンボタンのデザインがGitっぽくなってます。
+背景色が明るすぎず、落ち着いた感じでよさげです。 
+
+
+C バインディング
+
+GI版と比べて、見た目はほとんど変わ...</description><content:encoded><![CDATA[<p><a href="https://github.com/ruby-gnome2/ruby-gnome2/blob/master/goocanvas/sample/units-demo.rb">https://github.com/ruby-gnome2/ruby-gnome2/blob/master/goocanvas/sample/units-demo.rb</a></p>
+<h2>旧サンプル</h2>
+<p><img src="/images/units-demo-old-20130328_01.png" alt="units-demo-old-20130328_01"></p>
+<h2>GObject Introspection 版</h2>
+<ul>
+<li>スピンボタンのデザインがGitっぽくなってます。</li>
+<li>背景色が明るすぎず、落ち着いた感じでよさげです。 </li>
+</ul>
+<p><img src="/images/units-demo-gi-20130328_02.png" alt="units-demo-gi-20130328_02"></p>
+<h2>C バインディング</h2>
+<ul>
+<li>GI版と比べて、見た目はほとんど変わりません。</li>
+<li>両方とも動かしてみましたが、よさげです。</li>
+<li>お花が咲いています。
+
+<ul>
+<li>GI版にお花が咲いていないのは、私がなまけたためです。</li>
+<li>気が向いたら咲かせます。</li>
+<li>どなたか咲かせてくださるとありがたいです。（年齢不問）</li>
+<li>ただ、この実装はどうなのだろう。。。</li>
+</ul>
+</li>
+</ul>
+<p><a href="https://git.gnome.org/browse/goocanvas/tree/demo/units-demo.c">https://git.gnome.org/browse/goocanvas/tree/demo/units-demo.c</a></p>
+<p><img src="/images/units-demo-c-20130328_03.png" alt="units-demo-c-20130328_03"></p>]]></content:encoded><dc:date>2013-03-28</dc:date><link>http://myokoym.github.com/entries/20130328/a0.html</link><author>myokoym</author></item><item about="http://myokoym.github.com/entries/20130312/a0.html"><title>rcairo で虹を描いてみた</title><description>放射グラデーション (Cairo::RadialPatternクラス) を使ってみました。
 
 </description><content:encoded><![CDATA[<p>放射グラデーション (<a href="http://cairo.rubyforge.org/doc/ja/cairo-radial-pattern.html">Cairo::RadialPatternクラス</a>) を使ってみました。</p>
 <p><img src="/images/niji-20130312.png" alt="niji-20130312"></p>
@@ -877,36 +912,4 @@ to be continued..
 </li>
 </ol>
 <p>to be continued..</p>
-]]></content:encoded><dc:date>2012-09-20</dc:date><link>http://myokoym.github.com/entries/20120920/a0.html</link><author>myokoym</author></item><item about="http://myokoym.github.com/entries/20120908/a1.html"><title>功利主義と多数決</title><description>case 1
-
-Aさん:  80 happiness
-Bさん:  80 happiness
-Cさん:  80 happiness
-
-case 2
-
-Aさん: 100 happiness
-Bさん: 100 happiness
-Cさん:   0 happiness
-
-elected
-
-功利主義: case1
-(単純な)多数決: case2
-</description><content:encoded><![CDATA[<h2>case 1</h2>
-<ul>
-<li>Aさん:  80 happiness</li>
-<li>Bさん:  80 happiness</li>
-<li>Cさん:  80 happiness</li>
-</ul>
-<h2>case 2</h2>
-<ul>
-<li>Aさん: 100 happiness</li>
-<li>Bさん: 100 happiness</li>
-<li>Cさん:   0 happiness</li>
-</ul>
-<h2>elected</h2>
-<ul>
-<li>功利主義: case1</li>
-<li>(単純な)多数決: case2</li>
-</ul>]]></content:encoded><dc:date>2012-09-08</dc:date><link>http://myokoym.github.com/entries/20120908/a1.html</link><author>myokoym</author></item></rdf:RDF>
+]]></content:encoded><dc:date>2012-09-20</dc:date><link>http://myokoym.github.com/entries/20120920/a0.html</link><author>myokoym</author></item></rdf:RDF>
