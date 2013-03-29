@@ -1,15 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?><rdf:RDF xmlns="http://purl.org/rss/1.0/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xml:lang="ja"><channel rdf:about="http://myokoym.github.com/"><title>my_letter</title><link>http://myokoym.github.com/</link><dc:date>2013-03-29</dc:date><description>my_letter</description><items><rdf:Seq><rdf:li rdf:resource="http://myokoym.github.com/entries/20130329/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130328/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130312/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130310/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130309/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130302/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130223/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130216/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130127/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20121125/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20121123/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20121009/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20121006/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20120929/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20120928/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20120926/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20120924/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20120922/a2.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20120922/a1.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20120922/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20120920/a1.html"/></rdf:Seq></items></channel><item about="http://myokoym.github.com/entries/20130329/a0.html"><title>byobuでターミナル画面の履歴をスクロールする方法</title><description>スクロール方法は２種類あり、操作や戻れる行数などが異なります。
 1. ちょっとしたスクロール
-マウスホイールで行う普通のスクロールです。
+マウスで行う普通のスクロールです。
 
 戻れる行数はそれほど多くありません。（数百行程度）
 ウィンドウを切り替えると、履歴が消えて戻れなくなります。
 
 やりかた
 .screenrcに以下を追記して、ウィンドウの右端のスクロールバーをドラッグします。
-termcapinfo xterm ti@:te@...</description><content:encoded><![CDATA[<p>スクロール方法は２種類あり、操作や戻れる行数などが異なります。</p>
+termcapinfo xterm ti@:te@
+
+
+2...</description><content:encoded><![CDATA[<p>スクロール方法は２種類あり、操作や戻れる行数などが異なります。</p>
 <h2>1. ちょっとしたスクロール</h2>
-<p>マウスホイールで行う普通のスクロールです。</p>
+<p>マウスで行う普通のスクロールです。</p>
 <ul>
 <li>戻れる行数はそれほど多くありません。（数百行程度）</li>
 <li>ウィンドウを切り替えると、履歴が消えて戻れなくなります。</li>
@@ -30,7 +33,7 @@ termcapinfo xterm ti@:te@...</description><content:encoded><![CDATA[<p>スクロ
 <p>F7押下 -&gt; viキーバインド</p>
 <ul>
 <li>F7キーを押すとスクロールモードが開始されます。</li>
-<li>カーソル移動は、moreやless、viなどと同じキーバインドです。</li>
+<li>カーソル移動は、moreやless、viなどと似たキーバインドです。</li>
 </ul>
 <h2>参考</h2>
 <p><a href="https://forums.ubuntulinux.jp/viewtopic.php?pid=97479#p97479">Ubuntu日本語フォーラム / byobuでバッファスクロールをマウスホイールでするには</a></p>
