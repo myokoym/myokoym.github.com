@@ -1,7 +1,7 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html>
 <head>
-<title>文字列とバイト列（16進数）を相互変換するWebアプリ作成中 - my_letter</title>
+<title>byobuでターミナル画面の履歴をスクロールする方法 - my_letter</title>
 <meta charset="utf-8" content="text/html; charset=UTF-8" http-equiv="Content-Type">
 <meta content="myokoym" name="author">
 <link href="../../favicon.png" rel="icon" type="image/png">
@@ -32,84 +32,41 @@
 </ul></nav></header><div id="page">
 <div id="content">
 <article class="article autopagerize_page_element"><h1 class="date">
-<a href="../../entries/20121125.html">2012-11-25</a>
+<a href="../../entries/20130329.html">2013-03-29</a>
 </h1>
 <h1 id="a0">
-<a href="../../entries/20121125/a0.html">文字列とバイト列（16進数）を相互変換するWebアプリ作成中</a>
+<a href="../../entries/20130329/a0.html">byobuでターミナル画面の履歴をスクロールする方法</a>
 </h1>
-<p>MOJIHEX - The Converter of Character and Hex</p>
-<p><a href="http://myokoym.net/mojihex/">http://myokoym.net/mojihex/</a></p>
-<h2>使用例</h2>
+<p>スクロール方法は２種類あり、操作や戻れる行数などが異なります。</p>
+<h2>1. ちょっとしたスクロール</h2>
+<p>マウスホイールで行う普通のスクロールです。</p>
 <ul>
-<li>
-<p>char -&gt; byte (UTF-8)</p>
-
+<li>戻れる行数はそれほど多くありません。（数百行程度）</li>
+<li>ウィンドウを切り替えると、履歴が消えて戻れなくなります。</li>
+</ul>
+<h3>やりかた</h3>
+<p>.screenrcに以下を追記して、ウィンドウの右端のスクロールバーをドラッグします。</p>
+<div class="highlight"><pre>termcapinfo xterm ti@:te@
+</pre></div>
+<p><img src="images/byobu-scrollbar-20130329_01.png" alt="byobu-scrollbar"></p>
+<h2>2. 気合を入れてスクロール</h2>
+<p>まじめにスタックトレースを読むときに使うスクロールです。</p>
 <ul>
-<li>あ -&gt; e38182</li>
-<li>あいう -&gt; e38182 e38184 e38186</li>
+<li>byobuのデフォルトのスクロール方法です。</li>
+<li>10,000行まで戻れます。</li>
+<li>ウィンドウを切り替えても残っています。</li>
 </ul>
-</li>
-<li>
-<p>char -&gt; byte (Shift_JIS)</p>
-
+<h3>やりかた</h3>
+<p>F7押下 -&gt; viキーバインド</p>
 <ul>
-<li>あ -&gt; 82a0</li>
+<li>F7キーを押すとスクロールモードが開始されます。</li>
+<li>カーソル移動は、moreやless、viなどと同じキーバインドです。</li>
 </ul>
-</li>
-<li>
-<p>char -&gt; byte (CP930)</p>
-
-<ul>
-<li>あ -&gt; 0e44810f</li>
-</ul>
-</li>
-<li>
-<p>byte -&gt; char (UTF-8)</p>
-
-<ul>
-<li>e38182 e38184 e38186 -&gt; あいう</li>
-</ul>
-</li>
-</ul>
-<h2>使える文字コード</h2>
-<p>以下の文字コードを選択できます。</p>
-<ul>
-<li>UTF-8</li>
-<li>Shift_JIS</li>
-<li>EUC-JP</li>
-<li>CP930(EBCDIC)</li>
-<li>UTF-16BE</li>
-</ul>
-<p>HTTP-GETにも対応しており、上記以外の文字コードも使用可能です。</p>
-<ul>
-<li>RubyのEncoding::Converterクラスで使用可能な文字コード</li>
-<li>サーバーのiconvで使用可能な文字コード
-
-<ul>
-<li><a href="http://myokoym.net/mojihex/iconv.html">http://myokoym.net/mojihex/iconv.html</a></li>
-</ul>
-</li>
-</ul>
-<h2>内部的な話</h2>
-<ol>
-<li>まずはString#encodeで変換しようとします。</li>
-<li>指定された文字コードが使用できなかった場合、iconvをrequireしてIconv.convで変換します。
-
-<ul>
-<li>iconvライブラリの使用は非推奨らしいのですが、CP930(EBCDIC)を使いたいので仕方なく</li>
-</ul>
-</li>
-<li>iconvにも定義されていない文字コードだった場合、エラーになります。</li>
-</ol>
 <h2>参考</h2>
-<p>instance method String#encode
-<a href="http://doc.ruby-lang.org/ja/1.9.3/method/String/i/encode.html">http://doc.ruby-lang.org/ja/1.9.3/method/String/i/encode.html</a></p>
-<p>class Encoding::Converter
-<a href="http://doc.ruby-lang.org/ja/1.9.3/class/Encoding=3a=3aConverter.html">http://doc.ruby-lang.org/ja/1.9.3/class/Encoding=3a=3aConverter.html</a></p>
-<p>library iconv
-<a href="http://doc.ruby-lang.org/ja/1.9.3/library/iconv.html">http://doc.ruby-lang.org/ja/1.9.3/library/iconv.html</a></p>
-<p>GitHub - myokoym/mojihex
-<a href="https://github.com/myokoym/mojihex">https://github.com/myokoym/mojihex</a></p>
+<p><a href="https://forums.ubuntulinux.jp/viewtopic.php?pid=97479#p97479">Ubuntu日本語フォーラム / byobuでバッファスクロールをマウスホイールでするには</a></p>
+<p><a href="https://sites.google.com/site/hymd3a/linux/byobu">byobuを使ってみる - ひゃまだのブログ</a></p>
+<p><a href="http://www.rwds.net/wiki?page=screen%A4%CE%B3%D0%BD%F1">screenの覚書 - Ktat's Wiki</a></p>
+<p><a href="http://tthhfugapiyo.blogspot.jp/2012/07/screen.html">設定メモ: screenでマウススクロール</a></p>
 </article><div id="comments">
 <div id="disqus_thread">
   <script type="text/javascript">
@@ -126,10 +83,9 @@
 </div>
 <div class="nav">
 <div class="prev">
-<link href="../../entries/20130127/a0.html" rel="prev">
 </div>
 <div class="next">
-<link href="../../entries/20121123/a0.html" rel="next">
+<link href="../../entries/20130328/a0.html" rel="next">
 </div>
 </div>
 <div class="autopagerize_insert_before"></div>

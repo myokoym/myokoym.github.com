@@ -33,6 +33,42 @@
 <div id="content">
 <div class="autopagerize_page_element" id="entries">
 <article class="article"><h1 class="date">
+<a href="./entries/20130329.html">2013-03-29</a>
+</h1>
+<h1 id="a0">
+<a href="./entries/20130329/a0.html">byobuでターミナル画面の履歴をスクロールする方法</a>
+</h1>
+<p>スクロール方法は２種類あり、操作や戻れる行数などが異なります。</p>
+<h2>1. ちょっとしたスクロール</h2>
+<p>マウスホイールで行う普通のスクロールです。</p>
+<ul>
+<li>戻れる行数はそれほど多くありません。（数百行程度）</li>
+<li>ウィンドウを切り替えると、履歴が消えて戻れなくなります。</li>
+</ul>
+<h3>やりかた</h3>
+<p>.screenrcに以下を追記して、ウィンドウの右端のスクロールバーをドラッグします。</p>
+<div class="highlight"><pre>termcapinfo xterm ti@:te@
+</pre></div>
+<p><img src="images/byobu-scrollbar-20130329_01.png" alt="byobu-scrollbar"></p>
+<h2>2. 気合を入れてスクロール</h2>
+<p>まじめにスタックトレースを読むときに使うスクロールです。</p>
+<ul>
+<li>byobuのデフォルトのスクロール方法です。</li>
+<li>10,000行まで戻れます。</li>
+<li>ウィンドウを切り替えても残っています。</li>
+</ul>
+<h3>やりかた</h3>
+<p>F7押下 -&gt; viキーバインド</p>
+<ul>
+<li>F7キーを押すとスクロールモードが開始されます。</li>
+<li>カーソル移動は、moreやless、viなどと同じキーバインドです。</li>
+</ul>
+<h2>参考</h2>
+<p><a href="https://forums.ubuntulinux.jp/viewtopic.php?pid=97479#p97479">Ubuntu日本語フォーラム / byobuでバッファスクロールをマウスホイールでするには</a></p>
+<p><a href="https://sites.google.com/site/hymd3a/linux/byobu">byobuを使ってみる - ひゃまだのブログ</a></p>
+<p><a href="http://www.rwds.net/wiki?page=screen%A4%CE%B3%D0%BD%F1">screenの覚書 - Ktat's Wiki</a></p>
+<p><a href="http://tthhfugapiyo.blogspot.jp/2012/07/screen.html">設定メモ: screenでマウススクロール</a></p>
+</article><article class="article"><h1 class="date">
 <a href="./entries/20130328.html">2013-03-28</a>
 </h1>
 <h1 id="a0">
@@ -140,21 +176,9 @@
 <blockquote>
 <p>結合の古い書き方や方言は、自分で使ってはならない。でも読めるようにはしておこう。</p>
 </blockquote>
-</article><article class="article"><h1 class="date">
-<a href="./entries/20130302.html">2013-03-02</a>
-</h1>
-<h1 id="a0">
-<a href="./entries/20130302/a0.html">Ruby 2.0.0 で classic スタイルの sinatra (1.3.4) が動かなかった件</a>
-</h1>
-<p>sinatraのバージョンを1.3.4から1.3.5に上げたら動きました。</p>
-<p>Rubyというより、RubyGemsが2.0に上がったからかも。</p>
-<blockquote>
-<p>Rubyist Magazine - Sinatra 再入門、 Padrino / Rack / その先の何か
-<br><a href="http://jp.rubyist.net/magazine/?0036-SinatraReintroduction">http://jp.rubyist.net/magazine/?0036-SinatraReintroduction</a></p>
-</blockquote>
 </article><div class="nav">
 <div class="next">
-<link href="./entries/20130223.html" rel="next">
+<link href="./entries/20130302.html" rel="next">
 </div>
 </div>
 <div class="autopagerize_insert_before"></div>
@@ -167,6 +191,9 @@
 <h3>Recent entries</h3>
 <div class="recent-entries">
 <ul>
+<li>
+<a href="./entries/20130329/a0.html">byobuでターミナル画面の履歴をスクロールする方法</a>
+</li>
 <li>
 <a href="./entries/20130328/a0.html">Ruby/GooCanvasのサンプル比較 - units-demo</a>
 </li>
@@ -181,9 +208,6 @@
 </li>
 <li>
 <a href="./entries/20130302/a0.html">Ruby 2.0.0 で classic スタイルの sinatra (1.3.4) が動かなかった件</a>
-</li>
-<li>
-<a href="./entries/20130223/a0.html">kshのコマンドライン入力補完</a>
 </li>
 </ul>
 <div class="archives">
