@@ -9,8 +9,9 @@ hogetra/
     └─test-hogetra.rb
 
 test-hogetra.rb
-ちなみに私のSinatra appは今までもこれからもクラシックスタイルです。
-...</description><content:encoded><![CDATA[<p>意訳: Rack::Testとtest-unitでSinatraアプリをテストする方法。</p>
+ちなみに私のSinatra appはクラシックスタイルです。
+参考
+test-u...</description><content:encoded><![CDATA[<p>意訳: Rack::Testとtest-unitでSinatraアプリをテストする方法。</p>
 <h3>ディレクトリ構成の例</h3>
 <div class="highlight"><pre>hogetra/
 ├─config.ru
@@ -21,7 +22,7 @@ test-hogetra.rb
     └─test-hogetra.rb
 </pre></div>
 <h3>test-hogetra.rb</h3>
-<script src="https://gist.github.com/myokoym/5764563.js"></script><p>ちなみに私のSinatra appは今までもこれからもクラシックスタイルです。</p>
+<script src="https://gist.github.com/myokoym/5764563.js"></script><p>ちなみに私のSinatra appはクラシックスタイルです。</p>
 <h3>参考</h3>
 <p>test-unit - Ruby用単体テストフレームワーク<br><a href="http://test-unit.rubyforge.org/index.html.ja">http://test-unit.rubyforge.org/index.html.ja</a></p>
 <p>brynary/rack-test · GitHub<br><a href="https://github.com/brynary/rack-test#readme">https://github.com/brynary/rack-test#readme</a></p>
