@@ -33,6 +33,28 @@
 <div id="content">
 <div class="autopagerize_page_element" id="entries">
 <article class="article"><h1 class="date">
+<a href="./entries/20130612.html">2013-06-12</a>
+</h1>
+<h1 id="a0">
+<a href="./entries/20130612/a0.html">Testing a Sinatra app on Rack::Test with test-unit.</a>
+</h1>
+<p>意訳: Rack::Testとtest-unitでSinatraアプリをテストする方法。</p>
+<h3>ディレクトリ構成の例</h3>
+<div class="highlight"><pre>hogetra/
+├─config.ru
+├─hogetra.rb
+├─views
+│  └─index.haml
+└─test
+    └─test-hogetra.rb
+</pre></div>
+<h3>test-hogetra.rb</h3>
+<script src="https://gist.github.com/myokoym/5764563.js"></script><p>ちなみに私のSinatra appは今までもこれからもクラシックスタイルです。</p>
+<h3>参考</h3>
+<p>test-unit - Ruby用単体テストフレームワーク<br><a href="http://test-unit.rubyforge.org/index.html.ja">http://test-unit.rubyforge.org/index.html.ja</a></p>
+<p>brynary/rack-test · GitHub<br><a href="https://github.com/brynary/rack-test#readme">https://github.com/brynary/rack-test#readme</a></p>
+<p>Rubyist Magazine - Sinatra 再入門、 Padrino / Rack / その先の何か<br><a href="http://magazine.rubyist.net/?0036-SinatraReintroduction">http://magazine.rubyist.net/?0036-SinatraReintroduction</a></p>
+</article><article class="article"><h1 class="date">
 <a href="./entries/20130501.html">2013-05-01</a>
 </h1>
 <h1 id="a0">
@@ -134,29 +156,9 @@
 </h1>
 <p>放射グラデーション (<a href="http://cairo.rubyforge.org/doc/ja/cairo-radial-pattern.html">Cairo::RadialPatternクラス</a>) を使ってみました。</p>
 <p><img src="./images/niji-20130312.png" alt="niji-20130312"></p>
-<script src="https://gist.github.com/myokoym/5143259.js"></script></article><article class="article"><h1 class="date">
-<a href="./entries/20130310.html">2013-03-10</a>
-</h1>
-<h1 id="a0">
-<a href="./entries/20130310/a0.html">とある文字列の画像をジェネレートするRubyスクリプト</a>
-</h1>
-<p>画像描画ライブラリには、 Firefox や Rabbit などで使われている cairo の Ruby バインディングである rcairo を使っています。 </p>
-<p>フォントはIPAex明朝とIPAexゴシックを使っているので、動かすときは以下からインストールしてください。
-<br><a href="http://ossipedia.ipa.go.jp/ipafont/ipaexfont/download.html">http://ossipedia.ipa.go.jp/ipafont/ipaexfont/download.html</a></p>
-<p>グラデーションの向きなどは調査中です。。</p>
-<h2>生成物</h2>
-<p><img src="./images/toaru-image-20130310.png" alt="toaru-image-20130310"></p>
-<h2>ソースコード</h2>
-<script src="https://gist.github.com/myokoym/5128655.js"></script><h2>参考</h2>
-<p>Rubyist Magazine - cairo: 2 次元画像描画ライブラリ
-<br><a href="http://jp.rubyist.net/magazine/?0019-cairo">http://jp.rubyist.net/magazine/?0019-cairo</a></p>
-<p>rcairo 事始め - takihiro日記
-<br><a href="http://d.hatena.ne.jp/takihiro/20100331/1269992290">http://d.hatena.ne.jp/takihiro/20100331/1269992290</a></p>
-<p>rcairo reference manual
-<br><a href="http://cairo.rubyforge.org/doc/">http://cairo.rubyforge.org/doc/</a></p>
-</article><div class="nav">
+<script src="https://gist.github.com/myokoym/5143259.js"></script></article><div class="nav">
 <div class="next">
-<link href="./entries/20130309.html" rel="next">
+<link href="./entries/20130310.html" rel="next">
 </div>
 </div>
 <div class="autopagerize_insert_before"></div>
@@ -169,6 +171,9 @@
 <h3>Recent entries</h3>
 <div class="recent-entries">
 <ul>
+<li>
+<a href="./entries/20130612/a0.html">Testing a Sinatra app on Rack::Test with test-unit.</a>
+</li>
 <li>
 <a href="./entries/20130501/a0.html">Ruby-GNOME2 Packages Full Installer</a>
 </li>
@@ -183,9 +188,6 @@
 </li>
 <li>
 <a href="./entries/20130310/a0.html">とある文字列の画像をジェネレートするRubyスクリプト</a>
-</li>
-<li>
-<a href="./entries/20130309/a0.html">『SQL　ゼロからはじめるデータベース操作』を読んだメモ</a>
 </li>
 </ul>
 <div class="archives">

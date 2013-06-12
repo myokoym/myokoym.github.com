@@ -1,4 +1,31 @@
-<?xml version="1.0" encoding="UTF-8"?><rdf:RDF xmlns="http://purl.org/rss/1.0/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xml:lang="ja"><channel rdf:about="http://myokoym.github.com/"><title>my_letter</title><link>http://myokoym.github.com/</link><dc:date>2013-05-01</dc:date><description>my_letter</description><items><rdf:Seq><rdf:li rdf:resource="http://myokoym.github.com/entries/20130501/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130329/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130328/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130312/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130310/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130309/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130302/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130223/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130216/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130127/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20121125/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20121123/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20121009/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20121006/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20120929/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20120928/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20120926/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20120924/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20120922/a2.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20120922/a1.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20120922/a0.html"/></rdf:Seq></items></channel><item about="http://myokoym.github.com/entries/20130501/a0.html"><title>Ruby-GNOME2 Packages Full Installer</title><description>Windowsでgemの依存関係が上手くインストールできないので、暫定対応として作成。
+<?xml version="1.0" encoding="UTF-8"?><rdf:RDF xmlns="http://purl.org/rss/1.0/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xml:lang="ja"><channel rdf:about="http://myokoym.github.com/"><title>my_letter</title><link>http://myokoym.github.com/</link><dc:date>2013-06-12</dc:date><description>my_letter</description><items><rdf:Seq><rdf:li rdf:resource="http://myokoym.github.com/entries/20130612/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130501/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130329/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130328/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130312/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130310/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130309/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130302/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130223/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130216/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130127/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20121125/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20121123/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20121009/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20121006/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20120929/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20120928/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20120926/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20120924/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20120922/a2.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20120922/a1.html"/></rdf:Seq></items></channel><item about="http://myokoym.github.com/entries/20130612/a0.html"><title>Testing a Sinatra app on Rack::Test with test-unit.</title><description>意訳: Rack::Testとtest-unitでSinatraアプリをテストする方法。
+ディレクトリ構成の例
+hogetra/
+├─config.ru
+├─hogetra.rb
+├─views
+│  └─index.haml
+└─test
+    └─test-hogetra.rb
+
+test-hogetra.rb
+ちなみに私のSinatra appは今までもこれからもクラシックスタイルです。
+...</description><content:encoded><![CDATA[<p>意訳: Rack::Testとtest-unitでSinatraアプリをテストする方法。</p>
+<h3>ディレクトリ構成の例</h3>
+<div class="highlight"><pre>hogetra/
+├─config.ru
+├─hogetra.rb
+├─views
+│  └─index.haml
+└─test
+    └─test-hogetra.rb
+</pre></div>
+<h3>test-hogetra.rb</h3>
+<script src="https://gist.github.com/myokoym/5764563.js"></script><p>ちなみに私のSinatra appは今までもこれからもクラシックスタイルです。</p>
+<h3>参考</h3>
+<p>test-unit - Ruby用単体テストフレームワーク<br><a href="http://test-unit.rubyforge.org/index.html.ja">http://test-unit.rubyforge.org/index.html.ja</a></p>
+<p>brynary/rack-test · GitHub<br><a href="https://github.com/brynary/rack-test#readme">https://github.com/brynary/rack-test#readme</a></p>
+<p>Rubyist Magazine - Sinatra 再入門、 Padrino / Rack / その先の何か<br><a href="http://magazine.rubyist.net/?0036-SinatraReintroduction">http://magazine.rubyist.net/?0036-SinatraReintroduction</a></p>]]></content:encoded><dc:date>2013-06-12</dc:date><link>http://myokoym.github.com/entries/20130612/a0.html</link><author>myokoym</author></item><item about="http://myokoym.github.com/entries/20130501/a0.html"><title>Ruby-GNOME2 Packages Full Installer</title><description>Windowsでgemの依存関係が上手くインストールできないので、暫定対応として作成。
 Linuxでも意外と使えそう。</description><content:encoded><![CDATA[<p>Windowsでgemの依存関係が上手くインストールできないので、暫定対応として作成。</p>
 <script src="https://gist.github.com/myokoym/5489252.js"></script><p>Linuxでも意外と使えそう。</p>]]></content:encoded><dc:date>2013-05-01</dc:date><link>http://myokoym.github.com/entries/20130501/a0.html</link><author>myokoym</author></item><item about="http://myokoym.github.com/entries/20130329/a0.html"><title>byobuでターミナル画面の履歴をスクロールする方法</title><description>スクロール方法は２種類あり、操作や戻れる行数などが異なります。
 A. ちょっとしたスクロール
@@ -869,22 +896,4 @@ esac
 </ul>
 </li>
 </ul>
-]]></content:encoded><dc:date>2012-09-22</dc:date><link>http://myokoym.github.com/entries/20120922/a1.html</link><author>myokoym</author></item><item about="http://myokoym.github.com/entries/20120922/a0.html"><title>シェルスクリプトのコーディングスタイル</title><description>指針
-全ての項目に共感できたので、自分で決められるときはこのスタイルを使うようにしている。
-シェルスクリプト Tips - UNIX &amp;amp; Linux コマンド・シェルスクリプト リファレンス:
-http://shellscript.sunone.me/tips.html#tips-1
-課題
-
-case文のインデント
-長いパイプの改行
-
-</description><content:encoded><![CDATA[<h2>指針</h2>
-<p>全ての項目に共感できたので、自分で決められるときはこのスタイルを使うようにしている。</p>
-<p>シェルスクリプト Tips - UNIX &amp; Linux コマンド・シェルスクリプト リファレンス:
-<a href="http://shellscript.sunone.me/tips.html#tips-1">http://shellscript.sunone.me/tips.html#tips-1</a></p>
-<h2>課題</h2>
-<ul>
-<li>case文のインデント</li>
-<li>長いパイプの改行</li>
-</ul>
-]]></content:encoded><dc:date>2012-09-22</dc:date><link>http://myokoym.github.com/entries/20120922/a0.html</link><author>myokoym</author></item></rdf:RDF>
+]]></content:encoded><dc:date>2012-09-22</dc:date><link>http://myokoym.github.com/entries/20120922/a1.html</link><author>myokoym</author></item></rdf:RDF>
