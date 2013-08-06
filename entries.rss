@@ -1,4 +1,14 @@
-<?xml version="1.0" encoding="UTF-8"?><rdf:RDF xmlns="http://purl.org/rss/1.0/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xml:lang="ja"><channel rdf:about="http://myokoym.github.com/"><title>my_letter</title><link>http://myokoym.github.com/</link><dc:date>2013-06-12</dc:date><description>my_letter</description><items><rdf:Seq><rdf:li rdf:resource="http://myokoym.github.com/entries/20130612/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130501/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130329/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130328/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130312/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130310/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130309/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130302/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130223/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130216/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130127/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20121125/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20121123/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20121009/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20121006/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20120929/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20120928/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20120926/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20120924/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20120922/a2.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20120922/a1.html"/></rdf:Seq></items></channel><item about="http://myokoym.github.com/entries/20130612/a0.html"><title>Testing a Sinatra app on Rack::Test with test-unit.</title><description>意訳: Rack::Testとtest-unitでSinatraアプリをテストする方法。
+<?xml version="1.0" encoding="UTF-8"?><rdf:RDF xmlns="http://purl.org/rss/1.0/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xml:lang="ja"><channel rdf:about="http://myokoym.github.com/"><title>my_letter</title><link>http://myokoym.github.com/</link><dc:date>2013-08-07</dc:date><description>my_letter</description><items><rdf:Seq><rdf:li rdf:resource="http://myokoym.github.com/entries/20130807/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130612/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130501/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130329/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130328/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130312/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130310/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130309/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130302/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130223/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130216/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130127/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20121125/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20121123/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20121009/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20121006/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20120929/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20120928/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20120926/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20120924/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20120922/a2.html"/></rdf:Seq></items></channel><item about="http://myokoym.github.com/entries/20130807/a0.html"><title>TUIShogi 0.0.1</title><description>C/C++とOpenShogiLibの練習を兼ねて、ちょっとした将棋アプリを作成中。
+https://github.com/myokoym/tuishogi
+OpenShogiLibのサンプルを参考に、例外処理などを追加中。
+普通にやる分にはcoreを吐かなくなったので、v0.0.1のタグを打った。
+ただし、操作性も0.01くらい。
+ちなみにテストはCutterで書いてます。</description><content:encoded><![CDATA[<p>C/C++とOpenShogiLibの練習を兼ねて、ちょっとした将棋アプリを作成中。</p>
+<p><a href="https://github.com/myokoym/tuishogi">https://github.com/myokoym/tuishogi</a></p>
+<p>OpenShogiLibのサンプルを参考に、例外処理などを追加中。</p>
+<p>普通にやる分にはcoreを吐かなくなったので、v0.0.1のタグを打った。</p>
+<p>ただし、操作性も0.01くらい。</p>
+<p>ちなみにテストは<a href="http://cutter.sourceforge.net/index.html.ja">Cutter</a>で書いてます。</p>]]></content:encoded><dc:date>2013-08-07</dc:date><link>http://myokoym.github.com/entries/20130807/a0.html</link><author>myokoym</author></item><item about="http://myokoym.github.com/entries/20130612/a0.html"><title>Testing a Sinatra app on Rack::Test with test-unit.</title><description>意訳: Rack::Testとtest-unitでSinatraアプリをテストする方法。
 ディレクトリ構成の例
 hogetra/
 ├─config.ru
@@ -777,124 +787,4 @@ bashで端末を複数枚開くと、historyコマンドで参照できる履歴
 <li>差が開きすぎるとパイプが見えなくなるため。</li>
 </ul>
 </li>
-</ul>]]></content:encoded><dc:date>2012-09-22</dc:date><link>http://myokoym.github.com/entries/20120922/a2.html</link><author>myokoym</author></item><item about="http://myokoym.github.com/entries/20120922/a1.html"><title>case文のインデント</title><description>指針
-case 文の使用方法 - UNIX &amp;amp; Linux コマンド・シェルスクリプト リファレンス:
-http://shellscript.sunone.me/case.html
-選択肢
-case文のスタイルはいろいろな選択肢がある。
-特にシェルスクリプトではセミコロンが付く分、選択肢が多い。
-
-パターンと処理の間を改行するか
-処理とセミコロンの間を改行するか
-case宣言とパターンの間...</description><content:encoded><![CDATA[<h2>指針</h2>
-<p>case 文の使用方法 - UNIX &amp; Linux コマンド・シェルスクリプト リファレンス:
-<a href="http://shellscript.sunone.me/case.html">http://shellscript.sunone.me/case.html</a></p>
-<h2>選択肢</h2>
-<p>case文のスタイルはいろいろな選択肢がある。
-特にシェルスクリプトではセミコロンが付く分、選択肢が多い。</p>
-<ol>
-<li>パターンと処理の間を改行するか</li>
-<li>処理とセミコロンの間を改行するか</li>
-<li>case宣言とパターンの間をインデントするか</li>
-</ol>
-<h2>1. パターンと処理の間を改行するか</h2>
-<h3>1-A</h3>
-<div class="highlight"><pre>case 値 in
-  パターン1 ) 処理1 ;;
-  パターン2 ) 処理2 ;;
-  パターン3 ) 処理3 ;;
-  …
-  パターンn ) 処理n ;;
-esac
-</pre></div>
-<h3>1-B</h3>
-<div class="highlight"><pre>case 値 in
-  パターン1 )
-    処理1 ;;
-  パターン2 )
-    処理2 ;;
-  パターン3 )
-    処理3 ;;
-  …
-  パターンn )
-    処理n ;;
-esac
-</pre></div>
-<h2>2. 処理とセミコロンの間を改行するか</h2>
-<h3>2-A</h3>
-<div class="highlight"><pre>case 値 in
-  パターン1 )
-    処理1 ;;
-  パターン2 )
-    処理2 ;;
-  パターン3 )
-    処理3 ;;
-  …
-  パターンn )
-    処理n ;;
-esac
-</pre></div>
-<h3>2-B</h3>
-<div class="highlight"><pre>case 値 in
-  パターン1 )
-    処理1
-    ;;
-  パターン2 )
-    処理2
-    ;;
-  パターン3 )
-    処理3
-    ;;
-  …
-  パターンn )
-    処理n
-    ;;
-esac
-</pre></div>
-<h2>3. case宣言とパターンの間をインデントするか</h2>
-<h3>3-A</h3>
-<div class="highlight"><pre>case 値 in
-  パターン1 )
-    処理1
-    ;;
-  パターン2 )
-    処理2
-    ;;
-  パターン3 )
-    処理3
-    ;;
-  …
-  パターンn )
-    処理n
-    ;;
-esac
-</pre></div>
-<h3>3-B</h3>
-<div class="highlight"><pre>case 値 in
-パターン1 )
-  処理1
-  ;;
-パターン2 )
-  処理2
-  ;;
-パターン3 )
-  処理3
-  ;;
-…
-パターンn )
-  処理n
-  ;;
-esac
-</pre></div>
-<h2>私見</h2>
-<ul>
-<li>個人的には1-B、2-B、3-Bが好み。</li>
-<li>1-A〜2-Aまではセミコロン忘れが怖い。</li>
-<li>1-A〜3-Aまでは、4タブ以上だと横に長くなってしまう。
-
-<ul>
-<li>ただ、2タブなら3-Aでもいいと思っている。</li>
-</ul>
-</li>
-</ul>
-]]></content:encoded><dc:date>2012-09-22</dc:date><link>http://myokoym.github.com/entries/20120922/a1.html</link><author>myokoym</author></item></rdf:RDF>
+</ul>]]></content:encoded><dc:date>2012-09-22</dc:date><link>http://myokoym.github.com/entries/20120922/a2.html</link><author>myokoym</author></item></rdf:RDF>
