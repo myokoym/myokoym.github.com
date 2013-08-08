@@ -1,4 +1,36 @@
-<?xml version="1.0" encoding="UTF-8"?><rdf:RDF xmlns="http://purl.org/rss/1.0/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xml:lang="ja"><channel rdf:about="http://myokoym.github.com/"><title>my_letter</title><link>http://myokoym.github.com/</link><dc:date>2013-08-08</dc:date><description>my_letter</description><items><rdf:Seq><rdf:li rdf:resource="http://myokoym.github.com/entries/20130808/a1.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130808/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130807/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130612/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130501/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130329/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130328/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130312/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130310/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130309/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130302/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130223/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130216/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130127/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20121125/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20121123/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20121009/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20121006/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20120929/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20120928/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20120926/a0.html"/></rdf:Seq></items></channel><item about="http://myokoym.github.com/entries/20130808/a1.html"><title>Ruby-GNOME2 クロスコンパイル日記</title><description>今日はpangoを進めた。
+<?xml version="1.0" encoding="UTF-8"?><rdf:RDF xmlns="http://purl.org/rss/1.0/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xml:lang="ja"><channel rdf:about="http://myokoym.github.com/"><title>my_letter</title><link>http://myokoym.github.com/</link><dc:date>2013-08-08</dc:date><description>my_letter</description><items><rdf:Seq><rdf:li rdf:resource="http://myokoym.github.com/entries/20130808/a2.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130808/a1.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130808/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130807/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130612/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130501/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130329/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130328/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130312/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130310/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130309/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130302/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130223/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130216/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130127/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20121125/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20121123/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20121009/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20121006/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20120929/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20120928/a0.html"/></rdf:Seq></items></channel><item about="http://myokoym.github.com/entries/20130808/a2.html"><title>Ruby-GNOME2 Project Website</title><description>
+FrontPage更新
+
+
+ClutterとWebKitGTKを追記
+GTK+ 3対応について記載
+ruby1.8-devを削除
+
+
+
+http://ruby-gnome2.sourceforge.jp/ja/
+
+
+gnome2でググると最初に来る
+
+
+</description><content:encoded><![CDATA[<ul>
+<li>FrontPage更新
+
+<ul>
+<li>ClutterとWebKitGTKを追記</li>
+<li>GTK+ 3対応について記載</li>
+<li>ruby1.8-devを削除</li>
+</ul>
+</li>
+<li>
+<a href="http://ruby-gnome2.sourceforge.jp/ja/">http://ruby-gnome2.sourceforge.jp/ja/</a>
+
+<ul>
+<li>gnome2でググると最初に来る</li>
+</ul>
+</li>
+</ul>]]></content:encoded><dc:date>2013-08-08</dc:date><link>http://myokoym.github.com/entries/20130808/a2.html</link><author>myokoym</author></item><item about="http://myokoym.github.com/entries/20130808/a1.html"><title>Ruby-GNOME2 クロスコンパイル日記</title><description>今日はpangoを進めた。
 
 harfbuzz-0.9.17
 
@@ -43,7 +75,8 @@ harfbuzzは/usr/include/gnuしか見てくれない
 </li>
 </ul>
 </li>
-</ul>]]></content:encoded><dc:date>2013-08-08</dc:date><link>http://myokoym.github.com/entries/20130808/a1.html</link><author>myokoym</author></item><item about="http://myokoym.github.com/entries/20130808/a0.html"><title>ヘッダー探しツール</title><description>
+</ul>
+]]></content:encoded><dc:date>2013-08-08</dc:date><link>http://myokoym.github.com/entries/20130808/a1.html</link><author>myokoym</author></item><item about="http://myokoym.github.com/entries/20130808/a0.html"><title>ヘッダー探しツール</title><description>
 packages.ubuntu.com
 
 
@@ -679,32 +712,4 @@ http://detail.chiebukuro.yahoo.co.jp/qa/question_detail/q1376602573
 いまだに前のバージョンを探し続けている。</description><content:encoded><![CDATA[<p>好きだったソフトウェアがアップデートで別人のように変わってしまった。</p>
 <p>数ヶ月前にもこんなことがあった。</p>
 <p>オープンソースではないので、自分の手でどうにかすることはできない。</p>
-<p>いまだに前のバージョンを探し続けている。</p>]]></content:encoded><dc:date>2012-09-28</dc:date><link>http://myokoym.github.com/entries/20120928/a0.html</link><author>myokoym</author></item><item about="http://myokoym.github.com/entries/20120926/a0.html"><title>SlideShareのURLのつくられかた</title><description>2012/09/26現在、以下の手順で作られているようです。
-試行錯誤の結果なので、違うパターンがあるかもしれません。
-
-原材料はタイトル
-半角英数字以外をすべて取り除く（単語間の半角スペースは残す）
-半角英字をすべて小文字にする
-半角スペースがあった場合、ハイフンを挟む
-4.の時点で長さが0の場合、"ss"を付ける（ブラウザのみ？）
-5.の時点で同じURLのスライドが存在した場合、後ろにハイフン...</description><content:encoded><![CDATA[<p>2012/09/26現在、以下の手順で作られているようです。
-試行錯誤の結果なので、違うパターンがあるかもしれません。</p>
-<ol>
-<li>原材料はタイトル</li>
-<li>半角英数字以外をすべて取り除く（単語間の半角スペースは残す）</li>
-<li>半角英字をすべて小文字にする</li>
-<li>半角スペースがあった場合、ハイフンを挟む</li>
-<li>4.の時点で長さが0の場合、"ss"を付ける（ブラウザのみ？）</li>
-<li>5.の時点で同じURLのスライドが存在した場合、後ろにハイフンとIDを付ける</li>
-</ol>
-<p>Rubyで書くとこんな感じです。</p>
-<script src="https://gist.github.com/3788426.js"> </script><p>ただ、開発者らしき方によると、URLのルールは</p>
-<blockquote>
-<p>There's no "formula."</p>
-</blockquote>
-<p>だそうなので、いつか変わるかもしれません。</p>
-<h2>refs</h2>
-<p>How can I make a slideshare's URL match its title?
-<a href="https://getsatisfaction.com/slideshare/topics/how_can_i_make_a_slideshares_url_match_its_title">https://getsatisfaction.com/slideshare/topics/how_can_i_make_a_slideshares_url_match_its_title</a></p>
-<p>SlideShare » Developer Documentation
-<a href="http://www.slideshare.net/developers/documentation#edit_slideshow">http://www.slideshare.net/developers/documentation#edit_slideshow</a></p>]]></content:encoded><dc:date>2012-09-26</dc:date><link>http://myokoym.github.com/entries/20120926/a0.html</link><author>myokoym</author></item></rdf:RDF>
+<p>いまだに前のバージョンを探し続けている。</p>]]></content:encoded><dc:date>2012-09-28</dc:date><link>http://myokoym.github.com/entries/20120928/a0.html</link><author>myokoym</author></item></rdf:RDF>
