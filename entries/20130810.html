@@ -1,7 +1,7 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html>
 <head>
-<title>2013-08-08 - my_letter</title>
+<title>2013-08-10 - my_letter</title>
 <meta charset="utf-8" content="text/html; charset=UTF-8" http-equiv="Content-Type">
 <meta content="myokoym" name="author">
 <link href="../favicon.png" rel="icon" type="image/png">
@@ -32,85 +32,73 @@
 </ul></nav></header><div id="page">
 <div id="content">
 <article class="article autopagerize_page_element"><h1 class="date">
-<a href="../entries/20130808.html">2013-08-08</a>
+<a href="../entries/20130810.html">2013-08-10</a>
 </h1>
 <h1 id="a0">
-<a href="../entries/20130808/a0.html">ヘッダー探しツール</a>
+<a href="../entries/20130810/a0.html">tDiary 4.0.0 をサブURIで動かそうとした</a>
 </h1>
+<p>tDiary 4.0.0 を Apache + Passenger + Rack + サブURI で動かそうとしたけどだめだった。</p>
+<h2>tDiaryのインストール</h2>
 <ul>
-<li>packages.ubuntu.com
+<li>gem install tdiary</li>
+<li>tdiary version
 
 <ul>
-<li><a href="http://packages.ubuntu.com/">http://packages.ubuntu.com/</a></li>
-<li><a href="http://gihyo.jp/admin/serial/01/ubuntu-recipe/0016">http://gihyo.jp/admin/serial/01/ubuntu-recipe/0016</a></li>
+<li>tdiary 4.0.0</li>
 </ul>
 </li>
-<li>apt-file
+<li>tdiary new hogediary
 
 <ul>
-<li><a href="http://d.hatena.ne.jp/rx7/20080830/p1">http://d.hatena.ne.jp/rx7/20080830/p1</a></li>
-<li><a href="http://d.hatena.ne.jp/rubikitch/20080406/1207420372">http://d.hatena.ne.jp/rubikitch/20080406/1207420372</a></li>
-<li>e.g.) apt-file search hoge.h</li>
+<li>cd hogediary</li>
 </ul>
 </li>
-</ul>
-<h1 id="a1">
-<a href="../entries/20130808/a1.html">Ruby-GNOME2 クロスコンパイル日記</a>
-</h1>
-<p>今日はpangoを進めた。</p>
-<ul>
-<li>harfbuzz-0.9.17
+<li>bundle exec tdiary serverからの19292番ポートはOK</li>
+<li>bundle exec rackupからの9292番ポートもOK
 
 <ul>
-<li>bits/predefs.h
-
-<ul>
-<li>libc6-dev-amd64</li>
-</ul>
-</li>
-<li>gnu/stubs-32.h
-
-<ul>
-<li>libc6-dev（ただしi386-linux-gnuディレクトリ）</li>
-<li>/usr/include/i386-linux-gnu/gnu/stubs-32.h</li>
-<li>harfbuzzは/usr/include/gnuしか見てくれない</li>
-<li>とりあえずシンボリックリンク張った</li>
-</ul>
-</li>
-<li>align.h:30:102: error: 'wcscpy' was not declared in this scope
-
-<ul>
-<li>つづく。</li>
+<li>単体なら簡単に動く！</li>
 </ul>
 </li>
 </ul>
-</li>
-</ul>
-<h1 id="a2">
-<a href="../entries/20130808/a2.html">Ruby-GNOME2 Project Website</a>
-</h1>
+<h2>Apache (httpd) の設定</h2>
+<p>いつもSinatraアプリを追加しているのと同じようにしてみる。</p>
 <ul>
-<li>FrontPage更新
+<li>httpdのconfにRackBaseURIを追加</li>
+<li>httpdのホームディレクトリにシンボリックリンクを追加
 
 <ul>
-<li>ClutterとWebKitGTKを追記</li>
-<li>GTK+ 3対応について記載</li>
-<li>ruby1.8-devを削除</li>
+<li>hogediary/publicを指定</li>
 </ul>
 </li>
+<li>httpdを再起動</li>
+</ul>
+<h2>ブラウザからアクセス</h2>
+<ul>
+<li>Not Found: だけのHTMLが表示される
+
+<ul>
+<li>hogediary/tmp/restart.txtを作成しても変わらず</li>
+<li>Apacheの404じゃなく、Rackの404？</li>
+<li>config.ruは動いている
+
+<ul>
 <li>
-<a href="http://ruby-gnome2.sourceforge.jp/ja/">http://ruby-gnome2.sourceforge.jp/ja/</a>
-
-<ul>
-<li>gnome2でググると最初に来る</li>
+<code>touch hoge</code> して確認</li>
 </ul>
 </li>
+</ul>
+</li>
+</ul>
+<h2>まとめ</h2>
+<ul>
+<li>Webアプリ力が足りない</li>
+<li>本業ではないので、気が向いたら再チャレンジする</li>
 </ul></article><div class="nav">
 <div class="prev">
-<link href="../entries/20130810.html" rel="prev">
 </div>
 <div class="next">
-<link href="../entries/20130807.html" rel="next">
+<link href="../entries/20130808.html" rel="next">
 </div>
 </div>
 <div class="autopagerize_insert_before"></div>

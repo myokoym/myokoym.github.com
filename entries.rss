@@ -1,4 +1,77 @@
-<?xml version="1.0" encoding="UTF-8"?><rdf:RDF xmlns="http://purl.org/rss/1.0/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xml:lang="ja"><channel rdf:about="http://myokoym.github.com/"><title>my_letter</title><link>http://myokoym.github.com/</link><dc:date>2013-08-08</dc:date><description>my_letter</description><items><rdf:Seq><rdf:li rdf:resource="http://myokoym.github.com/entries/20130808/a2.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130808/a1.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130808/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130807/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130612/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130501/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130329/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130328/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130312/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130310/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130309/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130302/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130223/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130216/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130127/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20121125/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20121123/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20121009/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20121006/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20120929/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20120928/a0.html"/></rdf:Seq></items></channel><item about="http://myokoym.github.com/entries/20130808/a2.html"><title>Ruby-GNOME2 Project Website</title><description>
+<?xml version="1.0" encoding="UTF-8"?><rdf:RDF xmlns="http://purl.org/rss/1.0/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xml:lang="ja"><channel rdf:about="http://myokoym.github.com/"><title>my_letter</title><link>http://myokoym.github.com/</link><dc:date>2013-08-10</dc:date><description>my_letter</description><items><rdf:Seq><rdf:li rdf:resource="http://myokoym.github.com/entries/20130810/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130808/a2.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130808/a1.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130808/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130807/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130612/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130501/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130329/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130328/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130312/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130310/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130309/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130302/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130223/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130216/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130127/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20121125/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20121123/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20121009/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20121006/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20120929/a0.html"/></rdf:Seq></items></channel><item about="http://myokoym.github.com/entries/20130810/a0.html"><title>tDiary 4.0.0 をサブURIで動かそうとした</title><description>tDiary 4.0.0 を Apache + Passenger + Rack + サブURI で動かそうとしたけどだめだった。
+tDiaryのインストール
+
+gem install tdiary
+tdiary version
+
+
+tdiary 4.0.0
+
+
+tdiary new hogediary
+
+
+cd hogediary
+
+
+bundle exec tdiary serverからの19...</description><content:encoded><![CDATA[<p>tDiary 4.0.0 を Apache + Passenger + Rack + サブURI で動かそうとしたけどだめだった。</p>
+<h2>tDiaryのインストール</h2>
+<ul>
+<li>gem install tdiary</li>
+<li>tdiary version
+
+<ul>
+<li>tdiary 4.0.0</li>
+</ul>
+</li>
+<li>tdiary new hogediary
+
+<ul>
+<li>cd hogediary</li>
+</ul>
+</li>
+<li>bundle exec tdiary serverからの19292番ポートはOK</li>
+<li>bundle exec rackupからの9292番ポートもOK
+
+<ul>
+<li>単体なら簡単に動く！</li>
+</ul>
+</li>
+</ul>
+<h2>Apache (httpd) の設定</h2>
+<p>いつもSinatraアプリを追加しているのと同じようにしてみる。</p>
+<ul>
+<li>httpdのconfにRackBaseURIを追加</li>
+<li>httpdのホームディレクトリにシンボリックリンクを追加
+
+<ul>
+<li>hogediary/publicを指定</li>
+</ul>
+</li>
+<li>httpdを再起動</li>
+</ul>
+<h2>ブラウザからアクセス</h2>
+<ul>
+<li>Not Found: だけのHTMLが表示される
+
+<ul>
+<li>hogediary/tmp/restart.txtを作成しても変わらず</li>
+<li>Apacheの404じゃなく、Rackの404？</li>
+<li>config.ruは動いている
+
+<ul>
+<li>
+<code>touch hoge</code> して確認</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h2>まとめ</h2>
+<ul>
+<li>Webアプリ力が足りない</li>
+<li>本業ではないので、気が向いたら再チャレンジする</li>
+</ul>]]></content:encoded><dc:date>2013-08-10</dc:date><link>http://myokoym.github.com/entries/20130810/a0.html</link><author>myokoym</author></item><item about="http://myokoym.github.com/entries/20130808/a2.html"><title>Ruby-GNOME2 Project Website</title><description>
 FrontPage更新
 
 
@@ -706,10 +779,4 @@ http://detail.chiebukuro.yahoo.co.jp/qa/question_detail/q1376602573
 <p>ググっていたら、よさげな乾物専門店を見つけました。</p>
 <p>乾物を食べよう！「徳永乾物ネットショップ」
 <a href="http://www.tokukan.com/index.htm">http://www.tokukan.com/index.htm</a></p>
-<p>まるごと煮干し、焼き玉ねぎ、元気ごまなど、心躍る響きの商品が見やすいホームページに並んでいました。早速、注文してみたいと思います。</p>]]></content:encoded><dc:date>2012-09-29</dc:date><link>http://myokoym.github.com/entries/20120929/a0.html</link><author>myokoym</author></item><item about="http://myokoym.github.com/entries/20120928/a0.html"><title>非オープンソースの悲哀</title><description>好きだったソフトウェアがアップデートで別人のように変わってしまった。
-数ヶ月前にもこんなことがあった。
-オープンソースではないので、自分の手でどうにかすることはできない。
-いまだに前のバージョンを探し続けている。</description><content:encoded><![CDATA[<p>好きだったソフトウェアがアップデートで別人のように変わってしまった。</p>
-<p>数ヶ月前にもこんなことがあった。</p>
-<p>オープンソースではないので、自分の手でどうにかすることはできない。</p>
-<p>いまだに前のバージョンを探し続けている。</p>]]></content:encoded><dc:date>2012-09-28</dc:date><link>http://myokoym.github.com/entries/20120928/a0.html</link><author>myokoym</author></item></rdf:RDF>
+<p>まるごと煮干し、焼き玉ねぎ、元気ごまなど、心躍る響きの商品が見やすいホームページに並んでいました。早速、注文してみたいと思います。</p>]]></content:encoded><dc:date>2012-09-29</dc:date><link>http://myokoym.github.com/entries/20120929/a0.html</link><author>myokoym</author></item></rdf:RDF>
