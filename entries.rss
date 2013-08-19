@@ -1,4 +1,33 @@
-<?xml version="1.0" encoding="UTF-8"?><rdf:RDF xmlns="http://purl.org/rss/1.0/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xml:lang="ja"><channel rdf:about="http://myokoym.github.com/"><title>my_letter</title><link>http://myokoym.github.com/</link><dc:date>2013-08-10</dc:date><description>my_letter</description><items><rdf:Seq><rdf:li rdf:resource="http://myokoym.github.com/entries/20130810/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130808/a2.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130808/a1.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130808/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130807/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130612/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130501/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130329/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130328/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130312/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130310/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130309/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130302/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130223/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130216/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130127/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20121125/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20121123/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20121009/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20121006/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20120929/a0.html"/></rdf:Seq></items></channel><item about="http://myokoym.github.com/entries/20130810/a0.html"><title>tDiary 4.0.0 をサブURIで動かそうとした</title><description>tDiary 4.0.0 を Apache + Passenger + Rack + サブURI で動かそうとしたけどだめだった。
+<?xml version="1.0" encoding="UTF-8"?><rdf:RDF xmlns="http://purl.org/rss/1.0/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xml:lang="ja"><channel rdf:about="http://myokoym.github.com/"><title>my_letter</title><link>http://myokoym.github.com/</link><dc:date>2013-08-19</dc:date><description>my_letter</description><items><rdf:Seq><rdf:li rdf:resource="http://myokoym.github.com/entries/20130819/a1.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130819/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130810/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130808/a2.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130808/a1.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130808/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130807/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130612/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130501/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130329/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130328/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130312/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130310/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130309/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130302/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130223/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130216/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130127/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20121125/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20121123/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20121009/a0.html"/></rdf:Seq></items></channel><item about="http://myokoym.github.com/entries/20130819/a1.html"><title>
+www.ruby-lang.org 新MLリンク追加パッチ</title><description>メーリングリストの登録方法が変更になっていて、
+Mail Delivery Subsystemさんのお世話になった。
+まだドキュメントが更新されていなかったので、
+pull requestを送らせてもらった。
+修正する度胸はなかったので、注釈を追加しただけ。
+英語だけ送ったけど、日本語も送ってしまえばよかったか。</description><content:encoded><![CDATA[<p>メーリングリストの登録方法が変更になっていて、
+Mail Delivery Subsystemさんのお世話になった。</p>
+<p>まだドキュメントが更新されていなかったので、
+pull requestを送らせてもらった。</p>
+<p>修正する度胸はなかったので、注釈を追加しただけ。</p>
+<p>英語だけ送ったけど、日本語も送ってしまえばよかったか。</p>]]></content:encoded><dc:date>2013-08-19</dc:date><link>http://myokoym.github.com/entries/20130819/a1.html</link><author>myokoym</author></item><item about="http://myokoym.github.com/entries/20130819/a0.html"><title>Ruby/OSL C++クラスをRubyから</title><description>C++のクラスをRubyから使えるようになった。
+最初はallocからの replacement new を使っていたけど、
+osl::state::NumEffectStateクラスに「引数の数が合わない。」
+とか言われたので、allocしないでいきなりnewするようにした。
+でもところどころメモリ解放できてないっぽい。
+が、基本機能の実装を優先する。
+
+普通のマシンで普通に使う分には全く問題な...</description><content:encoded><![CDATA[<p>C++のクラスをRubyから使えるようになった。</p>
+<p>最初はallocからの replacement new を使っていたけど、</p>
+<p>osl::state::NumEffectStateクラスに「引数の数が合わない。」</p>
+<p>とか言われたので、allocしないでいきなりnewするようにした。</p>
+<p>でもところどころメモリ解放できてないっぽい。
+が、基本機能の実装を優先する。</p>
+<ul>
+<li>普通のマシンで普通に使う分には全く問題ない（テストして確認）</li>
+<li>ソフトウェア開発では、メモリ不足よりもモチベーション不足のが危険</li>
+</ul>
+<p>とことで。</p>
+]]></content:encoded><dc:date>2013-08-19</dc:date><link>http://myokoym.github.com/entries/20130819/a0.html</link><author>myokoym</author></item><item about="http://myokoym.github.com/entries/20130810/a0.html"><title>tDiary 4.0.0 をサブURIで動かそうとした</title><description>tDiary 4.0.0 を Apache + Passenger + Rack + サブURI で動かそうとしたけどだめだった。
 tDiaryのインストール
 
 gem install tdiary
@@ -721,62 +750,4 @@ http://myokoym.net/mora/
 <a href="https://github.com/myokoym/mecab-mora">https://github.com/myokoym/mecab-mora</a></p></li>
 </ul>
 <p>※拍(Mora)が正しいです。今まで音節(Syllable)だと思って作っていたので、いろいろ修正します。</p>
-<p><a href="http://sp.cis.iwate-u.ac.jp/sp/lessonj/doc/moraj.html">http://sp.cis.iwate-u.ac.jp/sp/lessonj/doc/moraj.html</a></p>]]></content:encoded><dc:date>2012-10-09</dc:date><link>http://myokoym.github.com/entries/20121009/a0.html</link><author>myokoym</author></item><item about="http://myokoym.github.com/entries/20121006/a0.html"><title>日本語の文章を音節で分割して音数を数えるプログラム</title><description>日本語の音節はわかりやすく、かな１文字が１音になります。
-例外として、小さい「ゃ」「ゅ」「ょ」は数えません。
-
-日本語の音数に関する質問です。 「今日」の「ょ」や「赤ちゃん」の「ゃ」などは、... - Yahoo!知恵袋
-http://detail.chiebukuro.yahoo.co.jp/qa/question_detail/q1376602573
-
-いちいち指を折って数えるのに疲れたので勢...</description><content:encoded><![CDATA[<p>日本語の音節はわかりやすく、かな１文字が１音になります。
-例外として、小さい「ゃ」「ゅ」「ょ」は数えません。</p>
-<blockquote>
-<p>日本語の音数に関する質問です。 「今日」の「ょ」や「赤ちゃん」の「ゃ」などは、... - Yahoo!知恵袋
-<a href="http://detail.chiebukuro.yahoo.co.jp/qa/question_detail/q1376602573">http://detail.chiebukuro.yahoo.co.jp/qa/question_detail/q1376602573</a></p>
-</blockquote>
-<p>いちいち指を折って数えるのに疲れたので勢いで書きました。</p>
-<script src="https://gist.github.com/3845114.js"> </script><p>MeCabで形態素解析した後、読みの部分から音節の文字以外を抜いて数えてます。</p>
-<p>使ってみるとけっこう便利でした。類似ライブラリが見つからなかったので、gem化する予定です。</p>
-<p>ライセンスとか名前空間とかどうしよう。</p>]]></content:encoded><dc:date>2012-10-06</dc:date><link>http://myokoym.github.com/entries/20121006/a0.html</link><author>myokoym</author></item><item about="http://myokoym.github.com/entries/20120929/a0.html"><title>わたし流カップ麺の食べ方 - 乾物トッピングのすすめ</title><description>ひとり暮らしの味方、カップ麺。
-早い、安い、楽ちんと三拍子揃った食べ物です。
-ただ、現代を生きる者としては、やっぱり栄養が気になりますよね。
-そこで、カップ麺の利点はそのままに、栄養価を高める方法を考えました。
-たどり着いたのが、乾物のトッピングです。
-乾物
-
-乾物（かんぶつ）は、保存性や食味の向上を目的として水分を抜き乾燥させた食品のことである。
-(乾物 - Wikipedia)
-
-やはり保存性...</description><content:encoded><![CDATA[<p>ひとり暮らしの味方、カップ麺。</p>
-<p>早い、安い、楽ちんと三拍子揃った食べ物です。</p>
-<p>ただ、現代を生きる者としては、やっぱり栄養が気になりますよね。</p>
-<p>そこで、カップ麺の利点はそのままに、栄養価を高める方法を考えました。</p>
-<p>たどり着いたのが、乾物のトッピングです。</p>
-<h2>乾物</h2>
-<blockquote>
-<p>乾物（かんぶつ）は、保存性や食味の向上を目的として水分を抜き乾燥させた食品のことである。
-(乾物 - Wikipedia)</p>
-</blockquote>
-<p>やはり保存性が高いのは、買いだめが利くので便利です。大抵のものは水で戻すだけで調理が済むので、カップ麺と相性バツグンですね。</p>
-<h2>トッピングの種類</h2>
-<p>スープの味によって合う合わないがあります。
-ここは好みですが、わたしルールを挙げておきます。</p>
-<h3>万能</h3>
-<ul>
-<li>乾燥わかめ</li>
-</ul>
-<h3>醤油系</h3>
-<ul>
-<li>かつおぶし</li>
-</ul>
-<h3>味噌系</h3>
-<ul>
-<li>すりごま（白）</li>
-</ul>
-<p>乾燥わかめは値上がりが続いており、スーパーから国産モノが消えたりしていますが、ネット通販なら手に入ります。わかめは何に入れても合いますし、栄養価も高いのでおすすめです。すりごまは、擂った後の状態で売っているのを買います。かつおぶしは言うまでもありません。</p>
-<h3>ポイント</h3>
-<p>味のついた乾物を入れる場合、付属の調味料を少なめにすることで、バランスが保てます。さらに、スープが飲みやすくなるので、おすすめです。</p>
-<h2>今後の展望</h2>
-<p>ググっていたら、よさげな乾物専門店を見つけました。</p>
-<p>乾物を食べよう！「徳永乾物ネットショップ」
-<a href="http://www.tokukan.com/index.htm">http://www.tokukan.com/index.htm</a></p>
-<p>まるごと煮干し、焼き玉ねぎ、元気ごまなど、心躍る響きの商品が見やすいホームページに並んでいました。早速、注文してみたいと思います。</p>]]></content:encoded><dc:date>2012-09-29</dc:date><link>http://myokoym.github.com/entries/20120929/a0.html</link><author>myokoym</author></item></rdf:RDF>
+<p><a href="http://sp.cis.iwate-u.ac.jp/sp/lessonj/doc/moraj.html">http://sp.cis.iwate-u.ac.jp/sp/lessonj/doc/moraj.html</a></p>]]></content:encoded><dc:date>2012-10-09</dc:date><link>http://myokoym.github.com/entries/20121009/a0.html</link><author>myokoym</author></item></rdf:RDF>
