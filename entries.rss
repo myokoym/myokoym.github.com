@@ -10,14 +10,14 @@ Mail Delivery Subsystemさんのお世話になった。</p>
 pull requestを送らせてもらった。</p>
 <p>修正する度胸はなかったので、注釈を追加しただけ。</p>
 <p>英語だけ送ったけど、日本語も送ってしまえばよかったか。</p>]]></content:encoded><dc:date>2013-08-19</dc:date><link>http://myokoym.github.com/entries/20130819/a1.html</link><author>myokoym</author></item><item about="http://myokoym.github.com/entries/20130819/a0.html"><title>Ruby/OSL C++クラスをRubyから</title><description>C++のクラスをRubyから使えるようになった。
-最初はallocからの replacement new を使っていたけど、
+最初はallocからの placement new を使っていたけど、
 osl::state::NumEffectStateクラスに「引数の数が合わない。」
 とか言われたので、allocしないでいきなりnewするようにした。
 でもところどころメモリ解放できてないっぽい。
 が、基本機能の実装を優先する。
 
-普通のマシンで普通に使う分には全く問題な...</description><content:encoded><![CDATA[<p>C++のクラスをRubyから使えるようになった。</p>
-<p>最初はallocからの replacement new を使っていたけど、</p>
+普通のマシンで普通に使う分には全く問題ない（...</description><content:encoded><![CDATA[<p>C++のクラスをRubyから使えるようになった。</p>
+<p>最初はallocからの placement new を使っていたけど、</p>
 <p>osl::state::NumEffectStateクラスに「引数の数が合わない。」</p>
 <p>とか言われたので、allocしないでいきなりnewするようにした。</p>
 <p>でもところどころメモリ解放できてないっぽい。

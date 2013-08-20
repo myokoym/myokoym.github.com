@@ -39,7 +39,7 @@
 <a href="./entries/20130819/a0.html">Ruby/OSL C++クラスをRubyから</a>
 </h1>
 <p>C++のクラスをRubyから使えるようになった。</p>
-<p>最初はallocからの replacement new を使っていたけど、</p>
+<p>最初はallocからの placement new を使っていたけど、</p>
 <p>osl::state::NumEffectStateクラスに「引数の数が合わない。」</p>
 <p>とか言われたので、allocしないでいきなりnewするようにした。</p>
 <p>でもところどころメモリ解放できてないっぽい。
