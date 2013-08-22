@@ -1,7 +1,7 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html>
 <head>
-<title>byobuでターミナル画面の履歴をスクロールする方法 - my_letter</title>
+<title>初めてのアドオン (Firefox 23) - my_letter</title>
 <meta charset="utf-8" content="text/html; charset=UTF-8" http-equiv="Content-Type">
 <meta content="myokoym" name="author">
 <link href="../../favicon.png" rel="icon" type="image/png">
@@ -32,58 +32,38 @@
 </ul></nav></header><div id="page">
 <div id="content">
 <article class="article autopagerize_page_element"><h1 class="date">
-<a href="../../entries/20130329.html">2013-03-29</a>
+<a href="../../entries/20130822.html">2013-08-22</a>
 </h1>
 <h1 id="a0">
-<a href="../../entries/20130329/a0.html">byobuでターミナル画面の履歴をスクロールする方法</a>
+<a href="../../entries/20130822/a0.html">初めてのアドオン (Firefox 23)</a>
 </h1>
-<p>スクロール方法は２種類あり、操作や戻れる行数などが異なります。</p>
-<h2>A. ちょっとしたスクロール</h2>
-<p>マウスで行う普通のスクロールです。</p>
-<ul>
-<li>戻れる行数はそれほど多くない（数百行程度）</li>
-<li>ウィンドウを切り替えると、履歴が消えて戻れなくなる</li>
-</ul>
-<h3>やりかた</h3>
-<ol>
-<li>
-<p>.screenrcに下の設定を追加</p>
-<div class="highlight"><pre>termcapinfo xterm ti@:te@
-</pre></div>
-</li>
-<li><p>byobuを再起動</p></li>
-<li><p>ウィンドウの右端に出てくるスクロールバーをドラッグ</p></li>
-</ol>
-<p><img src="../../images/byobu-scrollbar-20130329_01.png" alt="byobu-scrollbar"></p>
-<h2>B. 気合を入れてスクロール</h2>
-<p>まじめにスタックトレースを読むときに使うスクロールです。</p>
-<ul>
-<li>byobuのデフォルトのスクロール方法</li>
-<li>10,000行まで戻れる</li>
-<li>ウィンドウを切り替えても残る</li>
-</ul>
-<h3>やりかた</h3>
-<ol>
-<li>F7キーを押下
-
-<ul>
-<li>F7キーを押すとスクロールモードが開始される</li>
-</ul>
-</li>
-<li> viキーバインドで移動
-
-<ul>
-<li>カーソル移動は、moreやless、viなどと似たキーバインド</li>
-<li>スペース -&gt; 選択 -&gt; スペースで、byobuのバッファにコピー</li>
-<li>エスケープキー -&gt; ] で貼り付け</li>
-</ul>
-</li>
-</ol>
-<h2>参考</h2>
-<p><a href="https://forums.ubuntulinux.jp/viewtopic.php?pid=97479#p97479">Ubuntu日本語フォーラム / byobuでバッファスクロールをマウスホイールでするには</a></p>
-<p><a href="https://sites.google.com/site/hymd3a/linux/byobu">byobuを使ってみる - ひゃまだのブログ</a></p>
-<p><a href="http://www.rwds.net/wiki?page=screen%A4%CE%B3%D0%BD%F1">screenの覚書 - Ktat's Wiki</a></p>
-<p><a href="http://tthhfugapiyo.blogspot.jp/2012/07/screen.html">設定メモ: screenでマウススクロール</a></p>
+<p>初めてFirefoxのアドオンを作った。</p>
+<p><a href="https://addons.mozilla.org/ja/firefox/addon/quick-rurema-search/">https://addons.mozilla.org/ja/firefox/addon/quick-rurema-search/</a></p>
+<p><a href="https://github.com/myokoym/quick-rurema-search">https://github.com/myokoym/quick-rurema-search</a></p>
+<p>Add-on SDKを使って雛形を作った後、
+サンプルを組み合わせて少し改造しただけ。</p>
+<p><a href="http://vividcode.hatenablog.com/entry/how-to-develop-firefox-extension">Firefox 拡張の作り方 (2013 年版) - ひだまりソケットは壊れない</a></p>
+<p>を参考に、Add-on SDKをダウンロード</p>
+<p><a href="https://addons.mozilla.org/ja/developers/builder">Builder と SDK :: 開発者センター :: Add-ons for Firefox</a></p>
+<p>して、</p>
+<p><a href="https://dev.mozilla.jp/addon-sdk-docs/dev-guide/tutorials/installation.html">インストール - Add-on SDK Documentation</a></p>
+<p>して、</p>
+<p><a href="https://dev.mozilla.jp/addon-sdk-docs/dev-guide/tutorials/getting-started-with-cfx.html">cfx 入門 - Add-on SDK Documentation</a></p>
+<p>をやって、</p>
+<p><a href="https://dev.mozilla.jp/addon-sdk-docs/dev-guide/tutorials/add-a-context-menu-item.html">コンテキストメニューアイテムの追加 - Add-on SDK Documentation</a></p>
+<p>と</p>
+<p><a href="https://dev.mozilla.jp/addon-sdk-docs/dev-guide/tutorials/open-a-web-page.html">Web ページを開く - Add-on SDK Documentation</a></p>
+<p>を組み合わせたらできた。
+簡単だったのは、るりまサーチのURLの設計のおかげでもある。</p>
+<p><a href="http://magazine.rubyist.net/?0031-RuremaSearch">Rubyist Magazine - るりまサーチの作り方 - Ruby 1.9 で groonga 使って全文検索</a></p>
+<p>最初の段（最低限動くものが作れるまでの労力）は
+低ければ低いほどいいと思っているので、とてもよい。</p>
+<p>あと、Add-on SDK 1.14 で普通にビルドすると対象バージョンが19.0以降になる
+理由がわからなかった。ESR（法人向け延長サポート版）は今年の12月まで17.0系
+がサポートされているので、気になっている。</p>
+<p><a href="http://www.mozilla.jp/business/downloads/">Firefox/Thunderbird 法人向け延長サポート版 (ESR) のダウンロード</a></p>
+<p>互換性を無視する設定にしてインストールしたら動いたけど、
+できれば普通に入れられるようにしたい。</p>
 </article><div id="comments">
 <div id="disqus_thread">
   <script type="text/javascript">
@@ -100,10 +80,9 @@
 </div>
 <div class="nav">
 <div class="prev">
-<link href="../../entries/20130501/a0.html" rel="prev">
 </div>
 <div class="next">
-<link href="../../entries/20130328/a0.html" rel="next">
+<link href="../../entries/20130819/a0.html" rel="next">
 </div>
 </div>
 <div class="autopagerize_insert_before"></div>

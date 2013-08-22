@@ -1,4 +1,35 @@
-<?xml version="1.0" encoding="UTF-8"?><rdf:RDF xmlns="http://purl.org/rss/1.0/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xml:lang="ja"><channel rdf:about="http://myokoym.github.com/"><title>my_letter</title><link>http://myokoym.github.com/</link><dc:date>2013-08-19</dc:date><description>my_letter</description><items><rdf:Seq><rdf:li rdf:resource="http://myokoym.github.com/entries/20130819/a1.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130819/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130810/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130808/a2.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130808/a1.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130808/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130807/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130612/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130501/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130329/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130328/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130312/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130310/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130309/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130302/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130223/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130216/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130127/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20121125/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20121123/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20121009/a0.html"/></rdf:Seq></items></channel><item about="http://myokoym.github.com/entries/20130819/a1.html"><title>
+<?xml version="1.0" encoding="UTF-8"?><rdf:RDF xmlns="http://purl.org/rss/1.0/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xml:lang="ja"><channel rdf:about="http://myokoym.github.com/"><title>my_letter</title><link>http://myokoym.github.com/</link><dc:date>2013-08-22</dc:date><description>my_letter</description><items><rdf:Seq><rdf:li rdf:resource="http://myokoym.github.com/entries/20130822/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130819/a1.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130819/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130810/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130808/a2.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130808/a1.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130808/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130807/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130612/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130501/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130329/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130328/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130312/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130310/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130309/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130302/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130223/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130216/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130127/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20121125/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20121123/a0.html"/></rdf:Seq></items></channel><item about="http://myokoym.github.com/entries/20130822/a0.html"><title>初めてのアドオン (Firefox 23)</title><description>初めてFirefoxのアドオンを作った。
+https://addons.mozilla.org/ja/firefox/addon/quick-rurema-search/
+https://github.com/myokoym/quick-rurema-search
+Add-on SDKを使って雛形を作った後、
+サンプルを組み合わせて少し改造しただけ。
+Firefox 拡張の作り方 (2013 年版...</description><content:encoded><![CDATA[<p>初めてFirefoxのアドオンを作った。</p>
+<p><a href="https://addons.mozilla.org/ja/firefox/addon/quick-rurema-search/">https://addons.mozilla.org/ja/firefox/addon/quick-rurema-search/</a></p>
+<p><a href="https://github.com/myokoym/quick-rurema-search">https://github.com/myokoym/quick-rurema-search</a></p>
+<p>Add-on SDKを使って雛形を作った後、
+サンプルを組み合わせて少し改造しただけ。</p>
+<p><a href="http://vividcode.hatenablog.com/entry/how-to-develop-firefox-extension">Firefox 拡張の作り方 (2013 年版) - ひだまりソケットは壊れない</a></p>
+<p>を参考に、Add-on SDKをダウンロード</p>
+<p><a href="https://addons.mozilla.org/ja/developers/builder">Builder と SDK :: 開発者センター :: Add-ons for Firefox</a></p>
+<p>して、</p>
+<p><a href="https://dev.mozilla.jp/addon-sdk-docs/dev-guide/tutorials/installation.html">インストール - Add-on SDK Documentation</a></p>
+<p>して、</p>
+<p><a href="https://dev.mozilla.jp/addon-sdk-docs/dev-guide/tutorials/getting-started-with-cfx.html">cfx 入門 - Add-on SDK Documentation</a></p>
+<p>をやって、</p>
+<p><a href="https://dev.mozilla.jp/addon-sdk-docs/dev-guide/tutorials/add-a-context-menu-item.html">コンテキストメニューアイテムの追加 - Add-on SDK Documentation</a></p>
+<p>と</p>
+<p><a href="https://dev.mozilla.jp/addon-sdk-docs/dev-guide/tutorials/open-a-web-page.html">Web ページを開く - Add-on SDK Documentation</a></p>
+<p>を組み合わせたらできた。
+簡単だったのは、るりまサーチのURLの設計のおかげでもある。</p>
+<p><a href="http://magazine.rubyist.net/?0031-RuremaSearch">Rubyist Magazine - るりまサーチの作り方 - Ruby 1.9 で groonga 使って全文検索</a></p>
+<p>最初の段（最低限動くものが作れるまでの労力）は
+低ければ低いほどいいと思っているので、とてもよい。</p>
+<p>あと、Add-on SDK 1.14 で普通にビルドすると対象バージョンが19.0以降になる
+理由がわからなかった。ESR（法人向け延長サポート版）は今年の12月まで17.0系
+がサポートされているので、気になっている。</p>
+<p><a href="http://www.mozilla.jp/business/downloads/">Firefox/Thunderbird 法人向け延長サポート版 (ESR) のダウンロード</a></p>
+<p>互換性を無視する設定にしてインストールしたら動いたけど、
+できれば普通に入れられるようにしたい。</p>]]></content:encoded><dc:date>2013-08-22</dc:date><link>http://myokoym.github.com/entries/20130822/a0.html</link><author>myokoym</author></item><item about="http://myokoym.github.com/entries/20130819/a1.html"><title>
 www.ruby-lang.org 新MLリンク追加パッチ</title><description>メーリングリストの登録方法が変更になっていて、
 Mail Delivery Subsystemさんのお世話になった。
 まだドキュメントが更新されていなかったので、
@@ -725,29 +756,4 @@ C-oもEnterキーコードに割り当てられていることが多い
 <h3>emacsモードとviモードの解説</h3>
 <p><a href="http://www.hpc.cs.ehime-u.ac.jp/%7Eaman/linux/bash/command_line.html#2.2_vi_mode">http://www.hpc.cs.ehime-u.ac.jp/~aman/linux/bash/command_line.html#2.2_vi_mode</a></p>
 <h3>制御コード表（ctrl列を参照）</h3>
-<p><a href="http://ash.jp/code/ctrltbl.htm">http://ash.jp/code/ctrltbl.htm</a></p>]]></content:encoded><dc:date>2012-11-23</dc:date><link>http://myokoym.github.com/entries/20121123/a0.html</link><author>myokoym</author></item><item about="http://myokoym.github.com/entries/20121009/a0.html"><title>日本語のモーラ（拍）を数えるWebアプリつくった</title><description>拍数え - モーラ（拍）計算機
-http://myokoym.net/mora/
-単語ごとに辞書から読みを引いて数えるため、「明日」は「あした」で固定です。文脈によって「あす」と読むなどの高度なことはできません。
-もうひとつの弱点は叙々苑です。
-
-辞書に載っていない語句だと、「々」が0拍になってしまう
-サーバーのMeCabはIPA辞書を使っており、残念ながら叙々苑は載っていない
-
-小さい「ぁぃぅぇ...</description><content:encoded><![CDATA[<p>拍数え - モーラ（拍）計算機</p>
-<p><a href="http://myokoym.net/mora/">http://myokoym.net/mora/</a></p>
-<p>単語ごとに辞書から読みを引いて数えるため、「明日」は「あした」で固定です。文脈によって「あす」と読むなどの高度なことはできません。</p>
-<p>もうひとつの弱点は叙々苑です。</p>
-<ul>
-<li>辞書に載っていない語句だと、「々」が0拍になってしまう</li>
-<li>サーバーのMeCabはIPA辞書を使っており、残念ながら叙々苑は載っていない</li>
-</ul>
-<p>小さい「ぁぃぅぇぉ」の扱いは微妙ですが、今は数えてません。</p>
-<p>ソースコードはこちら。</p>
-<ul>
-<li><p>Webページ
-<a href="https://github.com/myokoym/mora-web">https://github.com/myokoym/mora-web</a></p></li>
-<li><p>ライブラリ（RubyGems）
-<a href="https://github.com/myokoym/mecab-mora">https://github.com/myokoym/mecab-mora</a></p></li>
-</ul>
-<p>※拍(Mora)が正しいです。今まで音節(Syllable)だと思って作っていたので、いろいろ修正します。</p>
-<p><a href="http://sp.cis.iwate-u.ac.jp/sp/lessonj/doc/moraj.html">http://sp.cis.iwate-u.ac.jp/sp/lessonj/doc/moraj.html</a></p>]]></content:encoded><dc:date>2012-10-09</dc:date><link>http://myokoym.github.com/entries/20121009/a0.html</link><author>myokoym</author></item></rdf:RDF>
+<p><a href="http://ash.jp/code/ctrltbl.htm">http://ash.jp/code/ctrltbl.htm</a></p>]]></content:encoded><dc:date>2012-11-23</dc:date><link>http://myokoym.github.com/entries/20121123/a0.html</link><author>myokoym</author></item></rdf:RDF>
