@@ -1,4 +1,10 @@
-<?xml version="1.0" encoding="UTF-8"?><rdf:RDF xmlns="http://purl.org/rss/1.0/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xml:lang="ja"><channel rdf:about="http://myokoym.github.com/"><title>my_letter</title><link>http://myokoym.github.com/</link><dc:date>2013-08-22</dc:date><description>my_letter</description><items><rdf:Seq><rdf:li rdf:resource="http://myokoym.github.com/entries/20130822/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130819/a1.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130819/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130810/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130808/a2.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130808/a1.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130808/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130807/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130612/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130501/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130329/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130328/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130312/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130310/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130309/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130302/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130223/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130216/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130127/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20121125/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20121123/a0.html"/></rdf:Seq></items></channel><item about="http://myokoym.github.com/entries/20130822/a0.html"><title>初めてのアドオン (Firefox 23)</title><description>初めてFirefoxのアドオンを作った。
+<?xml version="1.0" encoding="UTF-8"?><rdf:RDF xmlns="http://purl.org/rss/1.0/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xml:lang="ja"><channel rdf:about="http://myokoym.github.com/"><title>my_letter</title><link>http://myokoym.github.com/</link><dc:date>2013-08-25</dc:date><description>my_letter</description><items><rdf:Seq><rdf:li rdf:resource="http://myokoym.github.com/entries/20130825/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130822/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130819/a1.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130819/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130810/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130808/a2.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130808/a1.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130808/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130807/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130612/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130501/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130329/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130328/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130312/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130310/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130309/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130302/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130223/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130216/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130127/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20121125/a0.html"/></rdf:Seq></items></channel><item about="http://myokoym.github.com/entries/20130825/a0.html"><title>Rubyとrcairoで将棋駒を描画</title><description>出来上がりはこんな感じ。一文字と二文字に両対応。
+
+ソースコード（Gist）
+プログラム内で描画するか、事前に画像を作成しておくかは難しいところ。</description><content:encoded><![CDATA[<p>出来上がりはこんな感じ。一文字と二文字に両対応。</p>
+<p><img src="images/fu1-20130825_01.png" alt="fu1"><img src="images/fu2-20130825_02.png" alt="fu2"></p>
+<h3>ソースコード（Gist）</h3>
+<script src="https://gist.github.com/myokoym/6332512.js"></script><p>プログラム内で描画するか、事前に画像を作成しておくかは難しいところ。</p>]]></content:encoded><dc:date>2013-08-25</dc:date><link>http://myokoym.github.com/entries/20130825/a0.html</link><author>myokoym</author></item><item about="http://myokoym.github.com/entries/20130822/a0.html"><title>初めてのアドオン (Firefox 23)</title><description>初めてFirefoxのアドオンを作った。
 https://addons.mozilla.org/ja/firefox/addon/quick-rurema-search/
 https://github.com/myokoym/quick-rurema-search
 Add-on SDKを使って雛形を作った後、
@@ -688,74 +694,4 @@ char -&amp;gt; byte (Shift_JIS)
 <p>library iconv
 <a href="http://doc.ruby-lang.org/ja/1.9.3/library/iconv.html">http://doc.ruby-lang.org/ja/1.9.3/library/iconv.html</a></p>
 <p>GitHub - myokoym/mojihex
-<a href="https://github.com/myokoym/mojihex">https://github.com/myokoym/mojihex</a></p>]]></content:encoded><dc:date>2012-11-25</dc:date><link>http://myokoym.github.com/entries/20121125/a0.html</link><author>myokoym</author></item><item about="http://myokoym.github.com/entries/20121123/a0.html"><title>コマンドラインのemacsモードを使いたくない理由</title><description>1. C-hがC-jに近い
-
-C-jはEnterキーコードに割り当てられていることが多い
-
-
-1文字削除しようとして誤実行とか笑えない
-
-
-
-2. C-nがC-mとC-jに近い
-
-C-mもEnterキーコードに割り当てられていることが多い
-
-
-ヒストリ移動しようとして誤実行とか笑えない
-
-
-
-3. C-pがC-oに近い
-
-C-oもEnterキーコードに割り当てられていることが多い
-
-
-ヒストリ移動...</description><content:encoded><![CDATA[<h2>1. C-hがC-jに近い</h2>
-<ul>
-<li>C-jはEnterキーコードに割り当てられていることが多い
-
-<ul>
-<li>1文字削除しようとして誤実行とか笑えない</li>
-</ul>
-</li>
-</ul>
-<h2>2. C-nがC-mとC-jに近い</h2>
-<ul>
-<li>C-mもEnterキーコードに割り当てられていることが多い
-
-<ul>
-<li>ヒストリ移動しようとして誤実行とか笑えない</li>
-</ul>
-</li>
-</ul>
-<h2>3. C-pがC-oに近い</h2>
-<ul>
-<li>C-oもEnterキーコードに割り当てられていることが多い
-
-<ul>
-<li>ヒストリ移動しようとして誤実行とか笑えない</li>
-</ul>
-</li>
-</ul>
-<h2>4. C-dを押しすぎるとログアウトされる</h2>
-<ul>
-<li>C-dで端末からログアウトされることが多い
-
-<ul>
-<li>1文字削除しようとしてログアウトとか笑える</li>
-</ul>
-</li>
-</ul>
-<h2>対策</h2>
-<ul>
-<li>C-hはC-g気味に押す</li>
-<li>C-nとC-pを使わずにC-rを使う</li>
-<li>C-dは連打しない。C-kなどを使う</li>
-<li>echo "set -o vi" &gt;&gt;~/.*shrc</li>
-</ul>
-<h2>参考</h2>
-<h3>emacsモードとviモードの解説</h3>
-<p><a href="http://www.hpc.cs.ehime-u.ac.jp/%7Eaman/linux/bash/command_line.html#2.2_vi_mode">http://www.hpc.cs.ehime-u.ac.jp/~aman/linux/bash/command_line.html#2.2_vi_mode</a></p>
-<h3>制御コード表（ctrl列を参照）</h3>
-<p><a href="http://ash.jp/code/ctrltbl.htm">http://ash.jp/code/ctrltbl.htm</a></p>]]></content:encoded><dc:date>2012-11-23</dc:date><link>http://myokoym.github.com/entries/20121123/a0.html</link><author>myokoym</author></item></rdf:RDF>
+<a href="https://github.com/myokoym/mojihex">https://github.com/myokoym/mojihex</a></p>]]></content:encoded><dc:date>2012-11-25</dc:date><link>http://myokoym.github.com/entries/20121125/a0.html</link><author>myokoym</author></item></rdf:RDF>
