@@ -7,7 +7,7 @@ Rubyist Magazine - cairo: 2 次元画像描画ライブラリ
 http://jp.rubyist.net/magazine/?0019-cairo
 Ruby/GTK2 sample
 https://github.com/ruby...</description><content:encoded><![CDATA[<p>出来上がりはこんな感じ。一文字と二文字に両対応。</p>
-<p><img src="images/fu1-20130825_01.png" alt="fu1"><img src="images/fu2-20130825_02.png" alt="fu2"></p>
+<p><img src="/images/fu1-20130825_01.png" alt="fu1"><img src="/images/fu2-20130825_02.png" alt="fu2"></p>
 <h3>ソースコード（Gist）</h3>
 <script src="https://gist.github.com/myokoym/6332512.js"></script><p>プログラム内で描画するか、事前に画像を作成しておくかは難しいところ。</p>
 <h2>参考</h2>
