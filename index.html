@@ -32,6 +32,34 @@
 <div id="content">
 <div class="autopagerize_page_element" id="entries">
 <article class="article"><h1 class="date">
+<a href="./entries/20130828.html">2013-08-28</a>
+</h1>
+<h1 id="a0">
+<a href="./entries/20130828/a0.html">mireru 0.1.5 予告</a>
+</h1>
+<p>明日にくリリース予定。</p>
+<p><a href="https://github.com/myokoym/mireru">https://github.com/myokoym/mireru</a></p>
+<h2>主な変更点</h2>
+<ul>
+<li>デフォルトサイズをオリジナルサイズに変更</li>
+<li>サムネイル対応</li>
+</ul>
+<h3>デフォルトサイズをオリジナルサイズに変更</h3>
+<p>画像のオリジナルサイズがウィンドウサイズよりも小さければ、
+<br>
+オリジナルサイズで表示することにした。
+（fキーを押せばウィンドウサイズにフィットする）</p>
+<p>画像のオリジナルサイズがウィンドウサイズよりも大きければ、
+<br>
+ウィンドウサイズに縮小して表示する。（今までと同じ）</p>
+<p>統一するべきか迷ったけど、この組み合わせが一番使いやすそう。</p>
+<h3>サムネイル対応</h3>
+<p>ずっと欲しかったので、とりあえずざっくり作った。</p>
+<p>縦ボックスに横ボックスを詰めてるだけなので縦線がずれる。
+<br>
+テーブル使って整列しようか考え中。</p>
+<p>ああ、それよりもクリックして飛べるようにしたい。</p>
+</article><article class="article"><h1 class="date">
 <a href="./entries/20130825.html">2013-08-25</a>
 </h1>
 <h1 id="a0">
@@ -171,83 +199,9 @@ pull requestを送らせてもらった。</p>
 <ul>
 <li>Webアプリ力が足りない</li>
 <li>本業ではないので、気が向いたら再チャレンジする</li>
-</ul></article><article class="article"><h1 class="date">
-<a href="./entries/20130808.html">2013-08-08</a>
-</h1>
-<h1 id="a0">
-<a href="./entries/20130808/a0.html">ヘッダー探しツール</a>
-</h1>
-<ul>
-<li>packages.ubuntu.com
-
-<ul>
-<li><a href="http://packages.ubuntu.com/">http://packages.ubuntu.com/</a></li>
-<li><a href="http://gihyo.jp/admin/serial/01/ubuntu-recipe/0016">http://gihyo.jp/admin/serial/01/ubuntu-recipe/0016</a></li>
-</ul>
-</li>
-<li>apt-file
-
-<ul>
-<li><a href="http://d.hatena.ne.jp/rx7/20080830/p1">http://d.hatena.ne.jp/rx7/20080830/p1</a></li>
-<li><a href="http://d.hatena.ne.jp/rubikitch/20080406/1207420372">http://d.hatena.ne.jp/rubikitch/20080406/1207420372</a></li>
-<li>e.g.) apt-file search hoge.h</li>
-</ul>
-</li>
-</ul>
-<h1 id="a1">
-<a href="./entries/20130808/a1.html">Ruby-GNOME2 クロスコンパイル日記</a>
-</h1>
-<p>今日はpangoを進めた。</p>
-<ul>
-<li>harfbuzz-0.9.17
-
-<ul>
-<li>bits/predefs.h
-
-<ul>
-<li>libc6-dev-amd64</li>
-</ul>
-</li>
-<li>gnu/stubs-32.h
-
-<ul>
-<li>libc6-dev（ただしi386-linux-gnuディレクトリ）</li>
-<li>/usr/include/i386-linux-gnu/gnu/stubs-32.h</li>
-<li>harfbuzzは/usr/include/gnuしか見てくれない</li>
-<li>とりあえずシンボリックリンク張った</li>
-</ul>
-</li>
-<li>align.h:30:102: error: 'wcscpy' was not declared in this scope
-
-<ul>
-<li>つづく。</li>
-</ul>
-</li>
-</ul>
-</li>
-</ul>
-<h1 id="a2">
-<a href="./entries/20130808/a2.html">Ruby-GNOME2 Project Website</a>
-</h1>
-<ul>
-<li>FrontPage更新
-
-<ul>
-<li>ClutterとWebKitGTKを追記</li>
-<li>GTK+ 3対応について記載</li>
-<li>ruby1.8-devを削除</li>
-</ul>
-</li>
-<li>
-<a href="http://ruby-gnome2.sourceforge.jp/ja/">http://ruby-gnome2.sourceforge.jp/ja/</a>
-
-<ul>
-<li>gnome2でググると最初に来る</li>
-</ul>
-</li>
 </ul></article><div class="nav">
 <div class="next">
-<link href="./entries/20130807.html" rel="next">
+<link href="./entries/20130808.html" rel="next">
 </div>
 </div>
 <div class="autopagerize_insert_before"></div>
@@ -260,6 +214,9 @@ pull requestを送らせてもらった。</p>
 <h3>Recent entries</h3>
 <div class="recent-entries">
 <ul>
+<li>
+<a href="./entries/20130828/a0.html">mireru 0.1.5 予告</a>
+</li>
 <li>
 <a href="./entries/20130825/a0.html">Rubyとrcairoで将棋駒を描画</a>
 </li>
@@ -284,9 +241,6 @@ www.ruby-lang.org 新MLリンク追加パッチ</a>
 </li>
 <li>
 <a href="./entries/20130808/a2.html">Ruby-GNOME2 Project Website</a>
-</li>
-<li>
-<a href="./entries/20130807/a0.html">TUIShogi 0.0.1</a>
 </li>
 </ul>
 <div class="archives">
