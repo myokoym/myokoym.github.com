@@ -1,4 +1,44 @@
-<?xml version="1.0" encoding="UTF-8"?><rdf:RDF xmlns="http://purl.org/rss/1.0/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xml:lang="ja"><channel rdf:about="http://myokoym.github.com/"><title>my_letter</title><link>http://myokoym.github.com/</link><dc:date>2013-08-28</dc:date><description>my_letter</description><items><rdf:Seq><rdf:li rdf:resource="http://myokoym.github.com/entries/20130828/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130825/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130822/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130819/a1.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130819/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130810/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130808/a2.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130808/a1.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130808/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130807/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130612/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130501/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130329/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130328/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130312/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130310/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130309/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130302/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130223/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130216/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130127/a0.html"/></rdf:Seq></items></channel><item about="http://myokoym.github.com/entries/20130828/a0.html"><title>mireru 0.1.5 予告</title><description>明日にくリリース予定。
+<?xml version="1.0" encoding="UTF-8"?><rdf:RDF xmlns="http://purl.org/rss/1.0/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xml:lang="ja"><channel rdf:about="http://myokoym.github.com/"><title>my_letter</title><link>http://myokoym.github.com/</link><dc:date>2013-08-29</dc:date><description>my_letter</description><items><rdf:Seq><rdf:li rdf:resource="http://myokoym.github.com/entries/20130829/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130828/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130825/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130822/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130819/a1.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130819/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130810/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130808/a2.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130808/a1.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130808/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130807/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130612/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130501/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130329/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130328/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130312/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130310/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130309/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130302/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130223/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130216/a0.html"/></rdf:Seq></items></channel><item about="http://myokoym.github.com/entries/20130829/a0.html"><title>今月の肉リリース（2013-08-29）</title><description>目玉はmireruのざっくりサムネイル機能。
+mireru 0.1.5
+キーボードで操作できるファイルビューアです。
+https://github.com/myokoym/mireru
+主な変更点
+予告通り。
+mireru 0.1.5 予告 - my_letter
+shogi-ruby 0.0.6
+Rubyのみで書かれた将棋ライブラリです。
+https://github.com/myokoym/s...</description><content:encoded><![CDATA[<p>目玉はmireruのざっくりサムネイル機能。</p>
+<h2>mireru 0.1.5</h2>
+<p>キーボードで操作できるファイルビューアです。
+<br><a href="https://github.com/myokoym/mireru">https://github.com/myokoym/mireru</a></p>
+<h3>主な変更点</h3>
+<p>予告通り。
+<br><a href="/entries/20130828/a0.html">mireru 0.1.5 予告 - my_letter</a></p>
+<h2>shogi-ruby 0.0.6</h2>
+<p>Rubyのみで書かれた将棋ライブラリです。
+<br><a href="https://github.com/myokoym/shogi-ruby">https://github.com/myokoym/shogi-ruby</a></p>
+<h3>主な変更点</h3>
+<p>開発中のGtkShogiViewが進まなかったので、こちらもあまり進展なし。</p>
+<ul>
+<li>Board#at を追加</li>
+</ul>
+<h2>Ruby/OSL 0.0.2</h2>
+<p>OpenShogiLibのRubyバインディングです。
+<br><a href="https://github.com/myokoym/ruby-osl">https://github.com/myokoym/ruby-osl</a></p>
+<h3>主な変更点</h3>
+<p>osl::Pieceをサポートした。が、サンプルを作成し忘れたので利点をうまく説明できない。</p>
+<ul>
+<li>SimpleState#pieceAt (= #at) を追加</li>
+<li>osl::Piece をサポート</li>
+<li>NumEffectStateクラスをSimpleStateのサブクラスにした</li>
+<li>フォーマット判定を改善（C++の例外がそのままRubyに返らないよう修正）</li>
+<li>フォーマットが不正の場合、falseではなくnilを返すよう修正</li>
+</ul>
+<h2>以上三本。</h2>
+<p>今月から肉リリースに挑戦することにしました。毎月一本以上はリリースします。</p>
+<p>全てメジャーバージョン番号が0であり、まだ実験的なので使えとは言いませんが、
+<br>
+万が一使っていてもやっときたらぜひフィードバックをください。</p>]]></content:encoded><dc:date>2013-08-29</dc:date><link>http://myokoym.github.com/entries/20130829/a0.html</link><author>myokoym</author></item><item about="http://myokoym.github.com/entries/20130828/a0.html"><title>mireru 0.1.5 予告</title><description>明日にくリリース予定。
 https://github.com/myokoym/mireru
 主な変更点
 
@@ -562,87 +602,4 @@ Esc \
 </ul>
 <p>ちなみに世の中には2種類のVimmerがいて、押しやすいキーにEscを割り当てる人と、C-[を使う人に分かれています。私は後者です。</p>]]></content:encoded><dc:date>2013-02-23</dc:date><link>http://myokoym.github.com/entries/20130223/a0.html</link><author>myokoym</author></item><item about="http://myokoym.github.com/entries/20130216/a0.html"><title>~/.rbenv/plugins/ruby-buildにゴミが残っていたせいで~/ruby-buildの更新がrbenvに反映されなかった件</title><description>ホームディレクトリのruby-buildを何度更新してもrbenvに反映されなくてなんでやねんと思っていたら、rbenvのプラグインディレクトリにもruby-buildがいて、そちらに優先権があったみたいでした。
 どっちか消そう。</description><content:encoded><![CDATA[<p>ホームディレクトリのruby-buildを何度更新してもrbenvに反映されなくてなんでやねんと思っていたら、rbenvのプラグインディレクトリにもruby-buildがいて、そちらに優先権があったみたいでした。</p>
-<p>どっちか消そう。</p>]]></content:encoded><dc:date>2013-02-16</dc:date><link>http://myokoym.github.com/entries/20130216/a0.html</link><author>myokoym</author></item><item about="http://myokoym.github.com/entries/20130127/a0.html"><title>文字列に通番を付けて殖やすツールを作成中</title><description>Text amplifier - テキスト増幅器
-http://myokoym.net/textamp/
-例1 hoge001〜hoge100をつくる
-
-volume: 100
-linefeed: ON
-increment: ON
-
-
-sign: #（任意）
-start: 1
-digit: 3
-
-
-template: OFF
-
-
-結果
-hoge001〜hoge100ができます。
-
-例2 ゲッターと...</description><content:encoded><![CDATA[<p>Text amplifier - テキスト増幅器</p>
-<p><a href="http://myokoym.net/textamp/">http://myokoym.net/textamp/</a></p>
-<h2>例1 hoge001〜hoge100をつくる</h2>
-<ul>
-<li>volume: 100</li>
-<li>linefeed: ON</li>
-<li>increment: ON
-
-<ul>
-<li>sign: #（任意）</li>
-<li>start: 1</li>
-<li>digit: 3</li>
-</ul>
-</li>
-<li>template: OFF</li>
-</ul>
-<p><img src="/images/textamp_20130127_01.jpg" alt="textamp_20130127_01"></p>
-<h3>結果</h3>
-<p>hoge001〜hoge100ができます。</p>
-<p><img src="/images/textamp_20130127_02.jpg" alt="textamp_20130127_02"></p>
-<h2>例2 ゲッターとセッターをつくる</h2>
-<p>通番以外にも、部分的に置換する機能があります。</p>
-<ul>
-<li>volume: 3（3組の場合）</li>
-<li>linefeed: ON</li>
-<li>increment: OFF</li>
-<li>template: ON
-
-<ul>
-<li>sign: xxx（任意）</li>
-<li>parts: hoge huga piyo（改行区切り）</li>
-</ul>
-</li>
-</ul>
-<p><img src="/images/textamp_20130127_03.jpg" alt="textamp_20130127_03"></p>
-<h3>結果</h3>
-<p>ゲッターとセッターができます。</p>
-<p><img src="/images/textamp_20130127_04.jpg" alt="textamp_20130127_04"></p>
-<h2>HTTP-GETに対応</h2>
-<h3>微修正したいとき</h3>
-<ul>
-<li>フォームの入力内容は保存していないので消えてしまいます。</li>
-<li>その代わりにHTTP-GETに対応しているので、パラメータをいじれば手軽に微修正が可能です。</li>
-</ul>
-<h3>フォームのドロップダウンが足りないとき</h3>
-<ul>
-<li>volumeはフォームでは100までしかありませんが、HTTP-GETなら101個以上に殖やすことが可能です。</li>
-<li>signやstart、digitも同様です。</li>
-</ul>
-<h2>TODO</h2>
-<ul>
-<li>デザインをもっとわかりやすくしたい。
-
-<ul>
-<li>CSS書くとか</li>
-</ul>
-</li>
-<li>操作性をよくしたい。
-
-<ul>
-<li>JavaScript書くとか</li>
-</ul>
-</li>
-</ul>]]></content:encoded><dc:date>2013-01-27</dc:date><link>http://myokoym.github.com/entries/20130127/a0.html</link><author>myokoym</author></item></rdf:RDF>
+<p>どっちか消そう。</p>]]></content:encoded><dc:date>2013-02-16</dc:date><link>http://myokoym.github.com/entries/20130216/a0.html</link><author>myokoym</author></item></rdf:RDF>

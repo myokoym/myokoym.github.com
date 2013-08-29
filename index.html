@@ -32,6 +32,44 @@
 <div id="content">
 <div class="autopagerize_page_element" id="entries">
 <article class="article"><h1 class="date">
+<a href="./entries/20130829.html">2013-08-29</a>
+</h1>
+<h1 id="a0">
+<a href="./entries/20130829/a0.html">今月の肉リリース（2013-08-29）</a>
+</h1>
+<p>目玉はmireruのざっくりサムネイル機能。</p>
+<h2>mireru 0.1.5</h2>
+<p>キーボードで操作できるファイルビューアです。
+<br><a href="https://github.com/myokoym/mireru">https://github.com/myokoym/mireru</a></p>
+<h3>主な変更点</h3>
+<p>予告通り。
+<br><a href="./entries/20130828/a0.html">mireru 0.1.5 予告 - my_letter</a></p>
+<h2>shogi-ruby 0.0.6</h2>
+<p>Rubyのみで書かれた将棋ライブラリです。
+<br><a href="https://github.com/myokoym/shogi-ruby">https://github.com/myokoym/shogi-ruby</a></p>
+<h3>主な変更点</h3>
+<p>開発中のGtkShogiViewが進まなかったので、こちらもあまり進展なし。</p>
+<ul>
+<li>Board#at を追加</li>
+</ul>
+<h2>Ruby/OSL 0.0.2</h2>
+<p>OpenShogiLibのRubyバインディングです。
+<br><a href="https://github.com/myokoym/ruby-osl">https://github.com/myokoym/ruby-osl</a></p>
+<h3>主な変更点</h3>
+<p>osl::Pieceをサポートした。が、サンプルを作成し忘れたので利点をうまく説明できない。</p>
+<ul>
+<li>SimpleState#pieceAt (= #at) を追加</li>
+<li>osl::Piece をサポート</li>
+<li>NumEffectStateクラスをSimpleStateのサブクラスにした</li>
+<li>フォーマット判定を改善（C++の例外がそのままRubyに返らないよう修正）</li>
+<li>フォーマットが不正の場合、falseではなくnilを返すよう修正</li>
+</ul>
+<h2>以上三本。</h2>
+<p>今月から肉リリースに挑戦することにしました。毎月一本以上はリリースします。</p>
+<p>全てメジャーバージョン番号が0であり、まだ実験的なので使えとは言いませんが、
+<br>
+万が一使っていてもやっときたらぜひフィードバックをください。</p>
+</article><article class="article"><h1 class="date">
 <a href="./entries/20130828.html">2013-08-28</a>
 </h1>
 <h1 id="a0">
@@ -136,72 +174,9 @@ Mail Delivery Subsystemさんのお世話になった。</p>
 pull requestを送らせてもらった。</p>
 <p>修正する度胸はなかったので、注釈を追加しただけ。</p>
 <p>英語だけ送ったけど、日本語も送ってしまえばよかったか。</p>
-</article><article class="article"><h1 class="date">
-<a href="./entries/20130810.html">2013-08-10</a>
-</h1>
-<h1 id="a0">
-<a href="./entries/20130810/a0.html">tDiary 4.0.0 をサブURIで動かそうとした</a>
-</h1>
-<p>tDiary 4.0.0 を Apache + Passenger + Rack + サブURI で動かそうとしたけどだめだった。</p>
-<h2>tDiaryのインストール</h2>
-<ul>
-<li>gem install tdiary</li>
-<li>tdiary version
-
-<ul>
-<li>tdiary 4.0.0</li>
-</ul>
-</li>
-<li>tdiary new hogediary
-
-<ul>
-<li>cd hogediary</li>
-</ul>
-</li>
-<li>bundle exec tdiary serverからの19292番ポートはOK</li>
-<li>bundle exec rackupからの9292番ポートもOK
-
-<ul>
-<li>単体なら簡単に動く！</li>
-</ul>
-</li>
-</ul>
-<h2>Apache (httpd) の設定</h2>
-<p>いつもSinatraアプリを追加しているのと同じようにしてみる。</p>
-<ul>
-<li>httpdのconfにRackBaseURIを追加</li>
-<li>httpdのホームディレクトリにシンボリックリンクを追加
-
-<ul>
-<li>hogediary/publicを指定</li>
-</ul>
-</li>
-<li>httpdを再起動</li>
-</ul>
-<h2>ブラウザからアクセス</h2>
-<ul>
-<li>Not Found: だけのHTMLが表示される
-
-<ul>
-<li>hogediary/tmp/restart.txtを作成しても変わらず</li>
-<li>Apacheの404じゃなく、Rackの404？</li>
-<li>config.ruは動いている
-
-<ul>
-<li>
-<code>touch hoge</code> して確認</li>
-</ul>
-</li>
-</ul>
-</li>
-</ul>
-<h2>まとめ</h2>
-<ul>
-<li>Webアプリ力が足りない</li>
-<li>本業ではないので、気が向いたら再チャレンジする</li>
-</ul></article><div class="nav">
+</article><div class="nav">
 <div class="next">
-<link href="./entries/20130808.html" rel="next">
+<link href="./entries/20130810.html" rel="next">
 </div>
 </div>
 <div class="autopagerize_insert_before"></div>
@@ -214,6 +189,9 @@ pull requestを送らせてもらった。</p>
 <h3>Recent entries</h3>
 <div class="recent-entries">
 <ul>
+<li>
+<a href="./entries/20130829/a0.html">今月の肉リリース（2013-08-29）</a>
+</li>
 <li>
 <a href="./entries/20130828/a0.html">mireru 0.1.5 予告</a>
 </li>
@@ -232,15 +210,6 @@ www.ruby-lang.org 新MLリンク追加パッチ</a>
 </li>
 <li>
 <a href="./entries/20130810/a0.html">tDiary 4.0.0 をサブURIで動かそうとした</a>
-</li>
-<li>
-<a href="./entries/20130808/a0.html">ヘッダー探しツール</a>
-</li>
-<li>
-<a href="./entries/20130808/a1.html">Ruby-GNOME2 クロスコンパイル日記</a>
-</li>
-<li>
-<a href="./entries/20130808/a2.html">Ruby-GNOME2 Project Website</a>
 </li>
 </ul>
 <div class="archives">

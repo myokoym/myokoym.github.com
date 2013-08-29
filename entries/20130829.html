@@ -1,7 +1,7 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html>
 <head>
-<title>2012-09-24 - my_letter</title>
+<title>2013-08-29 - my_letter</title>
 <meta charset="utf-8" content="text/html; charset=UTF-8" http-equiv="Content-Type">
 <meta content="myokoym" name="author">
 <link href="../favicon.png" rel="icon" type="image/png">
@@ -31,82 +31,48 @@
 </ul></nav></header><div id="page">
 <div id="content">
 <article class="article autopagerize_page_element"><h1 class="date">
-<a href="../entries/20120924.html">2012-09-24</a>
+<a href="../entries/20130829.html">2013-08-29</a>
 </h1>
 <h1 id="a0">
-<a href="../entries/20120924/a0.html">zsh導入 - kshとbash、zshの比較</a>
+<a href="../entries/20130829/a0.html">今月の肉リリース（2013-08-29）</a>
 </h1>
-<p>職場ではksh、家ではbashを使っていたわたしですが、ついにbashに代えてzshを導入することにしました。</p>
-<h2>導入の決め手</h2>
-<ol>
-<li>端末間の履歴共有</li>
-<li>コマンドオプションの補完機能</li>
-</ol>
-<h3>1. 端末間の履歴共有</h3>
-<h4>bashとzsh</h4>
+<p>目玉はmireruのざっくりサムネイル機能。</p>
+<h2>mireru 0.1.5</h2>
+<p>キーボードで操作できるファイルビューアです。
+<br><a href="https://github.com/myokoym/mireru">https://github.com/myokoym/mireru</a></p>
+<h3>主な変更点</h3>
+<p>予告通り。
+<br><a href="../entries/20130828/a0.html">mireru 0.1.5 予告 - my_letter</a></p>
+<h2>shogi-ruby 0.0.6</h2>
+<p>Rubyのみで書かれた将棋ライブラリです。
+<br><a href="https://github.com/myokoym/shogi-ruby">https://github.com/myokoym/shogi-ruby</a></p>
+<h3>主な変更点</h3>
+<p>開発中のGtkShogiViewが進まなかったので、こちらもあまり進展なし。</p>
 <ul>
-<li>bashで端末を複数枚開くと、historyコマンドで参照できる履歴が端末ごとに別々になってしまう
-
+<li>Board#at を追加</li>
+</ul>
+<h2>Ruby/OSL 0.0.2</h2>
+<p>OpenShogiLibのRubyバインディングです。
+<br><a href="https://github.com/myokoym/ruby-osl">https://github.com/myokoym/ruby-osl</a></p>
+<h3>主な変更点</h3>
+<p>osl::Pieceをサポートした。が、サンプルを作成し忘れたので利点をうまく説明できない。</p>
 <ul>
-<li>普段、screen(byobu)で複数の端末をいっぺんに使っているので、履歴が共有されないと不便</li>
-<li>zshなら、設定で複数端末間の履歴を共有できる</li>
+<li>SimpleState#pieceAt (= #at) を追加</li>
+<li>osl::Piece をサポート</li>
+<li>NumEffectStateクラスをSimpleStateのサブクラスにした</li>
+<li>フォーマット判定を改善（C++の例外がそのままRubyに返らないよう修正）</li>
+<li>フォーマットが不正の場合、falseではなくnilを返すよう修正</li>
 </ul>
-</li>
-</ul>
-<h4>bashとksh</h4>
-<ul>
-<li>ちなみに、kshはデフォルトで複数端末間の履歴が共有される
-
-<ul>
-<li>サーバー作業だと、別の人の履歴が割り込んできて不便なことも</li>
-<li>サーバーのシェルなら、むしろ履歴共有しないbashが適当かも</li>
-</ul>
-</li>
-</ul>
-<h3>2. コマンドオプションの補完機能</h3>
-<h4>ksh</h4>
-<ul>
-<li>タブを押すとタブが挿入される。</li>
-<li>タブを押すとタブが挿入される。</li>
-<li>大事なことなので２回言いました</li>
-</ul>
-<h4>bash</h4>
-<ul>
-<li>タブを押すとディレクトリ補完が可能</li>
-<li>タブを押すとコマンド名の補完が可能</li>
-<li>コマンドのオプションまでは補完してくれない</li>
-</ul>
-<h4>zsh</h4>
-<ul>
-<li>タブを押すとディレクトリ補完が可能</li>
-<li>タブを押すとコマンド名の補完が可能</li>
-<li>コマンドを入力してからタブを押すと、オプションまで補完してくれる</li>
-</ul>
-<h2>Ubuntuへの導入</h2>
-<h3>インストール</h3>
-<div class="highlight"><pre>sudo aptitude install zsh
-</pre></div>
-<p>または</p>
-<div class="highlight"><pre>sudo apt-get install zsh
-</pre></div>
-<h3>デフォルトのシェルに設定</h3>
-<p>chshコマンドを実行したユーザーのデフォルトのシェルに設定されます。</p>
-<div class="highlight"><pre>chsh -s /bin/zsh
-(パスワードを聞かれたら、ユーザーのパスワードを入力)
-</pre></div>
-<p>初回起動時、初期設定の画面が出ますが、後で編集可能なのでqで終了して大丈夫です。</p>
-<h3>zshの設定</h3>
-<p>zshの設定は、主にホームディレクトリの.zshrcファイルに記述します。このあたりはbashと同様です。zshでググると設定例がたくさん見つかります。ありがたく使わせてもらいましょう。</p>
-<h4>my設定</h4>
-<script src="https://gist.github.com/3772040.js"> </script><h2>参考</h2>
-<p>2006-05-17 - はてな技術発表会日記
-<a href="http://hatena.g.hatena.ne.jp/hatenatech/20060517">http://hatena.g.hatena.ne.jp/hatenatech/20060517</a></p>
+<h2>以上三本。</h2>
+<p>今月から肉リリースに挑戦することにしました。毎月一本以上はリリースします。</p>
+<p>全てメジャーバージョン番号が0であり、まだ実験的なので使えとは言いませんが、
+<br>
+万が一使っていてもやっときたらぜひフィードバックをください。</p>
 </article><div class="nav">
 <div class="prev">
-<link href="../entries/20120926.html" rel="prev">
 </div>
 <div class="next">
-<link href="../entries/20120922.html" rel="next">
+<link href="../entries/20130828.html" rel="next">
 </div>
 </div>
 <div class="autopagerize_insert_before"></div>
