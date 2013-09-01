@@ -32,6 +32,21 @@
 <div id="content">
 <div class="autopagerize_page_element" id="entries">
 <article class="article"><h1 class="date">
+<a href="./entries/20130901.html">2013-09-01</a>
+</h1>
+<h1 id="a0">
+<a href="./entries/20130901/a0.html">Androidエミュレータでバックグラウンドプロセスを残さない方法</a>
+</h1>
+<p>以下の手順で設定を変更します。</p>
+<ol>
+<li>アプリ一覧より、Dev Settings (Developer options) を選択</li>
+<li>下の方にスクロール（APPSの項）</li>
+<li>background process limit を選択</li>
+<li>No background processes を選択</li>
+</ol>
+<h2>参考</h2>
+<p><a href="https://gist.github.com/myokoym/6402909">Ruboto（Ruby）によるAndroidアプリ開発の覚え書き。</a></p>
+</article><article class="article"><h1 class="date">
 <a href="./entries/20130829.html">2013-08-29</a>
 </h1>
 <h1 id="a0">
@@ -146,37 +161,9 @@
 <p><a href="http://www.mozilla.jp/business/downloads/">Firefox/Thunderbird 法人向け延長サポート版 (ESR) のダウンロード</a></p>
 <p>互換性を無視する設定にしてインストールしたら動いたけど、
 できれば普通に入れられるようにしたい。</p>
-</article><article class="article"><h1 class="date">
-<a href="./entries/20130819.html">2013-08-19</a>
-</h1>
-<h1 id="a0">
-<a href="./entries/20130819/a0.html">Ruby/OSL C++クラスをRubyから</a>
-</h1>
-<p>C++のクラスをRubyから使えるようになった。</p>
-<p>最初はallocからの placement new を使っていたけど、</p>
-<p>osl::state::NumEffectStateクラスに「引数の数が合わない。」</p>
-<p>とか言われたので、allocしないでいきなりnewするようにした。</p>
-<p>でもところどころメモリ解放できてないっぽい。
-が、基本機能の実装を優先する。</p>
-<ul>
-<li>普通のマシンで普通に使う分には全く問題ない（テストして確認）</li>
-<li>ソフトウェア開発では、メモリ不足よりもモチベーション不足のが危険</li>
-</ul>
-<p>とことで。</p>
-
-<h1 id="a1">
-<a href="./entries/20130819/a1.html">
-www.ruby-lang.org 新MLリンク追加パッチ</a>
-</h1>
-<p>メーリングリストの登録方法が変更になっていて、
-Mail Delivery Subsystemさんのお世話になった。</p>
-<p>まだドキュメントが更新されていなかったので、
-pull requestを送らせてもらった。</p>
-<p>修正する度胸はなかったので、注釈を追加しただけ。</p>
-<p>英語だけ送ったけど、日本語も送ってしまえばよかったか。</p>
 </article><div class="nav">
 <div class="next">
-<link href="./entries/20130810.html" rel="next">
+<link href="./entries/20130819.html" rel="next">
 </div>
 </div>
 <div class="autopagerize_insert_before"></div>
@@ -189,6 +176,9 @@ pull requestを送らせてもらった。</p>
 <h3>Recent entries</h3>
 <div class="recent-entries">
 <ul>
+<li>
+<a href="./entries/20130901/a0.html">Androidエミュレータでバックグラウンドプロセスを残さない方法</a>
+</li>
 <li>
 <a href="./entries/20130829/a0.html">今月の肉リリース（2013-08-29）</a>
 </li>
@@ -207,9 +197,6 @@ pull requestを送らせてもらった。</p>
 <li>
 <a href="./entries/20130819/a1.html">
 www.ruby-lang.org 新MLリンク追加パッチ</a>
-</li>
-<li>
-<a href="./entries/20130810/a0.html">tDiary 4.0.0 をサブURIで動かそうとした</a>
 </li>
 </ul>
 <div class="archives">
