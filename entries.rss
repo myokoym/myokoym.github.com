@@ -1,4 +1,29 @@
-<?xml version="1.0" encoding="UTF-8"?><rdf:RDF xmlns="http://purl.org/rss/1.0/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xml:lang="ja"><channel rdf:about="http://myokoym.github.com/"><title>my_letter</title><link>http://myokoym.github.com/</link><dc:date>2013-09-01</dc:date><description>my_letter</description><items><rdf:Seq><rdf:li rdf:resource="http://myokoym.github.com/entries/20130901/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130829/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130828/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130825/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130822/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130819/a1.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130819/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130810/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130808/a2.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130808/a1.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130808/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130807/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130612/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130501/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130329/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130328/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130312/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130310/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130309/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130302/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130223/a0.html"/></rdf:Seq></items></channel><item about="http://myokoym.github.com/entries/20130901/a0.html"><title>Androidエミュレータでバックグラウンドプロセスを残さない方法</title><description>以下の手順で設定を変更します。
+<?xml version="1.0" encoding="UTF-8"?><rdf:RDF xmlns="http://purl.org/rss/1.0/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xml:lang="ja"><channel rdf:about="http://myokoym.github.com/"><title>my_letter</title><link>http://myokoym.github.com/</link><dc:date>2013-09-07</dc:date><description>my_letter</description><items><rdf:Seq><rdf:li rdf:resource="http://myokoym.github.com/entries/20130907/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130901/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130829/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130828/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130825/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130822/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130819/a1.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130819/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130810/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130808/a2.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130808/a1.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130808/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130807/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130612/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130501/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130329/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130328/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130312/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130310/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130309/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130302/a0.html"/></rdf:Seq></items></channel><item about="http://myokoym.github.com/entries/20130907/a0.html"><title>mireru 動画サポート</title><description>Ruby/ClutterGTKとRuby/ClutterGStreamerを使って動画を見れるようにした。
+https://github.com/myokoym/mireru/commit/9808ec40bb88304fa1e8b2ffc039c05ffb90e739
+https://github.com/ruby-gnome2/ruby-gnome2/tree/master/clutter-g...</description><content:encoded><![CDATA[<p>Ruby/ClutterGTKとRuby/ClutterGStreamerを使って動画を見れるようにした。</p>
+<p><a href="https://github.com/myokoym/mireru/commit/9808ec40bb88304fa1e8b2ffc039c05ffb90e739">https://github.com/myokoym/mireru/commit/9808ec40bb88304fa1e8b2ffc039c05ffb90e739</a></p>
+<p><a href="https://github.com/ruby-gnome2/ruby-gnome2/tree/master/clutter-gstreamer">https://github.com/ruby-gnome2/ruby-gnome2/tree/master/clutter-gstreamer</a></p>
+<h2>TODO</h2>
+<ul>
+<li>最初に読み込んだ動画ファイルしか表示されない。音は出る。
+
+<ul>
+<li>動画(OK) -&gt; 動画(NG) -&gt; 動画(NG)</li>
+<li>画像 -&gt; 動画(OK) -&gt; 動画(NG) -&gt; 動画(NG)</li>
+<li>画像 -&gt; 動画(OK) -&gt; 画像 -&gt; 動画(NG) -&gt; 動画(NG)</li>
+</ul>
+</li>
+<li>サイズ調整</li>
+<li>キーバインド追加
+
+<ul>
+<li>一時停止</li>
+<li>早送り</li>
+<li>リサイズ</li>
+<li>など。</li>
+</ul>
+</li>
+</ul>]]></content:encoded><dc:date>2013-09-07</dc:date><link>http://myokoym.github.com/entries/20130907/a0.html</link><author>myokoym</author></item><item about="http://myokoym.github.com/entries/20130901/a0.html"><title>Androidエミュレータでバックグラウンドプロセスを残さない方法</title><description>以下の手順で設定を変更します。
 
 アプリ一覧より、Dev Settings (Developer options) を選択
 下の方にスクロール（APPSの項）
@@ -553,67 +578,4 @@ http://jp.rubyist.net/magazine/?0036-SinatraReintroduction
 <blockquote>
 <p>Rubyist Magazine - Sinatra 再入門、 Padrino / Rack / その先の何か
 <br><a href="http://jp.rubyist.net/magazine/?0036-SinatraReintroduction">http://jp.rubyist.net/magazine/?0036-SinatraReintroduction</a></p>
-</blockquote>]]></content:encoded><dc:date>2013-03-02</dc:date><link>http://myokoym.github.com/entries/20130302/a0.html</link><author>myokoym</author></item><item about="http://myokoym.github.com/entries/20130223/a0.html"><title>kshのコマンドライン入力補完</title><description>入力補完に「タブが使えない」kshですが、別の方法で補完が可能です。
-viモード（set -o vi）と、emacsモード（set -o emacs）でキーバインドが違います。
-viモード
-kshはviモードがデフォルトのことが多いです。
-候補表示
-Esc = 
-
-「Esc」を入力した直後に「=」（イコール）を入力する
-
-補完
-Esc \
-
-「Esc」を入力した直後に「\」（バックスラッシュまたは...</description><content:encoded><![CDATA[<p>入力補完に「タブが使えない」kshですが、別の方法で補完が可能です。</p>
-<p>viモード（set -o vi）と、emacsモード（set -o emacs）でキーバインドが違います。</p>
-<h2>viモード</h2>
-<p>kshはviモードがデフォルトのことが多いです。</p>
-<h3>候補表示</h3>
-<p>Esc = </p>
-<ul>
-<li>「Esc」を入力した直後に「=」（イコール）を入力する</li>
-</ul>
-<h3>補完</h3>
-<p>Esc \</p>
-<ul>
-<li>「Esc」を入力した直後に「\」（バックスラッシュまたは半角円記号）を入力する</li>
-</ul>
-<h2>emacsモード</h2>
-<p>bashやreadlineなどでデフォルトのemacsモードです。</p>
-<h3>候補表示</h3>
-<p>Esc = </p>
-<ul>
-<li>「Esc」を入力した直後に「=」（イコール）を入力する
-
-<ul>
-<li>viモードと同じ</li>
-</ul>
-</li>
-</ul>
-<h3>補完</h3>
-<p>Esc Esc</p>
-<ul>
-<li>「Esc」を2回入力する
-
-<ul>
-<li>viモードと違う</li>
-<li>viモードより押しやすい</li>
-</ul>
-</li>
-</ul>
-<h2>参考</h2>
-<h3>Escキーが押しづらいときの対策</h3>
-<p>Escキーが押しづらい場合、コントロールキーで代用できます。</p>
-<p>C-[</p>
-<ul>
-<li>
-<p>「Ctrl」キーを押しながら「[」キーを押すと、OSはEscキーが押されたと思い込みます。</p>
-
-<ul>
-<li>制御コード表（ctrl列を参照） <a href="http://ash.jp/code/ctrltbl.htm">http://ash.jp/code/ctrltbl.htm</a>
-</li>
-</ul>
-</li>
-</ul>
-<p>ちなみに世の中には2種類のVimmerがいて、押しやすいキーにEscを割り当てる人と、C-[を使う人に分かれています。私は後者です。</p>]]></content:encoded><dc:date>2013-02-23</dc:date><link>http://myokoym.github.com/entries/20130223/a0.html</link><author>myokoym</author></item></rdf:RDF>
+</blockquote>]]></content:encoded><dc:date>2013-03-02</dc:date><link>http://myokoym.github.com/entries/20130302/a0.html</link><author>myokoym</author></item></rdf:RDF>

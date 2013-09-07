@@ -1,7 +1,7 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html>
 <head>
-<title>2013-03-28 - my_letter</title>
+<title>2013-09-07 - my_letter</title>
 <meta charset="utf-8" content="text/html; charset=UTF-8" http-equiv="Content-Type">
 <meta content="myokoym" name="author">
 <link href="../favicon.png" rel="icon" type="image/png">
@@ -31,44 +31,39 @@
 </ul></nav></header><div id="page">
 <div id="content">
 <article class="article autopagerize_page_element"><h1 class="date">
-<a href="../entries/20130328.html">2013-03-28</a>
+<a href="../entries/20130907.html">2013-09-07</a>
 </h1>
 <h1 id="a0">
-<a href="../entries/20130328/a0.html">Ruby/GooCanvasのサンプル比較 - units-demo</a>
+<a href="../entries/20130907/a0.html">mireru 動画サポート</a>
 </h1>
-<p>最近、Ruby-GNOME2プロジェクトのサンプルで遊ばせてもらっています。</p>
-<p>（サンプルをGObject Introspectionベースのバインディングに移植するなど。）</p>
-<p><a href="https://github.com/ruby-gnome2/ruby-gnome2/blob/master/goocanvas/sample/units-demo.rb">https://github.com/ruby-gnome2/ruby-gnome2/blob/master/goocanvas/sample/units-demo.rb</a></p>
-<h2>旧サンプル</h2>
-<p><img src="../images/units-demo-old-20130328_01.png" alt="units-demo-old-20130328_01"></p>
-<h2>GObject Introspection 版</h2>
+<p>Ruby/ClutterGTKとRuby/ClutterGStreamerを使って動画を見れるようにした。</p>
+<p><a href="https://github.com/myokoym/mireru/commit/9808ec40bb88304fa1e8b2ffc039c05ffb90e739">https://github.com/myokoym/mireru/commit/9808ec40bb88304fa1e8b2ffc039c05ffb90e739</a></p>
+<p><a href="https://github.com/ruby-gnome2/ruby-gnome2/tree/master/clutter-gstreamer">https://github.com/ruby-gnome2/ruby-gnome2/tree/master/clutter-gstreamer</a></p>
+<h2>TODO</h2>
 <ul>
-<li>スピンボタンのデザインがGitっぽくなってます。</li>
-<li>背景色が明るすぎず、目にやさしい感じでよさげです。 </li>
-</ul>
-<p><img src="../images/units-demo-gi-20130328_02.png" alt="units-demo-gi-20130328_02"></p>
-<h2>C オリジナル</h2>
-<ul>
-<li>GI版と比べて、見た目はほとんど変わりません。</li>
-<li>両方とも動かしてみましたが、よさげです。</li>
-<li>お花が咲いています。
+<li>最初に読み込んだ動画ファイルしか表示されない。音は出る。
 
 <ul>
-<li>GI版にお花が咲いていないのは、<del>私がなまけた</del>コミットの意図を明確にするとともに、pull requestを小さくするするためです。</li>
-<li>時間ができたら、勉強して咲かせる予定です。</li>
-<li>ただ、オリジナルの実装はなんというか。。。むずかしい。</li>
-<li>どなたか咲かせてくださるとありがたいです。</li>
+<li>動画(OK) -&gt; 動画(NG) -&gt; 動画(NG)</li>
+<li>画像 -&gt; 動画(OK) -&gt; 動画(NG) -&gt; 動画(NG)</li>
+<li>画像 -&gt; 動画(OK) -&gt; 画像 -&gt; 動画(NG) -&gt; 動画(NG)</li>
 </ul>
 </li>
+<li>サイズ調整</li>
+<li>キーバインド追加
+
+<ul>
+<li>一時停止</li>
+<li>早送り</li>
+<li>リサイズ</li>
+<li>など。</li>
 </ul>
-<p><a href="https://git.gnome.org/browse/goocanvas/tree/demo/units-demo.c">https://git.gnome.org/browse/goocanvas/tree/demo/units-demo.c</a></p>
-<p><img src="../images/units-demo-c-20130328_03.png" alt="units-demo-c-20130328_03"></p>
-</article><div class="nav">
+</li>
+</ul></article><div class="nav">
 <div class="prev">
-<link href="../entries/20130329.html" rel="prev">
 </div>
 <div class="next">
-<link href="../entries/20130312.html" rel="next">
+<link href="../entries/20130901.html" rel="next">
 </div>
 </div>
 <div class="autopagerize_insert_before"></div>
