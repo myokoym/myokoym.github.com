@@ -1,7 +1,7 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html>
 <head>
-<title>初めてのアドオン (Firefox 23) - my_letter</title>
+<title>Ruby-GNOME2のクロスコンパイルに必要なパッケージまとめ - my_letter</title>
 <meta charset="utf-8" content="text/html; charset=UTF-8" http-equiv="Content-Type">
 <meta content="myokoym" name="author">
 <link href="../../favicon.png" rel="icon" type="image/png">
@@ -38,39 +38,13 @@
 <div id="content">
 <article class="article autopagerize_page_element">
 <h1 class="date">
-<a href="../../entries/20130822.html">2013-08-22</a>
+<a href="../../entries/20130909.html">2013-09-09</a>
 </h1>
 <h1 id="a0">
-<a href="../../entries/20130822/a0.html">初めてのアドオン (Firefox 23)</a>
+<a href="../../entries/20130909/a0.html">Ruby-GNOME2のクロスコンパイルに必要なパッケージまとめ</a>
 </h1>
-<p>初めてFirefoxのアドオンを作った。</p>
-<p><a href="https://addons.mozilla.org/ja/firefox/addon/quick-rurema-search/">https://addons.mozilla.org/ja/firefox/addon/quick-rurema-search/</a></p>
-<p><a href="https://github.com/myokoym/quick-rurema-search">https://github.com/myokoym/quick-rurema-search</a></p>
-<p>Add-on SDKを使って雛形を作った後、
-サンプルを組み合わせて少し改造しただけ。
-<br>
-最初の段（最低限動くものが作れるまでの労力）が低いのは、とてもよいと思う。</p>
-<p>作成手順は、</p>
-<p><a href="http://vividcode.hatenablog.com/entry/how-to-develop-firefox-extension">Firefox 拡張の作り方 (2013 年版) - ひだまりソケットは壊れない</a></p>
-<p>を参考にしながら、Add-on SDKをダウンロード</p>
-<p><a href="https://addons.mozilla.org/ja/developers/builder">Builder と SDK :: 開発者センター :: Add-ons for Firefox</a></p>
-<p>して、</p>
-<p><a href="https://dev.mozilla.jp/addon-sdk-docs/dev-guide/tutorials/installation.html">インストール - Add-on SDK Documentation</a></p>
-<p>して、</p>
-<p><a href="https://dev.mozilla.jp/addon-sdk-docs/dev-guide/tutorials/getting-started-with-cfx.html">cfx 入門 - Add-on SDK Documentation</a></p>
-<p>をやって、</p>
-<p><a href="https://dev.mozilla.jp/addon-sdk-docs/dev-guide/tutorials/add-a-context-menu-item.html">コンテキストメニューアイテムの追加 - Add-on SDK Documentation</a></p>
-<p>と</p>
-<p><a href="https://dev.mozilla.jp/addon-sdk-docs/dev-guide/tutorials/open-a-web-page.html">Web ページを開く - Add-on SDK Documentation</a></p>
-<p>を組み合わせたらできた。
-簡単だったのは、るりまサーチのURLの設計のおかげでもある。</p>
-<p><a href="http://magazine.rubyist.net/?0031-RuremaSearch">Rubyist Magazine - るりまサーチの作り方 - Ruby 1.9 で groonga 使って全文検索</a></p>
-<p>ただ、Add-on SDK 1.14 で普通にビルドすると対象バージョンが19.0以降になる
-理由がわからなかった。ESR（法人向け延長サポート版）は今年の12月まで17.0系
-がサポートされているので、気になっている。</p>
-<p><a href="http://www.mozilla.jp/business/downloads/">Firefox/Thunderbird 法人向け延長サポート版 (ESR) のダウンロード</a></p>
-<p>互換性を無視する設定にしてインストールしたら動いたけど、
-できれば普通に入れられるようにしたい。</p>
+<p>Ubuntu 13.04をクリーンインストールしたので、この機会にまとめておく。</p>
+<script src="https://gist.github.com/myokoym/6497033.js"></script><p>リリースの手伝いまではいかなくても、動作確認くらいはできるようにしておきたい。</p>
 </article>
 <div id="comments">
 <div id="disqus_thread">
@@ -88,10 +62,9 @@
 </div>
 <div class="nav">
 <div class="prev">
-<link href="../../entries/20130825/a0.html" rel="prev">
 </div>
 <div class="next">
-<link href="../../entries/20130819/a0.html" rel="next">
+<link href="../../entries/20130907/a0.html" rel="next">
 </div>
 </div>
 <div class="autopagerize_insert_before"></div>
