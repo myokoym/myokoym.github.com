@@ -1,4 +1,35 @@
-<?xml version="1.0" encoding="UTF-8"?><rdf:RDF xmlns="http://purl.org/rss/1.0/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xml:lang="ja"><channel rdf:about="http://myokoym.github.com/"><title>my_letter</title><link>http://myokoym.github.com/</link><dc:date>2013-09-09</dc:date><description>my_letter</description><items><rdf:Seq><rdf:li rdf:resource="http://myokoym.github.com/entries/20130909/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130907/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130901/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130829/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130828/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130825/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130822/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130819/a1.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130819/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130810/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130808/a2.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130808/a1.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130808/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130807/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130612/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130501/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130329/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130328/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130312/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130310/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130309/a0.html"/></rdf:Seq></items></channel><item about="http://myokoym.github.com/entries/20130909/a0.html"><title>Ruby-GNOME2のクロスコンパイルに必要なパッケージまとめ</title><description>Ubuntu 13.04をクリーンインストールしたので、この機会にまとめておく。
+<?xml version="1.0" encoding="UTF-8"?><rdf:RDF xmlns="http://purl.org/rss/1.0/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xml:lang="ja"><channel rdf:about="http://myokoym.github.com/"><title>my_letter</title><link>http://myokoym.github.com/</link><dc:date>2013-09-23</dc:date><description>my_letter</description><items><rdf:Seq><rdf:li rdf:resource="http://myokoym.github.com/entries/20130923/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130909/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130907/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130901/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130829/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130828/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130825/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130822/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130819/a1.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130819/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130810/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130808/a2.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130808/a1.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130808/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130807/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130612/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130501/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130329/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130328/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130312/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130310/a0.html"/></rdf:Seq></items></channel><item about="http://myokoym.github.com/entries/20130923/a0.html"><title>北海道社団戦二部2013</title><description>北海道将棋社会人団体リーグ戦二部リーグで優勝しました。
+北海道社団戦とは？ - 札幌将棋情報のブログ - Yahoo!ブログ
+北海道将棋社会人団体リーグ戦のページ
+北海道社団戦　２部　結果 - 札幌将棋情報のブログ - Yahoo!ブログ
+朝っぱらから - 札幌将棋情報のブログ - Yahoo!ブログ
+感想
+チーム
+チームとしては、二度の3-2勝ちが大きかった。私もMVPは師匠だと思います。
+来年...</description><content:encoded><![CDATA[<p>北海道将棋社会人団体リーグ戦二部リーグで優勝しました。</p>
+<p><a href="http://blogs.yahoo.co.jp/sapporoshogijoho/4938354.html">北海道社団戦とは？ - 札幌将棋情報のブログ - Yahoo!ブログ</a></p>
+<p><a href="http://www.ne.jp/asahi/golconde/shogi/hokkaido_shadansen.html">北海道将棋社会人団体リーグ戦のページ</a></p>
+<p><a href="http://blogs.yahoo.co.jp/sapporoshogijoho/11519723.html">北海道社団戦　２部　結果 - 札幌将棋情報のブログ - Yahoo!ブログ</a></p>
+<p><a href="http://blogs.yahoo.co.jp/sapporoshogijoho/11520936.html">朝っぱらから - 札幌将棋情報のブログ - Yahoo!ブログ</a></p>
+<h2>感想</h2>
+<h3>チーム</h3>
+<p>チームとしては、二度の3-2勝ちが大きかった。私もMVPは師匠だと思います。</p>
+<p>来年は一部なので、数年前の悲劇を繰り返さないために僕達にできることをやろう。
+<br>
+手始めに、出場を渋っていた先輩を<del>脅迫</del>半ば強引に説得した。（主に師匠が）</p>
+<h3>個人</h3>
+<p>個人的には、一般的な善悪にとらわれ過ぎずに棋風に合った指し手を選べたことと、
+<br>
+団体戦だからと消極的にならずに行くところは行けたのが良かった。</p>
+<p>ひとつ気づいたのが、昔に比べて序盤のわからない局面で時間を使わなくなった。
+<br>
+ある程度読んだらえいやで指す感じ。善悪は別として、年を取ったなあと思った。</p>
+<h3>全勝賞</h3>
+<p>全勝賞として松田圭市さんの詰将棋集をもらって、帰り際にサインをいただいた。</p>
+<p><a href="http://www.amazon.co.jp/%E8%A9%B0%E5%B0%86%E6%A3%8B%E4%BD%9C%E5%93%81%E9%9B%86%E3%80%8C%E3%81%99%E3%81%AA%E3%81%A9%E3%81%91%E3%81%84%E3%80%8D-%E6%9D%BE%E7%94%B0%E5%9C%AD%E5%B8%82/dp/4863810490">Amazon.co.jp： 詰将棋作品集「すなどけい」: 松田圭市: 本</a></p>
+<p>来年までに一周するのが目標。けっこう難しいですが、
+<br>
+コラムもあって読み物としてもおもしろいので、おすすめです。</p>]]></content:encoded><dc:date>2013-09-23</dc:date><link>http://myokoym.github.com/entries/20130923/a0.html</link><author>myokoym</author></item><item about="http://myokoym.github.com/entries/20130909/a0.html"><title>Ruby-GNOME2のクロスコンパイルに必要なパッケージまとめ</title><description>Ubuntu 13.04をクリーンインストールしたので、この機会にまとめておく。
 リリースの手伝いまではいかなくても、動作確認くらいはできるようにしておきたい。</description><content:encoded><![CDATA[<p>Ubuntu 13.04をクリーンインストールしたので、この機会にまとめておく。</p>
 <script src="https://gist.github.com/myokoym/6497033.js"></script><p>リリースの手伝いまではいかなくても、動作確認くらいはできるようにしておきたい。</p>]]></content:encoded><dc:date>2013-09-09</dc:date><link>http://myokoym.github.com/entries/20130909/a0.html</link><author>myokoym</author></item><item about="http://myokoym.github.com/entries/20130907/a0.html"><title>mireru 動画サポート</title><description>Ruby/ClutterGTKとRuby/ClutterGStreamerを使って動画を見れるようにした。
 https://github.com/myokoym/mireru/commit/9808ec40bb88304fa1e8b2ffc039c05ffb90e739
@@ -546,52 +577,4 @@ http://ossipedia.ipa.go.jp/ipafont/ipaexfont/download.html
 <a href="http://d.hatena.ne.jp/takihiro/20100331/1269992290">http://d.hatena.ne.jp/takihiro/20100331/1269992290</a></p>
 <p>rcairo reference manual
 <br>
-<a href="http://cairo.rubyforge.org/doc/">http://cairo.rubyforge.org/doc/</a></p>]]></content:encoded><dc:date>2013-03-10</dc:date><link>http://myokoym.github.com/entries/20130310/a0.html</link><author>myokoym</author></item><item about="http://myokoym.github.com/entries/20130309/a0.html"><title>『SQL　ゼロからはじめるデータベース操作』を読んだメモ</title><description>SQLの知識は、基本情報レベルの基礎と、業務で断片的に調べただけだったので、遅ればせながらちゃんとした入門書を読みました。
-『SQL　ゼロからはじめるデータベース操作』サポートページ
-
-http://www.geocities.jp/mickindex/database/db_support_prg_sql.html
-COUNT関数 と NULL
-
-COUNT(*) は、全レコード数
-COUNT(...</description><content:encoded><![CDATA[<p>SQLの知識は、基本情報レベルの基礎と、業務で断片的に調べただけだったので、遅ればせながらちゃんとした入門書を読みました。</p>
-<p>『SQL　ゼロからはじめるデータベース操作』サポートページ
-<br>
-<a href="http://www.geocities.jp/mickindex/database/db_support_prg_sql.html">http://www.geocities.jp/mickindex/database/db_support_prg_sql.html</a></p>
-<h2>COUNT関数 と NULL</h2>
-<ul>
-<li>COUNT(*) は、全レコード数</li>
-<li>COUNT(column) は、columnがNULLのレコードを除いた数</li>
-</ul>
-<h2>AVG関数 と NULL</h2>
-<ul>
-<li>AVG(column) は、columnがNULLのレコードを除いた平均値</li>
-</ul>
-<h2>句ごとの実行順</h2>
-<p>これによって別名が使えたり使えなかったりする。</p>
-<ol>
-<li>FROM</li>
-<li>WHERE</li>
-<li>GROUP BY</li>
-<li>HAVING</li>
-<li>SELECT</li>
-<li>ORDER BY</li>
-</ol>
-<h2>INSERT … SELECT</h2>
-<p>INSERT … SELECT文を使えば、テーブル同士でデータを受け渡せる。</p>
-<ul>
-<li>同じテーブル内の行を複製することもできる</li>
-<li>キー重複に注意</li>
-</ul>
-<h2>ビュー</h2>
-<p>ビューは、データではなくSELECT文を保持する。</p>
-<h2>スカラ・サブクエリ</h2>
-<ul>
-<li>スカラ・サブクエリとは、値をひとつだけ返すサブクエリ</li>
-<li>WHERE句で、比較演算の右辺として使える</li>
-</ul>
-<h2>IN句とサブクエリ</h2>
-<p>値のリストを返すサブクエリは、IN句に記述できる。</p>
-<h2>格言</h2>
-<blockquote>
-<p>結合の古い書き方や方言は、自分で使ってはならない。でも読めるようにはしておこう。</p>
-</blockquote>]]></content:encoded><dc:date>2013-03-09</dc:date><link>http://myokoym.github.com/entries/20130309/a0.html</link><author>myokoym</author></item></rdf:RDF>
+<a href="http://cairo.rubyforge.org/doc/">http://cairo.rubyforge.org/doc/</a></p>]]></content:encoded><dc:date>2013-03-10</dc:date><link>http://myokoym.github.com/entries/20130310/a0.html</link><author>myokoym</author></item></rdf:RDF>
