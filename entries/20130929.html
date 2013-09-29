@@ -1,7 +1,7 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html>
 <head>
-<title>2013-08-29 - my_letter</title>
+<title>2013-09-29 - my_letter</title>
 <meta charset="utf-8" content="text/html; charset=UTF-8" http-equiv="Content-Type">
 <meta content="myokoym" name="author">
 <link href="../favicon.png" rel="icon" type="image/png">
@@ -38,54 +38,46 @@
 <div id="content">
 <article class="article autopagerize_page_element">
 <h1 class="date">
-<a href="../entries/20130829.html">2013-08-29</a>
+<a href="../entries/20130929.html">2013-09-29</a>
 </h1>
 <h1 id="a0">
-<a href="../entries/20130829/a0.html">今月の肉リリース（2013-08-29）</a>
+<a href="../entries/20130929/a0.html">mireru 0.1.6 動画サポート</a>
 </h1>
-<p>目玉はmireruのざっくりサムネイル機能。</p>
-<h2>mireru 0.1.5</h2>
-<p>キーボードで操作できるファイルビューアです。
+<p>今日は肉の日ですね。mireru 0.1.6 をリリースしました！</p>
+<p>今回の目玉は、動画ファイルをサポートしたことです。
 <br>
-<a href="https://github.com/myokoym/mireru">https://github.com/myokoym/mireru</a></p>
-<h3>主な変更点</h3>
-<p>予告通り。
+Linuxはもちろん、Windowsでも見れます！（Ruby-GNOME2プロジェクトのおかげです！）
 <br>
-<a href="../entries/20130828/a0.html">mireru 0.1.5 予告 - my_letter</a></p>
-<h2>shogi-ruby 0.0.6</h2>
-<p>Rubyのみで書かれた将棋ライブラリです。
+（OS Xはたぶん動かないので、ちょっと試してダメだったらすぐに諦めて教えてください！）</p>
+<h2>インストール</h2>
+<div class="highlight"><pre>gem install mireru
+</pre></div>
+<p>開発版を使いたい場合:</p>
+<div class="highlight"><pre>git clone https://github.com/myokoym/mireru
+cd mireru
+rake install
+</pre></div>
+<h2>使い方</h2>
+<p>一番簡単な使い方を紹介します。</p>
+<ol>
+<li>シェルを起動（bashやcmd.exeなど）</li>
+<li>見たいファイルがあるディレクトリへ移動</li>
+<li>mireruコマンドを実行</li>
+<li>「n」キーを押して見たいファイルを探す</li>
+<li>「q」キーを押して終了する</li>
+</ol>
+<p>詳しくはReadmeをご覧ください。
 <br>
-<a href="https://github.com/myokoym/shogi-ruby">https://github.com/myokoym/shogi-ruby</a></p>
-<h3>主な変更点</h3>
-<p>開発中のGtkShogiViewが進まなかったので、こちらもあまり進展なし。</p>
-<ul>
-<li>Board#at を追加</li>
-</ul>
-<h2>Ruby/OSL 0.0.2</h2>
-<p>OpenShogiLibのRubyバインディングです。
+<a href="https://github.com/myokoym/mireru#readme">https://github.com/myokoym/mireru#readme</a></p>
+<p>フィードバックお待ちしています！
 <br>
-<a href="https://github.com/myokoym/ruby-osl">https://github.com/myokoym/ruby-osl</a></p>
-<h3>主な変更点</h3>
-<p>osl::Pieceをサポートした。が、サンプルを作成し忘れたので利点をうまく説明できない。</p>
-<ul>
-<li>SimpleState#pieceAt (= #at) を追加</li>
-<li>osl::Piece をサポート</li>
-<li>NumEffectStateクラスをSimpleStateのサブクラスにした</li>
-<li>フォーマット判定を改善（C++の例外がそのままRubyに返らないよう修正）</li>
-<li>フォーマットが不正の場合、falseではなくnilを返すよう修正</li>
-</ul>
-<h2>以上三本。</h2>
-<p>今月から肉リリースに挑戦することにしました。毎月一本以上はリリースします。</p>
-<p>全てメジャーバージョン番号が0であり、まだ実験的なので使えとは言いませんが、
-<br>
-万が一使っていてもやっときたらぜひフィードバックをください。</p>
+<a href="https://github.com/myokoym/mireru/issues">https://github.com/myokoym/mireru/issues</a></p>
 </article>
 <div class="nav">
 <div class="prev">
-<link href="../entries/20130901.html" rel="prev">
 </div>
 <div class="next">
-<link href="../entries/20130828.html" rel="next">
+<link href="../entries/20130923.html" rel="next">
 </div>
 </div>
 <div class="autopagerize_insert_before"></div>

@@ -1,4 +1,42 @@
-<?xml version="1.0" encoding="UTF-8"?><rdf:RDF xmlns="http://purl.org/rss/1.0/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xml:lang="ja"><channel rdf:about="http://myokoym.github.com/"><title>my_letter</title><link>http://myokoym.github.com/</link><dc:date>2013-09-23</dc:date><description>my_letter</description><items><rdf:Seq><rdf:li rdf:resource="http://myokoym.github.com/entries/20130923/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130909/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130907/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130901/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130829/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130828/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130825/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130822/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130819/a1.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130819/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130810/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130808/a2.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130808/a1.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130808/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130807/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130612/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130501/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130329/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130328/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130312/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130310/a0.html"/></rdf:Seq></items></channel><item about="http://myokoym.github.com/entries/20130923/a0.html"><title>北海道社団戦二部2013</title><description>北海道将棋社会人団体リーグ戦二部リーグで優勝しました。
+<?xml version="1.0" encoding="UTF-8"?><rdf:RDF xmlns="http://purl.org/rss/1.0/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xml:lang="ja"><channel rdf:about="http://myokoym.github.com/"><title>my_letter</title><link>http://myokoym.github.com/</link><dc:date>2013-09-29</dc:date><description>my_letter</description><items><rdf:Seq><rdf:li rdf:resource="http://myokoym.github.com/entries/20130929/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130923/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130909/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130907/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130901/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130829/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130828/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130825/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130822/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130819/a1.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130819/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130810/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130808/a2.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130808/a1.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130808/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130807/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130612/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130501/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130329/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130328/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130312/a0.html"/></rdf:Seq></items></channel><item about="http://myokoym.github.com/entries/20130929/a0.html"><title>mireru 0.1.6 動画サポート</title><description>今日は肉の日ですね。mireru 0.1.6 をリリースしました！
+今回の目玉は、動画ファイルをサポートしたことです。
+
+Linuxはもちろん、Windowsでも見れます！（Ruby-GNOME2プロジェクトのおかげです！）
+
+（OS Xはたぶん動かないので、ちょっと試してダメだったらすぐに諦めて教えてください！）
+インストール
+gem install mireru
+
+開発版を使いたい場合:
+gi...</description><content:encoded><![CDATA[<p>今日は肉の日ですね。mireru 0.1.6 をリリースしました！</p>
+<p>今回の目玉は、動画ファイルをサポートしたことです。
+<br>
+Linuxはもちろん、Windowsでも見れます！（Ruby-GNOME2プロジェクトのおかげです！）
+<br>
+（OS Xはたぶん動かないので、ちょっと試してダメだったらすぐに諦めて教えてください！）</p>
+<h2>インストール</h2>
+<div class="highlight"><pre>gem install mireru
+</pre></div>
+<p>開発版を使いたい場合:</p>
+<div class="highlight"><pre>git clone https://github.com/myokoym/mireru
+cd mireru
+rake install
+</pre></div>
+<h2>使い方</h2>
+<p>一番簡単な使い方を紹介します。</p>
+<ol>
+<li>シェルを起動（bashやcmd.exeなど）</li>
+<li>見たいファイルがあるディレクトリへ移動</li>
+<li>mireruコマンドを実行</li>
+<li>「n」キーを押して見たいファイルを探す</li>
+<li>「q」キーを押して終了する</li>
+</ol>
+<p>詳しくはReadmeをご覧ください。
+<br>
+<a href="https://github.com/myokoym/mireru#readme">https://github.com/myokoym/mireru#readme</a></p>
+<p>フィードバックお待ちしています！
+<br>
+<a href="https://github.com/myokoym/mireru/issues">https://github.com/myokoym/mireru/issues</a></p>]]></content:encoded><dc:date>2013-09-29</dc:date><link>http://myokoym.github.com/entries/20130929/a0.html</link><author>myokoym</author></item><item about="http://myokoym.github.com/entries/20130923/a0.html"><title>北海道社団戦二部2013</title><description>北海道将棋社会人団体リーグ戦二部リーグで優勝しました。
 北海道社団戦とは？ - 札幌将棋情報のブログ - Yahoo!ブログ
 北海道将棋社会人団体リーグ戦のページ
 北海道社団戦　２部　結果 - 札幌将棋情報のブログ - Yahoo!ブログ
@@ -556,25 +594,4 @@ GObject Introspectio...</description><content:encoded><![CDATA[<p>最近、Ruby-
 
 </description><content:encoded><![CDATA[<p>放射グラデーション (<a href="http://cairo.rubyforge.org/doc/ja/cairo-radial-pattern.html">Cairo::RadialPatternクラス</a>) を使ってみました。</p>
 <p><img src="/images/niji-20130312.png" alt="niji-20130312"></p>
-<script src="https://gist.github.com/myokoym/5143259.js"></script>]]></content:encoded><dc:date>2013-03-12</dc:date><link>http://myokoym.github.com/entries/20130312/a0.html</link><author>myokoym</author></item><item about="http://myokoym.github.com/entries/20130310/a0.html"><title>とある文字列の画像をジェネレートするRubyスクリプト</title><description>画像描画ライブラリには、 Firefox や Rabbit などで使われている cairo の Ruby バインディングである rcairo を使っています。 
-フォントはIPAex明朝とIPAexゴシックを使っているので、動かすときは以下からインストールしてください。
-
-http://ossipedia.ipa.go.jp/ipafont/ipaexfont/download.html
-グラデー...</description><content:encoded><![CDATA[<p>画像描画ライブラリには、 Firefox や Rabbit などで使われている cairo の Ruby バインディングである rcairo を使っています。 </p>
-<p>フォントはIPAex明朝とIPAexゴシックを使っているので、動かすときは以下からインストールしてください。
-<br>
-<a href="http://ossipedia.ipa.go.jp/ipafont/ipaexfont/download.html">http://ossipedia.ipa.go.jp/ipafont/ipaexfont/download.html</a></p>
-<p>グラデーションの向きなどは調査中です。。</p>
-<h2>生成物</h2>
-<p><img src="/images/toaru-image-20130310.png" alt="toaru-image-20130310"></p>
-<h2>ソースコード</h2>
-<script src="https://gist.github.com/myokoym/5128655.js"></script><h2>参考</h2>
-<p>Rubyist Magazine - cairo: 2 次元画像描画ライブラリ
-<br>
-<a href="http://jp.rubyist.net/magazine/?0019-cairo">http://jp.rubyist.net/magazine/?0019-cairo</a></p>
-<p>rcairo 事始め - takihiro日記
-<br>
-<a href="http://d.hatena.ne.jp/takihiro/20100331/1269992290">http://d.hatena.ne.jp/takihiro/20100331/1269992290</a></p>
-<p>rcairo reference manual
-<br>
-<a href="http://cairo.rubyforge.org/doc/">http://cairo.rubyforge.org/doc/</a></p>]]></content:encoded><dc:date>2013-03-10</dc:date><link>http://myokoym.github.com/entries/20130310/a0.html</link><author>myokoym</author></item></rdf:RDF>
+<script src="https://gist.github.com/myokoym/5143259.js"></script>]]></content:encoded><dc:date>2013-03-12</dc:date><link>http://myokoym.github.com/entries/20130312/a0.html</link><author>myokoym</author></item></rdf:RDF>
