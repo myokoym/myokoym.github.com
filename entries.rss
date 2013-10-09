@@ -1,4 +1,47 @@
-<?xml version="1.0" encoding="UTF-8"?><rdf:RDF xmlns="http://purl.org/rss/1.0/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xml:lang="ja"><channel rdf:about="http://myokoym.github.com/"><title>my_letter</title><link>http://myokoym.github.com/</link><dc:date>2013-09-29</dc:date><description>my_letter</description><items><rdf:Seq><rdf:li rdf:resource="http://myokoym.github.com/entries/20130929/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130923/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130909/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130907/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130901/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130829/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130828/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130825/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130822/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130819/a1.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130819/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130810/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130808/a2.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130808/a1.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130808/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130807/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130612/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130501/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130329/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130328/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130312/a0.html"/></rdf:Seq></items></channel><item about="http://myokoym.github.com/entries/20130929/a0.html"><title>mireru 0.1.6 動画サポート</title><description>今日は肉の日ですね。mireru 0.1.6 をリリースしました！
+<?xml version="1.0" encoding="UTF-8"?><rdf:RDF xmlns="http://purl.org/rss/1.0/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xml:lang="ja"><channel rdf:about="http://myokoym.github.com/"><title>my_letter</title><link>http://myokoym.github.com/</link><dc:date>2013-10-09</dc:date><description>my_letter</description><items><rdf:Seq><rdf:li rdf:resource="http://myokoym.github.com/entries/20131009/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130929/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130923/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130909/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130907/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130901/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130829/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130828/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130825/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130822/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130819/a1.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130819/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130810/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130808/a2.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130808/a1.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130808/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130807/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130612/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130501/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130329/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130328/a0.html"/></rdf:Seq></items></channel><item about="http://myokoym.github.com/entries/20131009/a0.html"><title>myokoym.netをMiddlemanでリニューアルしました</title><description>@tricknotes 先輩がおすすめしていた
+Middleman
+を使ってみたかったので、
+ちょうどレガシーだった myokoym.net
+をリニューアルしました。
+ビフォー・アフター
+古き良きタグ打ち感漂う旧ページ
+
+シンプル過ぎるほどシンプルです。これはこれで嫌いではないのですが、
+間違えてとなりのリンクをクリックしてしまうことが多いため、
+デザインだけでなく実用性の面でも改善する必要があり...</description><content:encoded><![CDATA[<p><a href="http://tricknotes.hateblo.jp/">@tricknotes</a> 先輩がおすすめしていた
+<a href="http://middleman-guides.e2esound.com/">Middleman</a>
+を使ってみたかったので、<br>
+ちょうどレガシーだった <a href="http://myokoym.net">myokoym.net</a>
+をリニューアルしました。</p>
+<h2>ビフォー・アフター</h2>
+<h3>古き良きタグ打ち感漂う旧ページ</h3>
+<p><img src="/images/myokoym.net.old.png" alt="myokoym.net.old"></p>
+<p>シンプル過ぎるほどシンプルです。これはこれで嫌いではないのですが、<br>
+間違えてとなりのリンクをクリックしてしまうことが多いため、<br>
+デザインだけでなく実用性の面でも改善する必要がありました。</p>
+<h3>モダンな雰囲気を醸し出す新ページ</h3>
+<p><img src="/images/myokoym.net.png" alt="myokoym.net"></p>
+<p>いい機会なので、デザイン性と実用性の両面での改善を目指しました。<br>
+（スクリーンショットは、一番うまく表示されたWindowsのFirefox 24.0で取得しました）</p>
+<p>生のCSSは書く気にならなかったのですが、Middlemanのおかげで<br>
+簡単にSCSSを使うことができたのが大きく、ほぼ想定通り実装できました。</p>
+<h3>タブ形式のデザインを採用</h3>
+<p>文字やクリック領域を大きくしつつ、
+スクロールやページ遷移のストレスを減らすため、<br>
+タブ形式のデザインを採用しました。</p>
+<p>JavaScriptをまったく使わずにCSSのみで実装しています。<br>
+以下のページを参考にさせていただきました。</p>
+<p><a href="http://columegg.com/?p=1064">jQueryを使わずCSSだけで出来るタブコンテンツ【レスポンシブ対応】 | コロンブスの卵</a></p>
+<h3>スマホは2/5タブのみ対応</h3>
+<p>スマホ（愛機<a href="http://www.kyocera.co.jp/prdct/telecom/consumer/l01/">京セラURBANO</a>）
+で確認したところ、タブが２つしか表示されなかったので、<br>
+左右にスクロールできないか検討中です。
+ブラウザによっては、タブもあやしい動きをします。</p>
+<h3>ソースコード</h3>
+<p>CSSはもっと修正しやすく書けるような気がしています。</p>
+<p><a href="https://github.com/myokoym/myokoym.net">https://github.com/myokoym/myokoym.net</a></p>
+<p>ちなみに、現在のデプロイ手順は <code>middleman build</code> からの <code>scp -r</code>
+からの <code>cp -rp</code> です。</p>]]></content:encoded><dc:date>2013-10-09</dc:date><link>http://myokoym.github.com/entries/20131009/a0.html</link><author>myokoym</author></item><item about="http://myokoym.github.com/entries/20130929/a0.html"><title>mireru 0.1.6 動画サポート</title><description>今日は肉の日ですね。mireru 0.1.6 をリリースしました！
 今回の目玉は、動画ファイルをサポートしたことです。
 
 Linuxはもちろん、Windowsでも見れます！（Ruby-GNOME2プロジェクトのおかげです！）
@@ -590,8 +633,4 @@ GObject Introspectio...</description><content:encoded><![CDATA[<p>最近、Ruby-
 </li>
 </ul>
 <p><a href="https://git.gnome.org/browse/goocanvas/tree/demo/units-demo.c">https://git.gnome.org/browse/goocanvas/tree/demo/units-demo.c</a></p>
-<p><img src="/images/units-demo-c-20130328_03.png" alt="units-demo-c-20130328_03"></p>]]></content:encoded><dc:date>2013-03-28</dc:date><link>http://myokoym.github.com/entries/20130328/a0.html</link><author>myokoym</author></item><item about="http://myokoym.github.com/entries/20130312/a0.html"><title>rcairo で虹を描いてみた</title><description>放射グラデーション (Cairo::RadialPatternクラス) を使ってみました。
-
-</description><content:encoded><![CDATA[<p>放射グラデーション (<a href="http://cairo.rubyforge.org/doc/ja/cairo-radial-pattern.html">Cairo::RadialPatternクラス</a>) を使ってみました。</p>
-<p><img src="/images/niji-20130312.png" alt="niji-20130312"></p>
-<script src="https://gist.github.com/myokoym/5143259.js"></script>]]></content:encoded><dc:date>2013-03-12</dc:date><link>http://myokoym.github.com/entries/20130312/a0.html</link><author>myokoym</author></item></rdf:RDF>
+<p><img src="/images/units-demo-c-20130328_03.png" alt="units-demo-c-20130328_03"></p>]]></content:encoded><dc:date>2013-03-28</dc:date><link>http://myokoym.github.com/entries/20130328/a0.html</link><author>myokoym</author></item></rdf:RDF>
