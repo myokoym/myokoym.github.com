@@ -1,7 +1,7 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html>
 <head>
-<title>2013-08-28 - my_letter</title>
+<title>2013-10-30 - my_letter</title>
 <meta charset="utf-8" content="text/html; charset=UTF-8" http-equiv="Content-Type">
 <meta content="myokoym" name="author">
 <link href="../favicon.png" rel="icon" type="image/png">
@@ -38,40 +38,54 @@
 <div id="content">
 <article class="article autopagerize_page_element">
 <h1 class="date">
-<a href="../entries/20130828.html">2013-08-28</a>
+<a href="../entries/20131030.html">2013-10-30</a>
 </h1>
 <h1 id="a0">
-<a href="../entries/20130828/a0.html">mireru 0.1.5 予告</a>
+<a href="../entries/20131030/a0.html">Ruby/C++用ゲーム開発ライブラリGosuのRubyチュートリアルを日本語訳しました</a>
 </h1>
-<p>明日にくリリース予定。</p>
-<p><a href="https://github.com/myokoym/mireru">https://github.com/myokoym/mireru</a></p>
-<h2>主な変更点</h2>
+<p>Gosuとは、RubyとC++に対応した2Dゲーム開発ライブラリです。<br>
+ruby-gnome2-devel-enというMLに使っている人がいて存在を知りました。</p>
+<p><a href="http://www.libgosu.org/">http://www.libgosu.org/</a></p>
+<p>インストール方法はWikiのサイドバーのGetting Startedです。</p>
+<p><a href="https://github.com/jlnr/gosu/wiki">https://github.com/jlnr/gosu/wiki</a></p>
+<p>Rubyに対応したゲーム開発ライブラリの中では最有力だと思っています。</p>
 <ul>
-<li>デフォルトサイズをオリジナルサイズに変更</li>
-<li>サムネイル対応</li>
+<li>メンテナンスされている
+
+<ul>
+<li>コピーライトは2001-2013</li>
+<li>作者の方にメールしたら4時間で返事が来た</li>
 </ul>
-<h3>デフォルトサイズをオリジナルサイズに変更</h3>
-<p>画像のオリジナルサイズがウィンドウサイズよりも小さければ、
-<br>
-オリジナルサイズで表示することにした。
-（fキーを押せばウィンドウサイズにフィットする）</p>
-<p>画像のオリジナルサイズがウィンドウサイズよりも大きければ、
-<br>
-ウィンドウサイズに縮小して表示する。（今までと同じ）</p>
-<p>統一するべきか迷ったけど、この組み合わせが一番使いやすそう。</p>
-<h3>サムネイル対応</h3>
-<p>ずっと欲しかったので、とりあえずざっくり作った。</p>
-<p>縦ボックスに横ボックスを詰めてるだけなので縦線がずれる。
-<br>
-テーブル使って整列しようか考え中。</p>
-<p>ああ、それよりもクリックして飛べるようにしたい。</p>
+</li>
+<li>オープンソース
+
+<ul>
+<li>
+<a href="https://github.com/jlnr/gosu/">GitHub</a>にホスティング</li>
+<li>MITライセンス</li>
+</ul>
+</li>
+<li>マルチプラットフォーム
+
+<ul>
+<li>Mac OS X</li>
+<li>Windows（Ruby2.0未対応）</li>
+<li>Linux</li>
+<li>参考：C++版はiOSにも対応</li>
+</ul>
+</li>
+</ul>
+<p>とてもよさげなのですが、なぜか日本語の情報がほとんどなかったので、<br>
+きちんと理解するためにチュートリアルを日本語に訳してみました。</p>
+<p><a href="https://gist.github.com/myokoym/7148859#file-gosu-ruby-tutorial-japanese-md">https://gist.github.com/myokoym/7148859#file-gosu-ruby-tutorial-japanese-md</a></p>
+<p>基本はわかってきたので、あとは実際にアプリケーションを開発しながら<br>
+都度アウトプットなりコントリビュートなりしていきたいと思っています。</p>
 </article>
 <div class="nav">
 <div class="prev">
-<link href="../entries/20130829.html" rel="prev">
 </div>
 <div class="next">
-<link href="../entries/20130825.html" rel="next">
+<link href="../entries/20131029.html" rel="next">
 </div>
 </div>
 <div class="autopagerize_insert_before"></div>
