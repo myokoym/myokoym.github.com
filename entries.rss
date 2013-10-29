@@ -1,4 +1,17 @@
-<?xml version="1.0" encoding="UTF-8"?><rdf:RDF xmlns="http://purl.org/rss/1.0/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xml:lang="ja"><channel rdf:about="http://myokoym.github.com/"><title>my_letter</title><link>http://myokoym.github.com/</link><dc:date>2013-10-09</dc:date><description>my_letter</description><items><rdf:Seq><rdf:li rdf:resource="http://myokoym.github.com/entries/20131009/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130929/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130923/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130909/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130907/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130901/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130829/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130828/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130825/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130822/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130819/a1.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130819/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130810/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130808/a2.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130808/a1.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130808/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130807/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130612/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130501/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130329/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130328/a0.html"/></rdf:Seq></items></channel><item about="http://myokoym.github.com/entries/20131009/a0.html"><title>myokoym.netをMiddlemanでリニューアルしました</title><description>@tricknotes 先輩がおすすめしていた
+<?xml version="1.0" encoding="UTF-8"?><rdf:RDF xmlns="http://purl.org/rss/1.0/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xml:lang="ja"><channel rdf:about="http://myokoym.github.com/"><title>my_letter</title><link>http://myokoym.github.com/</link><dc:date>2013-10-29</dc:date><description>my_letter</description><items><rdf:Seq><rdf:li rdf:resource="http://myokoym.github.com/entries/20131029/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20131009/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130929/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130923/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130909/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130907/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130901/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130829/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130828/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130825/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130822/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130819/a1.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130819/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130810/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130808/a2.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130808/a1.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130808/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130807/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130612/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130501/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130329/a0.html"/></rdf:Seq></items></channel><item about="http://myokoym.github.com/entries/20131029/a0.html"><title>mireru 0.1.7 hexdump対応</title><description>今日は肉の日ですね。マルチタイプ＆キーボードフレンドリーな
+ファイルビューアmireruの0.1.7をリリースしました。
+http://myokoym.github.io/mireru/ja/
+今までは、対応していない拡張子だった場合はSorry画像を出していましたが、
+今回のリリースからは先頭20KBの16進数のバイナリを表示するようにしました。
+新しく依存するようになったgemはhexdump...</description><content:encoded><![CDATA[<p>今日は肉の日ですね。マルチタイプ＆キーボードフレンドリーな<br>
+ファイルビューアmireruの0.1.7をリリースしました。</p>
+<p><a href="http://myokoym.github.io/mireru/ja/">http://myokoym.github.io/mireru/ja/</a></p>
+<p>今までは、対応していない拡張子だった場合はSorry画像を出していましたが、<br>
+今回のリリースからは先頭20KBの16進数のバイナリを表示するようにしました。</p>
+<p>新しく依存するようになったgemはhexdumpです。お世話になります。<br>
+<a href="https://github.com/postmodern/hexdump">https://github.com/postmodern/hexdump</a></p>
+<p>次のリリースでは、もっと機能追加（新しい拡張子への対応など）<br>
+しやすくしたいと思っています。</p>]]></content:encoded><dc:date>2013-10-29</dc:date><link>http://myokoym.github.com/entries/20131029/a0.html</link><author>myokoym</author></item><item about="http://myokoym.github.com/entries/20131009/a0.html"><title>myokoym.netをMiddlemanでリニューアルしました</title><description>@tricknotes 先輩がおすすめしていた
 Middleman
 を使ってみたかったので、
 ちょうどレガシーだった myokoym.net
@@ -602,35 +615,4 @@ byobuを再起動
 <p><a href="https://forums.ubuntulinux.jp/viewtopic.php?pid=97479#p97479">Ubuntu日本語フォーラム / byobuでバッファスクロールをマウスホイールでするには</a></p>
 <p><a href="https://sites.google.com/site/hymd3a/linux/byobu">byobuを使ってみる - ひゃまだのブログ</a></p>
 <p><a href="http://www.rwds.net/wiki?page=screen%A4%CE%B3%D0%BD%F1">screenの覚書 - Ktat's Wiki</a></p>
-<p><a href="http://tthhfugapiyo.blogspot.jp/2012/07/screen.html">設定メモ: screenでマウススクロール</a></p>]]></content:encoded><dc:date>2013-03-29</dc:date><link>http://myokoym.github.com/entries/20130329/a0.html</link><author>myokoym</author></item><item about="http://myokoym.github.com/entries/20130328/a0.html"><title>Ruby/GooCanvasのサンプル比較 - units-demo</title><description>最近、Ruby-GNOME2プロジェクトのサンプルで遊ばせてもらっています。
-（サンプルをGObject Introspectionベースのバインディングに移植するなど。）
-https://github.com/ruby-gnome2/ruby-gnome2/blob/master/goocanvas/sample/units-demo.rb
-旧サンプル
-
-GObject Introspectio...</description><content:encoded><![CDATA[<p>最近、Ruby-GNOME2プロジェクトのサンプルで遊ばせてもらっています。</p>
-<p>（サンプルをGObject Introspectionベースのバインディングに移植するなど。）</p>
-<p><a href="https://github.com/ruby-gnome2/ruby-gnome2/blob/master/goocanvas/sample/units-demo.rb">https://github.com/ruby-gnome2/ruby-gnome2/blob/master/goocanvas/sample/units-demo.rb</a></p>
-<h2>旧サンプル</h2>
-<p><img src="/images/units-demo-old-20130328_01.png" alt="units-demo-old-20130328_01"></p>
-<h2>GObject Introspection 版</h2>
-<ul>
-<li>スピンボタンのデザインがGitっぽくなってます。</li>
-<li>背景色が明るすぎず、目にやさしい感じでよさげです。 </li>
-</ul>
-<p><img src="/images/units-demo-gi-20130328_02.png" alt="units-demo-gi-20130328_02"></p>
-<h2>C オリジナル</h2>
-<ul>
-<li>GI版と比べて、見た目はほとんど変わりません。</li>
-<li>両方とも動かしてみましたが、よさげです。</li>
-<li>お花が咲いています。
-
-<ul>
-<li>GI版にお花が咲いていないのは、<del>私がなまけた</del>コミットの意図を明確にするとともに、pull requestを小さくするするためです。</li>
-<li>時間ができたら、勉強して咲かせる予定です。</li>
-<li>ただ、オリジナルの実装はなんというか。。。むずかしい。</li>
-<li>どなたか咲かせてくださるとありがたいです。</li>
-</ul>
-</li>
-</ul>
-<p><a href="https://git.gnome.org/browse/goocanvas/tree/demo/units-demo.c">https://git.gnome.org/browse/goocanvas/tree/demo/units-demo.c</a></p>
-<p><img src="/images/units-demo-c-20130328_03.png" alt="units-demo-c-20130328_03"></p>]]></content:encoded><dc:date>2013-03-28</dc:date><link>http://myokoym.github.com/entries/20130328/a0.html</link><author>myokoym</author></item></rdf:RDF>
+<p><a href="http://tthhfugapiyo.blogspot.jp/2012/07/screen.html">設定メモ: screenでマウススクロール</a></p>]]></content:encoded><dc:date>2013-03-29</dc:date><link>http://myokoym.github.com/entries/20130329/a0.html</link><author>myokoym</author></item></rdf:RDF>

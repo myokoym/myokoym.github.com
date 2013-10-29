@@ -39,6 +39,23 @@
 <div class="autopagerize_page_element" id="entries">
 <article class="article">
 <h1 class="date">
+<a href="./entries/20131029.html">2013-10-29</a>
+</h1>
+<h1 id="a0">
+<a href="./entries/20131029/a0.html">mireru 0.1.7 hexdump対応</a>
+</h1>
+<p>今日は肉の日ですね。マルチタイプ＆キーボードフレンドリーな<br>
+ファイルビューアmireruの0.1.7をリリースしました。</p>
+<p><a href="http://myokoym.github.io/mireru/ja/">http://myokoym.github.io/mireru/ja/</a></p>
+<p>今までは、対応していない拡張子だった場合はSorry画像を出していましたが、<br>
+今回のリリースからは先頭20KBの16進数のバイナリを表示するようにしました。</p>
+<p>新しく依存するようになったgemはhexdumpです。お世話になります。<br>
+<a href="https://github.com/postmodern/hexdump">https://github.com/postmodern/hexdump</a></p>
+<p>次のリリースでは、もっと機能追加（新しい拡張子への対応など）<br>
+しやすくしたいと思っています。</p>
+</article>
+<article class="article">
+<h1 class="date">
 <a href="./entries/20131009.html">2013-10-09</a>
 </h1>
 <h1 id="a0">
@@ -158,41 +175,9 @@ rake install
 <p>Ubuntu 13.04をクリーンインストールしたので、この機会にまとめておく。</p>
 <script src="https://gist.github.com/myokoym/6497033.js"></script><p>リリースの手伝いまではいかなくても、動作確認くらいはできるようにしておきたい。</p>
 </article>
-<article class="article">
-<h1 class="date">
-<a href="./entries/20130907.html">2013-09-07</a>
-</h1>
-<h1 id="a0">
-<a href="./entries/20130907/a0.html">mireru 動画サポート</a>
-</h1>
-<p>Ruby/ClutterGTKとRuby/ClutterGStreamerを使って動画を見れるようにした。</p>
-<p><a href="https://github.com/myokoym/mireru/commit/9808ec40bb88304fa1e8b2ffc039c05ffb90e739">https://github.com/myokoym/mireru/commit/9808ec40bb88304fa1e8b2ffc039c05ffb90e739</a></p>
-<p><a href="https://github.com/ruby-gnome2/ruby-gnome2/tree/master/clutter-gstreamer">https://github.com/ruby-gnome2/ruby-gnome2/tree/master/clutter-gstreamer</a></p>
-<h2>TODO</h2>
-<ul>
-<li>最初に読み込んだ動画ファイルしか表示されない。音は出る。
-
-<ul>
-<li>動画(OK) -&gt; 動画(NG) -&gt; 動画(NG)</li>
-<li>画像 -&gt; 動画(OK) -&gt; 動画(NG) -&gt; 動画(NG)</li>
-<li>画像 -&gt; 動画(OK) -&gt; 画像 -&gt; 動画(NG) -&gt; 動画(NG)</li>
-</ul>
-</li>
-<li>サイズ調整</li>
-<li>キーバインド追加
-
-<ul>
-<li>一時停止</li>
-<li>早送り</li>
-<li>リサイズ</li>
-<li>など。</li>
-</ul>
-</li>
-</ul>
-</article>
 <div class="nav">
 <div class="next">
-<link href="./entries/20130901.html" rel="next">
+<link href="./entries/20130907.html" rel="next">
 </div>
 </div>
 <div class="autopagerize_insert_before"></div>
@@ -207,6 +192,9 @@ rake install
 <div class="recent-entries">
 <ul>
 <li>
+<a href="./entries/20131029/a0.html">mireru 0.1.7 hexdump対応</a>
+</li>
+<li>
 <a href="./entries/20131009/a0.html">myokoym.netをMiddlemanでリニューアルしました</a>
 </li>
 <li>
@@ -220,9 +208,6 @@ rake install
 </li>
 <li>
 <a href="./entries/20130907/a0.html">mireru 動画サポート</a>
-</li>
-<li>
-<a href="./entries/20130901/a0.html">Androidエミュレータでバックグラウンドプロセスを残さない方法</a>
 </li>
 </ul>
 <div class="archives">
