@@ -1,4 +1,170 @@
-<?xml version="1.0" encoding="UTF-8"?><rdf:RDF xmlns="http://purl.org/rss/1.0/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xml:lang="ja"><channel rdf:about="http://myokoym.github.com/"><title>my_letter</title><link>http://myokoym.github.com/</link><dc:date>2013-10-30</dc:date><description>my_letter</description><items><rdf:Seq><rdf:li rdf:resource="http://myokoym.github.com/entries/20131030/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20131029/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20131009/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130929/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130923/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130909/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130907/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130901/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130829/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130828/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130825/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130822/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130819/a1.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130819/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130810/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130808/a2.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130808/a1.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130808/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130807/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130612/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130501/a0.html"/></rdf:Seq></items></channel><item about="http://myokoym.github.com/entries/20131030/a0.html"><title>Ruby/C++用ゲーム開発ライブラリGosuのRubyチュートリアルを日本語訳しました</title><description>Gosuとは、RubyとC++に対応した2Dゲーム開発ライブラリです。
+<?xml version="1.0" encoding="UTF-8"?><rdf:RDF xmlns="http://purl.org/rss/1.0/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xml:lang="ja"><channel rdf:about="http://myokoym.github.com/"><title>my_letter</title><link>http://myokoym.github.com/</link><dc:date>2013-12-01</dc:date><description>my_letter</description><items><rdf:Seq><rdf:li rdf:resource="http://myokoym.github.com/entries/20131201/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20131030/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20131029/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20131009/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130929/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130923/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130909/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130907/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130901/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130829/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130828/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130825/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130822/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130819/a1.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130819/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130810/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130808/a2.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130808/a1.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130808/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130807/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130612/a0.html"/></rdf:Seq></items></channel><item about="http://myokoym.github.com/entries/20131201/a0.html"><title>Ruby/GTK3で作るカレンダーアプリ</title><description>GNOME Advent Calendar 2013
+1日目の記事です。
+Ruby/GTK3を使って、Advent Calendarっぽいアプリを作成します。
+機能
+
+GUIウィンドウを持つ
+1日〜25日までのボタンを付ける
+日付のボタンをクリックすると、何かが開く
+
+
+とりあえずWebページ（Wikipedia）にしておく
+
+
+
+インストール
+RubyGems.orgに公開したので、以下のコマン...</description><content:encoded><![CDATA[<p><a href="http://www.adventar.org/calendars/102">GNOME Advent Calendar 2013</a>
+1日目の記事です。</p>
+<p>Ruby/GTK3を使って、Advent Calendarっぽいアプリを作成します。</p>
+<h2>機能</h2>
+<ul>
+<li>GUIウィンドウを持つ</li>
+<li>1日〜25日までのボタンを付ける</li>
+<li>日付のボタンをクリックすると、何かが開く
+
+<ul>
+<li>とりあえずWebページ（Wikipedia）にしておく</li>
+</ul>
+</li>
+</ul>
+<h2>インストール</h2>
+<p>RubyGems.orgに公開したので、以下のコマンドでインストールできます。</p>
+<div class="highlight"><pre>% gem install gtk_advent_calendar
+</pre></div>
+<p>もしインストールできなかったら、コメントか
+<a href="https://twitter.com/myokoym">Twitter</a>
+でメンションをいただけるとうれしいです。</p>
+<h2>起動</h2>
+<p>コマンドラインから起動できます。</p>
+<div class="highlight"><pre>% gtk_advent_calendar
+</pre></div>
+<h2>ソースコード</h2>
+<p>執筆時点のソースコードはこちらです。<br>
+<a href="https://github.com/myokoym/gtk_advent_calendar">https://github.com/myokoym/gtk_advent_calendar</a></p>
+<p>簡単に解説します。</p>
+<h3>実行ファイル</h3>
+<p>コマンドラインから実行するためのファイルです。</p>
+<p><a href="https://github.com/myokoym/gtk_advent_calendar/blob/master/bin/gtk_advent_calendar">https://github.com/myokoym/gtk_advent_calendar/blob/master/bin/gtk_advent_calendar</a></p>
+<div class="highlight"><pre><span class="c1">#!/usr/bin/env ruby</span>
+
+<span class="nb">require</span> <span class="s2">"gtk_advent_calendar/command"</span>
+
+<span class="ss">GtkAdventCalendar</span><span class="p">:</span><span class="ss">:Command</span><span class="o">.</span><span class="n">run</span>
+</pre></div>
+<p>実行ファイルなので、shebangを付けています。<br>
+あとは、Commandクラスのrunメソッドを呼び出しているだけです。</p>
+<h3>GUIウィンドウ・メインループ</h3>
+<p>CommandクラスでGUIウィンドウを作成しています。</p>
+<p><a href="https://github.com/myokoym/gtk_advent_calendar/blob/master/lib/gtk_advent_calendar/command.rb">https://github.com/myokoym/gtk_advent_calendar/blob/master/lib/gtk_advent_calendar/command.rb</a></p>
+<div class="highlight"><pre><span class="nb">require</span> <span class="s2">"gtk3"</span>
+<span class="nb">require</span> <span class="s2">"gtk_advent_calendar/calendar"</span>
+
+<span class="k">module</span> <span class="nn">GtkAdventCalendar</span>
+  <span class="k">class</span> <span class="nc">Command</span>
+    <span class="k">class</span> <span class="o">&lt;&lt;</span> <span class="nb">self</span>
+      <span class="k">def</span> <span class="nf">run</span>
+        <span class="n">window</span> <span class="o">=</span> <span class="ss">Gtk</span><span class="p">:</span><span class="ss">:Window</span><span class="o">.</span><span class="n">new</span>
+        <span class="n">window</span><span class="o">.</span><span class="n">title</span> <span class="o">=</span> <span class="s2">"Advent Calendar"</span>
+        <span class="n">window</span><span class="o">.</span><span class="n">add</span><span class="p">(</span><span class="no">Calendar</span><span class="o">.</span><span class="n">new</span><span class="p">)</span>
+        <span class="n">window</span><span class="o">.</span><span class="n">signal_connect</span><span class="p">(</span><span class="s2">"destroy"</span><span class="p">)</span> <span class="k">do</span>
+          <span class="no">Gtk</span><span class="o">.</span><span class="n">main_quit</span>
+        <span class="k">end</span>
+        <span class="n">window</span><span class="o">.</span><span class="n">show_all</span>
+        <span class="no">Gtk</span><span class="o">.</span><span class="n">main</span>
+      <span class="k">end</span>
+    <span class="k">end</span>
+  <span class="k">end</span>
+<span class="k">end</span>
+</pre></div>
+<p>主役は<code>window.add(Calendar.new)</code>のCalendarクラスです。<br>
+<code>Gtk.main</code>でGUIアプリケーションのメインループに入ります。</p>
+<h3>Calendarクラス</h3>
+<p>ここでカレンダー本体を作ります。</p>
+<p>GTKにはいろいろなウィジェットがありますが、<br>
+ここでは基本的なウィジェットであるBoxを多用します。</p>
+<p><a href="https://github.com/myokoym/gtk_advent_calendar/blob/master/lib/gtk_advent_calendar/calendar.rb">https://github.com/myokoym/gtk_advent_calendar/blob/master/lib/gtk_advent_calendar/calendar.rb</a></p>
+<div class="highlight"><pre><span class="nb">require</span> <span class="s2">"gtk3"</span>
+
+<span class="k">module</span> <span class="nn">GtkAdventCalendar</span>
+  <span class="k">class</span> <span class="nc">Calendar</span> <span class="o">&lt;</span> <span class="ss">Gtk</span><span class="p">:</span><span class="ss">:Frame</span>
+    <span class="no">LAST_DAY</span> <span class="o">=</span> <span class="mi">25</span>
+    <span class="no">CELL_WIDTH</span> <span class="o">=</span> <span class="mi">40</span>
+
+    <span class="k">def</span> <span class="nf">initialize</span>
+      <span class="k">super</span>
+      <span class="vi">@day</span> <span class="o">=</span> <span class="mi">1</span>
+      <span class="n">box</span> <span class="o">=</span> <span class="ss">Gtk</span><span class="p">:</span><span class="ss">:Box</span><span class="o">.</span><span class="n">new</span><span class="p">(</span><span class="ss">:vertical</span><span class="p">)</span>
+      <span class="n">box</span><span class="o">.</span><span class="n">add</span><span class="p">(</span><span class="n">month</span><span class="p">)</span>
+      <span class="n">add</span><span class="p">(</span><span class="n">box</span><span class="p">)</span>
+    <span class="k">end</span>
+
+    <span class="k">def</span> <span class="nf">month</span>
+      <span class="n">box</span> <span class="o">=</span> <span class="ss">Gtk</span><span class="p">:</span><span class="ss">:Box</span><span class="o">.</span><span class="n">new</span><span class="p">(</span><span class="ss">:vertical</span><span class="p">)</span>
+      <span class="n">box</span><span class="o">.</span><span class="n">add</span><span class="p">(</span><span class="n">days_of_the_week</span><span class="p">)</span>
+      <span class="k">while</span> <span class="vi">@day</span> <span class="o">&lt;=</span> <span class="no">LAST_DAY</span> <span class="k">do</span>
+        <span class="n">box</span><span class="o">.</span><span class="n">add</span><span class="p">(</span><span class="n">week</span><span class="p">)</span>
+      <span class="k">end</span>
+      <span class="n">box</span>
+    <span class="k">end</span>
+
+    <span class="k">def</span> <span class="nf">days_of_the_week</span>
+      <span class="n">box</span> <span class="o">=</span> <span class="ss">Gtk</span><span class="p">:</span><span class="ss">:Box</span><span class="o">.</span><span class="n">new</span><span class="p">(</span><span class="ss">:horizontal</span><span class="p">)</span>
+      <span class="sx">%w(Sun Mon Tue Wed Thu Fri Sat)</span><span class="o">.</span><span class="n">each</span> <span class="k">do</span> <span class="o">|</span><span class="n">day_of_the_week</span><span class="o">|</span>
+        <span class="n">label</span> <span class="o">=</span> <span class="ss">Gtk</span><span class="p">:</span><span class="ss">:Label</span><span class="o">.</span><span class="n">new</span><span class="p">(</span><span class="s2">"</span><span class="si">#{</span><span class="n">day_of_the_week</span><span class="si">}</span><span class="s2">."</span><span class="p">)</span>
+        <span class="n">label</span><span class="o">.</span><span class="n">width_request</span> <span class="o">=</span> <span class="no">CELL_WIDTH</span>
+        <span class="n">box</span><span class="o">.</span><span class="n">add</span><span class="p">(</span><span class="n">label</span><span class="p">)</span>
+      <span class="k">end</span>
+      <span class="n">box</span>
+    <span class="k">end</span>
+
+    <span class="k">def</span> <span class="nf">week</span>
+      <span class="n">box</span> <span class="o">=</span> <span class="ss">Gtk</span><span class="p">:</span><span class="ss">:Box</span><span class="o">.</span><span class="n">new</span><span class="p">(</span><span class="ss">:horizontal</span><span class="p">)</span>
+      <span class="mi">7</span><span class="o">.</span><span class="n">times</span> <span class="k">do</span>
+        <span class="k">break</span> <span class="k">if</span> <span class="vi">@day</span> <span class="o">&gt;</span> <span class="no">LAST_DAY</span>
+        <span class="n">box</span><span class="o">.</span><span class="n">add</span><span class="p">(</span><span class="n">day</span><span class="p">(</span><span class="vi">@day</span><span class="p">))</span>
+        <span class="vi">@day</span> <span class="o">+=</span> <span class="mi">1</span>
+      <span class="k">end</span>
+      <span class="n">box</span>
+    <span class="k">end</span>
+
+    <span class="k">def</span> <span class="nf">day</span><span class="p">(</span><span class="n">n</span><span class="p">)</span>
+      <span class="n">button</span> <span class="o">=</span> <span class="ss">Gtk</span><span class="p">:</span><span class="ss">:Button</span><span class="o">.</span><span class="n">new</span><span class="p">(</span><span class="ss">:label</span> <span class="o">=&gt;</span> <span class="n">n</span><span class="o">.</span><span class="n">to_s</span><span class="p">)</span>
+      <span class="n">button</span><span class="o">.</span><span class="n">width_request</span> <span class="o">=</span> <span class="no">CELL_WIDTH</span>
+      <span class="n">button</span><span class="o">.</span><span class="n">height_request</span> <span class="o">=</span> <span class="no">CELL_WIDTH</span>
+      <span class="n">button</span><span class="o">.</span><span class="n">signal_connect</span><span class="p">(</span><span class="s2">"clicked"</span><span class="p">)</span> <span class="k">do</span>
+        <span class="n">show_uri</span><span class="p">(</span><span class="s2">"http://en.wikipedia.org/wiki/December_</span><span class="si">#{</span><span class="n">n</span><span class="si">}</span><span class="s2">"</span><span class="p">)</span>
+      <span class="k">end</span>
+      <span class="n">button</span>
+    <span class="k">end</span>
+
+    <span class="k">def</span> <span class="nf">show_uri</span><span class="p">(</span><span class="n">uri</span><span class="p">)</span>
+      <span class="k">case</span> <span class="no">RUBY_PLATFORM</span>
+      <span class="k">when</span> <span class="sr">/darwin/</span>
+        <span class="nb">system</span><span class="p">(</span><span class="s2">"open"</span><span class="p">,</span> <span class="n">uri</span><span class="p">)</span>
+      <span class="k">when</span> <span class="sr">/mswin|mingw|cygwin|bccwin/</span>
+        <span class="nb">system</span><span class="p">(</span><span class="s2">"start"</span><span class="p">,</span> <span class="n">uri</span><span class="p">)</span>
+      <span class="k">else</span>
+        <span class="k">if</span> <span class="no">Gtk</span><span class="o">.</span><span class="n">respond_to?</span><span class="p">(</span><span class="ss">:show_uri</span><span class="p">)</span>
+          <span class="no">Gtk</span><span class="o">.</span><span class="n">show_uri</span><span class="p">(</span><span class="n">uri</span><span class="p">)</span>
+        <span class="k">else</span>
+          <span class="nb">system</span><span class="p">(</span><span class="s2">"firefox"</span><span class="p">,</span> <span class="n">uri</span><span class="p">)</span>
+        <span class="k">end</span>
+      <span class="k">end</span>
+    <span class="k">end</span>
+  <span class="k">end</span>
+<span class="k">end</span>
+</pre></div>
+<p>詳しい解説は省略するので、何かあればコメントか
+<a href="https://twitter.com/myokoym">Twitter</a>
+でメンションをください。</p>
+<h2>まとめ</h2>
+<p>Ruby/GTK3を使ってカレンダーアプリを作成しました。<br>
+これを応用すれば、ランチャーアプリなども簡単に作れると思います。</p>
+<p>もしRuby/GTK3に興味を持たれた方がいれば、<br>
+<a href="http://ruby-gnome2.sourceforge.jp/ja/">プロジェクトページ</a>
+や
+<a href="https://lists.sourceforge.net/lists/listinfo/ruby-gnome2-devel-ja">メーリングリスト</a>
+も参照してみてください。</p>]]></content:encoded><dc:date>2013-12-01</dc:date><link>http://myokoym.github.com/entries/20131201/a0.html</link><author>myokoym</author></item><item about="http://myokoym.github.com/entries/20131030/a0.html"><title>Ruby/C++用ゲーム開発ライブラリGosuのRubyチュートリアルを日本語訳しました</title><description>Gosuとは、RubyとC++に対応した2Dゲーム開発ライブラリです。
 ruby-gnome2-devel-enというMLに使っている人がいて存在を知りました。
 http://www.libgosu.org/
 インストール方法はWikiのサイドバーのGetting Startedです。
@@ -592,6 +758,4 @@ test-u...</description><content:encoded><![CDATA[<p>意訳: Rack::Testとtest-un
 <p>brynary/rack-test · GitHub<br>
 <a href="https://github.com/brynary/rack-test#readme">https://github.com/brynary/rack-test#readme</a></p>
 <p>Rubyist Magazine - Sinatra 再入門、 Padrino / Rack / その先の何か<br>
-<a href="http://magazine.rubyist.net/?0036-SinatraReintroduction">http://magazine.rubyist.net/?0036-SinatraReintroduction</a></p>]]></content:encoded><dc:date>2013-06-12</dc:date><link>http://myokoym.github.com/entries/20130612/a0.html</link><author>myokoym</author></item><item about="http://myokoym.github.com/entries/20130501/a0.html"><title>Ruby-GNOME2 Packages Full Installer</title><description>Windowsでgemの依存関係が上手くインストールできないので、暫定対応として作成。
-Linuxでも意外と使えそう。</description><content:encoded><![CDATA[<p>Windowsでgemの依存関係が上手くインストールできないので、暫定対応として作成。</p>
-<script src="https://gist.github.com/myokoym/5489252.js"></script><p>Linuxでも意外と使えそう。</p>]]></content:encoded><dc:date>2013-05-01</dc:date><link>http://myokoym.github.com/entries/20130501/a0.html</link><author>myokoym</author></item></rdf:RDF>
+<a href="http://magazine.rubyist.net/?0036-SinatraReintroduction">http://magazine.rubyist.net/?0036-SinatraReintroduction</a></p>]]></content:encoded><dc:date>2013-06-12</dc:date><link>http://myokoym.github.com/entries/20130612/a0.html</link><author>myokoym</author></item></rdf:RDF>
