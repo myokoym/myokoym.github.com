@@ -39,7 +39,7 @@ RubyGems.orgに公開したので、以下のコマン...</description><content:
 <div class="highlight"><pre>% gtk_advent_calendar
 </pre></div>
 <h2>ソースコード</h2>
-<p>ソースコードはGitHubに公開してあります。
+<p>ソースコードはGitHubに公開してあります。<br>
 <a href="https://github.com/myokoym/gtk_advent_calendar">https://github.com/myokoym/gtk_advent_calendar</a></p>
 <p>簡単に解説します。</p>
 <h3>実行ファイル</h3>
