@@ -95,9 +95,7 @@ RubyGems.orgに公開したので、以下のコマン...</description><content:
     <span class="k">def</span> <span class="nf">initialize</span>
       <span class="k">super</span>
       <span class="vi">@day</span> <span class="o">=</span> <span class="mi">1</span>
-      <span class="n">box</span> <span class="o">=</span> <span class="ss">Gtk</span><span class="p">:</span><span class="ss">:Box</span><span class="o">.</span><span class="n">new</span><span class="p">(</span><span class="ss">:vertical</span><span class="p">)</span>
-      <span class="n">box</span><span class="o">.</span><span class="n">add</span><span class="p">(</span><span class="n">month</span><span class="p">)</span>
-      <span class="n">add</span><span class="p">(</span><span class="n">box</span><span class="p">)</span>
+      <span class="n">add</span><span class="p">(</span><span class="n">month</span><span class="p">)</span>
     <span class="k">end</span>
 
     <span class="k">def</span> <span class="nf">month</span>
