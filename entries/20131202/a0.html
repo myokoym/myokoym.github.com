@@ -1,7 +1,7 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html>
 <head>
-<title>文字列とバイト列（16進数）を相互変換するWebアプリ作成中 - my_letter</title>
+<title>Tomster氏の5つの魅力 - my_letter</title>
 <meta charset="utf-8" content="text/html; charset=UTF-8" http-equiv="Content-Type">
 <meta content="myokoym" name="author">
 <link href="../../favicon.png" rel="icon" type="image/png">
@@ -38,84 +38,40 @@
 <div id="content">
 <article class="article autopagerize_page_element">
 <h1 class="date">
-<a href="../../entries/20121125.html">2012-11-25</a>
+<a href="../../entries/20131202.html">2013-12-02</a>
 </h1>
 <h1 id="a0">
-<a href="../../entries/20121125/a0.html">文字列とバイト列（16進数）を相互変換するWebアプリ作成中</a>
+<a href="../../entries/20131202/a0.html">Tomster氏の5つの魅力</a>
 </h1>
-<p>MOJIHEX - The Converter of Character and Hex</p>
-<p><a href="http://myokoym.net/mojihex/">http://myokoym.net/mojihex/</a></p>
-<h2>使用例</h2>
-<ul>
-<li>
-<p>char -&gt; byte (UTF-8)</p>
-
-<ul>
-<li>あ -&gt; e38182</li>
-<li>あいう -&gt; e38182 e38184 e38186</li>
-</ul>
-</li>
-<li>
-<p>char -&gt; byte (Shift_JIS)</p>
-
-<ul>
-<li>あ -&gt; 82a0</li>
-</ul>
-</li>
-<li>
-<p>char -&gt; byte (CP930)</p>
-
-<ul>
-<li>あ -&gt; 0e44810f</li>
-</ul>
-</li>
-<li>
-<p>byte -&gt; char (UTF-8)</p>
-
-<ul>
-<li>e38182 e38184 e38186 -&gt; あいう</li>
-</ul>
-</li>
-</ul>
-<h2>使える文字コード</h2>
-<p>以下の文字コードを選択できます。</p>
-<ul>
-<li>UTF-8</li>
-<li>Shift_JIS</li>
-<li>EUC-JP</li>
-<li>CP930(EBCDIC)</li>
-<li>UTF-16BE</li>
-</ul>
-<p>HTTP-GETにも対応しており、上記以外の文字コードも使用可能です。</p>
-<ul>
-<li>RubyのEncoding::Converterクラスで使用可能な文字コード</li>
-<li>サーバーのiconvで使用可能な文字コード
-
-<ul>
-<li><a href="http://myokoym.net/mojihex/iconv.html">http://myokoym.net/mojihex/iconv.html</a></li>
-</ul>
-</li>
-</ul>
-<h2>内部的な話</h2>
-<ol>
-<li>まずはString#encodeで変換しようとします。</li>
-<li>指定された文字コードが使用できなかった場合、iconvをrequireしてIconv.convで変換します。
-
-<ul>
-<li>iconvライブラリの使用は非推奨らしいのですが、CP930(EBCDIC)を使いたいので仕方なく</li>
-</ul>
-</li>
-<li>iconvにも定義されていない文字コードだった場合、エラーになります。</li>
-</ol>
-<h2>参考</h2>
-<p>instance method String#encode
-<a href="http://doc.ruby-lang.org/ja/1.9.3/method/String/i/encode.html">http://doc.ruby-lang.org/ja/1.9.3/method/String/i/encode.html</a></p>
-<p>class Encoding::Converter
-<a href="http://doc.ruby-lang.org/ja/1.9.3/class/Encoding=3a=3aConverter.html">http://doc.ruby-lang.org/ja/1.9.3/class/Encoding=3a=3aConverter.html</a></p>
-<p>library iconv
-<a href="http://doc.ruby-lang.org/ja/1.9.3/library/iconv.html">http://doc.ruby-lang.org/ja/1.9.3/library/iconv.html</a></p>
-<p>GitHub - myokoym/mojihex
-<a href="https://github.com/myokoym/mojihex">https://github.com/myokoym/mojihex</a></p>
+<p>この記事は
+<a href="http://www.adventar.org/calendars/94">Ember.js Advent Calendar</a>
+の2日目です。</p>
+<p>僭越ながら、 Ember.js のマスコットキャラクターである<br>
+Tomster氏の魅力について考察させていただきたいと思います。</p>
+<h2>1. 名前の語呂がいい</h2>
+<p>とても語感がよく、呼びやすい名前です。名前重要。<br>
+5拍なのも、日本人にとっては俳句や短歌で馴染みが深くてポイント高いです。</p>
+<h2>2. 名前を略しやすい</h2>
+<p>英語圏では、会話やメールに本名を使う人はむしろ少なく、<br>
+呼びやすい略称などを使う人が多いです。彼もまた、</p>
+<p>Tom</p>
+<p>という最高に呼びやすい略称を使える可能性を秘めています。<br>
+うらやましいですね。</p>
+<h2>3. 名前の誤読が少ない</h2>
+<p>どう考えても「とむすたー」以外の読み方が思いつきません。<br>
+名前の誤読を訂正するのはとても気まずいことなので、<br>
+それをしなくていいというのはかなりのアドバンテージです。</p>
+<h2>4. 欠番</h2>
+<p>ここ日本では、「4」という数字はあまり縁起がよくないので、飛ばします。<br>
+ちなみに、 Tomster は種族名だという説がありますが定かではありません。</p>
+<h2>5. 名前にスター性がある</h2>
+<p>名前に「スター」が入っています。 Tomst<strong>a</strong>r でないのが残念ですが…。</p>
+<h2>まとめ</h2>
+<p>Tomster という名前について考察しました。<br>
+結論としては、とても良く考えられた名前だと思います。変に凝った名前にしなかった<br>
+名付け親の方に敬意を表し、本稿を終えさせていただきます。ありがとうございました。</p>
+<p>＼Enjoy!／<br>
+<img src="http://s.gravatar.com/avatar/0cf15665a9146ba852bf042b0652780a.png" alt="Tomster"></p>
 </article>
 <div id="comments">
 <div id="disqus_thread">
@@ -133,10 +89,9 @@
 </div>
 <div class="nav">
 <div class="prev">
-<link href="../../entries/20130127/a0.html" rel="prev">
 </div>
 <div class="next">
-<link href="../../entries/20121123/a0.html" rel="next">
+<link href="../../entries/20131201/a0.html" rel="next">
 </div>
 </div>
 <div class="autopagerize_insert_before"></div>

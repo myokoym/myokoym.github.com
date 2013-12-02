@@ -1,4 +1,41 @@
-<?xml version="1.0" encoding="UTF-8"?><rdf:RDF xmlns="http://purl.org/rss/1.0/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xml:lang="ja"><channel rdf:about="http://myokoym.github.com/"><title>my_letter</title><link>http://myokoym.github.com/</link><dc:date>2013-12-01</dc:date><description>my_letter</description><items><rdf:Seq><rdf:li rdf:resource="http://myokoym.github.com/entries/20131201/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20131030/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20131029/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20131009/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130929/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130923/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130909/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130907/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130901/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130829/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130828/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130825/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130822/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130819/a1.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130819/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130810/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130808/a2.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130808/a1.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130808/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130807/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130612/a0.html"/></rdf:Seq></items></channel><item about="http://myokoym.github.com/entries/20131201/a0.html"><title>Ruby/GTK3で作るカレンダーアプリ</title><description>GNOME Advent Calendar 2013
+<?xml version="1.0" encoding="UTF-8"?><rdf:RDF xmlns="http://purl.org/rss/1.0/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xml:lang="ja"><channel rdf:about="http://myokoym.github.com/"><title>my_letter</title><link>http://myokoym.github.com/</link><dc:date>2013-12-02</dc:date><description>my_letter</description><items><rdf:Seq><rdf:li rdf:resource="http://myokoym.github.com/entries/20131202/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20131201/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20131030/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20131029/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20131009/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130929/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130923/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130909/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130907/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130901/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130829/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130828/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130825/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130822/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130819/a1.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130819/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130810/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130808/a2.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130808/a1.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130808/a0.html"/><rdf:li rdf:resource="http://myokoym.github.com/entries/20130807/a0.html"/></rdf:Seq></items></channel><item about="http://myokoym.github.com/entries/20131202/a0.html"><title>Tomster氏の5つの魅力</title><description>この記事は
+Ember.js Advent Calendar
+の2日目です。
+僭越ながら、 Ember.js のマスコットキャラクターである
+Tomster氏の魅力について考察させていただきたいと思います。
+1. 名前の語呂がいい
+とても語感がよく、呼びやすい名前です。名前重要。
+5拍なのも、日本人にとっては俳句や短歌で馴染みが深くてポイント高いです。
+2. 名前を略しやすい
+英語圏では、会話やメ...</description><content:encoded><![CDATA[<p>この記事は
+<a href="http://www.adventar.org/calendars/94">Ember.js Advent Calendar</a>
+の2日目です。</p>
+<p>僭越ながら、 Ember.js のマスコットキャラクターである<br>
+Tomster氏の魅力について考察させていただきたいと思います。</p>
+<h2>1. 名前の語呂がいい</h2>
+<p>とても語感がよく、呼びやすい名前です。名前重要。<br>
+5拍なのも、日本人にとっては俳句や短歌で馴染みが深くてポイント高いです。</p>
+<h2>2. 名前を略しやすい</h2>
+<p>英語圏では、会話やメールに本名を使う人はむしろ少なく、<br>
+呼びやすい略称などを使う人が多いです。彼もまた、</p>
+<p>Tom</p>
+<p>という最高に呼びやすい略称を使える可能性を秘めています。<br>
+うらやましいですね。</p>
+<h2>3. 名前の誤読が少ない</h2>
+<p>どう考えても「とむすたー」以外の読み方が思いつきません。<br>
+名前の誤読を訂正するのはとても気まずいことなので、<br>
+それをしなくていいというのはかなりのアドバンテージです。</p>
+<h2>4. 欠番</h2>
+<p>ここ日本では、「4」という数字はあまり縁起がよくないので、飛ばします。<br>
+ちなみに、 Tomster は種族名だという説がありますが定かではありません。</p>
+<h2>5. 名前にスター性がある</h2>
+<p>名前に「スター」が入っています。 Tomst<strong>a</strong>r でないのが残念ですが…。</p>
+<h2>まとめ</h2>
+<p>Tomster という名前について考察しました。<br>
+結論としては、とても良く考えられた名前だと思います。変に凝った名前にしなかった<br>
+名付け親の方に敬意を表し、本稿を終えさせていただきます。ありがとうございました。</p>
+<p>＼Enjoy!／<br>
+<img src="http://s.gravatar.com/avatar/0cf15665a9146ba852bf042b0652780a.png" alt="Tomster"></p>]]></content:encoded><dc:date>2013-12-02</dc:date><link>http://myokoym.github.com/entries/20131202/a0.html</link><author>myokoym</author></item><item about="http://myokoym.github.com/entries/20131201/a0.html"><title>Ruby/GTK3で作るカレンダーアプリ</title><description>GNOME Advent Calendar 2013
 1日目の記事です。
 Ruby/GTK3を使って、Advent Calendarっぽいアプリを作成します。
 機能
@@ -727,35 +764,4 @@ OpenShogiLibのサンプルを参考に、例外処理などを追加中。
 <p>OpenShogiLibのサンプルを参考に、例外処理などを追加中。</p>
 <p>普通にやる分にはcoreを吐かなくなったので、v0.0.1のタグを打った。</p>
 <p>ただし、操作性も0.01くらい。</p>
-<p>ちなみにテストは<a href="http://cutter.sourceforge.net/index.html.ja">Cutter</a>で書いてます。</p>]]></content:encoded><dc:date>2013-08-07</dc:date><link>http://myokoym.github.com/entries/20130807/a0.html</link><author>myokoym</author></item><item about="http://myokoym.github.com/entries/20130612/a0.html"><title>Testing a Sinatra app on Rack::Test with test-unit.</title><description>意訳: Rack::Testとtest-unitでSinatraアプリをテストする方法。
-ディレクトリ構成の例
-hogetra/
-├─config.ru
-├─hogetra.rb
-├─views
-│  └─index.haml
-└─test
-    └─test-hogetra.rb
-
-test-hogetra.rb
-ちなみに私のSinatra appはクラシックスタイルです。
-参考
-test-u...</description><content:encoded><![CDATA[<p>意訳: Rack::Testとtest-unitでSinatraアプリをテストする方法。</p>
-<h3>ディレクトリ構成の例</h3>
-<div class="highlight"><pre>hogetra/
-├─config.ru
-├─hogetra.rb
-├─views
-│  └─index.haml
-└─test
-    └─test-hogetra.rb
-</pre></div>
-<h3>test-hogetra.rb</h3>
-<script src="https://gist.github.com/myokoym/5764563.js"></script><p>ちなみに私のSinatra appはクラシックスタイルです。</p>
-<h3>参考</h3>
-<p>test-unit - Ruby用単体テストフレームワーク<br>
-<a href="http://test-unit.rubyforge.org/index.html.ja">http://test-unit.rubyforge.org/index.html.ja</a></p>
-<p>brynary/rack-test · GitHub<br>
-<a href="https://github.com/brynary/rack-test#readme">https://github.com/brynary/rack-test#readme</a></p>
-<p>Rubyist Magazine - Sinatra 再入門、 Padrino / Rack / その先の何か<br>
-<a href="http://magazine.rubyist.net/?0036-SinatraReintroduction">http://magazine.rubyist.net/?0036-SinatraReintroduction</a></p>]]></content:encoded><dc:date>2013-06-12</dc:date><link>http://myokoym.github.com/entries/20130612/a0.html</link><author>myokoym</author></item></rdf:RDF>
+<p>ちなみにテストは<a href="http://cutter.sourceforge.net/index.html.ja">Cutter</a>で書いてます。</p>]]></content:encoded><dc:date>2013-08-07</dc:date><link>http://myokoym.github.com/entries/20130807/a0.html</link><author>myokoym</author></item></rdf:RDF>
