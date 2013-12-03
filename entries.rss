@@ -334,7 +334,10 @@ RubyGems.orgに公開したので、以下のコマン...</description><content:
 <a href="http://ruby-gnome2.sourceforge.jp/ja/">プロジェクトページ</a>
 や
 <a href="https://lists.sourceforge.net/lists/listinfo/ruby-gnome2-devel-ja">メーリングリスト</a>
-も参照してみてください。</p>]]></content:encoded><dc:date>2013-12-01</dc:date><link>http://myokoym.github.com/entries/20131201/a0.html</link><author>myokoym</author></item><item about="http://myokoym.github.com/entries/20131030/a0.html"><title>Ruby/C++用ゲーム開発ライブラリGosuのRubyチュートリアルを日本語訳しました</title><description>Gosuとは、RubyとC++に対応した2Dゲーム開発ライブラリです。
+も参照してみてください。</p>
+<p>2日目はクリアコードさんの
+<a href="http://www.clear-code.com/blog/2013/12/2.html">GTK-Docの使い方</a>
+です！</p>]]></content:encoded><dc:date>2013-12-01</dc:date><link>http://myokoym.github.com/entries/20131201/a0.html</link><author>myokoym</author></item><item about="http://myokoym.github.com/entries/20131030/a0.html"><title>Ruby/C++用ゲーム開発ライブラリGosuのRubyチュートリアルを日本語訳しました</title><description>Gosuとは、RubyとC++に対応した2Dゲーム開発ライブラリです。
 ruby-gnome2-devel-enというMLに使っている人がいて存在を知りました。
 http://www.libgosu.org/
 インストール方法はWikiのサイドバーのGetting Startedです。
