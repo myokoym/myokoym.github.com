@@ -44,7 +44,7 @@
 <a href="../../entries/20131203/a0.html">GtkAdventCalendarで作るアドベントカレンダーアプリ</a>
 </h1>
 <p><a href="http://www.adventar.org/calendars/102">GNOME Advent Calendar 2013</a>
-3日目の記事です。
+の3日目の記事です。
 <a href="http://www.clear-code.com/blog/2013/12/2.html">2日目はクリアコードさんのGTK-Docの使い方</a>
 でした。</p>
 <p>今回は、
@@ -115,16 +115,15 @@
 <h4>修正前</h4>
 <div class="highlight"><pre><span class="nb">require</span> <span class="s2">"gtk_advent_calendar/version"</span>
 </pre></div>
-<p>ここにパスを書いておくと、ライブラリーとして使ったときに</p>
-<div class="highlight"><pre><span class="nb">require</span> <span class="s2">"gtk_advent_calendar"</span>
-</pre></div>
-<p>で読み込まれます。</p>
+<p>ここにパスを書いておくと、<code>require "gtk_advent_calendar"</code>で読み込まれます。</p>
 <p><code>version</code>を読み込んでいる行は、<code>bundle gem</code>コマンドでRubyGems用の<br>
 雛形を作成したときに生成されたものです。そこに<code>calendar</code>も追加します。</p>
 <h4>修正後</h4>
 <div class="highlight"><pre><span class="nb">require</span> <span class="s2">"gtk_advent_calendar/version"</span>
 <span class="nb">require</span> <span class="s2">"gtk_advent_calendar/calendar"</span>
 </pre></div>
+<p>これで、<code>require "gtk_advent_calendar"</code>と書くだけで<br>
+<code>GtkAdventCalendar::Calendar</code>クラスが使えるようになりました。</p>
 <p>参考までに、RubyGemsの雛形については @hibariya さんのスライドに<br>
 わかりやすくまとまっています。興味のある方はぜひご覧ください。<br>
 <a href="https://speakerdeck.com/hibariya/code">https://speakerdeck.com/hibariya/code</a></p>
@@ -165,8 +164,8 @@ show_uriメソッドは使えるので、別のWebページを開くようにす
 <h2>まとめ</h2>
 <p>GtkAdventCalendar gem使って、カスタマイズしたアドベントカレンダーアプリを作成しました。</p>
 <p>アプリケーションを作成したら、ライブラリーとしても使いやすくすると<br>
-使われる機会が増えるかもしれません。（WebページとAPIの関係に似ていますね）</p>
-
+使われる機会が増えるかもしれません。（WebページとAPIの関係に似ていますね）<br>
+（ライブラリー部分を別のgemに切り出す方が普通かもしれません）</p>
 </article>
 <div id="comments">
 <div id="disqus_thread">
@@ -186,7 +185,7 @@ show_uriメソッドは使えるので、別のWebページを開くようにす
 <div class="prev">
 </div>
 <div class="next">
-<link href="../../entries/20131203/a1.html" rel="next">
+<link href="../../entries/20131202/a0.html" rel="next">
 </div>
 </div>
 <div class="autopagerize_insert_before"></div>
@@ -201,9 +200,6 @@ show_uriメソッドは使えるので、別のWebページを開くようにす
 <ul>
 <li>
 <a href="../../entries/20131203/a0.html">GtkAdventCalendarで作るアドベントカレンダーアプリ</a>
-</li>
-<li>
-<a href="../../entries/20131203/a1.html">GtkAdventCalendarで作るアドベントカレンダーアプリ</a>
 </li>
 <li>
 <a href="../../entries/20131202/a0.html">Tomster氏の5つの魅力</a>
