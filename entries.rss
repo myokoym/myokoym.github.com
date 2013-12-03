@@ -134,15 +134,18 @@ show_uriメソッドは使えるので、別のWebページを開くようにす
 （ライブラリー部分を別のgemに切り出す方が普通かもしれません）</p>]]></content:encoded><dc:date>2013-12-03</dc:date><link>http://myokoym.github.com/entries/20131203/a0.html</link><author>myokoym</author></item><item about="http://myokoym.github.com/entries/20131202/a0.html"><title>Tomster氏の5つの魅力</title><description>この記事は
 Ember.js Advent Calendar
 の2日目です。
+1日目はtricknotesさんの
+Ember.js はレガシー IE でも動くようになっています、を対応しましたという話
+でした。
 僭越ながら、 Ember.js のマスコットキャラクターである
 Tomster氏の魅力について考察させていただきたいと思います。
 1. 名前の語呂がいい
-とても語感がよく、呼びやすい名前です。名前重要。
-5拍なのも、日本人にとっては俳句や短歌で馴染みが深くてポイント高いです。
-2. 名前を略しやすい
-英語圏では、会話やメ...</description><content:encoded><![CDATA[<p>この記事は
+とても語感がよく、呼びやすい名前で...</description><content:encoded><![CDATA[<p>この記事は
 <a href="http://www.adventar.org/calendars/94">Ember.js Advent Calendar</a>
 の2日目です。</p>
+<p>1日目はtricknotesさんの
+<a href="http://tricknotes.hateblo.jp/entry/2013/12/02/091233">Ember.js はレガシー IE でも動くようになっています、を対応しましたという話</a>
+でした。</p>
 <p>僭越ながら、 Ember.js のマスコットキャラクターである<br>
 Tomster氏の魅力について考察させていただきたいと思います。</p>
 <h2>1. 名前の語呂がいい</h2>
@@ -168,7 +171,10 @@ Tomster氏の魅力について考察させていただきたいと思います�
 結論としては、とても良く考えられた名前だと思います。変に凝った名前にしなかった<br>
 名付け親の方に敬意を表し、本稿を終えさせていただきます。ありがとうございました。</p>
 <p>＼Enjoy!／<br>
-<img src="http://s.gravatar.com/avatar/0cf15665a9146ba852bf042b0652780a.png" alt="Tomster"></p>]]></content:encoded><dc:date>2013-12-02</dc:date><link>http://myokoym.github.com/entries/20131202/a0.html</link><author>myokoym</author></item><item about="http://myokoym.github.com/entries/20131201/a0.html"><title>Ruby/GTK3で作るカレンダーアプリ</title><description>GNOME Advent Calendar 2013
+<img src="http://s.gravatar.com/avatar/0cf15665a9146ba852bf042b0652780a.png" alt="Tomster"></p>
+<p>3日目はursmさんの
+<a href="http://ursm.jp/blog/2013/12/03/ember-js-and-rails/">Ember.js と Rails</a>
+です！</p>]]></content:encoded><dc:date>2013-12-02</dc:date><link>http://myokoym.github.com/entries/20131202/a0.html</link><author>myokoym</author></item><item about="http://myokoym.github.com/entries/20131201/a0.html"><title>Ruby/GTK3で作るカレンダーアプリ</title><description>GNOME Advent Calendar 2013
 1日目の記事です。
 Ruby/GTK3を使って、Advent Calendarっぽいアプリを作成します。
 機能
