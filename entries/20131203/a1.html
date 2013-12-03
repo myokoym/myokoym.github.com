@@ -1,0 +1,261 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+<title>GtkAdventCalendarで作るアドベントカレンダーアプリ - my_letter</title>
+<meta charset="utf-8" content="text/html; charset=UTF-8" http-equiv="Content-Type">
+<meta content="myokoym" name="author">
+<link href="../../favicon.png" rel="icon" type="image/png">
+<link href="../../stylesheets/base.css" media="screen" rel="stylesheet" type="text/css">
+<link href="../../stylesheets/orange.css" media="screen" rel="stylesheet" type="text/css">
+<link href="../../stylesheets/pygments.css" media="screen" rel="stylesheet" type="text/css">
+<link href="../../entries.rss" rel="alternate" title="RSS" type="application/rss+xml">
+<script src="../../javascripts/jquery.js"></script>
+<script src="http://coderwall.com/javascripts/jquery.coderwall.js"></script>
+</head>
+<body>
+<header id="header">
+<h1>
+<a href="../../index.html">my_letter</a>
+</h1>
+<nav>
+<ul id="menu">
+<li>
+<a href="../../index.html">Home</a>
+</li>
+<li>
+<a href="../../profile.html">Profile</a>
+</li>
+<li>
+<a href="../../entries.html">Archives</a>
+</li>
+<li>
+<a href="../../entries.rss" target="_blank">RSS</a>
+</li>
+</ul>
+</nav>
+</header>
+<div id="page">
+<div id="content">
+<article class="article autopagerize_page_element">
+<h1 class="date">
+<a href="../../entries/20131203.html">2013-12-03</a>
+</h1>
+<h1 id="a1">
+<a href="../../entries/20131203/a1.html">GtkAdventCalendarで作るアドベントカレンダーアプリ</a>
+</h1>
+<p><a href="http://www.adventar.org/calendars/102">GNOME Advent Calendar 2013</a>
+3日目の記事です。<br>
+<a href="http://www.clear-code.com/blog/2013/12/2.html">2日目はクリアコードさんのGTK-Docの使い方</a>
+でした。</p>
+<p>今回は、
+<a href="http://myokoym.github.io/entries/20131201/a0.html">1日目</a>
+に作成した
+<a href="https://github.com/myokoym/gtk_advent_calendar">GtkAdventCalendar</a>
+をライブラリーとして使い、<br>
+カスタマイズしたアドベントカレンダーアプリを作成します。<br>
+（今回は、前回に増してRubyの話がほとんどで、GNOMEっぽくないです）</p>
+<p>まずは、GtkAdventCalendarをライブラリーとして使いやすいように修正します。</p>
+<h2>修正点</h2>
+<ol>
+<li>日付ボタンをクリックしたときの動作を変更しやすくする
+
+<ul>
+<li>メソッドに切り出す</li>
+</ul>
+</li>
+<li>
+<code>require</code>で読み込みやすくする</li>
+</ol>
+<p>具体的には以下の通りです。</p>
+<h3>1. 日付ボタンをクリックしたときの動作を変更しやすくする</h3>
+<p><a href="https://github.com/myokoym/gtk_advent_calendar/blob/master/lib/gtk_advent_calendar/calendar.rb">lib/gtk<em>advent</em>calendar/calendar.rb</a></p>
+<h4>修正前</h4>
+<div class="highlight"><pre><span class="k">module</span> <span class="nn">GtkAdventCalendar</span>
+  <span class="k">class</span> <span class="nc">Calendar</span>
+    <span class="o">.</span><span class="n">.</span><span class="o">.</span>
+    <span class="k">def</span> <span class="nf">day</span><span class="p">(</span><span class="n">n</span><span class="p">)</span>
+      <span class="o">.</span><span class="n">.</span><span class="o">.</span>
+      <span class="n">button</span><span class="o">.</span><span class="n">signal_connect</span><span class="p">(</span><span class="s2">"clicked"</span><span class="p">)</span> <span class="k">do</span>
+        <span class="n">show_uri</span><span class="p">(</span><span class="s2">"http://en.wikipedia.org/wiki/December_</span><span class="si">#{</span><span class="n">n</span><span class="si">}</span><span class="s2">"</span><span class="p">)</span>
+      <span class="k">end</span>
+      <span class="o">.</span><span class="n">.</span><span class="o">.</span>
+    <span class="k">end</span>
+    <span class="o">.</span><span class="n">.</span><span class="o">.</span>
+  <span class="k">end</span>
+<span class="k">end</span>
+</pre></div>
+<h4>修正後</h4>
+<div class="highlight"><pre><span class="k">module</span> <span class="nn">GtkAdventCalendar</span>
+  <span class="k">class</span> <span class="nc">Calendar</span>
+    <span class="o">.</span><span class="n">.</span><span class="o">.</span>
+    <span class="k">def</span> <span class="nf">day</span><span class="p">(</span><span class="n">n</span><span class="p">)</span>
+      <span class="o">.</span><span class="n">.</span><span class="o">.</span>
+      <span class="n">button</span><span class="o">.</span><span class="n">signal_connect</span><span class="p">(</span><span class="s2">"clicked"</span><span class="p">)</span> <span class="k">do</span>
+        <span class="n">action</span><span class="p">(</span><span class="n">n</span><span class="p">)</span>
+      <span class="k">end</span>
+      <span class="o">.</span><span class="n">.</span><span class="o">.</span>
+    <span class="k">end</span>
+
+    <span class="k">def</span> <span class="nf">action</span><span class="p">(</span><span class="n">n</span><span class="p">)</span>
+      <span class="n">show_uri</span><span class="p">(</span><span class="s2">"http://en.wikipedia.org/wiki/December_</span><span class="si">#{</span><span class="n">n</span><span class="si">}</span><span class="s2">"</span><span class="p">)</span>
+    <span class="k">end</span>
+    <span class="o">.</span><span class="n">.</span><span class="o">.</span>
+  <span class="k">end</span>
+<span class="k">end</span>
+</pre></div>
+<p>これで、<code>action(n)</code>メソッドを上書きするだけで、日付のボタンを<br>
+押したときの動作を変更することができるようになりました。</p>
+<h3>2. <code>require</code>で読み込みやすくする</h3>
+<p>Rubyでは、ライブラリーは主に<code>require</code>コマンドで読み込みますが、<br>
+ファイル名まで指定するのは面倒です。（前回の
+<a href="https://github.com/myokoym/gtk_advent_calendar/blob/master/lib/gtk_advent_calendar/command.rb">Commandクラス</a>
+を参照）</p>
+<p>そこで、ライブラリー名だけでCalendarクラスを読み込めるようにします。</p>
+<p><a href="https://github.com/myokoym/gtk_advent_calendar/blob/master/lib/gtk_advent_calendar.rb">lib/gtk<em>advent</em>calendar.rb</a></p>
+<h4>修正前</h4>
+<div class="highlight"><pre><span class="nb">require</span> <span class="s2">"gtk_advent_calendar/version"</span>
+</pre></div>
+<p>ここにパスを書いておくと、ライブラリーとして使ったときに</p>
+<div class="highlight"><pre><span class="nb">require</span> <span class="s2">"gtk_advent_calendar"</span>
+</pre></div>
+<p>で読み込まれます。</p>
+<p><code>version</code>を読み込んでいる行は、<code>bundle gem</code>コマンドでRubyGems用の<br>
+雛形を作成したときに生成されたものです。そこに<code>calendar</code>も追加します。</p>
+<h4>修正後</h4>
+<div class="highlight"><pre><span class="nb">require</span> <span class="s2">"gtk_advent_calendar/version"</span>
+<span class="nb">require</span> <span class="s2">"gtk_advent_calendar/calendar"</span>
+</pre></div>
+<p>参考までに、RubyGemsの雛形については @hibariya さんのスライドに<br>
+わかりやすくまとまっています。興味のある方はぜひご覧ください。<br>
+<a href="https://speakerdeck.com/hibariya/code">https://speakerdeck.com/hibariya/code</a></p>
+<h2>インストール</h2>
+<p>ライブラリーとして使う場合も、前回と同様にgemコマンドでインストールします。</p>
+<div class="highlight"><pre>% gem install gtk_advent_calendar
+</pre></div>
+<p><a href="https://github.com/myokoym/gtk_advent_calendar#installation">README</a>
+に記載されている通り、Gemfile等に記述してもOKです。</p>
+<h2>サンプルコード</h2>
+<p>以下のように使います。</p>
+<p><a href="https://github.com/myokoym/gtk_advent_calendar/blob/master/sample/your_calendar.rb">sample/your_calendar.rb</a></p>
+<div class="highlight"><pre><span class="c1">#!/usr/bin/env ruby</span>
+
+<span class="nb">require</span> <span class="s2">"gtk_advent_calendar"</span>
+
+<span class="k">class</span> <span class="nc">YourCalendar</span> <span class="o">&lt;</span> <span class="ss">GtkAdventCalendar</span><span class="p">:</span><span class="ss">:Calendar</span>
+  <span class="c1"># @params n [Integer] the day between 1 and 25.</span>
+  <span class="k">def</span> <span class="nf">action</span><span class="p">(</span><span class="n">n</span><span class="p">)</span>
+    <span class="nb">puts</span> <span class="s2">"It's December </span><span class="si">#{</span><span class="n">n</span><span class="si">}</span><span class="s2">."</span>
+  <span class="k">end</span>
+<span class="k">end</span>
+
+<span class="n">window</span> <span class="o">=</span> <span class="ss">Gtk</span><span class="p">:</span><span class="ss">:Window</span><span class="o">.</span><span class="n">new</span>
+<span class="n">window</span><span class="o">.</span><span class="n">add</span><span class="p">(</span><span class="no">YourCalendar</span><span class="o">.</span><span class="n">new</span><span class="p">)</span>
+<span class="n">window</span><span class="o">.</span><span class="n">signal_connect</span><span class="p">(</span><span class="s2">"destroy"</span><span class="p">)</span> <span class="k">do</span>
+  <span class="no">Gtk</span><span class="o">.</span><span class="n">main_quit</span>
+<span class="k">end</span>
+<span class="n">window</span><span class="o">.</span><span class="n">show_all</span>
+<span class="no">Gtk</span><span class="o">.</span><span class="n">main</span>
+</pre></div>
+<p>元々はWebページが開かれていましたが、標準出力に日付を表示するようにしています。<br>
+show_uriメソッドは使えるので、別のWebページを開くようにすることもできます。</p>
+<div class="highlight"><pre>  <span class="k">def</span> <span class="nf">action</span><span class="p">(</span><span class="n">n</span><span class="p">)</span>
+    <span class="n">show_uri</span><span class="p">(</span><span class="s2">"http://hoge.fuga/piyo/</span><span class="si">#{</span><span class="n">n</span><span class="si">}</span><span class="s2">"</span><span class="p">)</span>
+  <span class="k">end</span>
+</pre></div>
+<h2>まとめ</h2>
+<p>GtkAdventCalendar gem使って、カスタマイズしたアドベントカレンダーアプリを作成しました。</p>
+<p>アプリケーションを作成したら、ライブラリーとしても使いやすくすると<br>
+使われる機会が増えるかもしれません。（WebページとAPIの関係に似ていますね）</p>
+</article>
+<div id="comments">
+<div id="disqus_thread">
+  <script type="text/javascript">
+    //<![CDATA[
+      var disqus_shortname = 'myletter';
+      (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+      })();
+    //]]>
+  </script>
+</div>
+</div>
+<div class="nav">
+<div class="prev">
+<link href="../../entries/20131203/a0.html" rel="prev">
+</div>
+<div class="next">
+<link href="../../entries/20131202/a0.html" rel="next">
+</div>
+</div>
+<div class="autopagerize_insert_before"></div>
+</div>
+<aside id="sidebar">
+<h3>Author</h3>
+<div class="author">
+<a href="../../profile.html">myokoym</a>
+</div>
+<h3>Recent entries</h3>
+<div class="recent-entries">
+<ul>
+<li>
+<a href="../../entries/20131203/a0.html">GtkAdventCalendarで作るアドベントカレンダーアプリ</a>
+</li>
+<li>
+<a href="../../entries/20131203/a1.html">GtkAdventCalendarで作るアドベントカレンダーアプリ</a>
+</li>
+<li>
+<a href="../../entries/20131202/a0.html">Tomster氏の5つの魅力</a>
+</li>
+<li>
+<a href="../../entries/20131201/a0.html">Ruby/GTK3で作るカレンダーアプリ</a>
+</li>
+<li>
+<a href="../../entries/20131030/a0.html">Ruby/C++用ゲーム開発ライブラリGosuのRubyチュートリアルを日本語訳しました</a>
+</li>
+<li>
+<a href="../../entries/20131029/a0.html">mireru 0.1.7 hexdump対応</a>
+</li>
+<li>
+<a href="../../entries/20131009/a0.html">myokoym.netをMiddlemanでリニューアルしました</a>
+</li>
+</ul>
+<div class="archives">
+<a href="../../entries.html">Archives</a>
+</div>
+</div>
+<h3>Search</h3>
+<a href="http://myokoym.net/nikki3search/">nikki3search (experimental)</a>
+<h3>Banners</h3>
+<p>
+<a href="http://projecteuler.net/">
+<img src="http://projecteuler.net/profile/myokoym.png">
+</a>
+</p>
+<p>
+<a href="http://ranguba.org/ja/">
+<img src="../../images/rroonga-logo.png">
+</a>
+<br>
+(c) The Ranguba project
+<br>
+<a href="http://groonga.org/ja/">
+<img src="../../images/groonga-logo.png">
+</a>
+<br>
+(c) The Groonga project
+<br>
+<a href="http://spreadfirefox.jp/affiliates/021" style="_filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='http://spreadfirefox.jp/affiliates/021/image');_width:300px;_height:250px;_cursor:pointer;" title="Firefox ブラウザ無料ダウンロード">
+<img alt="Firefox ブラウザ無料ダウンロード" border="0" src="http://spreadfirefox.jp/affiliates/021/image" style="_display:none;">
+</a>
+</p>
+</aside>
+</div>
+<footer id="footer">
+my_letter (C) myokoym
+Generated by
+<a href="https://github.com/hibariya/retter" target="_blank">Retter</a>
+</footer>
+</body>
+</html>
