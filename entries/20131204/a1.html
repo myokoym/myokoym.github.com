@@ -1,35 +1,35 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html>
 <head>
-<title>2013-12-03 - my_letter</title>
+<title>指定されたプロシージャが見つかりません。の調べ方（Dependency Walker編） - my_letter</title>
 <meta charset="utf-8" content="text/html; charset=UTF-8" http-equiv="Content-Type">
 <meta content="myokoym" name="author">
-<link href="../favicon.png" rel="icon" type="image/png">
-<link href="../stylesheets/base.css" media="screen" rel="stylesheet" type="text/css">
-<link href="../stylesheets/orange.css" media="screen" rel="stylesheet" type="text/css">
-<link href="../stylesheets/pygments.css" media="screen" rel="stylesheet" type="text/css">
-<link href="../entries.rss" rel="alternate" title="RSS" type="application/rss+xml">
-<script src="../javascripts/jquery.js"></script>
+<link href="../../favicon.png" rel="icon" type="image/png">
+<link href="../../stylesheets/base.css" media="screen" rel="stylesheet" type="text/css">
+<link href="../../stylesheets/orange.css" media="screen" rel="stylesheet" type="text/css">
+<link href="../../stylesheets/pygments.css" media="screen" rel="stylesheet" type="text/css">
+<link href="../../entries.rss" rel="alternate" title="RSS" type="application/rss+xml">
+<script src="../../javascripts/jquery.js"></script>
 <script src="http://coderwall.com/javascripts/jquery.coderwall.js"></script>
 </head>
 <body>
 <header id="header">
 <h1>
-<a href="../index.html">my_letter</a>
+<a href="../../index.html">my_letter</a>
 </h1>
 <nav>
 <ul id="menu">
 <li>
-<a href="../index.html">Home</a>
+<a href="../../index.html">Home</a>
 </li>
 <li>
-<a href="../profile.html">Profile</a>
+<a href="../../profile.html">Profile</a>
 </li>
 <li>
-<a href="../entries.html">Archives</a>
+<a href="../../entries.html">Archives</a>
 </li>
 <li>
-<a href="../entries.rss" target="_blank">RSS</a>
+<a href="../../entries.rss" target="_blank">RSS</a>
 </li>
 </ul>
 </nav>
@@ -38,16 +38,20 @@
 <div id="content">
 <article class="article autopagerize_page_element">
 <h1 class="date">
-<a href="../entries/20131203.html">2013-12-03</a>
+<a href="../../entries/20131204.html">2013-12-04</a>
 </h1>
-<h1 id="a0">
-<a href="../entries/20131203/a0.html">GtkAdventCalendarで作るアドベントカレンダーアプリ</a>
+<h1 id="a1">
+<a href="../../entries/20131204/a1.html">指定されたプロシージャが見つかりません。の調べ方（Dependency Walker編）</a>
 </h1>
 <p><a href="http://www.adventar.org/calendars/102">GNOME Advent Calendar 2013</a>
-の3日目の記事です。
-<a href="http://www.clear-code.com/blog/2013/12/2.html">2日目はクリアコードさんのGTK-Docの使い方</a>
-でした。</p>
-<p>今回は、
+の4日目の記事です。</p>
+<p>今回は、WindowsでGNOMEライブラリーを使おうとしたときに、</p>
+<p>「127: 指定されたプロシージャが見つかりません。」</p>
+<p>というようなエラーが発生したときの調査方法を紹介します。</p>
+<p>GNOMEライブラリーはC言語で記述されているので、</p>
+<p>Options &gt; Configure Module Search Order...</p>
+<p>Load</p>
+<p>アプリケーション
 <a href="http://myokoym.github.io/entries/20131201/a0.html">1日目</a>
 に作成した
 <a href="https://github.com/myokoym/gtk_advent_calendar">GtkAdventCalendar</a>
@@ -167,12 +171,26 @@ show_uriメソッドは使えるので、別のWebページを開くようにす
 使われる機会が増えるかもしれません。（WebページとAPIの関係に似ていますね）<br>
 （ライブラリー部分を別のgemに切り出す方が普通かもしれません）</p>
 </article>
+<div id="comments">
+<div id="disqus_thread">
+  <script type="text/javascript">
+    //<![CDATA[
+      var disqus_shortname = 'myletter';
+      (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+      })();
+    //]]>
+  </script>
+</div>
+</div>
 <div class="nav">
 <div class="prev">
-<link href="../entries/20131204.html" rel="prev">
+<link href="../../entries/20131204/a0.html" rel="prev">
 </div>
 <div class="next">
-<link href="../entries/20131202.html" rel="next">
+<link href="../../entries/20131203/a0.html" rel="next">
 </div>
 </div>
 <div class="autopagerize_insert_before"></div>
@@ -180,32 +198,35 @@ show_uriメソッドは使えるので、別のWebページを開くようにす
 <aside id="sidebar">
 <h3>Author</h3>
 <div class="author">
-<a href="../profile.html">myokoym</a>
+<a href="../../profile.html">myokoym</a>
 </div>
 <h3>Recent entries</h3>
 <div class="recent-entries">
 <ul>
 <li>
-<a href="../entries/20131204/a0.html">「指定されたプロシージャが見つかりません。」の調べ方（Dependency Walker編）</a>
+<a href="../../entries/20131204/a0.html">指定されたプロシージャが見つかりません。の調べ方（Dependency Walker編）</a>
 </li>
 <li>
-<a href="../entries/20131203/a0.html">GtkAdventCalendarで作るアドベントカレンダーアプリ</a>
+<a href="../../entries/20131204/a1.html">指定されたプロシージャが見つかりません。の調べ方（Dependency Walker編）</a>
 </li>
 <li>
-<a href="../entries/20131202/a0.html">Tomster氏の5つの魅力</a>
+<a href="../../entries/20131203/a0.html">GtkAdventCalendarで作るアドベントカレンダーアプリ</a>
 </li>
 <li>
-<a href="../entries/20131201/a0.html">Ruby/GTK3で作るカレンダーアプリ</a>
+<a href="../../entries/20131202/a0.html">Tomster氏の5つの魅力</a>
 </li>
 <li>
-<a href="../entries/20131030/a0.html">Ruby/C++用ゲーム開発ライブラリGosuのRubyチュートリアルを日本語訳しました</a>
+<a href="../../entries/20131201/a0.html">Ruby/GTK3で作るカレンダーアプリ</a>
 </li>
 <li>
-<a href="../entries/20131029/a0.html">mireru 0.1.7 hexdump対応</a>
+<a href="../../entries/20131030/a0.html">Ruby/C++用ゲーム開発ライブラリGosuのRubyチュートリアルを日本語訳しました</a>
+</li>
+<li>
+<a href="../../entries/20131029/a0.html">mireru 0.1.7 hexdump対応</a>
 </li>
 </ul>
 <div class="archives">
-<a href="../entries.html">Archives</a>
+<a href="../../entries.html">Archives</a>
 </div>
 </div>
 <h3>Search</h3>
@@ -218,13 +239,13 @@ show_uriメソッドは使えるので、別のWebページを開くようにす
 </p>
 <p>
 <a href="http://ranguba.org/ja/">
-<img src="../images/rroonga-logo.png">
+<img src="../../images/rroonga-logo.png">
 </a>
 <br>
 (c) The Ranguba project
 <br>
 <a href="http://groonga.org/ja/">
-<img src="../images/groonga-logo.png">
+<img src="../../images/groonga-logo.png">
 </a>
 <br>
 (c) The Groonga project

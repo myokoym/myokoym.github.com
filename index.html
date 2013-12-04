@@ -39,6 +39,68 @@
 <div class="autopagerize_page_element" id="entries">
 <article class="article">
 <h1 class="date">
+<a href="./entries/20131204.html">2013-12-04</a>
+</h1>
+<h1 id="a0">
+<a href="./entries/20131204/a0.html">「指定されたプロシージャが見つかりません。」の調べ方（Dependency Walker編）</a>
+</h1>
+<p><a href="http://www.adventar.org/calendars/102">GNOME Advent Calendar 2013</a>
+の4日目の記事です。</p>
+<p>今回は、WindowsでGNOMEライブラリーを使おうとしたときに、</p>
+<p>「127: 指定されたプロシージャが見つかりません。」</p>
+<p>というエラーが発生したときの調査方法を紹介します。このエラーだけだと<br>
+何が悪いのか全くわからないので、もう少し情報を得る必要があります。</p>
+<p>GNOMEライブラリーはC言語で書かれているので、実行時にはコンパイルと<br>
+リンクがされた状態になっています。このままではエラーの原因を見つけるのは<br>
+難しいので、内容を見やすい形で出力します。そのためのツールはいくつか<br>
+ありますが、ここではGUIツールの「Dependency Walker」を使います。</p>
+<p><a href="http://www.dependencywalker.com/">Dependency Walker (depends.exe) Home Page</a></p>
+<p>Dependency Walkerは、Windows用のモジュール（.exeや.dllなど）を解析して、<br>
+含まれているモジュールや関数をツリー化して見やすく表示してくれます。</p>
+<p>使い方の大まかな流れは、</p>
+<ol>
+<li>調査するモジュールを開く</li>
+<li>依存するモジュールのパスを登録する</li>
+<li>足りないモジュールや関数を搜す</li>
+</ol>
+<p>という感じです。</p>
+<p>それでは、具体的に見ていきます。</p>
+<h2>1. 調査するモジュールを開く</h2>
+<p>メニューバー &gt; File か、ドラッグ＆ドロップで簡単に開けます。<br>
+ここで黄色い「？」マークが表示された場合、依存するモジュールのパスが<br>
+登録されていない可能性が高いです。</p>
+<h2>2. 依存するモジュールのパスを登録する</h2>
+<p>単体で動作するモジュールなら、単純に開けばよいのですが、<br>
+他のモジュールに依存している場合、パスを登録する必要があります。<br>
+まず、メニューバー &gt; Options &gt; Configure Module Search Order...<br>
+で設定ウィンドウを開きます。</p>
+<p>追加方法は、１つずつ追加する方法と、ファイルから読み込む方法があります。</p>
+<p>1つずつ追加する場合、下のテキストボックスにパスを設定して、<br>
+左下の「Add Directory」ボタンを押します。</p>
+<p>ファイルから読み込む場合、右側の「Load」ボタンからファイルを選択します。<br>
+一度「Save」で出力してみると、どんな風に書くかわかります。</p>
+<p>例えば、Ruby-GNOME2プロジェクトのPangoライブラリーのpango.soの<br>
+依存関係を調査したい場合、以下のようなファイルを読み込むとよいです。</p>
+<script src="https://gist.github.com/myokoym/7790696.js"></script><p>PangoはcairoとGLibに依存しているので、それらのDLLファイルなどが含まれた<br>
+ディレクトリを指定します。</p>
+<p>最後に「OK」ボタンを押すと、一覧が更新されるはずです。</p>
+<h2>3. 足りないモジュールや関数を探す</h2>
+<p>黄色い「？」マークがなくなったら準備完了なので、調査を開始します。<br></p>
+<p>探し方は、まず左上のツリーで赤くなっているモジュールを探します。<br>
+それをクリックすると、右上に含まれている関数が表示されるので、<br>
+その中のどの関数に問題があるか（赤くなっているか）を調べます。</p>
+<p>ここまで調べられれば、モジュールの開発者に報告するなり、<br>
+Googleで関数名を検索するなりして対応できそうな気がします。</p>
+<p>（もし「？」マークがなくならなかったら、そのモジュールが足りないということです。）</p>
+<h2>まとめ</h2>
+<p>Dependency Walkerというツールを使って、コンパイル＆リンク済みの<br>
+モジュールの問題を調査する方法を説明しました。</p>
+<p>ログが何も出ないエラーが発生すると途方に暮れてしまいがちですが、<br>
+少しでも手がかりが見つかると楽しくなってくる（場合もある）ので、<br>
+ぜひ挑戦してみてください。</p>
+</article>
+<article class="article">
+<h1 class="date">
 <a href="./entries/20131203.html">2013-12-03</a>
 </h1>
 <h1 id="a0">
@@ -419,26 +481,9 @@ ruby-gnome2-devel-enというMLに使っている人がいて存在を知りま�
 <p>基本はわかってきたので、あとは実際にアプリケーションを開発しながら<br>
 都度アウトプットなりコントリビュートなりしていきたいと思っています。</p>
 </article>
-<article class="article">
-<h1 class="date">
-<a href="./entries/20131029.html">2013-10-29</a>
-</h1>
-<h1 id="a0">
-<a href="./entries/20131029/a0.html">mireru 0.1.7 hexdump対応</a>
-</h1>
-<p>今日は肉の日ですね。マルチタイプ＆キーボードフレンドリーな<br>
-ファイルビューアmireruの0.1.7をリリースしました。</p>
-<p><a href="http://myokoym.github.io/mireru/ja/">http://myokoym.github.io/mireru/ja/</a></p>
-<p>今までは、対応していない拡張子だった場合はSorry画像を出していましたが、<br>
-今回のリリースからは先頭20KBの16進数のバイナリを表示するようにしました。</p>
-<p>新しく依存するようになったgemはhexdumpです。お世話になります。<br>
-<a href="https://github.com/postmodern/hexdump">https://github.com/postmodern/hexdump</a></p>
-<p>次のリリースでは、もっと機能追加（新しい拡張子への対応など）<br>
-しやすくしたいと思っています。</p>
-</article>
 <div class="nav">
 <div class="next">
-<link href="./entries/20131009.html" rel="next">
+<link href="./entries/20131029.html" rel="next">
 </div>
 </div>
 <div class="autopagerize_insert_before"></div>
@@ -453,6 +498,9 @@ ruby-gnome2-devel-enというMLに使っている人がいて存在を知りま�
 <div class="recent-entries">
 <ul>
 <li>
+<a href="./entries/20131204/a0.html">「指定されたプロシージャが見つかりません。」の調べ方（Dependency Walker編）</a>
+</li>
+<li>
 <a href="./entries/20131203/a0.html">GtkAdventCalendarで作るアドベントカレンダーアプリ</a>
 </li>
 <li>
@@ -466,9 +514,6 @@ ruby-gnome2-devel-enというMLに使っている人がいて存在を知りま�
 </li>
 <li>
 <a href="./entries/20131029/a0.html">mireru 0.1.7 hexdump対応</a>
-</li>
-<li>
-<a href="./entries/20131009/a0.html">myokoym.netをMiddlemanでリニューアルしました</a>
 </li>
 </ul>
 <div class="archives">
