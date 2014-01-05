@@ -43,6 +43,10 @@
           .archives
             %a{href: '/entries.html'} Archives
         %h3 Search
+        %form{method: 'post', action: '//myokoym.net/nikki3search/search'}
+          %p
+            %input{:type => 'text', :name => 'word', :size => 30}
+            %input{:type => "submit", :value => "search!"}
         %a{href: 'http://myokoym.net/nikki3search/'} nikki3search (experimental)
         %h3 Banners
         %p
