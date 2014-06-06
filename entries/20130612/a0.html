@@ -1,4 +1,4 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!DOCTYPE html>
 <html>
 <head>
 <title>Testing a Sinatra app on Rack::Test with test-unit. - my_letter</title>
@@ -57,7 +57,7 @@
 <script src="https://gist.github.com/myokoym/5764563.js"></script><p>ちなみに私のSinatra appはクラシックスタイルです。</p>
 <h3>参考</h3>
 <p>test-unit - Ruby用単体テストフレームワーク<br>
-<a href="http://test-unit.rubyforge.org/index.html.ja">http://test-unit.rubyforge.org/index.html.ja</a></p>
+<a href="http://test-unit.github.io/ja/">http://test-unit.github.io/ja/</a></p>
 <p>brynary/rack-test · GitHub<br>
 <a href="https://github.com/brynary/rack-test#readme">https://github.com/brynary/rack-test#readme</a></p>
 <p>Rubyist Magazine - Sinatra 再入門、 Padrino / Rack / その先の何か<br>
@@ -65,15 +65,13 @@
 </article>
 <div id="comments">
 <div id="disqus_thread">
-  <script type="text/javascript">
-    //<![CDATA[
-      var disqus_shortname = 'myletter';
-      (function() {
-        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-        dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
-        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-      })();
-    //]]>
+  <script>
+    var disqus_shortname = 'myletter';
+    (function() {
+      var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+      dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
+      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
   </script>
 </div>
 </div>
